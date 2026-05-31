@@ -4,13 +4,11 @@ Use this document as the working draft for the OpenAI Codex for Open Source appl
 
 ## Repository
 
-Current private repository:
+Public repository:
 
 ```text
-https://github.com/rnrnstar2/School
+https://github.com/rnrnstar2/School-public
 ```
-
-Use the final public URL after completing the public release checklist.
 
 ## GitHub Username
 
@@ -26,28 +24,21 @@ Primary maintainer
 
 ## Why This Repository Should Qualify
 
-School is an open source, Japanese-first AI mentor platform that helps learners turn an ambiguous goal into a structured workspace: hearing, goal tree, milestones, next actions, lesson matches, and mentor memory. The project addresses a gap in the current AI tooling ecosystem: many generation tools are powerful in a single session, but they do not preserve learning continuity or help non-expert users understand what to do next.
-
-The repository includes a production-oriented Next.js/Supabase monorepo, goal-action matching packages, lesson atom authoring tools, BYOK-aware provider infrastructure, evaluation datasets, architecture docs, and runbooks. It is intended to be reusable by developers building goal-oriented AI learning tools, AI mentor workflows, or local-language education products.
-
-School is early-stage but actively maintained. Codex would directly help with code review, test generation, documentation cleanup, issue triage, refactoring, and safe expansion of the mentor/model-routing system.
+```text
+School は日本語ファーストのAIメンター/Goal OSです。曖昧な学習者の目標を hearing、goal tree、milestone、next action、lesson match、mentor memory に分解し、AIツール利用の継続性を支えます。Next.js/Supabase monorepo、goal-action matching packages、lesson factory、BYOK基盤、評価データ、設計docsを含む初期OSSで、AI教育/mentor workflow開発者が再利用できます。
+```
 
 ## How API Credits Would Be Used
 
-API credits would be used to improve the open source project itself:
-
-- generate and evaluate lesson atoms for AI development, automation, writing, and no-code workflows
-- build regression tests for goal-to-action planning quality
-- compare mentor routing outputs across model/provider configurations
-- generate issue reproduction cases and test fixtures
-- improve Japanese documentation and onboarding examples
-- support maintainers using Codex for PR review, refactoring, and security-oriented code audits
-
-Credits would not be used for unrelated commercial workloads. The priority is to make the OSS repository easier to run, safer to contribute to, and more useful for developers building goal-first AI mentor systems.
+```text
+APIクレジットはOSS本体の改善に使います。lesson atomの生成/評価、goal-to-action planningの回帰テスト、model/provider routing比較、日本語docs/onboarding例の改善、Issue再現fixture作成、CodexによるPRレビュー・refactor・security-oriented auditを進め、Schoolを安全に動かしやすいAI mentor基盤にします。
+```
 
 ## Additional Context
 
-Before submitting, the repository will be made public through a sanitized export or clean public history. Internal logs, private mission notes, raw audit artifacts, and deployment-specific material will be excluded. The public repository will include MIT licensing, contribution guidelines, security reporting guidance, local setup instructions, and an explicit public release checklist.
+```text
+既存private repoから内部ログやdeployment固有情報を除外したclean-history public repoとして公開済みです。MIT license、README、CONTRIBUTING、SECURITY、issue/PR templatesを整備し、継続的にメンテナンスします。
+```
 
 ## Short Version
 
