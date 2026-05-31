@@ -1,0 +1,28 @@
+id: atom.office-automator.chart-recommendation
+title: データに最適なグラフ種類をAIに選ばせる
+summary: "料理をするとき、盛り付けるお皿を選びますよね。スープには深めの器、ステーキには大きなお皿——データを伝えるときも、中身に合った「見せ方」を選ぶ必要があります。棒グラフ、折れ線グラフ、円グラフ……。種類が多くて「結局どれがいいの？」と迷ったことはありませんか？"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - choose-chart-type-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.ai-chat-first-step
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - chatgpt/chart-guidance
+  - claude/data-analysis
+status: draft

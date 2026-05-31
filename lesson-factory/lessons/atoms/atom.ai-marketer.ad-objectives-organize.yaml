@@ -1,0 +1,24 @@
+id: atom.ai-marketer.ad-objectives-organize
+title: 広告目的と配信面を整理する
+summary: "このレッスンを終えると、あなたは 「この広告で何を達成したいのか（＝広告目的）」と「どこに広告を出すか（＝配信面）」をひとつのシートにきれいにまとめられる ようになります。 夕食のメニューを決めるとき、「何を作りたいか（目的）」と「どこで材料を買うか（手段）」をまず整理しますよね。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - organize-ad-objective-and-placement
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

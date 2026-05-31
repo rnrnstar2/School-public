@@ -1,0 +1,27 @@
+id: atom.ec-operator.write-category-and-meta-copy
+title: カテゴリ文とメタ文を作る
+summary: "オンラインショップには「カテゴリページ」（商品を種類ごとにまとめたページ）があります。たとえば「キッチン雑貨」「アクセサリー」「ベビー用品」といったページです。 このレッスンでは、AIツールを使ってカテゴリページに必要な 2つの文章 を作ります。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs:
+  - ai-chat-tool-ready
+capability_outputs:
+  - write-category-description
+  - write-meta-description
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ec-operator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

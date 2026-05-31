@@ -1,0 +1,25 @@
+id: atom.video-creator.repurpose-long-to-short
+title: 長尺から短尺へ再編集する
+summary: "このAtomを終えると、あなたは10分以上ある長い動画から、TikTokやInstagramリール、YouTube Shortsに投稿できる15〜60秒のショート動画を、AIツールを使って切り出せるようになります。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - has-long-video
+capability_outputs:
+  - extract-short-clips-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

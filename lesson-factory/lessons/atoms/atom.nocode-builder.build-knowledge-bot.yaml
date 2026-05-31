@@ -1,0 +1,24 @@
+id: atom.nocode-builder.build-knowledge-bot
+title: ナレッジボットを構築する
+summary: "「よくある質問に何度も同じ返事をしている…」——そんな経験はありませんか？ たとえば料理のレシピ本を持っていても、毎回ページをめくって探すのは面倒ですよね。もし「○○の作り方は？」と聞くだけで、レシピ本の中から答えを見つけてくれるアシスタントがいたら便利だと思いませんか？"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - build-knowledge-bot
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,25 @@
+id: atom.data-analyst.find-high-value-customers
+title: 優良顧客の特徴を掴む
+summary: "あなたが小さなパン屋さんを営んでいると想像してみてください。 毎日たくさんのお客さんが来ますが、「どの人に喜んでもらえるとお店が一番助かるか」を知りたいと思ったことはありませんか？ そんなとき、売上データをじっくり見ると、「この人は週に3回も来てくれる」「いつも単価が高い商品を選ぶ」といった共通点が見え..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - ai-chat-file-upload
+capability_outputs:
+  - identify-high-value-customer-traits
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

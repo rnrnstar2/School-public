@@ -1,0 +1,24 @@
+id: atom.video-creator.prompt-for-creative-briefs
+title: 企画指示のプロンプトを作る
+summary: "「動画を作りたいけど、何から手をつければ…」と思ったことはありませんか？ 実は、AIチャットツールに 上手にお願いする文章（＝プロンプト） を書けるようになるだけで、企画書のたたき台が15分で手に入ります。このレッスンでは、あなた自身の動画テーマを使って、実際にAIに企画書を作ってもらうところまで体験します。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - write-creative-brief-prompt
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

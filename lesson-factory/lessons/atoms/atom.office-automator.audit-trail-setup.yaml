@@ -1,0 +1,24 @@
+id: atom.office-automator.audit-trail-setup
+title: AI利用の記録と監査証跡を残す仕組みを作る
+summary: "最近、AIを使って業務を効率化する場面がどんどん増えていますね。メールの下書き、議事録の要約、データの整理――便利な反面、あとから「どんな指示を出したのか」「本当に正しい結果だったのか」が分からなくなってしまうことはありませんか？ このレッスンでは..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - create-ai-audit-log
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

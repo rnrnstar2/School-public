@@ -1,0 +1,24 @@
+id: atom.ai-marketer.update-target-select
+title: リライト候補を選定する
+summary: "あなたが書いたブログ記事やWebページは、時間が経つと情報が古くなったり、読まれにくくなったりします。 このレッスンでは、 どの記事を書き直す（＝リライトする）べきか をAIと一緒に選ぶ方法を15分で身につけます。 たとえば、冷蔵庫の整理を想像してみてください。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - select-rewrite-candidates
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

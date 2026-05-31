@@ -1,0 +1,26 @@
+id: atom.cs-automator.fallback-escalation
+title: 有人対応への切り替えルールを作る
+summary: "レストランを想像してみてください。注文はタブレットで受け付けますが、お客さんが「アレルギーがあるんです」と言ったり、「特別な記念日だからおすすめを教えて」と相談してきたりしたら、すぐにお店のスタッフが対応を引き継ぎますよね。 AI（人工知能）を使ったカスタマーサポートでも、まったく同じです。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - understand-cs-workflow
+capability_outputs:
+  - create-escalation-rules
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.cs-ai-overview
+deliverable:
+  type: markdown_doc
+  validation: escalation_rules_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

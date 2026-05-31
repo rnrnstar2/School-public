@@ -1,0 +1,26 @@
+id: atom.training-designer.improvement-report
+title: アンケート分析レポートを自動生成する
+summary: "研修が終わったあとに受講者アンケートを集めたものの、「この大量の回答、どう分析すればいいの…」と途方に暮れた経験はありませんか？ 料理にたとえると、食材（＝アンケート回答）はそろっているのに、レシピ（＝分析の手順）がないまま台所に立っているような状態です。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - generate-survey-analysis-report
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.training-designer.chatgpt-claude-comparison
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

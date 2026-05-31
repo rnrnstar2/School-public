@@ -1,0 +1,27 @@
+id: atom.ai-writer.internal-link-suggestion
+title: 内部リンク構造をAIに提案させる
+summary: "ブログやWebサイトの記事を何本か書いたあと、こんな悩みが出てきませんか？「この記事とあの記事、つながりがあるのに読者が気づけない」「どこにリンクを貼ればいいか分からない」——これは本棚の整理に似ています。本がバラバラに並んでいると目当ての本が見つからないように..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+  - seo
+capability_inputs:
+  - write-blog-post
+capability_outputs:
+  - suggest-internal-links-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.seo-article-with-ai
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

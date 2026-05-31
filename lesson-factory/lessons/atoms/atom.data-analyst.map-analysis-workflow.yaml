@@ -1,0 +1,25 @@
+id: atom.data-analyst.map-analysis-workflow
+title: データ分析の流れを理解する
+summary: "データ分析と聞くと「難しそう」「プログラミングが必要？」と身構えてしまうかもしれません。でも安心してください。データ分析の基本的な流れは、実は料理のレシピに似ています。 この Atom では、この「料理の4ステップ」になぞらえて、データ分析の全体像をつかみます。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - explain-analysis-workflow
+  - identify-analysis-phases
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

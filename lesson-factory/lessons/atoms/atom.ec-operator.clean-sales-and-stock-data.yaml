@@ -1,0 +1,26 @@
+id: atom.ec-operator.clean-sales-and-stock-data
+title: 売上と在庫のデータを整える
+summary: "あなたのネットショップのバックヤード（＝倉庫の奥）を想像してみてください。段ボールが山積みで、どこに何が入っているか分からない――そんな状態だと、注文が来てもすぐに対応できませんよね。 売上データと在庫データも同じです。情報がバラバラだと、「どの商品がどれくらい売れているか」「在庫があとどれくらい残って..."
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+  - data-cleanup
+capability_inputs:
+  - ec-admin-login
+capability_outputs:
+  - clean-sales-stock-table
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

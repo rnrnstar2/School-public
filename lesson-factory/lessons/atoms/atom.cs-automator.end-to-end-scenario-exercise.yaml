@@ -1,0 +1,29 @@
+id: atom.cs-automator.end-to-end-scenario-exercise
+title: 問い合わせ受付から解決まで通しで演習する
+summary: "レストランの注文を思い出してみましょう。お客さんが注文を伝え、店員さんが厨房に伝え、料理ができたらテーブルに届ける——この一連の流れは「カスタマーサポート（＝お客さんからの問い合わせに対応する仕事）」にもそっくりです。 このレッスンでは、AIチャットツール（＝人工知能と会話できるソフト。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - use-ai-chat-tool
+  - write-cs-reply-draft
+capability_outputs:
+  - run-end-to-end-cs-exercise
+hard_prerequisites:
+  - atom.cs-automator.answer-prompt-basics
+soft_prerequisites:
+  - atom.cs-automator.scenario-design
+  - atom.cs-automator.faq-tone-alignment
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

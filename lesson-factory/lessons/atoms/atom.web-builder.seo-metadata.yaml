@@ -1,0 +1,30 @@
+id: atom.web-builder.seo-metadata
+title: Next.jsでSEOメタデータを設定する
+summary: "あなたの作ったサイトを、Googleや家族・友人にシェアしたときに「ちゃんとしたページだな」と見せるための、いわば お店の看板と自己紹介文 を整える回です。ここでいうSEOメタデータ（＝検索結果やSNSシェア時に表示される、ページの題名や説明文のこと）を、AIの力を借りて15分以内で仕上げます。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - business-homepage
+  - landing-page
+  - blog-site
+  - stage:polish
+  - level:beginner
+capability_inputs:
+  - homepage-created
+capability_outputs:
+  - seo-metadata-set
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - nextjs/docs/metadata
+status: draft

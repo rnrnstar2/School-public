@@ -1,0 +1,19 @@
+id: persona.web-builder
+name: Web制作者（個人開発・副業フェーズ）
+background: |
+  ノーコードで LP とフォームを作った経験があり、HTML/CSS は読める。受託案件を少しずつ取り始めた段階で、
+  Next.js と Supabase は学習中。Vercel で早く公開したいが、環境変数、deploy secrets、API CORS の切り分けで
+  詰まりやすい。英語ドキュメントは見出しとコード例なら追えるが、長文の設計議論は負荷が高い。
+goals:
+  - 小規模な顧客向けサイトを自力で公開する
+  - フォーム送信や会員向け機能を安全に動かす
+  - 納品前に自分でデプロイと簡易デバッグを回せるようになる
+constraints:
+  - 週に使える学習時間は5時間前後
+  - 月の学習予算は3000円まで
+  - 英語はコード例中心なら読めるが長文は苦手
+preferred_tools:
+  - vercel
+  - supabase
+  - claude-code
+learning_pace: moderate

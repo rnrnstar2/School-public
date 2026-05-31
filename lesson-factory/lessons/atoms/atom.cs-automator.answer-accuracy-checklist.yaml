@@ -1,0 +1,24 @@
+id: atom.cs-automator.answer-accuracy-checklist
+title: 回答精度を確認するチェックリストを作る
+summary: "あなたがカスタマーサポートで AI に回答を作ってもらったとき、「この回答、本当に合ってる？」と不安になったことはありませんか？ 料理でいうと、レシピ通りに作った料理を最後に味見するようなものです。味見をしないでお客さんに出すのは怖いですよね。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - create-accuracy-checklist
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

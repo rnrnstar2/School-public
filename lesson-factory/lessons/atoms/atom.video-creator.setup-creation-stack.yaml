@@ -1,0 +1,24 @@
+id: atom.video-creator.setup-creation-stack
+title: 制作ツール環境を整える
+summary: "料理をする前に「包丁・まな板・フライパン」を揃えるように、動画づくりでもまずは道具を揃えます。このレッスンでは、AIの力を借りて動画コンテンツを作るための 3つのツール を15分で準備します。 完了すると「AIに相談しながら動画の素材を自分で作り始められる状態」になります。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - ai-creation-tools-ready
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,29 @@
+id: atom.web-builder.understand-env-variables
+title: 環境変数の仕組みを理解して.envを正しく書く
+summary: "あなたがレストランを経営しているとしましょう。お客さんには「メニュー」だけを見せますが、厨房の「秘密のレシピ」や「仕入れ先の連絡先」は見せたくありませんよね。 プログラミングの世界でもまったく同じです。公開するWebサイトのコードと、絶対に見せてはいけないパスワードやAPIキー（＝外部サービスを使うため..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:setup
+  - level:beginner
+  - saas-mvp
+capability_inputs:
+  - node-pnpm-ready
+capability_outputs:
+  - understand-env-files
+hard_prerequisites:
+  - atom.web-builder.node-pnpm-setup
+soft_prerequisites: []
+deliverable:
+  type: config_file
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

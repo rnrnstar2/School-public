@@ -1,0 +1,24 @@
+id: atom.cs-automator.sentiment-analysis
+title: 感情分析で不満の傾向をつかむ
+summary: "お客様からの「ご意見ボックス」に毎日何十通も手紙が届くと想像してみてください。全部に目を通すのは大変ですよね。 感情分析（＝テキストの裏にある「嬉しい」「悲しい」「怒っている」といった気持ちを自動で判定する技術）は、まるで 優秀なアシスタント..."
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - run-sentiment-analysis-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

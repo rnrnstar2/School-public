@@ -1,0 +1,37 @@
+case_id: pedagogy.good.001
+target_rubric: pedagogy.v1
+description: Supabase RLS の良い例
+sample_lesson_excerpt: |
+  ## このレッスンの前提
+  - Supabase プロジェクトを1つ作成済み
+  - `profiles` テーブルに `id uuid` カラムがある
+  - SQL Editor を開ける権限がある
+
+  ## 用語を先にそろえる
+  - RLS: 行ごとに見えるデータを制御する仕組み
+  - policy: 「誰がどの行を読めるか」を決める条件
+
+  ## このレッスンの完了条件
+  - `profiles` テーブルに `auth.uid() = id` の SELECT policy が存在する
+  - SQL Editor で自分の行だけ取得できることを確認した
+  - 他ユーザーの行は0件になることを確認した
+
+  ## 進め方
+  1. まず RLS を有効化して、まだ何も見えない状態を確認する
+  2. 次に最小の SELECT policy を1本だけ追加する
+  3. 最後に SQL で自分の行と他人の行を比べる
+
+  ## 詰まったとき
+  - `permission denied` が出たら、RLS の有効化前に policy を作っていないか確認する
+  - `auth.uid()` が `null` なら、SQL Editor ではなくアプリ経由で確認していないか見直す
+expected_scores:
+  prerequisite_clarity: 5
+  completion_criteria: 5
+  jargon_management: 4
+  scaffolding: 5
+  failure_recovery: 4
+expected_average_score: 4.7
+expected_status: pass
+defect_tags: []
+notes: |
+  完了条件が SQL で検証可能。前提と用語が先に置かれ、手順も1本の policy に絞られている。

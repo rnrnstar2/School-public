@@ -1,0 +1,24 @@
+id: atom.ec-operator.set-promotion-goals
+title: プロモーションの目的を設定する
+summary: "ネットショップでセールやキャンペーンを始めるとき、「とりあえず割引しよう」と見切り発車してしまうことはありませんか？ プロモーションは旅行の計画に似ています。行き先（目的）を決めないまま荷造りを始めても、必要なものが揃わず、途中で迷子になってしまいます。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - define-promotion-goal
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

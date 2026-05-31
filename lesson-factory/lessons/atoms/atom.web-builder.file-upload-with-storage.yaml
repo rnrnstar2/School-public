@@ -1,0 +1,32 @@
+id: atom.web-builder.file-upload-with-storage
+title: Supabase Storageで画像アップロードを実装する
+summary: "あなたのアプリに「画像を選んでアップロードする」機能を15分で追加します。ここで言う Supabase Storage （＝Supabaseが用意してくれる「画像・ファイル専用の物置」）は、写真や書類を安全にしまっておける大きな倉庫のようなものです。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - business-homepage
+  - portfolio-site
+  - stage:connect
+  - level:intermediate
+capability_inputs:
+  - auth-email-password
+capability_outputs:
+  - file-upload
+  - storage-bucket
+hard_prerequisites:
+  - atom.web-builder.make-supabase-ai-ready
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - supabase/docs/guides/storage
+status: draft

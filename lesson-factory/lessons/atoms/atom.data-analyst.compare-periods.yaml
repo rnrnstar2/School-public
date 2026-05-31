@@ -1,0 +1,25 @@
+id: atom.data-analyst.compare-periods
+title: 期間比較で差分を読む
+summary: "売上やアクセス数のレポートを見て「先月より増えたのかな？」と気になったことはありませんか？このレッスンでは、2つの期間を比べて違いを読み取る「期間比較」のやり方を、AIツールと一緒に15分で身につけます。 料理にたとえると、期間比較は「先週の食材費と今週の食材費を並べて、どっちが高かったか調べる」ようなもの。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - read-period-diff
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.define-business-question
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

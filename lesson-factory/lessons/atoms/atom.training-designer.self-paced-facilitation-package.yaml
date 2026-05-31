@@ -1,0 +1,24 @@
+id: atom.training-designer.self-paced-facilitation-package
+title: 自習教材と進行支援資料を作る
+summary: "あなたが研修やワークショップを開催するとき、当日参加できない人や、あとから復習したい人のために「自習教材」があると助かりますよね。しかし、自習教材をゼロから作るのはかなり大変です。 このレッスンでは、AIを使って 自習教材 （受講者が一人で進められるガイド）と 進行支援資料..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - create-self-paced-material
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

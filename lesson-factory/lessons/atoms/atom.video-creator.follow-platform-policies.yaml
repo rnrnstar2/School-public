@@ -1,0 +1,25 @@
+id: atom.video-creator.follow-platform-policies
+title: 配信先のポリシーを守る
+summary: "AIで動画を作ったあと、「さあ投稿しよう！」とそのままアップロードしていませんか？ 実は、YouTubeやTikTok、Instagramなど配信先（＝動画を公開する場所）ごとに「投稿してよい動画のルール」が決まっています。ルールを見落とすと、動画が削除されたり、アカウントが停止されたりすることもあります。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - video-draft-ready
+capability_outputs:
+  - verify-platform-policy
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

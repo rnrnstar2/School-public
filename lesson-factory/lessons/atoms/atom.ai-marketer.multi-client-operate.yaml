@@ -1,0 +1,26 @@
+id: atom.ai-marketer.multi-client-operate
+title: 複数案件を並行運用する
+summary: "フリーランスとして仕事が増えてくると、「あのクライアント（＝依頼主）の納品いつだっけ？」「こっちの修正まだだった…」と頭の中がぐちゃぐちゃになりがちです。このレッスンでは、AIを味方につけて複数の案件を混乱なく回す方法を身につけます。 例えて言うなら、レストランの厨房で3品の料理を同時に作るようなものです。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - manage-multi-client-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.first-job-strategy
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

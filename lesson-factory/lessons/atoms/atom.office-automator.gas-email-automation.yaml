@@ -1,0 +1,27 @@
+id: atom.office-automator.gas-email-automation
+title: GASでスプレッドシートからメールを自動送信する
+summary: "毎回同じようなメールを手作業で送っていませんか？「宛先と本文を用意したら、あとはボタン1つで送信できる」と想像してみてください。 たとえば、レストランで注文を紙に書いて厨房に渡すイメージです。あなたがやるのは「注文票（スプレッドシート）を書く」ことだけ。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - google-account-ready
+capability_outputs:
+  - send-email-via-gas
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - google/apps-script-reference
+status: draft

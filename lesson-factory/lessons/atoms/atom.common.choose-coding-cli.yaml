@@ -1,0 +1,28 @@
+id: atom.common.choose-coding-cli
+title: コーディング系 AI ツールを選ぶ
+summary: "Claude Code・Codex CLI・Cursor・Copilot など、コードを書くときに使う AI ツールを比較し、自分の OS / 作業スタイル / 予算に合う 1 つを選びます。所要 15 分。選定理由を含めて 1 枚にまとめます。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - choose-tool
+  - learn-tool
+  - any-web-project
+  - automate-with-code
+capability_inputs: []
+capability_outputs:
+  - coding-cli-chosen
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources:
+  - claude-code-docs
+  - openai-codex-docs
+  - cursor-releases
+  - github-copilot-docs
+status: draft

@@ -1,0 +1,67 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`plan-compiler > plan output stability > snapshot: plan structure matches expected shape 1`] = `
+{
+  "gapTasks": [],
+  "metadata": {
+    "domainsCovered": [
+      "web",
+    ],
+    "lessonCount": 3,
+    "totalEstimatedMinutes": 90,
+  },
+  "milestones": [
+    {
+      "description": "general 領域のスキルを習得するためのレッスン群",
+      "id": "ms-000",
+      "nodeIds": [
+        "node-000",
+        "node-001",
+        "node-002",
+      ],
+      "title": "基礎スキル",
+    },
+  ],
+  "nodes": [
+    {
+      "difficulty": "beginner",
+      "estimatedMinutes": 30,
+      "id": "node-000",
+      "lessonId": "lesson-001",
+      "lessonTitle": "HTML基礎",
+      "milestoneId": "ms-000",
+      "prerequisiteNodeIds": [],
+      "rationale": "ゴール「ポートフォリオサイト」に直接関連",
+      "sortOrder": 0,
+    },
+    {
+      "difficulty": "beginner",
+      "estimatedMinutes": 30,
+      "id": "node-001",
+      "lessonId": "lesson-002",
+      "lessonTitle": "CSS基礎",
+      "milestoneId": "ms-000",
+      "prerequisiteNodeIds": [
+        "node-000",
+      ],
+      "rationale": "ゴール「ポートフォリオサイト」に直接関連",
+      "sortOrder": 1,
+    },
+    {
+      "difficulty": "intermediate",
+      "estimatedMinutes": 30,
+      "id": "node-002",
+      "lessonId": "lesson-003",
+      "lessonTitle": "デプロイ入門",
+      "milestoneId": "ms-000",
+      "prerequisiteNodeIds": [
+        "node-001",
+      ],
+      "rationale": "ゴール「ポートフォリオサイト」に直接関連",
+      "sortOrder": 2,
+    },
+  ],
+  "summary": "3レッスン・1マイルストーンで構成。推定所要時間: 約90分。",
+  "title": "「ポートフォリオサイト」学習プラン",
+}
+`;

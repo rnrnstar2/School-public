@@ -1,0 +1,13 @@
+{
+  "exportedAt": "2026-04-16T00:00:00.000Z",
+  "events": [
+    { "event": "lesson_started", "timestamp": "2026-04-10T10:00:00Z", "properties": { "lesson_id": "atom.ai-business.intro", "domain": "ai-business-automation", "from_recommendation": true, "lesson_title": "x" } },
+    { "event": "lesson_started", "timestamp": "2026-04-11T10:00:00Z", "properties": { "lesson_id": "atom.ai-business.two", "domain": "ai-business-automation", "from_recommendation": false, "lesson_title": "y" } },
+    { "event": "blocked", "timestamp": "2026-04-11T11:00:00Z", "properties": { "target_testid": "plan-submit", "path": "/plan", "reason": "disabled" } },
+    { "event": "blocked", "timestamp": "2026-04-12T11:00:00Z", "properties": { "target_testid": "plan-submit", "path": "/plan", "reason": "disabled" } },
+    { "event": "blocked", "timestamp": "2026-04-13T11:00:00Z", "properties": { "target_testid": "plan-submit", "path": "/plan", "reason": "disabled" } },
+    { "event": "plan_revised", "timestamp": "2026-04-13T12:00:00Z", "properties": { "plan_id": "p1", "revision_number": 2, "reason": "tool_mismatch" } },
+    { "event": "plan_revised", "timestamp": "2026-04-14T12:00:00Z", "properties": { "plan_id": "p2", "revision_number": 2, "reason": "tool_mismatch" } },
+    { "event": "plan_revised", "timestamp": "2026-04-14T13:00:00Z", "properties": { "plan_id": "p3", "revision_number": 2, "reason": "tool_mismatch" } }
+  ]
+}

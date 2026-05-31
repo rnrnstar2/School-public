@@ -1,0 +1,29 @@
+id: atom.web-builder.mini-project-portfolio
+title: 【統合演習】ポートフォリオサイトを作って公開する
+summary: "これまでの学習で、AIツールを使ってWebアプリを作る基本を身につけてきましたね。今回はその総まとめとして、あなた自身の ポートフォリオサイト （＝自分の作品やスキルを紹介するWebページ）をAIの力で作り、インターネットに公開するところまで一気にやります。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - portfolio-site
+  - stage:capstone
+  - level:intermediate
+capability_inputs:
+  - full-stack-app-experience
+capability_outputs:
+  - portfolio-published
+hard_prerequisites:
+  - atom.web-builder.create-homepage
+  - atom.web-builder.deploy-ai-app-to-vercel
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

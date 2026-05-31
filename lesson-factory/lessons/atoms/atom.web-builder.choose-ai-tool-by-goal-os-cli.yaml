@@ -1,0 +1,30 @@
+id: atom.web-builder.choose-ai-tool-by-goal-os-cli
+title: 目的に合わせて AI ツールを選ぶ
+summary: "AI ツール（＝文章やコードを自動で書いてくれるアシスタント）はたくさんあって、最初は「どれを使えばいいの？」と迷いますよね。料理で言えば、包丁・鍋・電子レンジを目的に応じて使い分けるのと同じです。 刺身を切るのに電子レンジは使わない ように、ツールにも得意分野があります。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:setup
+  - level:beginner
+  - portfolio-site
+  - business-homepage
+capability_inputs: []
+capability_outputs:
+  - choose-ai-tool-by-goal-os-cli
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - test_result
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - cursor-releases
+  - claude-code-docs
+  - github-copilot-docs
+status: draft

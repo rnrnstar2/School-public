@@ -1,0 +1,24 @@
+id: atom.office-automator.automation-portfolio-review
+title: 自動化ポートフォリオを棚卸しして次の一手を決める
+summary: "これまで AI やツールを使って自動化したことを一度ぜんぶ並べてみませんか？ 冷蔵庫の中身を確認するように、「何があるか」がわかると「次に何を作ろう」がスッと決まります。このレッスンでは、あなたの自動化の棚卸しリストを作り、 いちばん効果が大きかった自動化 を見つけ、 次の15分でできる小さな一手..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - review-automation-portfolio
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

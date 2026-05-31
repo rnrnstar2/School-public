@@ -1,0 +1,29 @@
+id: atom.ai-content-creator.batch-produce-short-scripts
+title: ショート動画の台本を 1 セッションでまとめ生成する
+summary: "ショート動画を毎日投稿するクリエイターにとって、台本を 1 本ずつ書くのは時間泥棒です。お弁当作りで言えば、毎朝おかずを 1 品ずつ違うフライパンで作っているような状態。このレッスンでは、ChatGPT または Claude を使って 1 週間ぶん（5-7 本）のショート動画台本を 1 セッションでまとめて下書きする手順を身に付けます。テーマと尺・トーンをテンプレ化したプロンプトに落とし、AI に一括生成させ、最後に人間が hook と CTA だけ整えるワークフローです。完了時には『今週ぶんを月曜 60 分でまとめて作る』運用に切り替わります。"
+persona_tags:
+  - ai-content-creator
+  - ai-first-learner
+goal_tags:
+  - content
+  - publish-content
+  - efficiency
+  - video-production
+capability_inputs: []
+capability_outputs:
+  - batch-produce-short-scripts
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+estimated_minutes: 25
+# W16-A1 (2026-05-10): persona.ai-content-creator anchor の Wave 15 round 5 audit
+# unsupported residue 解消用に reviewed として新規 seed。本格 review は /lesson-improve で別途。
+status: reviewed

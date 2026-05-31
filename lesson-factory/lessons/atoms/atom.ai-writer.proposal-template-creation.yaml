@@ -1,0 +1,26 @@
+id: atom.ai-writer.proposal-template-creation
+title: AI活用を強みにした提案テンプレートを作る
+summary: "提案書を毎回ゼロから書くのは大変ですよね。料理にたとえると、毎回レシピを一から考えながら作っているようなものです。でも、一度おいしいレシピ（＝テンプレート）を作っておけば、あとは材料を入れ替えるだけで何度でも使えます。 このレッスンでは、AIを「優秀なアシスタント」として使い、いつでも使い回せる..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - basic-ai-chat-usage
+capability_outputs:
+  - create-proposal-template-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

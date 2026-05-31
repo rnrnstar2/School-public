@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.writing-plagiarism-prevention
+title: AI記事の盗用リスクを回避する
+summary: "AIで記事を書くのは、レシピを見ながら料理するようなものです。レシピ通りに作ればそれなりの料理はできますが、そのまま出してしまうと「隣の家とまったく同じカレー」になってしまうことがあります。さらに厄介なのは、AIが出力した文章がたまたま既存のウェブ記事とそっくりになっていて..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-ai-text-generation
+capability_outputs:
+  - check-and-rewrite-ai-text-for-originality
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.seo-article-with-ai
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

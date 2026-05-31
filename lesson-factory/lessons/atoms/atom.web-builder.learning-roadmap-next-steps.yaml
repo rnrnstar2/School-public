@@ -1,0 +1,27 @@
+id: atom.web-builder.learning-roadmap-next-steps
+title: 卒業後の学習ロードマップ——次に何を学ぶか
+summary: "おめでとうございます！ここまでたどり着いたあなたは、AIを使ってWebアプリを企画・開発・公開できるスキルを身につけました。 でも「トラックが終わった。次は何をすればいい？」と迷うのは自然なことです。旅行にたとえると、ガイドツアーが終わって自由行動が始まった瞬間のようなもの。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:capstone
+  - level:beginner
+capability_inputs:
+  - deploy-app-to-vercel
+capability_outputs:
+  - learning-roadmap
+hard_prerequisites:
+  - atom.web-builder.deploy-ai-app-to-vercel
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: archived

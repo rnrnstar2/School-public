@@ -1,0 +1,25 @@
+id: atom.office-automator.document-drafting
+title: 社内通知・規程文書の下書きをAIで作る
+summary: "お仕事で「社内にお知らせを回さなきゃ」「新しい規程を書かなきゃ」となったとき、白紙から書き始めるのは大変ですよね。 それは料理でいうと、レシピも材料も決まっていない状態でいきなり火をつけるようなもの。まずは「何を作るか」をはっきりさせてから、AI（＝人工知能のことで..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - ai-chat-account-ready
+capability_outputs:
+  - draft-business-document-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

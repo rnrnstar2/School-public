@@ -1,0 +1,25 @@
+id: atom.office-automator.contract-review-assist
+title: 契約書・見積書のチェックポイントをAIに抽出させる
+summary: "大切な書類を確認するとき、「何か見落としがないか不安…」と思ったことはありませんか？ それは、料理のレシピを一通り読み返して「あ、塩を入れるタイミングが書いてない！」と気づくのと同じです。 AI（＝人工知能で、ここではChatGPTやClaudeのようなチャットツールのこと）は..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - ai-chat-account-ready
+capability_outputs:
+  - extract-document-checkpoints-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

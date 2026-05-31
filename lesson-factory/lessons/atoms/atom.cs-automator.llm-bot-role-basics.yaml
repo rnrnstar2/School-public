@@ -1,0 +1,24 @@
+id: atom.cs-automator.llm-bot-role-basics
+title: 生成モデルとチャットボットの役割分担を学ぶ
+summary: "このレッスンを終えると、あなたは「生成AI（＝文章や画像を新しく作り出すAI）」と「チャットボット（＝決まった受け答えを自動で返す仕組み）」の違いを自分の言葉で説明でき、カスタマーサポートの場面でどちらを使うべきかを判断できるようになります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - distinguish-llm-bot-roles
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

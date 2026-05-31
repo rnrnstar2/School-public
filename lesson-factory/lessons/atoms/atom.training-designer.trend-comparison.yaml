@@ -1,0 +1,26 @@
+id: atom.training-designer.trend-comparison
+title: 回別の傾向変化を比較分析する
+summary: "こんにちは！このレッスンでは、研修やワークショップを複数回実施したあとに「前回と今回で何が変わったのか？」をAIの力を借りて分析する方法をお伝えします。 週末に料理を何度か作ったとします。1回目は味が薄くて、2回目はちょうどよくなって、3回目は焦がしてしまった……。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - collect-training-feedback
+capability_outputs:
+  - compare-trend-across-sessions
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.training-designer.feedback-analysis
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

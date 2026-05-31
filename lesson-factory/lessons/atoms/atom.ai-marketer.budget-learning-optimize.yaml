@@ -1,0 +1,24 @@
+id: atom.ai-marketer.budget-learning-optimize
+title: 少額予算で学習を進める
+summary: "料理を習いたいとき、最初から高級な包丁や万能オーブンを揃える必要はありませんよね。まずは手持ちのフライパンと菜箸で、レシピを1つ完成させるのが一番です。 AIツール（＝人工知能を使って文章を作ったり分析したりするソフト）を使った学習も同じです。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - create-budget-learning-plan
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

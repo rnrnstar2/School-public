@@ -1,0 +1,24 @@
+id: atom.cs-automator.small-batch-response-test
+title: 少数の問い合わせで応答を試す
+summary: "新しいスタッフが入ってきたら、いきなり電話に出させる前に「ちょっとこのお客様の対応、どうする？」とロールプレイ（＝お試しで練習すること）をしますよね。AIツールも同じです。いきなり本番のお客様に使う前に、架空の質問をいくつか投げかけて、どんな返事ができるかテストしてみましょう。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - test-ai-response-with-sample-questions
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

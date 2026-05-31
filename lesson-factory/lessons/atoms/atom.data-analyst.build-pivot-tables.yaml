@@ -1,0 +1,27 @@
+id: atom.data-analyst.build-pivot-tables
+title: ピボットで切り口を増やす
+summary: "スーパーのレシートを想像してみてください。1週間分のレシートが30枚あります。それぞれに「何を買ったか」「いくらだったか」「何時に買ったか」が書かれています。 でも、「曜日ごとにいくら使ったか知りたい」となったら、レシートをそのまま眺めてもわかりませんよね。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - upload-and-inspect-data
+capability_outputs:
+  - create-pivot-table-with-ai
+hard_prerequisites:
+  - atom.data-analyst.upload-and-inspect-data
+soft_prerequisites:
+  - atom.data-analyst.prompt-for-analysis
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

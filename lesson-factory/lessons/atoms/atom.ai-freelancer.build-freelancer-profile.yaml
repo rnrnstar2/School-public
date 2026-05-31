@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.build-freelancer-profile
+title: 選ばれるプロフィールを作成する
+summary: "フリーランスの仕事を受注するとき、クライアント（＝仕事を依頼する人）が最初に見るのが「プロフィール」です。お店でいえば看板やメニュー表のようなもの。どんなに腕が良くても、看板がなければお客さんは入ってきてくれません。 この Atom では、AIチャット（ChatGPT や Claude..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - setup-ai-tools
+capability_outputs:
+  - create-freelancer-profile
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

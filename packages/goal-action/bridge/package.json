@@ -1,0 +1,29 @@
+{
+  "name": "@school/goal-action-bridge",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "execa": "^9.6.1"
+  },
+  "peerDependencies": {
+    "zod": "^4.3.6",
+    "@school/goal-action-proposer": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.37",
+    "ajv": "^8.18.0",
+    "ajv-formats": "^3.0.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0",
+    "zod": "^4.3.6",
+    "@school/goal-action-proposer": "workspace:*"
+  }
+}

@@ -1,0 +1,24 @@
+id: atom.training-designer.kirkpatrick-level-design
+title: 研修効果測定の4段階を設計する
+summary: "あなたが企画した研修。参加者は「良かったです」と笑顔で帰っていった。でも、上司から「で、効果はあったの？」と聞かれたら、どう答えますか？ この Atom では、研修の効果を 4 つのレベル でしっかり測る「設計図」を、AI ツールと一緒につくります。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - design-kirkpatrick-measurement-plan
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

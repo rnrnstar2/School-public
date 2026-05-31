@@ -1,0 +1,26 @@
+id: atom.video-creator.export-for-each-platform
+title: 媒体別に書き出しを最適化する
+summary: "一つの動画を YouTube、TikTok、Instagram に投稿するとき、それぞれに合った「サイズ」や「画質」に合わせて書き出す必要があります。 料理に例えると分かりやすいです。同じカレーを作っても、レストランならお皿に美しく盛り付け、お弁当なら小分け容器に入れて..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - video-editing-basics
+capability_outputs:
+  - export-optimized-for-platform
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.edit-first-short-video
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

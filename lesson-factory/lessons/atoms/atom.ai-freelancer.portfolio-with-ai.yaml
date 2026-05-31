@@ -1,0 +1,27 @@
+id: atom.ai-freelancer.portfolio-with-ai
+title: AIでポートフォリオ作品を用意する
+summary: "あなたが料理人だとします。「こんな料理が作れますよ」と伝えるとき、メニューの説明だけより、実際の小皿を少し出したほうが説得力がありますよね。その「小皿」にあたるのがポートフォリオ（＝自分のスキルを証明する作品集）です。 このレッスンでは、AIツールを使って 15分でポートフォリオ作品を1つ完成 させます。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-chatgpt-basic-prompt
+capability_outputs:
+  - create-portfolio-piece-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+  - atom.ai-freelancer.chatgpt-claude-comparison
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

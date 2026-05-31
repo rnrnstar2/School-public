@@ -1,0 +1,22 @@
+case_id: web-builder.success.001
+persona_id: persona.web-builder
+target_rubric: persona-fit.v1
+simulation_type: success
+scenario: |
+  受託用の小さな LP に問い合わせフォームを付けて Vercel へ公開したい。
+  GitHub への push までは終わっており、残りは env 設定、再デプロイ、動作確認だけ。
+expected_blocker_tags:
+  - deploy-secrets
+  - api-cors
+expected_recovery_atoms:
+  - atom.vercel.env-vars
+  - atom.supabase.cors-check
+  - atom.form-submit-smoke-test
+narrative: |
+  「フォーム送信まで1回通せれば納品に近づく。難しい概念より、どこを押して何を確認するかが欲しい。」
+success_criteria:
+  - 1セッションで終わる範囲に手順が絞られている
+  - フォーム送信成功をネットワークタブか DB 反映で確認できる
+  - CORS や env ミス時の復旧導線が1画面で見返せる
+notes: |
+  goal_alignment と learning_pace_match が高い構成なら通しやすい success case。

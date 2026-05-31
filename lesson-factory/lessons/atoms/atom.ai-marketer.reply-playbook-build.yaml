@@ -1,0 +1,24 @@
+id: atom.ai-marketer.reply-playbook-build
+title: 返信文とコメント対応を整備する
+summary: "SNS に届いたコメントへの返信を、毎回ゼロから考えていませんか？ このレッスンでは、AI を使って playbook（＝よくあるコメントに対する返信テンプレートのまとめ） を 15 分で作る方法を学びます。 コンビニの店員さんを思い浮かべてみてください。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - build-reply-playbook
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

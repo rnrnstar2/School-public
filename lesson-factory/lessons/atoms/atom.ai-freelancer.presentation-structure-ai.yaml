@@ -1,0 +1,24 @@
+id: atom.ai-freelancer.presentation-structure-ai
+title: プレゼン構成をAIで設計する
+summary: "家を建てるとき、いきなり壁を塗り始める人はいませんよね。まずは「間取り図」を作ります。プレゼン作りもこれと同じです。いきなりスライドのデザインから始めるのではなく、まずは「何を、どんな順番で話すか」という間取り（＝構成）を決めるのがコツです。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - create-presentation-outline-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

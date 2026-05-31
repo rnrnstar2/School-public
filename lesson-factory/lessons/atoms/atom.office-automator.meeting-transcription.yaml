@@ -1,0 +1,24 @@
+id: atom.office-automator.meeting-transcription
+title: 会議音声をテキストに自動変換する
+summary: "会議のあとに「あの人、なんて言ったっけ？」とメモを見返した経験はありませんか？ 録音しておいた音声を文字に自動で書き起こせれば、議事録づくりも振り返りもぐっと楽になります。このレッスンでは、AIツールを使って会議の音声をテキストに変換する方法を 15分 でマスターします。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - transcribe-meeting-audio
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

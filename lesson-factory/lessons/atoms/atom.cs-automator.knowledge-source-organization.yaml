@@ -1,0 +1,24 @@
+id: atom.cs-automator.knowledge-source-organization
+title: 参照させる情報源を整理する
+summary: "AIツール（＝お客さんの質問に自動で答えてくれるしくみ）にお客さん対応を手伝ってもらうには、まず「参照する情報」をきれいに整理する必要があります。このレッスンを終えると、あなたのチームが持っている情報を AIが読みやすい形 でまとめられるようになります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - organize-knowledge-sources-for-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

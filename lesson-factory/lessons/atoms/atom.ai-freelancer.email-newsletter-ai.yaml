@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.email-newsletter-ai
+title: メルマガ・DM文面をAIで作成する
+summary: "相手に「これ読んでみたい！」と思ってもらうには、 件名 で興味を引き、 最初の一文 で読み続ける理由を与え、 最後 で次のアクションを促す必要がありますよね。 メルマガ（＝メールマガジン、読者に定期的に届けるメール）や DM（＝ダイレクトメッセージ、相手に直接送る個別メッセージ）もまったく同じ構造です。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-chatgpt-basic
+capability_outputs:
+  - create-email-newsletter-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

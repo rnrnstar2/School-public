@@ -1,0 +1,30 @@
+id: atom.web-builder.mini-project-todo-app
+title: 【統合演習】ToDoアプリを1時間で完成させる
+summary: "料理でいうと、これまで「卵の割り方」「フライパンの熱し方」を一つずつ練習してきましたよね。今回はそれら全部を組み合わせて、1品のオムライスを完成させる――そんな総仕上げの演習です。 ただし、今回は AIという優秀なアシスタント料理人 と一緒に作ります。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:capstone
+  - level:intermediate
+capability_inputs:
+  - crud-operations
+  - deployed-to-vercel
+capability_outputs:
+  - full-stack-app-experience
+hard_prerequisites:
+  - atom.web-builder.write-data-to-supabase
+  - atom.web-builder.supabase-auth-setup
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

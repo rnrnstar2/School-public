@@ -1,0 +1,26 @@
+id: atom.nocode-builder.build-status-visibility
+title: 進行状況の見える化を作る
+summary: "チームで仕事をしていると、「あの件、今どうなってる？」と何度も聞かれた経験はありませんか？ 料理でいえば、オーブンに小窓がなくて中が見えない状態です。進行状況が見えないと、つい扉を開けて確認したくなりますよね。この Atom では、AIの力を借りて「プロジェクトの小窓」――つまり進行状況がひと目でわかる..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - use-spreadsheet-basics
+capability_outputs:
+  - build-progress-dashboard
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

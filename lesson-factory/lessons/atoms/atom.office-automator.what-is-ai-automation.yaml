@@ -1,0 +1,24 @@
+id: atom.office-automator.what-is-ai-automation
+title: AIによる業務自動化の全体像を理解する
+summary: "「AIで仕事を楽にしたいけど、何から始めればいいの？」——そう感じたことはありませんか？ たとえば料理を思い浮かべてください。フードプロセッサーは「刻む・混ぜる」が得意ですが、味付けの判断はあなたがします。AIも同じで、 繰り返し作業を高速にこなす のは得意ですが、 最終的な判断や確認は人間の仕事 です。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - identify-automation-candidate
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

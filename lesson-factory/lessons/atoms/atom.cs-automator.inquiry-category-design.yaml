@@ -1,0 +1,24 @@
+id: atom.cs-automator.inquiry-category-design
+title: 問い合わせカテゴリ体系を設計する
+summary: "服の収納を想像してみてください。Tシャツ、ズボン、靴下……種類ごとに引き出しを分けると、朝の準備がぐっと早くなりますよね。お客様からの問い合わせも同じです。種類ごとに「引き出し」を作っておけば、あとで探すのもAIに自動仕分けさせるのもラクになります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - design-inquiry-category-table
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.nocode-builder.evaluate-and-improve-ai-results
+title: AI出力を評価して改善する
+summary: "AI（＝人工知能。ChatGPTやClaudeなどのチャットツールのこと）は、とても優秀な「見習いシェフ」のような存在です。あなたの指示（プロンプト）通りに料理を作ってくれますが、最初から完璧な味になるとは限りません。 ここで大切なのは、あなたが「味見（＝評価）」をし..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - evaluate-and-improve-ai-output
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.first-ai-prompt
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

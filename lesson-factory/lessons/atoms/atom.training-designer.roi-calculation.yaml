@@ -1,0 +1,24 @@
+id: atom.training-designer.roi-calculation
+title: 研修ROIの算出方法を整える
+summary: "「この研修、本当に意味があるの？」——上司や経営陣からこんな質問を受けたことはありませんか？感覚で「良かったと思います」と答えるより、数字で示せると説得力が段違いです。 この Atom では、研修の ROI（＝投資に対する見返りの割合。Return on Investment..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - calculate-training-roi
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

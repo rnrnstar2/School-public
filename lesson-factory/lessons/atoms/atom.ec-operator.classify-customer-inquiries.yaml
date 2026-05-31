@@ -1,0 +1,26 @@
+id: atom.ec-operator.classify-customer-inquiries
+title: 問い合わせ内容を分類する
+summary: "あなたのECサイトに毎日届くお客様からのメッセージ。「配送はいつ？」「返品したい」「この商品、在庫ありますか？」――種類がバラバラで、誰が何を担当するか迷ってしまいませんか？ これは、届いた手紙を「請求書」「年賀状」「チラシ」など仕分け箱に分けて入れる作業とよく似ています。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - classify-inquiries-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ec-operator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

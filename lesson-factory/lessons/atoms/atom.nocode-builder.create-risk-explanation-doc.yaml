@@ -1,0 +1,25 @@
+id: atom.nocode-builder.create-risk-explanation-doc
+title: リスク説明資料を作る
+summary: "旅行に出かける前に「もし雨が降ったら？」「もし財布をなくしたら？」と備えを考えますよね。サービスやプロジェクトでも同じように、「もし○○が起きたらどうするか」をあらかじめまとめておくのがリスク説明資料です。 このレッスンでは、AIツール（＝ChatGPTやClaudeなどの対話型AI）を使って、 15分以内..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - ai-chat-basic-usage
+capability_outputs:
+  - create-risk-doc-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

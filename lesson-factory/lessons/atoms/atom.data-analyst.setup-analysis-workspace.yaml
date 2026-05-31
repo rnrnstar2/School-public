@@ -1,0 +1,25 @@
+id: atom.data-analyst.setup-analysis-workspace
+title: 分析用ワークスペースを設定する
+summary: "データ分析を始めるとき、いきなり数字を触り始める人がいます。でもこれは、キッチンを片付けずに料理を始めるようなもの。材料がどこにあるかわからず、道具も散らばっていると、作業は遅くなりますし、ミスも起きやすくなります。 この Atom では、AI..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - setup-analysis-workspace
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.compare-ai-tools
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

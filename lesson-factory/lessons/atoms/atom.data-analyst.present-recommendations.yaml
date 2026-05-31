@@ -1,0 +1,26 @@
+id: atom.data-analyst.present-recommendations
+title: 提案を経営向けに伝える
+summary: "レストランで料理を注文するとき、メニューに「新鮮な魚のカルパッチョ 〜季節の柑橘ソース〜」と書いてあったほうが、ただ「魚の料理」とあるよりずっと選びやすいですよね。経営陣への提案も同じです。「なんとなくよさそう」ではなく、 目的・根拠・次のアクション がひと目でわかるようにまとめると..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - data-analysis-memo-ready
+capability_outputs:
+  - create-executive-proposal-draft
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.analyze-data-with-ai
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

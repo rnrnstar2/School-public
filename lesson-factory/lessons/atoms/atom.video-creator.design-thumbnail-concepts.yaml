@@ -1,0 +1,24 @@
+id: atom.video-creator.design-thumbnail-concepts
+title: クリックされるサムネ構図を考える
+summary: "お店の看板を想像してみてください。通りがかった人が「なんだこれ？気になる！」と立ち止まる看板と、スルーしてしまう看板がありますよね。動画のサムネイル（＝動画の表紙画像）もまったく同じです。 このレッスンでは、AIチャットツールと一緒に「思わずクリックしたくなる」サムネの構図を考える力を身につけます。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - design-thumbnail-composition
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

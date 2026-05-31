@@ -1,0 +1,24 @@
+id: atom.nocode-builder.define-request-fields
+title: 申請項目を定義する
+summary: "あなたはこれから、社内で使う「申請フォーム」（＝何かを頼むときに記入する画面）をAIの力を借りて設計します。フォームを作る前に、まず「どんな項目が必要か」を自分で決める必要があります。 この Atom では、AIチャット（＝AIと対話できる画面）を使って「項目の定義」を15分で仕上げる方法を学びます。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - define-form-fields-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

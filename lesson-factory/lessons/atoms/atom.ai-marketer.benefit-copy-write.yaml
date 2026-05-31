@@ -1,0 +1,24 @@
+id: atom.ai-marketer.benefit-copy-write
+title: ベネフィット訴求を書く
+summary: "このレッスンを終えると、あなたは商品の「特徴」と「ベネフィット（＝お客様が得られるうれしい結果）」をはっきり区別し、AIツールを使ってベネフィット中心の魅力的な訴求文を15分で書けるようになります。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - write-benefit-copy
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

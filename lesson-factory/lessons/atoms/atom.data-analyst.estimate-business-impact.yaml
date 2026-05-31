@@ -1,0 +1,26 @@
+id: atom.data-analyst.estimate-business-impact
+title: 施策影響を見積もる
+summary: "新しい施策（＝チームや会社でやろうとしている取り組み）を提案するとき、「どれくらい効果があるのか？」を数字で示せると説得力がぐっと上がります。 これは、レストランで新しいメニューを導入する前に「1日何枚売れそうか」「1枚あたりの利益はいくらか」を予想するのと同じ考え方です。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - estimate-business-impact-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.use-ai-chat
+deliverable:
+  type: markdown_doc
+  validation: business_impact_estimate_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

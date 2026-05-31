@@ -1,0 +1,24 @@
+id: atom.ai-marketer.prompt-structure-learn
+title: 再現性のあるプロンプトの型を学ぶ
+summary: "料理をするとき、レシピのメモが「適当に味付けして」だけだと、毎回味が変わってしまいますよね。 AIへの指示も同じです。毎回バラバラな書き方だと、結果も安定しません。 このレッスンでは、 AIに安定して良い回答を引き出す「プロンプト（＝AIへの指示文）の型」 を身につけます。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - write-structured-prompt
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

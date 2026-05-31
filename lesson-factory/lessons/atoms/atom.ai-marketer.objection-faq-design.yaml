@@ -1,0 +1,24 @@
+id: atom.ai-marketer.objection-faq-design
+title: 不安解消要素とFAQを設計する
+summary: "あなたが初めて行くレストランを想像してみてください。メニューに「辛いですか？」「アレルギー物質は入っていますか？」という注記がなかったら、注文するのが怖いですよね。お店側が先回りして答えを用意してくれたら、安心して選べます。 Webサイトや販売ページでも同じことが言えます。お客さんが「本当に大丈夫かな？"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - design-objection-faq
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

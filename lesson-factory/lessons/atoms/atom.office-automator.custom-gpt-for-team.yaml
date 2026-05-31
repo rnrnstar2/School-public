@@ -1,0 +1,28 @@
+id: atom.office-automator.custom-gpt-for-team
+title: 自社専用のカスタムGPT/Copilotエージェントを作る
+summary: "ChatGPT には「カスタムGPT」という機能があります。これは、あなたの会社や仕事の情報をあらかじめ覚えさせた 自分だけの専用 AI アシスタント を作れるしくみです。 たとえば、飲食店なら「うちのメニューと接客マニュアルを覚えた AI」、不動産会社なら「物件情報と接客トークを知っている..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - chatgpt-basic-usage
+capability_outputs:
+  - create-custom-gpt-agent
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.chatgpt-prompt-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - openai/custom-gpts
+status: draft

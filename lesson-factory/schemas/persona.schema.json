@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://school.local/lesson-factory/schemas/persona.schema.json",
+  "title": "Lesson Persona",
+  "description": "Schema for owner-local persona definitions used during draft and evaluation.",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "personaId": {
+      "type": "string",
+      "pattern": "^persona\\.[a-z0-9.-]+$",
+      "description": "Canonical lesson persona identifier."
+    },
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "graduationOptionKind": {
+      "type": "string",
+      "enum": [
+        "vercel_url",
+        "github_repo",
+        "lovable_url",
+        "campaign_lp",
+        "figma_publish",
+        "workflow_recording",
+        "other_artifact"
+      ],
+      "description": "TQ-240 — graduation gate kind selectable per persona."
+    },
+    "graduationOption": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "label"],
+      "properties": {
+        "kind": {
+          "$ref": "#/$defs/graduationOptionKind"
+        },
+        "label": {
+          "type": "string"
+        },
+        "criteria_yaml": {
+          "type": "string",
+          "description": "Optional embedded YAML that documents validation rules (url_pattern / validates_with)."
+        },
+        "requires_explanation": {
+          "type": "boolean",
+          "description": "When true the learner must add a free-form rationale before submission (other_artifact 等)."
+        }
+      }
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "background",
+    "goals",
+    "constraints",
+    "preferred_tools",
+    "learning_pace"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "#/$defs/personaId"
+    },
+    "name": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "goals": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "constraints": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "preferred_tools": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "learning_pace": {
+      "type": "string"
+    },
+    "anchor": {
+      "type": "object",
+      "description": "TQ-216 互換: 既存ペルソナが `persona.web-builder` 等の anchor を流用する旨を宣言する。",
+      "additionalProperties": true
+    },
+    "graduation_options": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/graduationOption"
+      },
+      "description": "TQ-240 — Owner Vision 「卒業ゲートはペルソナによって違う」を満たす動的卒業ゲートの選択肢。"
+    }
+  }
+}

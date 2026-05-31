@@ -1,0 +1,19 @@
+id: persona.ai-content-creator
+name: AIコンテンツ制作者（少人数ブランド運用）
+background: |
+  記事、SNS、動画台本を1人で量産しているが、ブランドトーンの揺れとレビュー往復がボトルネック。
+  生成AIは毎日使う一方で、prompt versioning や承認フロー設計は雑になりがち。Canva と Notion が作業の中心で、
+  バッチ生成を始めると品質管理が崩れやすい。
+goals:
+  - 週次のコンテンツ企画から初稿生成までを安定化する
+  - ブランドトーンを崩さずに量産速度を上げる
+  - レビュー差し戻しを減らす運用テンプレートを作る
+constraints:
+  - 1本あたりの制作時間を90分以内に抑えたい
+  - 外部委託なしで運用したい
+  - 複雑なCLI中心の手順は続かない
+preferred_tools:
+  - notion
+  - canva
+  - claude-code
+learning_pace: moderate-fast

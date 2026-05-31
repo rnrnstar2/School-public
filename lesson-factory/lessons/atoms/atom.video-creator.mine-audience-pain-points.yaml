@@ -1,0 +1,24 @@
+id: atom.video-creator.mine-audience-pain-points
+title: 視聴者の悩みを発見する
+summary: "映画作りで一番大事なのは「観客が何を感じたいか」を知ることですよね。動画制作も同じで、あなたが作る動画を見たい人は何かに困っていたり、何かを知りたがっています。その「困りごと」＝ 悩み（ペインポイント） を見つけるのが、このレッスンの目標です。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - extract-audience-pain-points-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

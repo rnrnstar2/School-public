@@ -1,0 +1,26 @@
+id: atom.data-analyst.calculate-cohort-retention
+title: 継続率をコホートで見る
+summary: "「先月始めた人のうち、今月も続けている人は何割？」——これがコホート継続率（＝同じ時期に始めたグループごとに、どれだけの人が残っているかを見る指標）です。たとえばカフェの新メニューを出したとき、「1月にはじめて来た人が、2月・3月にも来てくれたか？」を月ごとに並べて見る表がコホート表です。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - spreadsheet-basic-operation
+capability_outputs:
+  - build-cohort-retention-table
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.spreadsheet-basics
+deliverable:
+  type: markdown_doc
+  validation: cohort_retention_table_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

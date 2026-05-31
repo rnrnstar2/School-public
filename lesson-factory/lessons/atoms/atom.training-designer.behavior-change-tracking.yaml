@@ -1,0 +1,24 @@
+id: atom.training-designer.behavior-change-tracking
+title: 行動変容の追跡方法を設計する
+summary: "「研修を受けたのに、何も変わらなかった」——そんな声を聞いたことはありませんか？ 知識を詰め込むだけの研修と、本当に人の行動を変える研修の違いは、 「あとでどう変わったかを追跡しているか」 にあります。 たとえば料理教室を想像してみてください。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - design-behavior-tracking-plan
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

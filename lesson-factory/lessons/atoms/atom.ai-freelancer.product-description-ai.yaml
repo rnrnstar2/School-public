@@ -1,0 +1,28 @@
+id: atom.ai-freelancer.product-description-ai
+title: 商品説明文をAIで量産する
+summary: "「この商品、どう紹介すればいいんだろう？」——フリマアプリやネットショップに商品を出品するとき、説明文を書くのが苦手な人は多いですよね。でも実は、AIに「こんな商品なんだけど、魅力的に紹介して」とお願いすると、プロ級の説明文が数十秒で仕上がります。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - ai-tool-ready
+  - basic-prompt-skill
+capability_outputs:
+  - write-product-description-with-ai
+hard_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+soft_prerequisites:
+  - atom.ai-freelancer.prompt-engineering-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

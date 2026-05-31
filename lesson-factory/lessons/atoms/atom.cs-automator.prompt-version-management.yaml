@@ -1,0 +1,26 @@
+id: atom.cs-automator.prompt-version-management
+title: 指示文のバージョン管理を行う
+summary: "AIに仕事を頼むとき、あなたは「指示文（プロンプト）」を書きますよね。最初に書いた指示文がそのまま完璧に動くことは、実はほとんどありません。「もう少し丁寧な口調にしたい」「この条件を追加したい」と何度も書き直していくうちに、 どれが最新版で、どれが一番うまくいったのかわからなくなる..."
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - write-basic-prompt
+capability_outputs:
+  - manage-prompt-versions
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

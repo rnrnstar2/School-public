@@ -1,0 +1,24 @@
+id: atom.video-creator.define-channel-goal
+title: チャンネルの目的を定める
+summary: "レストランを開くとしましょう。まず「どんな料理を、誰に提供するか」を決めますよね。和食の店なのにピザを出したり、お子様連れ歓迎なのに落ち着いた雰囲気にしたりすると、お客さんは迷ってしまいます。 動画チャンネルも同じです。何について、誰に向けて発信するのかを先に決めておくと..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - define-channel-purpose-statement
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

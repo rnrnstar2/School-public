@@ -1,0 +1,27 @@
+id: atom.ai-content-creator.content-calendar-drafted
+title: 1 ヶ月ぶんのコンテンツカレンダーを AI とドラフトする
+summary: "毎日『今日は何を投稿しよう』と当日に考えていると、ネタ切れと投稿漏れが必ず起きます。料理で言うと、毎食材買い出しから始める状態です。このレッスンでは、AI（ChatGPT / Claude）と一緒に 1 ヶ月ぶんのコンテンツカレンダー（日付 × テーマ × 媒体）を 20 分でドラフトし、スプレッドシートに落とすところまでを行います。トラフィック傾向・季節イベント・自分の強みネタを AI に整理させ、無理のない頻度で続けられる運用テーブルを 1 枚作ります。完了時には『今月の投稿日と内容が全部決まっている』状態になり、毎日の意思決定コストがゼロになります。"
+persona_tags:
+  - ai-content-creator
+  - ai-first-learner
+goal_tags:
+  - content
+  - publish-content
+  - plan-execution
+capability_inputs: []
+capability_outputs:
+  - content-calendar-drafted
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+estimated_minutes: 20
+# W16-A1 (2026-05-10): persona.ai-content-creator anchor の Wave 15 round 5 audit
+# unsupported residue 解消用に reviewed として新規 seed。本格 review は /lesson-improve で別途。
+status: reviewed

@@ -1,0 +1,26 @@
+id: atom.ai-marketer.team-rules-standardize
+title: 小さなチーム運用を標準化する
+summary: "想像してみてください。あなたがよく行くレストランがあります。メニューがその日の気分で変わったら、注文するのも大変ですよね。でも、メニューが決まっていれば、スタッフもお客さんも安心できます。 チームの運用も同じです。 ルールがあいまいなまま だと、誰が何をしているのか分からず..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - use-chat-ai-basic
+capability_outputs:
+  - create-team-operation-rules
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

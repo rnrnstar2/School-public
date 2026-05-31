@@ -1,0 +1,26 @@
+id: atom.ai-writer.tool-switching-decision
+title: 場面に応じたツール切り替え判断を練習する
+summary: "料理をしている場面を思い浮かべてみてください。 野菜を切るときは「包丁」、お湯を沸かすときは「鍋」、 仕上げに香りを足すときは「おろし器」—— やりたいことに合わせて道具を変える のが当たり前ですよね。 AIで文章を書くときも同じです。 「アイデアを広げたい」「文章を整えたい」「長文をまとめたい」など、..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - use-chatgpt-basic
+  - use-claude-basic
+capability_outputs:
+  - choose-ai-tool-by-purpose
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

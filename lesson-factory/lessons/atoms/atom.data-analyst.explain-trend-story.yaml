@@ -1,0 +1,24 @@
+id: atom.data-analyst.explain-trend-story
+title: トレンドの筋書きを説明する
+summary: "旅行の写真を見せてもらったとき、「売上どうだった？」と数字だけ言われるより、「この時期は新商品がSNSでバズって、売上がぐっと伸びたんだよ」とストーリーを聞くほうが、頭にスッと入ってきますよね。 データのトレンド（＝時系列で見た変化の傾向）も同じです。数字の上がり下がりを並べるだけでは伝わりません。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - explain-trend-with-story
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

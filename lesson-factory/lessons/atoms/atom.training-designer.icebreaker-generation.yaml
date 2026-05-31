@@ -1,0 +1,24 @@
+id: atom.training-designer.icebreaker-generation
+title: アイスブレイクのアイデアをAIで出す
+summary: "研修やワークショップの冒頭で場を和ませる「アイスブレイク」。毎回ゼロから考えるのは大変ですよね。料理にたとえると、レシピ本を開いて「今日の献立どうしよう…」と悩む時間を、AIという万能レシピ提案マシンに肩代わりしてもらうイメージです。 このレッスンでは..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - generate-icebreaker-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

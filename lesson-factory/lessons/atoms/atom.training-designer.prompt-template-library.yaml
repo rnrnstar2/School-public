@@ -1,0 +1,26 @@
+id: atom.training-designer.prompt-template-library
+title: 研修設計用プロンプトテンプレート集を作る
+summary: "あなたが研修の準備をしている場面を想像してみましょう。 料理のレシピをまとめた「レシピノート」がキッチンにあると、毎回ゼロから考えなくて済みますよね。プロンプト（＝AIに送るお願い文）も同じです。「こう聞いたらいい答えが返ってきた」というパターンをまとめておけば、次回からすぐに使い回せます。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-prompt-template-set
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-first-learner.first-ai-chat
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

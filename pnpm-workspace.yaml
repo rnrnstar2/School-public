@@ -1,0 +1,6 @@
+packages:
+  - "apps/*"
+  - "lesson-factory"
+  - "packages/goal-action/*"
+  - "packages/*"
+  - "packages/goal-action/*"

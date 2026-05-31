@@ -1,0 +1,24 @@
+id: atom.nocode-builder.identify-data-entities
+title: 業務データの対象を整理する
+summary: "このレッスンでは、あなたが日々の業務を「データの視点」で整理できるようになります。ノーコードツール（＝プログラミングをしなくてもアプリを作れる道具）でアプリを作る前に、「このアプリはどんな情報を扱うのか」を明確にするのが最初のステップです。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - identify-data-entities
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

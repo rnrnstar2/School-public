@@ -1,0 +1,28 @@
+id: atom.nocode-builder.connect-apps-with-automation
+title: MakeまたはZapierで連携する
+summary: "手作業でデータを別のアプリに転記するのは、ノートに書かれた料理のレシピをいちいちスマホに打ち込み直すようなものです。時間もかかりますし、書き間違えも起こりやすくなります。 このレッスンでは、Make（メイク）またはZapier（ザピアー）というツールを使って、「あるアプリで〇〇が起きたら..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - browser-basic-operation
+capability_outputs:
+  - create-two-app-automation
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.choose-nocode-tool
+deliverable:
+  type: screenshot
+  validation: automation_run_success_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - make/integromat-docs
+  - zapier/getting-started
+status: draft

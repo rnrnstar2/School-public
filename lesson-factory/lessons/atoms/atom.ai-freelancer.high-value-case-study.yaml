@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.high-value-case-study
+title: 高単価案件の受注事例を分析する
+summary: "旅行に行く前に「この季節はこのホテルが安い」「このルートだと効率がいい」と口コミを読みますよね。フリーランス（＝会社に属さず自分の力で仕事を受ける人）の世界でも、うまくいっている人のやり方を調べることが一番の近道です。 このレッスンでは、AIチャットツール（＝ChatGPTやClaudeなど..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - ai-chat-basic-usage
+capability_outputs:
+  - analyze-high-value-cases
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

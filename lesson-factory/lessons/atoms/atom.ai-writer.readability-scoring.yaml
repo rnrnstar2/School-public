@@ -1,0 +1,26 @@
+id: atom.ai-writer.readability-scoring
+title: 読みやすさスコアで改善点を見つける
+summary: "料理を作ったあと、味見をして「もうすこし塩が足りないな」と気づくことがありますよね。 文章にも同じように「味見」があります。それが 読みやすさスコア （＝文章がどれくらい読みやすいかを数値で表したもの）です。 このレッスンでは、AI ツール（＝人工知能を使った便利なソフト）に文章を読ませて..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - has-draft-text
+capability_outputs:
+  - evaluate-readability-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.prompt-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

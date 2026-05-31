@@ -1,0 +1,24 @@
+id: atom.training-designer.training-goal-definition
+title: 研修のゴールと成果指標を定義する
+summary: "旅行に出かける前に「どこに行くか」「何をしたいか」を決めますよね。研修も同じです。目的地がはっきりしていれば、道に迷わずに済みます。 このレッスンでは、あなたが設計する研修の「ゴール」と「成果指標（＝研修がうまくいったかを測るものさし）」を、AIツールを使って1枚の文書にまとめます。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - define-training-goal-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

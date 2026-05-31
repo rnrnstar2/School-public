@@ -1,0 +1,30 @@
+id: atom.ai-freelancer.mock-project-design
+title: 模擬案件で画像・資料納品を実践する
+summary: "このレッスンでは、架空のクライアントから受けた依頼を想定して、AIを使って画像と資料を作り、「納品セット」として仕上げるところまでを体験します。 レストランでいえば、これまでのレッスンは包丁の使い方や盛り付けを個別に練習してきた段階です。今回はいよいよ「お客さんからの注文を受けて..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - generate-ai-image-basic
+  - create-ai-presentation
+capability_outputs:
+  - deliver-mock-image-doc-project
+hard_prerequisites:
+  - atom.ai-freelancer.image-gen-basics
+  - atom.ai-freelancer.presentation-structure-ai
+soft_prerequisites:
+  - atom.ai-freelancer.delivery-workflow-design
+  - atom.ai-freelancer.banner-thumbnail-creation
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

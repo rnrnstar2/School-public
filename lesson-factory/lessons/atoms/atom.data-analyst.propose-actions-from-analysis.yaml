@@ -1,0 +1,26 @@
+id: atom.data-analyst.propose-actions-from-analysis
+title: 分析から施策案を出す
+summary: "レストランを想像してみてください。売上データを見て「先月より客単価が下がっている」と分かったとします。それは「診断」です。でも、それだけではお店は良くなりません。 大切なのは「じゃあ、どうする？」を考えること。メニューを見直すのか、セット割引をやめるのか—— データから次の手を考える力 が..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - basic-data-analysis-done
+capability_outputs:
+  - propose-actions-from-analysis
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.summarize-analysis-results
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

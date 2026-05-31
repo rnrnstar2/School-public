@@ -1,0 +1,26 @@
+id: atom.cs-automator.routing-rule-setup
+title: 担当チームへの自動振り分けルールを設定する
+summary: "カスタマーサポートの受付箱にメッセージが次々と届きます。でも、「これはテクニカルチーム」「これは請求チーム」と手作業で振り分けていたら、時間がいくらあっても足りませんよね。 この Atom では、届いたメッセージを 自動で正しいチームに振り分ける「ルール」を1つ作り、テストして動作確認する..."
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - support-tool-account
+capability_outputs:
+  - create-routing-rule
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.answer-prompt-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

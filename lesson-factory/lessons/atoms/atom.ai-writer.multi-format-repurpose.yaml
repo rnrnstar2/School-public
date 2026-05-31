@@ -1,0 +1,26 @@
+id: atom.ai-writer.multi-format-repurpose
+title: 一つの原稿を複数フォーマットに展開する
+summary: "あなたがせっかく書いた素晴らしい原稿、そのままパソコンの中にしまうだけではもったいないと思いませんか？ 料理に例えてみましょう。鶏肉を煮込んだメインディッシュがあったとき、残り物をアレンジして翌日の「お弁当のおかず」や「サンドイッチの具」にできますよね。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - basic-ai-chat
+capability_outputs:
+  - repurpose-single-doc-to-multi-format
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.first-ai-draft
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

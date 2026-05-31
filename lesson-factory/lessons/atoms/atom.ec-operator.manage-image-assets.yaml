@@ -1,0 +1,25 @@
+id: atom.ec-operator.manage-image-assets
+title: 画像素材を整理して管理する
+summary: "ネットショップを運営していると、商品画像がどんどん増えていきますよね。 スマホの写真フォルダと同じで、整理しないと「あの画像、どこにあるんだっけ？」と探す時間ばかり増えてしまいます。 このレッスンでは、AIツールを活用して画像素材の整理ルールを作り、実際にフォルダを構成するところまでを15分で体験します。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - organize-image-assets-with-naming-rules
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ec-operator.create-platform-image-variants
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

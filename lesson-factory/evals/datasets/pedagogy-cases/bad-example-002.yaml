@@ -1,0 +1,25 @@
+case_id: pedagogy.bad.002
+target_rubric: pedagogy.v1
+description: 完了条件と復旧導線が曖昧な悪い例
+sample_lesson_excerpt: |
+  Instagram 自動返信の設定を一通り終わらせましょう。
+
+  1. Meta for Developers で設定する
+  2. Make とつなぐ
+  3. うまく動くまで調整する
+
+  うまくいかなければ設定を見直してください。
+expected_scores:
+  prerequisite_clarity: 1
+  completion_criteria: 1
+  jargon_management: 2
+  scaffolding: 2
+  failure_recovery: 0
+expected_average_score: 1.2
+expected_status: fail
+defect_tags:
+  - completion_criteria
+  - failure_recovery
+  - scaffolding
+notes: |
+  「一通り」「うまく動くまで」が主観的で、どこまでやれば終わりか分からない。失敗時の切り分けもない。

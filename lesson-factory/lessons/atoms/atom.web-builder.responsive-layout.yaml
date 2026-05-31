@@ -1,0 +1,30 @@
+id: atom.web-builder.responsive-layout
+title: スマホ対応のレスポンシブレイアウトを作る
+summary: "たとえば、レストランのメニューを考えてみてください。お店で食べる人向けの大きなメニューと、テイクアウト用の小さな案内では、紙のサイズやレイアウトが違いますよね。 Webページも同じです。パソコンの大きな画面とスマホの小さな画面、それぞれに合った見せ方が必要です。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:build
+  - level:beginner
+  - portfolio-site
+  - business-homepage
+  - landing-page
+capability_inputs:
+  - homepage-created
+capability_outputs:
+  - responsive-design
+hard_prerequisites:
+  - atom.web-builder.create-homepage
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

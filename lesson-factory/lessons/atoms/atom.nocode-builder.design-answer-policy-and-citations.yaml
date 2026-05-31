@@ -1,0 +1,25 @@
+id: atom.nocode-builder.design-answer-policy-and-citations
+title: 回答方針と引用表示を設計する
+summary: "AI（人工知能）に社内の質問を答えてもらうとき、「なんだか機械的でピンとこない」「この情報、本当に正しいの？」と感じたことはありませんか？ ここは料理に似ています。美味しい料理を作るには、レシピに「味付けは薄めで」「材料の産地をメニューに書いて」と細かく指定しますよね。AIも同じです。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - design-answer-policy
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.build-knowledge-bot
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

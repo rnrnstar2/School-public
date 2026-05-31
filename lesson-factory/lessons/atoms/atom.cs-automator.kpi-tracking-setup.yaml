@@ -1,0 +1,26 @@
+id: atom.cs-automator.kpi-tracking-setup
+title: 自動化KPIの追跡体制を整える
+summary: "カスタマーサポートの自動化を始めたあと、「本当にうまくいっているの？」と確かめたくなりますよね。この Atom では、自動化の成果を数字で追跡するしくみを、AI に手伝ってもらいながら 15 分で整えます。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - understand-cs-automation-basics
+capability_outputs:
+  - build-kpi-tracking-sheet
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.automation-first-step
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

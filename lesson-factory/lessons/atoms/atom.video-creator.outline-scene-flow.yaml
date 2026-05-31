@@ -1,0 +1,26 @@
+id: atom.video-creator.outline-scene-flow
+title: シーン構成を組み立てる
+summary: "動画を作るとき、「なんとなく撮り始めたら途中で迷ってしまった」という経験はありませんか？ 旅行の計画を立てるとき、まず「1日目はここ、2日目はそこ」とざっくり決めますよね。動画のシーン構成も同じです。 全体の流れを先に決めておくと、撮影も編集もスムーズに進みます。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - video-topic-decided
+capability_outputs:
+  - create-scene-outline
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.choose-video-topic
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

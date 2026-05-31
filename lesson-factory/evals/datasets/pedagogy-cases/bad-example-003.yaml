@@ -1,0 +1,22 @@
+case_id: pedagogy.bad.003
+target_rubric: pedagogy.v1
+description: 学習の足場がなく飛躍が大きい悪い例
+sample_lesson_excerpt: |
+  CRM を作るには正規化が大事です。まず customers、deals、activities の3テーブルを作り、
+  そのあと RLS と webhook も全部入れます。理解できたら Retool で画面を組んでください。
+
+  テーブル設計に迷ったらググってください。
+expected_scores:
+  prerequisite_clarity: 2
+  completion_criteria: 1
+  jargon_management: 1
+  scaffolding: 0
+  failure_recovery: 1
+expected_average_score: 1.05
+expected_status: fail
+defect_tags:
+  - scaffolding
+  - jargon_management
+  - completion_criteria
+notes: |
+  1回の lesson で扱う範囲が広すぎる。途中確認がなく、つまずいたときの救済も検索任せ。

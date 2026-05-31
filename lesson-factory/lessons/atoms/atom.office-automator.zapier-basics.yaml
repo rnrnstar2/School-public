@@ -1,0 +1,25 @@
+id: atom.office-automator.zapier-basics
+title: Zapierの仕組みを理解して最初のZapを作る
+summary: "このレッスンを終えると、あなたは Zapier（ザピアー）を使って、2つのアプリを自動でつなぐ「Zap」を1つ作れる ようになります。 たとえば「Googleフォームに回答が届いたら、自動でSlackに通知する」——こんな仕組みを、プログラミングなしで15分以内に作れるようになります。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - create-basic-zap
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - zapier/docs/getting-started
+status: draft

@@ -1,0 +1,26 @@
+id: atom.data-analyst.run-what-if-scenarios
+title: 条件を変えて試算する
+summary: "「もし売上が10%下がったら？」「もし原材料費が20%上がったら？」——こうした 「もしも」のシミュレーション は、ビジネスの意思決定で毎日のように必要になります。 たとえるなら、料理のレシピで「砂糖を半分にしたらどうなる？」「オーブンの温度を10度上げたら？」と条件を変えて試すのと同じです。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-spreadsheet-basics
+capability_outputs:
+  - run-what-if-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.ai-spreadsheet-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,24 @@
+id: atom.ai-marketer.hero-copy-create
+title: LPファーストビューの文案をつくる
+summary: "LP（ランディングページ＝商品やサービスを紹介する1枚の Web ページ）を開いたとき、最初に目に飛び込んでくる部分を「ファーストビュー」と呼びます。お店でいえばショーウィンドウのようなもので、ここで「自分に関係がありそうだ」と思ってもらえないと、読者はすぐにページを閉じてしまいます。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - write-lp-hero-copy-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

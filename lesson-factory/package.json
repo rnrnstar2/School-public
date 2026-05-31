@@ -1,0 +1,40 @@
+{
+  "name": "@school/lesson-factory",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Owner-local lesson production factory. Not deployed.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "lesson:sync": "tsx src/sync/cli.ts",
+    "validate:anchors": "node scripts/validate-anchor-references.mjs",
+    "lesson:list": "tsx src/cli/index.ts list",
+    "lesson:legacy-import": "tsx src/cli/index.ts legacy-import",
+    "lesson:new": "tsx src/cli/index.ts new",
+    "lesson:research": "tsx src/cli/index.ts research",
+    "lesson:draft": "tsx src/cli/index.ts draft",
+    "lesson:critique": "tsx src/cli/index.ts critique",
+    "lesson:media": "tsx src/cli/index.ts media",
+    "lesson:media:queue": "tsx src/cli/index.ts media-queue",
+    "lesson:media:import": "tsx src/cli/index.ts media-import",
+    "lesson:eval": "tsx src/cli/index.ts eval",
+    "lesson:publish": "tsx src/cli/index.ts publish",
+    "lesson:run": "tsx src/cli/index.ts run"
+  },
+  "dependencies": {
+    "@google/genai": "^1.46.0",
+    "ajv": "^8.18.0",
+    "ajv-formats": "^3.0.1",
+    "commander": "^14.0.3",
+    "execa": "^9.6.1",
+    "twitter-api-v2": "^1.27.0",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.37",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}

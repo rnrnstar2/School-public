@@ -1,0 +1,27 @@
+id: atom.video-creator.connect-metrics-to-revenue
+title: 収益につながる数字を見極める
+summary: "動画をたくさん作っているのに、「どの動画がどれくらい稼いでいるか」が分からないと感じたことはありませんか？ これは レストランの経営 に似ています。メニューが何十品あっても、「どの料理が一番利益を出しているか」を知らなければ、売上を増やす手が打てませんよね。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+  - revenue-optimization
+capability_inputs:
+  - has-video-channel
+capability_outputs:
+  - identify-revenue-metrics
+  - create-metrics-summary
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

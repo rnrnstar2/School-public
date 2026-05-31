@@ -1,0 +1,27 @@
+id: atom.ec-operator.generate-product-headlines
+title: 商品名と見出しを生成する
+summary: "レストランのメニューを想像してみてください。同じポテトフライでも、「カリカリ香ばしい 手切りポテトフライ」と書いてあれば、思わず注文したくなりますよね。ECサイト（＝ネットショップ）の商品名や見出しも同じです。いい名前をつけるだけで、お客さんの目を引き、売上が変わってきます。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - generate-product-name-with-ai
+  - evaluate-ai-copywriting-output
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ec-operator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

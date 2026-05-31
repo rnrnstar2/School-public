@@ -1,0 +1,27 @@
+id: atom.ai-marketer.eeat-article-write
+title: E-E-A-Tを意識して本文を書く
+summary: "旅行先でレストランを選ぶ場面を思い出してください。「このお店、シェフが10年フランスで修業した経験がある」「地元の美食家がおすすめしている」「衛生検査で最高評価をもらっている」——そんなお店なら、安心して入りたくなりますよね。 Web上の記事も同じです。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - ai-chat-basic-usage
+capability_outputs:
+  - write-eeat-article-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.keyword-research-ai
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - google/search-quality-guidelines
+status: draft

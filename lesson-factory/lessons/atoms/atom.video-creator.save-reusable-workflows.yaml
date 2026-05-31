@@ -1,0 +1,25 @@
+id: atom.video-creator.save-reusable-workflows
+title: 再利用できる制作手順を残す
+summary: "たとえば料理を思い出してみてください。初めて作ったレシピをメモに残しておけば、次回からも同じ味で作れますよね。動画制作もまったく同じです。一度うまくいった手順を「テンプレート（＝何度も使い回せるひな形）」として残しておけば、次の動画づくりがぐっとラクになります。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - ai-video-one-complete
+capability_outputs:
+  - create-reusable-workflow-template
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

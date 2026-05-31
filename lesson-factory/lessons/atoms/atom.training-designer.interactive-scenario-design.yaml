@@ -1,0 +1,26 @@
+id: atom.training-designer.interactive-scenario-design
+title: 分岐型シナリオ教材を設計する
+summary: "「もし A を選んだらこうなる、B を選んだらこうなる」——これは RPG やアドベンチャーゲームでおなじみの仕組みですよね。この仕組みを教材に取り入れたものが 分岐型シナリオ教材 です。学習者が選択肢を選ぶたびにストーリーが変わるので、「自分ごと」として考えながら学べるのが最大の強みです。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - design-branching-scenario
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.training-designer.learning-goal-setting
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

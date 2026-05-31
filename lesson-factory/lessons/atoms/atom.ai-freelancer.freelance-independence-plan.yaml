@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.freelance-independence-plan
+title: 副業から独立への移行計画を立てる
+summary: "あなたは今、副業で少しずつ稼げるようになってきました。「いつかは独立したい」という気持ちはあるけれど、「具体的に何をすれば？」「お金は足りる？」と不安がいっぱい——そんな状態ではないでしょうか。 このレッスンでは、 AIチャットを相棒にして、15分で「副業から独立への移行計画書」を1枚つくり上げる..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-independence-transition-plan
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.income-roadmap
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,24 @@
+id: atom.office-automator.multilingual-correspondence
+title: 英文メール・翻訳業務をAIで処理する
+summary: "海外のお客様から英文メールが届いたとき、「どう返事を書けばいいんだろう」と手が止まった経験はありませんか？ そんなときは、AIチャットツール（＝パソコンやスマホで対話できるAI。ChatGPTやClaudeなど）を「バイリンガルのアシスタント」として使ってみましょう。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - draft-bilingual-email-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

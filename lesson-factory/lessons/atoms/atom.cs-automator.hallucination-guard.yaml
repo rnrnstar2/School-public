@@ -1,0 +1,26 @@
+id: atom.cs-automator.hallucination-guard
+title: 事実と異なる回答を防止する
+summary: "想像してみてください。あなたのお店に、知識豊富だけど時々いい加減なことを言う新人スタッフが入りました。お客様への回答をそのまま任せて大丈夫でしょうか？必ず確認しますよね。 AI（＝人工知能のこと。ChatGPTやClaudeなどを指します）も同じです。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - basic-ai-chat
+capability_outputs:
+  - write-hallucination-guard-prompt
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

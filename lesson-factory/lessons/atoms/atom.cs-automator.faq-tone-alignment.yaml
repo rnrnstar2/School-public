@@ -1,0 +1,26 @@
+id: atom.cs-automator.faq-tone-alignment
+title: FAQの文体とトーンを揃える
+summary: "レストランチェーンを想像してみてください。ある店舗のメニューには「お肉と野菜のセット」、別の店舗には「グリルドビーフと季節の野菜のプレート」と書いてあったら、同じチェーンなのに違うお店みたいに感じますよね。 FAQ（＝よくある質問とその回答のまとめ）も同じです。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - align-faq-tone-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.faq-draft-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

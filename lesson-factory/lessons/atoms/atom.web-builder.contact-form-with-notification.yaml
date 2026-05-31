@@ -1,0 +1,32 @@
+id: atom.web-builder.contact-form-with-notification
+title: お問い合わせフォーム＋通知を設置する
+summary: "あなたのWebサイトに「お問い合わせフォーム」を置くのは、お店の入り口に「ご意見箱」を設置するようなものです。お客様がメッセージを書いて投函すると、あなたはその内容を受け取れます。さらに「通知」をつければ、新しいメッセージが届いたことをすぐメールで知ることができます。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - business-homepage
+  - landing-page
+  - stage:build
+  - level:intermediate
+capability_inputs:
+  - form-basics
+  - crud-operations
+capability_outputs:
+  - contact-form-live
+  - email-notification
+hard_prerequisites:
+  - atom.web-builder.build-form
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+  - icon
+freshness_sources: []
+status: draft

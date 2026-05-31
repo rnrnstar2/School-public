@@ -1,0 +1,35 @@
+id: atom.web-builder.deploy-with-vercel-cli
+title: Vercel CLI で 1 コマンド deploy する
+summary: "ターミナルで `vercel` 1 コマンド打つだけで、いま手元にある Web アプリを公開 URL に変えるための最短手順を学びます。所要 15 分。1 つの URL を取得して他人に共有するところまでをゴールにします。"
+persona_tags:
+  - web-builder
+  - ai-app-builder
+  - p-noneng-webapp
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - portfolio-site
+  - business-homepage
+  - landing-page
+  - stage:deploy
+  - level:beginner
+capability_inputs: []
+capability_outputs:
+  - deploy-with-vercel-cli
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: url
+  validation: basic_manual_check_v1
+evidence:
+  - url
+  - log_output
+  - screenshot
+media_slots:
+  - screen_capture
+freshness_sources:
+  - vercel.com/docs/cli
+estimated_minutes: 15
+# TQ-222: Shortest-Path Planner (TQ-235) 用に worker が暫定 reviewed に昇格。
+# anchor.web-builder.start (TQ-217) の 4 step 目で採用済み。本格 review は /lesson-improve で別途実施。
+status: reviewed

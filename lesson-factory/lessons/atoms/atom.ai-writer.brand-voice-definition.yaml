@@ -1,0 +1,27 @@
+id: atom.ai-writer.brand-voice-definition
+title: ブランドボイスガイドを作成する
+summary: "あなたがSNSやブログで情報を発信するとき、「この人っぽいな」と読者に感じてもらえる文章の個性――それが ブランドボイス です。たとえば料理でいえば、同じカレーでも家庭ごとに「うちの味」がありますよね。文章にも同じように「自分の味」を決めておくと、AIに文章を書いてもらうときにもブレない仕上がりになります。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+  - branding
+capability_inputs:
+  - basic-ai-chat
+capability_outputs:
+  - create-brand-voice-guide
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

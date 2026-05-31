@@ -1,0 +1,27 @@
+id: atom.video-creator.refine-script-with-feedback
+title: フィードバックで台本を磨く
+summary: "料理でいえば、最初に作った下ごしらえの段階がドラフト台本です。ここから味見をして調味料を足すように、AIにフィードバックをもらって台本を仕上げていきます。このAtomでは、書き上げた台本の初稿をAIに見せて、具体的な改善ポイントをもらい、最終版に仕上げる流れを体験します。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - write-video-script-draft
+capability_outputs:
+  - refine-script-with-ai-feedback
+hard_prerequisites:
+  - atom.video-creator.write-first-script
+soft_prerequisites:
+  - atom.video-creator.plan-video-structure
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

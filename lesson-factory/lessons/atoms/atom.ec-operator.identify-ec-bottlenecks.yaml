@@ -1,0 +1,24 @@
+id: atom.ec-operator.identify-ec-bottlenecks
+title: ボトルネック業務を特定する
+summary: "あなたのECサイト運営、なんだか「ここが遅いな」「ここばかりに時間を取られるな」と感じたことはありませんか？ 料理で例えてみましょう。カレーを作るとき、野菜を切るのは5分、ご飯を炊くのは40分かかります。どんなに手際よく野菜を切っても、ご飯が炊けるまでカレーは完成しません。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - identify-ec-bottleneck
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

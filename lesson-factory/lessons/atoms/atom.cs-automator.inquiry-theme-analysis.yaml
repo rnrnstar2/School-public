@@ -1,0 +1,24 @@
+id: atom.cs-automator.inquiry-theme-analysis
+title: 主要な問い合わせテーマを分析する
+summary: "お店や会社に届くお問い合わせを思い浮かべてみてください。「配送が遅れている」「返品したい」「注文を変更したい」――毎日たくさんのメッセージが届きますよね。 これをひとつずつ手作業で読んで分類するのは、郵便局に届いた手紙をすべて自分で仕分けするようなものです。時間がかかるうえに、見落としも出てきます。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - classify-inquiries-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

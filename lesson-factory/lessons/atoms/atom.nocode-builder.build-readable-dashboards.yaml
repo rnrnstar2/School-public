@@ -1,0 +1,27 @@
+id: atom.nocode-builder.build-readable-dashboards
+title: 分かりやすい一覧とダッシュボードを作る
+summary: "レストランのメニューを想像してみてください。料理名だけがずらっと並んでいるメニューと、「肉料理」「魚料理」「デザート」と分類されて写真や価格も見やすいメニュー——どちらが注文しやすいでしょうか？ ダッシュボード（＝データを一目で把握できるまとめ画面）も同じです。情報をただ並べるだけでは読む人が迷います。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - understand-data-ui-logic
+capability_outputs:
+  - build-readable-dashboard
+hard_prerequisites:
+  - atom.nocode-builder.understand-data-ui-logic
+soft_prerequisites:
+  - atom.nocode-builder.design-reporting-views
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

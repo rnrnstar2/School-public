@@ -1,0 +1,26 @@
+{
+  "name": "@school/goal-action-matcher",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "peerDependencies": {
+    "zod": "^4.3.6"
+  },
+  "dependencies": {
+    "@school/goal-action-coverage": "workspace:*",
+    "@school/goal-action-normalizer": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.37",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0",
+    "zod": "^4.3.6"
+  }
+}

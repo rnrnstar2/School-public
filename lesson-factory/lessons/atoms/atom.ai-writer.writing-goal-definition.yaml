@@ -1,0 +1,24 @@
+id: atom.ai-writer.writing-goal-definition
+title: AI活用で目指す執筆スタイルを定義する
+summary: "AIに文章を書いてもらうとき、「なんかイメージと違う…」と感じたことはありませんか？ それは、あなた自身が「どんな文章を書きたいのか」をまだ言葉にできていないからかもしれません。 たとえば、レストランで注文するとき「おいしいもの」とだけ言っても、シェフは困ってしまいますよね。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - define-writing-style-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

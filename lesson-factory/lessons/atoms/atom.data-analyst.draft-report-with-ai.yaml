@@ -1,0 +1,15 @@
+id: atom.data-analyst.draft-report-with-ai
+title: AIで初稿レポートを作る
+persona_tags: [data-analyst, ai-first-learner]
+goal_tags: [data-analysis, reporting]
+capability_inputs: []
+capability_outputs: []
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence: [screenshot]
+media_slots: [diagram]
+freshness_sources: []
+status: draft

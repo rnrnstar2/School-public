@@ -1,0 +1,26 @@
+id: atom.ec-operator.create-reorder-rules
+title: 補充判断のルールを作る
+summary: "オンラインショップを運営していると、「あ、この商品もう在庫がない！」と慌てた経験はありませんか？ 冷蔵庫の牛乳と同じです。完全になくなってからスーパーに走るのでは遅いですよね。残りが少なくなってきたタイミングで買い足す——それが「補充判断」の基本です。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs:
+  - spreadsheet-sales-data
+capability_outputs:
+  - create-reorder-rule-doc
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ec-operator.organize-inventory-data
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

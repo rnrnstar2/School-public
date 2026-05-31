@@ -1,0 +1,15 @@
+{
+  "lesson_id": "atom.mock.publish-ready",
+  "critic_model": "mock-critic-v1",
+  "issues": [
+    {
+      "severity": "low",
+      "category": "pedagogy",
+      "location": "body_markdown > Steps",
+      "message": "A short rationale before the steps would reduce ambiguity.",
+      "suggested_fix": "Add one sentence before the steps section."
+    }
+  ],
+  "overall_score": 92,
+  "recommend_status": "accept"
+}

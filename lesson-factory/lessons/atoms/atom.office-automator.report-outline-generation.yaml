@@ -1,0 +1,26 @@
+id: atom.office-automator.report-outline-generation
+title: レポートの構成案をAIに作らせる
+summary: "レポートや企画書を書くとき、いきなり本文から書き始めると途中で迷子になりませんか？ 料理にたとえると、カレーを作る前に「何人分か」「材料は何が必要か」をメモしておくのと同じで、レポートも全体の骨組み（＝構成案）を先に決めておくと、あとの作業がぐっとラクになります。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - ai-chat-tool-access
+capability_outputs:
+  - generate-report-outline-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

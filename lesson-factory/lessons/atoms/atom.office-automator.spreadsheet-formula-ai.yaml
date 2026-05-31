@@ -1,0 +1,24 @@
+id: atom.office-automator.spreadsheet-formula-ai
+title: AIにExcel/スプレッドシートの関数を書かせる
+summary: "表計算ソフト（＝ExcelやGoogleスプレッドシートなど、セルにデータを並べて計算するアプリ）の関数を覚えるのは、料理でいう「レシピを全部暗記する」ようなものです。でも、AIに「こんな料理が作りたい」と伝えればレシピを出してくれるなら、暗記は不要ですよね。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - ask-ai-for-spreadsheet-formula
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,28 @@
+id: atom.ai-freelancer.canva-ai-workflow
+title: Canva AIで制作物を仕上げる
+summary: "このレッスンでは、Canva（キャンバ）という無料のデザインツールに搭載されたAI機能を使って、SNS投稿用の画像やプレゼン資料の表紙など、実際に使える制作物を1つ完成させます。 「デザインなんてやったことがない」という方でも大丈夫です。Canvaは..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - understand-ai-image-basics
+capability_outputs:
+  - create-canva-ai-design
+hard_prerequisites:
+  - atom.ai-freelancer.image-gen-basics
+soft_prerequisites:
+  - atom.ai-freelancer.slide-design-canva-ai
+deliverable:
+  type: screenshot
+  validation: canva_export_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - canva/ai-features
+status: draft

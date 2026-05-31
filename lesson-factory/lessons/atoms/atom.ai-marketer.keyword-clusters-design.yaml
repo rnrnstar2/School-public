@@ -1,0 +1,24 @@
+id: atom.ai-marketer.keyword-clusters-design
+title: キーワードクラスターを設計する
+summary: "キーワードクラスター（＝関連する検索ワードのまとまり）を作ると、ブログやWebサイトで「何について書けばいいか」がすっきり整理できます。 たとえばスーパーで買い物するときを想像してください。「今夜はカレー！」と決めたら、にんじん・じゃがいも・玉ねぎ・カレールーをまとめてカゴに入れますよね。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - design-keyword-cluster
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

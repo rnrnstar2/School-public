@@ -1,0 +1,26 @@
+id: atom.ai-marketer.measure-loop-run
+title: 計測と改善のループを回す
+summary: "料理を作るとき、味見をして「ちょっと塩気が足りない」と感じたら、塩を足してもう一度味見しますよね。マーケティングも同じです。一度やって終わりではなく、 結果を見て → 手直しして → もう一度見る という繰り返しが成果を生みます。 このレッスンでは、あなたが自分のマーケティング活動で 計測 → AI分析 →..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - understand-basic-metrics
+capability_outputs:
+  - run-measure-improve-loop
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.analytics-setup
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

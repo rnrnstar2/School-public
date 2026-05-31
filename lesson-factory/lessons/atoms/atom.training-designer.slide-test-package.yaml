@@ -1,0 +1,25 @@
+id: atom.training-designer.slide-test-package
+title: スライドとテストを組み合わせた研修一式を作る
+summary: "最近、現場では少人数・短時間で研修を回す機会が増えています。「スライドはあるけれど、理解度を確かめるテストが足りない」という声もよく聞きます。このレッスンでは、AI ツールを使って「スライド資料＋テスト」のセットを15分で作る方法を学びます。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - create-slide-test-package-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

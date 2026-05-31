@@ -1,0 +1,24 @@
+id: atom.cs-automator.expansion-roadmap-proposal
+title: 拡張ロードマップを提案する
+summary: "旅行の計画を立てるとき、「まず新幹線を取って、次にホテル、それから観光スポット」とステップに分けますよね。カスタマーサポート（＝お客様からのお問い合わせ対応）の自動化も同じです。いきなり全部やろうとすると迷子になります。 このレッスンでは、AIの力を借りて「次に何をすべきか」をまとめた 拡張ロードマップ..."
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - create-expansion-roadmap
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

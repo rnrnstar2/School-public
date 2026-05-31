@@ -1,0 +1,24 @@
+id: atom.ai-marketer.outsource-split-design
+title: 外注とAIの分担を設計する
+summary: "「企画書を作る」「SNS投稿を毎日5本書く」「商品写真を撮る」——こうした仕事を誰に頼むか、あなたはどうやって決めていますか？ たとえば 料理 を想像してみましょう。 包丁で野菜を切るのは自分でやる。ソースは瓶詰めのものを買ってくる。盛り付けはプロの友だちに頼む。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - design-outsource-ai-split
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

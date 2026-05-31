@@ -1,0 +1,24 @@
+id: atom.ai-marketer.ad-headlines-generate
+title: 広告見出しを量産する
+summary: "あなたは、ひとつの広告キャンペーンに対して 20〜50本の見出し案を10分で出せる ようになります。 料理で例えると、具材は同じでも「味付け」を変えれば何品も作れますよね。AI（＝人工知能のことで、ここではChatGPTやClaudeなどの対話型AIサービスを指します）に「味付けのバリエーション」を指示して..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - generate-ad-headlines-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

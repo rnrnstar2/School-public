@@ -1,0 +1,26 @@
+id: atom.nocode-builder.review-and-improve-pilot
+title: 試作結果を振り返って改善する
+summary: "料理を初めて作ったとき、味見をして「もう少し塩が欲しい」「火を通しすぎたかも」と感じて、次に作るときに調整しますよね。試作品（＝パイロット。最初に作ったお試し版のこと）の改善もまったく同じです。 このレッスンでは、あなたがこれまでに作った試作品を 3つの観点 で振り返り、AIツールの力を借りて改善点を見つけ..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - has-pilot-prototype
+capability_outputs:
+  - review-and-improve-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.create-pilot
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

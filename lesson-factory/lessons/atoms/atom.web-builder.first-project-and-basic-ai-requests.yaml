@@ -1,0 +1,28 @@
+id: atom.web-builder.first-project-and-basic-ai-requests
+title: 最初のプロジェクトを作ってAIに指示を出す
+summary: "料理を始めるとき、まずはキッチン（＝作業場所）を用意して、レシピ（＝作りたいもののメモ）を決めますよね。AIを使った開発もまったく同じです。 このレッスンでは、あなたのパソコン上に「プロジェクト（＝作品をまとめるフォルダー）」を作り、AIに「こんなWebページを作って」と伝えて..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:scaffold
+  - level:beginner
+  - portfolio-site
+  - saas-mvp
+capability_inputs: []
+capability_outputs:
+  - start-first-ai-project
+hard_prerequisites:
+  - atom.web-builder.install-claude-code-and-verify
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

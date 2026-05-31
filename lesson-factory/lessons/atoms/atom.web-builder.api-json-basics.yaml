@@ -1,0 +1,27 @@
+id: atom.web-builder.api-json-basics
+title: APIとJSONを「お店の注文」で理解する
+summary: "あなたがレストランに入ったところを想像してください。 じつは、Webサイトやアプリも裏側でまったく同じことをしています。 このレッスンでは、この「お店の注文」のたとえを使いながら、AIツールを実際に動かしてAPIとJSONの基本を15分で体験します。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:build
+  - level:beginner
+capability_inputs:
+  - understand-web-basics
+capability_outputs:
+  - understand-api-json
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

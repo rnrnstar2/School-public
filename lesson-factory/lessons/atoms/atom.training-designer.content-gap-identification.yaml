@@ -1,0 +1,27 @@
+id: atom.training-designer.content-gap-identification
+title: 既存教材の不足箇所を特定する
+summary: "たとえば、あなたが料理教室の先生だとします。生徒に配るレシピ集を見直したとき、「卵アレルギーの生徒への代替材料が書いていない」「火加減の説明がない」と気づいたら、それは「不足箇所（ギャップ）」です。 この Atom では、あなたが関わる教材やマニュアルについて..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+  - content-review
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - identify-content-gaps-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.chatgpt-claude-comparison
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

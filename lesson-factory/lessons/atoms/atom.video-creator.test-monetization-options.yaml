@@ -1,0 +1,26 @@
+id: atom.video-creator.test-monetization-options
+title: 収益化の選択肢を比較する
+summary: "あなたが動画を2〜3本アップしたとしましょう。少しずつ再生数が伸びてきて、「これ、何かお金になるのかな？」と思ったら、もう収益化を考えるタイミングです。 でも、お金をもらう方法は1つじゃありません。ここを料理に例えてみましょう。 小さな食堂を開いたとします。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - upload-video-to-platform
+capability_outputs:
+  - compare-monetization-options
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.upload-first-video
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

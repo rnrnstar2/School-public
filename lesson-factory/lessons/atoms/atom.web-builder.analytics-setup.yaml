@@ -1,0 +1,29 @@
+id: atom.web-builder.analytics-setup
+title: アクセス解析を導入して数字を見る
+summary: "お店をオープンしたら、「今日は何人お客さんが来たかな？」と気になりますよね。Webサイトでも同じです。あなたのサイトに アクセス解析（＝サイトに誰が、いつ、どれくらい訪れたかを自動で記録する仕組み） を導入して、数字を一目で確認できるようにしましょう。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - business-homepage
+  - landing-page
+  - stage:polish
+  - level:beginner
+capability_inputs:
+  - deployed-to-vercel
+capability_outputs:
+  - analytics-configured
+hard_prerequisites:
+  - atom.web-builder.deploy-ai-app-to-vercel
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - vercel/analytics-docs
+status: draft

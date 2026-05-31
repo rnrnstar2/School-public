@@ -1,0 +1,27 @@
+id: atom.office-automator.use-copilot-in-office
+title: Microsoft Copilotで既存Office作業を効率化する
+summary: "ふだんの仕事で、Wordの文書作成やExcelの集計に時間をかけていませんか？「もっと早く終わらせたいけど、やり方がわからない」——そんなあなたに向けたレッスンです。 このレッスンでは、Microsoft Copilot（＝Officeアプリに組み込まれたAIアシスタント）を使って..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - basic-office-usage
+capability_outputs:
+  - use-copilot-in-office-apps
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.ai-tools-overview
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - microsoft/copilot-office
+status: draft

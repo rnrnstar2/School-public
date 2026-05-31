@@ -1,0 +1,12 @@
+- tag: web-builder
+  step_focus: dashboard setup
+  default_issue: UI navigation can feel ambiguous on the first pass.
+  default_mitigation: Include one concrete cue that names the screen or menu.
+- tag: crm-builder
+  step_focus: validation
+  default_issue: Expected outcome is unclear after the configuration step.
+  default_mitigation: Add a sentence that states the expected observable result.
+- tag: solo-founder
+  step_focus: prerequisites
+  default_issue: Hidden prerequisites can slow down an otherwise short lesson.
+  default_mitigation: Put prerequisite checks before the main numbered steps.

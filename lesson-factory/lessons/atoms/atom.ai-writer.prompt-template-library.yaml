@@ -1,0 +1,24 @@
+id: atom.ai-writer.prompt-template-library
+title: 執筆用プロンプトテンプレート集を作る
+summary: "料理をするとき、レシピノートがあると便利ですよね。「カレーを作るときは玉ねぎを炒めてから…」のように、手順をまとめたカードがあれば、毎回ゼロから考え直す必要がありません。 AI に文章を書いてもらうときも同じです。「ブログ記事を書いて」とそのまま伝えるより、目的や読者..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - build-prompt-template-library
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

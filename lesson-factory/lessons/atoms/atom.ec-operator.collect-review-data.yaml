@@ -1,0 +1,24 @@
+id: atom.ec-operator.collect-review-data
+title: レビューと口コミを収集する
+summary: "旅行に行く前に「どのホテルが良いかな」とネットの口コミをいくつも読んで決めた経験はありませんか？ お店や商品を運営するあなたにとっても、お客様の声を知ることは売上アップや改善の大きなヒントになります。 このレッスンでは、AIチャットツール（ChatGPTやClaude など）を使って..."
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - collect-and-organize-reviews-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

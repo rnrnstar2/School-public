@@ -1,0 +1,24 @@
+id: atom.video-creator.generate-video-ideas
+title: 量産できる企画案を出す
+summary: "動画の企画を考えるのって、毎週の献立を決めるみたいに大変ですよね。「今日は何を作ろう」と冷蔵庫を開けても浮かばないのと同じで、頭の中にあるネタもいつかは尽きてしまいます。 でも、AI に「今週の献立を考えて」とお願いすれば、あっという間にレシピが並びます。動画の企画も同じです。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - generate-video-ideas-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

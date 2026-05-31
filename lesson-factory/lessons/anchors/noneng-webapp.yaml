@@ -1,0 +1,40 @@
+id: anchor.noneng-webapp.start
+persona_id: persona.noneng-webapp
+# W67 (2026-05-09 / Wave 14, Audit A4 b-axis NO-GO + B4 #3):
+# `persona.noneng-webapp` は graduation matrix では canonical key だが、
+# anchor yaml が無く SUPPORTED_PERSONA_IDS にも未登録 → live-hearing path
+# で発火しない synthetic persona 状態だった。9/9 persona 全開 GO の blocker。
+#
+# 設計方針:
+#   - 非エンジニア向け、no-code-first / browser-only でスタート。
+#   - 1 step 目で「画面に何か出る」(v0 か Bolt か Lovable から 1 ショット生成)。
+#   - 2 step 目で「ゴールを 1 文で言える」状態を作る (途中で自分の作りたい物を整理)。
+#   - 3 step 目で AI に丸ごと作らせる (Claude Code / Cursor / Codex CLI のいずれか)。
+#   - 4 step 目で公開 (Vercel CLI / v0 publish いずれか, no-code 寄りに deploy)。
+#   - 5 step 目で feature を AI 委譲して育てる (将来の伸び代)。
+#
+# persona-tag-bridge では `persona.noneng-webapp` →
+#   ['p-noneng-webapp', 'web-builder', 'nocode-builder', 'ai-marketer', 'noneng-webapp']
+# に展開されるので、common.* / web-builder.* atom は scopedAtoms に hit する。
+ordered_atom_ids:
+  # 1. 画面に何か出す: v0 で UI を 1 ショット生成 + Vercel に公開 (no-code, browser-only)
+  - atom.common.scaffold-with-v0
+  # 2. ゴール明確化: 何を作りたいか 1 文で言えるように整理する (途中で作りたい物が固まる想定)
+  - atom.web-builder.choose-project-goal
+  # 3. AI に丸ごと作らせる: Claude Code / Cursor / Codex CLI に「全部作って」と委譲
+  - atom.web-builder.let-claude-build-everything
+  # 4. 公開できる状態にする: Vercel 1 コマンド deploy (1 ステップ目で v0 publish 済の場合は確認・更新)
+  - atom.web-builder.deploy-with-vercel-cli
+  # 5. feature 単位で AI 委譲して育てる
+  - atom.common.delegate-full-feature-to-cli-agent
+required_capabilities:
+  - scaffold-ui-with-v0
+  - define-project-goal
+  - delegate-build-to-cli-agent
+  - deploy-with-vercel-cli
+  - delegate-feature-to-cli-agent
+description: |
+  非エンジニアが「Web アプリ / Web サービスを自分で作って公開する」最短ルート。
+  v0 / Lovable / Bolt の browser 完結型 AI scaffold で 1 step 目に画面を出し、
+  Claude Code / Cursor / Codex CLI に AI 丸投げで機能を増やし、Vercel で公開
+  するまでを 5 step。CLI / git / pnpm / shadcn の textbook 経路は不要。

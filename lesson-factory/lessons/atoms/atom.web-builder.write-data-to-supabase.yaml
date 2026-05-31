@@ -1,0 +1,31 @@
+id: atom.web-builder.write-data-to-supabase
+title: フォームからSupabaseにデータを書き込む
+summary: "このレッスンでは、あなたが作った入力フォームに書いた内容を、そのままインターネット上のデータ置き場（＝Supabase という、クラウドに置いてあるデータベースサービス）へ送って保存できるようにします。郵便ポストに手紙を入れたら、自動で本局へ届くイメージです。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:connect
+  - level:beginner
+capability_inputs:
+  - read-data-skill
+  - form-basics
+capability_outputs:
+  - crud-operations
+hard_prerequisites:
+  - atom.web-builder.read-data-in-next
+  - atom.web-builder.build-form
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - supabase/docs/reference/javascript
+status: draft

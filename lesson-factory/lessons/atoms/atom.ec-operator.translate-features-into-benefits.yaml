@@ -1,0 +1,24 @@
+id: atom.ec-operator.translate-features-into-benefits
+title: 特徴を訴求価値に変換する
+summary: "あなたのネットショップの商品ページを見に来たお客さんは、「これが欲しい！」と一瞬で判断しています。 料理で考えてみましょう。メニューに「国産小麦粉、北海道バター使用」とだけ書いてあったら、お客さんは「ふーん」で終わってしまいます。でも「外はサクサク、中はしっとり。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - convert-feature-to-benefit
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

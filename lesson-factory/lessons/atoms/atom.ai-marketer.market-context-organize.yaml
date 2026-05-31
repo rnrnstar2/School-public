@@ -1,0 +1,24 @@
+id: atom.ai-marketer.market-context-organize
+title: 顧客・商品・競合を整理する
+summary: "この 3 つを知らないと、せっかくのパーティーも人は集まりませんよね。 マーケティングでもまったく同じです。あなたの商品が「誰に」「何を」「誰と比べられて」いるのか——この 3 つを整理することが、すべての出発点になります。 このレッスンでは、AI チャットツール（ChatGPT や Claude..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - create-market-context-sheet
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

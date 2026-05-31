@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://school.local/lesson-factory/schemas/anchor.schema.json",
+  "title": "Lesson Anchor",
+  "description": "Schema for persona-specific anchor flows that reference ordered lesson atoms.",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "anchorId": {
+      "type": "string",
+      "pattern": "^anchor\\.[a-z0-9.-]+$",
+      "description": "Canonical anchor identifier."
+    },
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "id",
+    "persona_id",
+    "ordered_atom_ids",
+    "required_capabilities",
+    "description"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "#/$defs/anchorId"
+    },
+    "persona_id": {
+      "$ref": "https://school.local/lesson-factory/schemas/persona.schema.json#/$defs/personaId"
+    },
+    "ordered_atom_ids": {
+      "type": "array",
+      "items": {
+        "$ref": "https://school.local/lesson-factory/schemas/lesson.schema.json#/$defs/atomId"
+      },
+      "uniqueItems": true
+    },
+    "required_capabilities": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

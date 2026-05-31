@@ -1,0 +1,24 @@
+id: atom.ec-operator.organize-faqs
+title: よくある問い合わせを整理する
+summary: "レストランのメニューを想像してみてください。 料理がバラバラに並んでいたら、お客さんは食べたいものを見つけられません。 「前菜」「メイン」「デザート」とグループ分けしてこそ、使いやすいメニューになります。 お客様からの問い合わせも同じです。 メールやチャットで届いた質問を、そのまま放置していませんか？"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - organize-customer-faqs-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

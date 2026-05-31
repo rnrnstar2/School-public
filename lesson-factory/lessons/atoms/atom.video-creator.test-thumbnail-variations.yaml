@@ -1,0 +1,26 @@
+id: atom.video-creator.test-thumbnail-variations
+title: サムネ案を複数比較する
+summary: "あなたの動画の「顔」ともいえるサムネイル。いくら動画の中身が良くても、パッと見た瞬間に興味を持たれなければ見てもらえません。お店の看板や映画のポスターを想像してみてください。どれくらい人が足を止めるかは、看板の出来栄えで大きく変わりますよね。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - generate-and-compare-thumbnail-variations
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.generate-thumbnail-with-ai
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

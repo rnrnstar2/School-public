@@ -1,0 +1,25 @@
+id: atom.ai-marketer.tracking-gaps-check
+title: 計測漏れを点検する
+summary: "「広告を出したのに、どこから人が来たかわからない」「SNSの投稿がどれくらい効果があったか数字で見えない」——こんな経験はありませんか？ これは 計測漏れ が原因かもしれません。計測漏れとは、本来データとして記録されるべき行動が、設定ミスや抜けによって記録されていない状態のことです。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - basic-analytics-understanding
+capability_outputs:
+  - identify-tracking-gaps
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

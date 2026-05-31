@@ -1,0 +1,26 @@
+id: atom.nocode-builder.build-notification-rules
+title: 通知ルールを作る
+summary: "あなたが作ったアプリで「お客さんが注文したら自分にメールが届く」という仕組みがあったら便利ですよね。 これはお店のドアに取り付ける「来客ベル」のようなものです。誰かがドアを開けるとピンポーンと鳴って来客を知らせてくれます。 このレッスンでは..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - nocode-app-basic-crud
+capability_outputs:
+  - create-notification-rule
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.create-basic-app
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

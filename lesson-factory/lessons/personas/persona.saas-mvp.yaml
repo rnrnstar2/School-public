@@ -1,0 +1,49 @@
+# persona.saas-mvp — TQ-240 (2026-05-09) で新設。
+# TQ-224 で anchor (`lesson-factory/lessons/anchors/saas-mvp.yaml`) は既に整備済み。
+# 本ファイルは Owner Vision「卒業ゲートはペルソナによって違う」を満たすための
+# 動的卒業ゲート設定を主目的として作成された persona document である。
+
+id: persona.saas-mvp
+name: ログイン付き SaaS / 内部ツールを最短で動かしたい層
+background: |
+  認証 + DB が必要な軽量 SaaS や社内ツールを 1 人 (または小さなチーム) で立ち上げたい層。
+  Lovable / v0 / Bolt 等の no-code 寄りツールを起点に、Supabase auth / DB を組み込んで
+  「ログインできて、データが保存できる」アプリを最短で動かすことを優先する。
+goals:
+  - ログイン + DB が動く SaaS / 内部ツールを最短で立ち上げる
+  - Supabase auth と Vercel deploy を含む現実的な stack を 1 人で運用する
+  - 公開後のフィードバックを反映して機能を増やせる状態に到達する
+constraints:
+  - 1 人または小さなチームで運用する想定
+  - 大規模 scaling / SLA / マルチテナント設計は後段スコープ
+  - 商用課金 / 法務 / プライバシーは別レーン
+preferred_tools:
+  - Lovable
+  - Claude Code
+  - Codex CLI
+  - Supabase
+  - Vercel
+  - Stripe
+learning_pace: スキマ時間 (1 セッション 20-40 分) を週 3-5 回、4-6 週間で MVP 公開を目指す
+
+# TQ-240 — 動的卒業ゲート選択肢。Lovable 1-shot 生成 + Supabase 組込 + Vercel 公開
+# フローを前提に、Vercel / GitHub / Lovable / その他公開物を提示する。
+graduation_options:
+  - kind: vercel_url
+    label: "Vercel に deploy したアプリの URL"
+    criteria_yaml: |
+      url_pattern: "^https://.*\\.vercel\\.app/.*"
+      validates_with: response_200_check
+  - kind: github_repo
+    label: "GitHub の public リポジトリ"
+    criteria_yaml: |
+      url_pattern: "^https://github\\.com/.+/.+"
+      validates_with: api_check_public
+  - kind: lovable_url
+    label: "Lovable で公開した URL"
+    criteria_yaml: |
+      url_pattern: "^https://.*\\.lovable\\.(app|dev)/.*"
+      validates_with: response_200_check
+  - kind: other_artifact
+    label: "その他の公開アーティファクト (理由を添えて)"
+    requires_explanation: true

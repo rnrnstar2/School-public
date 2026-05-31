@@ -1,0 +1,25 @@
+id: atom.web-builder.how-web-works
+title: Webサイトが表示される仕組みを3分で理解する
+summary: "レストランでの注文を思い浮かべてください。 Webサイトもまったく同じ流れで動いています。 💡 この「注文→調理→配膳」の流れさえ押さえれば、この先の学習がぐっとスムーズになります。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:orient
+  - level:beginner
+capability_inputs: []
+capability_outputs:
+  - understand-web-basics
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

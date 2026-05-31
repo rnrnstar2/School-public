@@ -1,0 +1,27 @@
+id: atom.ai-freelancer.writing-market-research
+title: ライティング案件の市場と単価を調査する
+summary: "「副業でライティングをやってみたいけど、実際いくらぐらい稼げるの？」——これは多くの人が最初に持つ疑問です。スーパーで買い物をするとき、まず値札を見て「これなら買える」「これは高い」と判断しますよね。副業のライティングも同じで、まず「どんな案件がいくらで出ているか」を知ることが、最初の一歩になります。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - research-writing-market-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.platform-overview
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - crowdworks/writing-category
+  - lancers/writing-category
+status: draft

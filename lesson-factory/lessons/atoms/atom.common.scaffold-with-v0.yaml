@@ -1,0 +1,38 @@
+id: atom.common.scaffold-with-v0
+title: v0 で UI を 1 ショット生成して Vercel に公開する
+summary: "v0.dev に作りたい画面のイメージを日本語 1 文で投げ、出てきた UI をそのまま Vercel にデプロイして URL を 1 つ手に入れます。コード手書き・ターミナル・git は使いません。所要 20-30 分。"
+persona_tags:
+  - web-builder
+  - ai-app-builder
+  - p-noneng-webapp
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - landing-page
+  - portfolio-site
+  - business-homepage
+  - nocode-development
+  - stage:scaffold
+  - level:beginner
+capability_inputs: []
+capability_outputs:
+  - scaffold-ui-with-v0
+  - publish-via-vercel
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: url
+  validation: basic_manual_check_v1
+evidence:
+  - url
+  - screenshot
+media_slots:
+  - screen_capture
+freshness_sources:
+  - v0.dev/docs
+  - vercel.com/docs
+estimated_minutes: 25
+# TQ-222: Shortest-Path Planner (TQ-235) 用に worker が暫定 reviewed に昇格。
+# anchor.web-builder.start (TQ-217) で先頭採用済みのため最低限の品質確認済みとみなす。
+# 本格 review は /lesson-improve で別途実施。
+status: reviewed

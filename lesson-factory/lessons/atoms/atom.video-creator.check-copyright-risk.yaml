@@ -1,0 +1,24 @@
+id: atom.video-creator.check-copyright-risk
+title: 著作権リスクを見分ける
+summary: "動画を作っていると、「この音楽をBGMに使っていいのかな？」「ネットで見つけた画像を動画に貼っても大丈夫？」と迷うことがありますよね。 これは、料理でたとえると 「冷蔵庫に入っている食材が、自分で買ったものか、他人のものかを確認する」 ようなものです。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - judge-copyright-risk-for-video-assets
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

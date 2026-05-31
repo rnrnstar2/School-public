@@ -1,0 +1,34 @@
+id: anchor.ai-freelancer.start
+persona_id: persona.ai-freelancer
+# W46 (2026-05-09): persona.ai-freelancer 向け anchor。Audit G 1 / Audit C 軸 1
+# で「副業で稼ぎたい」goal が web-builder anchor 経由で
+# `atom.web-builder.let-claude-build-everything` 等のエンジニア向け atom に
+# ぶつかっていた CR-4 (Vision 完全逆転) を解消する。Owner Vision
+# 「1 step 目に AI 出力サンプルが完成する」を副業 / フリーランス文脈で解釈し、
+# AI で副業案件のサンプル成果物を 1 ショット生成する体験を先頭に置く。
+# ai-freelancer 専用 atom (60+) を活用した完全 no-code-first 構成。
+ordered_atom_ids:
+  # 1. 1 step 目で「AI が副業サンプル成果物を返す」: ライティング案件の模擬執筆
+  - atom.ai-freelancer.mock-project-writing
+  # 2. 自分の強み / 副業ジャンル選定: AI 副業のニッチを 1 文化
+  - atom.ai-freelancer.niche-positioning
+  # 3. ポートフォリオを AI で 1 ショット生成: 案件取り材料を最短で揃える
+  - atom.ai-freelancer.portfolio-with-ai
+  # 4. SNS で集客: Twitter / X 等で副業ブランディング・直営業の入り口を作る
+  - atom.ai-freelancer.twitter-branding
+  # 5. 最初の案件獲得戦略: 案件サイト + 直アプローチで 1 件目を取りに行く
+  - atom.ai-freelancer.first-job-strategy
+required_capabilities:
+  # W15 B2 (Codex Option A): yaml capability_outputs と整合。
+  - deliver-mock-writing-project
+  - identify-personal-niche
+  - create-portfolio-piece-with-ai
+  - publish-first-sns-post
+  - submit-first-proposal
+description: |
+  ai-freelancer ペルソナ向け anchor。1 step 目で AI ライティング案件の模擬成果物を
+  生成する「成果物が画面に出る」体験を踏ませ、続いてニッチ選定 → AI ポートフォリオ
+  生成 → SNS ブランディング → 最初の案件獲得戦略の 5 step (W46)。
+  CR-4 (Vision 完全逆転) を解消するため、コード・CLI・git・let-claude-build 系 atom は
+  一切含まない。AI ライティング / 画像 / SNS / 案件サイトの no-code ツールと
+  ChatGPT / Claude のチャット入力だけで完結する副業最短ルート。

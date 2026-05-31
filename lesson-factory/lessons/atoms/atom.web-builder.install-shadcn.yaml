@@ -1,0 +1,34 @@
+id: atom.web-builder.install-shadcn
+title: shadcn/uiを導入して最初のボタンを表示する
+summary: "この回では、あなたのNext.jsアプリに「shadcn/ui（＝見た目がきれいなボタンやフォーム部品の詰め合わせ）」を入れて、最初のボタンを画面に出すところまでを15分でやります。料理でいうと、野菜を一から刻むのではなく、下ごしらえ済みの素材パックを買ってきて盛り付けるイメージです。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:scaffold
+  - level:beginner
+  - portfolio-site
+  - business-homepage
+  - landing-page
+capability_inputs:
+  - nextjs-app-initialized
+capability_outputs:
+  - install-shadcn
+  - add-shadcn-component
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - shadcn/docs/installation
+  - nextjs/docs/app-router
+status: draft

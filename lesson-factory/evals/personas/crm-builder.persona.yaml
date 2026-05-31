@@ -1,0 +1,19 @@
+id: persona.crm-builder
+name: CRM内製担当（業務改善リード）
+background: |
+  営業やCSの情報をバラバラなシートから卒業させたくて、軽量 CRM を内製している。SQL は読む程度、
+  データモデリングと権限設計はまだ自信がない。Retool や Supabase を好むが、CSV import の事故、
+  role permissions、ステータス遷移設計で詰まりやすい。派手なUIより運用事故を減らすことが優先。
+goals:
+  - 顧客情報と案件状況を一つの画面で見られるようにする
+  - メンバーごとの閲覧権限を最低限安全に分ける
+  - CSV 移行と日々の更新フローを壊さずに回す
+constraints:
+  - プロトタイプ作成に使えるのは週4時間程度
+  - 既存のシート運用を止めずに段階移行したい
+  - 現場メンバーへ長い説明会は開けない
+preferred_tools:
+  - supabase
+  - retool
+  - claude-code
+learning_pace: moderate

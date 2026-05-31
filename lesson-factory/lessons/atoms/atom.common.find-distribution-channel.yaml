@@ -1,0 +1,22 @@
+id: atom.common.find-distribution-channel
+title: 自分の goal に合うチャネル / プラットフォームを調査する
+summary: "あなたが提供する成果物（記事・画像・サービス・アプリなど）を「どこで誰に届けるか」を AI と一緒に 15 分で調査します。複数チャネルの比較表を 1 枚作って、まず使う 1 つを決めます。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - find-channel
+  - distribute-output
+capability_inputs: []
+capability_outputs:
+  - distribution-channel-chosen
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

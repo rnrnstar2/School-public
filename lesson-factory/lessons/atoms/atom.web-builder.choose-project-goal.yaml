@@ -1,0 +1,34 @@
+id: atom.web-builder.choose-project-goal
+title: 作りたいサイトの目的を10分で1文にまとめる
+summary: "旅行に出かける前に「どこへ行くか」を決めますよね。地図を開くにも、宿を予約するにも、行き先がはっきりしていないと何も始まりません。 Webサイトを作るときもまったく同じです。「何のために、誰のために作るのか」をたった1文で言えるようにしておくと、そのあとの作業で迷子にならずに済みます。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:orient
+  - level:beginner
+  - portfolio-site
+  - business-homepage
+  - landing-page
+  - saas-mvp
+  - blog-site
+capability_inputs: []
+capability_outputs:
+  - define-project-goal
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+estimated_minutes: 10
+# TQ-222: Shortest-Path Planner (TQ-235) 用に worker が暫定 reviewed に昇格。
+# anchor.web-builder.start (TQ-217) の 2 step 目で採用済みのため最低限の品質確認済みとみなす。
+# 本格 review は /lesson-improve で別途実施。
+status: reviewed

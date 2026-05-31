@@ -1,0 +1,25 @@
+id: atom.nocode-builder.validate-small-prototype
+title: 小さな試作品で検証する
+summary: "たいやき屋さんを開きたいと思ったら、いきなり大きなお店を建てませんよね。まずは家庭用のたいやき器で1個焼いて、家族に「おいしい？」と聞くはずです。この「小さく作って、まずは確かめる」アプローチが、アイデア検証の基本です。 この Atom では..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - idea-exists
+capability_outputs:
+  - validate-idea-with-prototype
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

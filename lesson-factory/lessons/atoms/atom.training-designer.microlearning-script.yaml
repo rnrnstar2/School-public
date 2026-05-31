@@ -1,0 +1,25 @@
+id: atom.training-designer.microlearning-script
+title: マイクロラーニング台本をAIで書く
+summary: "料理のレシピ動画を思い出してみてください。短い時間で「ひとつだけ」学べるから、気軽に見られますよね。マイクロラーニング（＝1回あたり数分程度の短い学習コンテンツ）も同じ考え方です。この Atom では、そんな短い学習素材の「台本」を AI チャット（＝ChatGPT や Claude のような..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - basic-ai-chat-usage
+capability_outputs:
+  - write-microlearning-script-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

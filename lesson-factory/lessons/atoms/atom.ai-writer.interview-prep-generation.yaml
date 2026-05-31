@@ -1,0 +1,25 @@
+id: atom.ai-writer.interview-prep-generation
+title: 取材準備の質問リストをAIで生成する
+summary: "取材前の質問づくり、意外と時間がかかりますよね。「何を聞けばいいかわからない」「質問が思いつかない」という悩みを、AI（＝人工知能にお願いして答えを出してもらう仕組み）があっという間に解決してくれます。 このレッスンでは、あなたが 15分以内 で「取材に使える質問リスト」をAIに作ってもらう方法を学びます。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - generate-interview-questions-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

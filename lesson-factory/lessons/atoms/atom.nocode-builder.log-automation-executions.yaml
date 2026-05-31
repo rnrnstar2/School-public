@@ -1,0 +1,28 @@
+id: atom.nocode-builder.log-automation-executions
+title: 実行履歴を残す
+summary: "通販で注文した荷物は、「配送状況」ページで今どこにあるか確認できますよね。オートメーション（＝自動で動く仕組み）にも、これと同じ「配送状況」ページがあります。これを 実行履歴 と呼びます。 このレッスンでは、あなたが作ったオートメーションがちゃんと動いたかを確認し..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - run-automation-manually
+capability_outputs:
+  - read-execution-history
+  - document-automation-results
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.create-first-automation
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

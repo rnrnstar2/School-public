@@ -1,0 +1,24 @@
+id: atom.training-designer.rubric-generation
+title: 記述式問題の採点基準をAIで作る
+summary: "たとえば料理のコンテストで「味」を審査するとき、「おいしい・ふつう・イマイチ」だけだと、審査員によって点がバラバラになってしまいます。だから「素材の鮮度」「火の通り」「盛り付けの美しさ」など、評価する項目をあらかじめ決めておきますよね。 テストの採点でも同じことが言えます。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - create-rubric-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

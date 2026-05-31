@@ -1,0 +1,29 @@
+id: atom.web-builder.ask-ai-about-errors
+title: エラーが出たらAIに正しく聞く
+summary: "Webアプリを作っていると、急に画面が真っ白になったり、赤い文字がズラッと出たりします。そんなときは、AI（＝あなたの質問に答えてくれる賢い助手）に助けを求めるのが一番の近道です。 でも、AIに「動きません」とだけ伝えるのは、病院で「体調が悪いです」とだけ言うようなもの。お医者さんも「どこが痛いですか？"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:scaffold
+  - level:beginner
+  - portfolio-site
+  - saas-mvp
+capability_inputs:
+  - effective-prompting
+capability_outputs:
+  - error-reporting-to-ai
+hard_prerequisites:
+  - atom.web-builder.first-project-and-basic-ai-requests
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

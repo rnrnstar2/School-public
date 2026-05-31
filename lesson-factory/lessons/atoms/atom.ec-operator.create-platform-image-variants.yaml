@@ -1,0 +1,26 @@
+id: atom.ec-operator.create-platform-image-variants
+title: 掲載先に合わせて画像を加工する
+summary: "同じ商品の写真でも、出品する場所（楽天市場・Amazon・自社ストアなど）によって「使える画像のサイズ」が違います。 これは、 引っ越し先の部屋によって荷造りの箱のサイズが変わる のと同じです。同じ荷物でも、置く場所に合わせて箱を選び直しますよね。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - resize-product-image-per-platform
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - canva/resize
+  - ec-platform-image-specs
+status: draft

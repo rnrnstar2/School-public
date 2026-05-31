@@ -1,0 +1,37 @@
+rubric_id: persona-fit.v1
+version: 1
+description: レッスンが対象 persona の目標、好み、制約、進行速度に合っているかを採点する
+criteria:
+  - id: goal_alignment
+    weight: 0.35
+    description: persona が達成したい仕事や成果物に直結しているか
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: persona の目標と lesson の目的がズレている
+      3: 関連はあるが業務文脈との接続が弱い
+      5: persona の具体的な目標へ一直線につながる
+  - id: tool_preference_match
+    weight: 0.2
+    description: persona の好むツールや避けたい道具に沿っているか
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 好みと逆のツールを前提にしている
+      3: ツール選定は近いが代替案が弱い
+      5: 好みのツールを主軸にし必要な代替も短く示す
+  - id: learning_pace_match
+    weight: 0.2
+    description: persona の学習ペースで消化できる密度か
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 一度に詰め込みすぎて追えない
+      3: おおむね追えるが説明の区切りが粗い
+      5: 1セッションの負荷が適切で止まりどころも明確
+  - id: constraint_sensitivity
+    weight: 0.25
+    description: 時間、予算、英語力、権限などの制約が反映されているか
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 制約を無視した構成になっている
+      3: 制約には触れるが手順へ織り込めていない
+      5: 制約を前提に実行可能な手順へ落としている
+pass_threshold: 3.7

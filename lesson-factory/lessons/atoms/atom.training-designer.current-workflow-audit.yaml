@@ -1,0 +1,24 @@
+id: atom.training-designer.current-workflow-audit
+title: 現在の研修制作フローを棚卸しする
+summary: "この Atom では、あなたが今やっている「研修のつくり方」を一覧にして可視化します。 料理のレシピを思い出してください。毎日無意識に作っている得意料理でも、一度紙に書き出してみると「ここはもっと効率よくできるかも」と気づくことがあります。研修制作も同じです。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - audit-own-workflow
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

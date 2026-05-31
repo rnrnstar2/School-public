@@ -1,0 +1,24 @@
+id: atom.ec-operator.check-content-and-image-rights
+title: 画像と文章の権利を確認する
+summary: "あなたがネットショップを運営しているとします。商品写真やキャッチコピーは、お店の「顔」です。でも、その写真や文章を本当に自由に使っていいのか、確認したことはありますか？ 料理にたとえてみましょう。自分で育てた野菜で作った料理は、自由にお店で出せますよね。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - create-rights-checklist
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: rights_checklist_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

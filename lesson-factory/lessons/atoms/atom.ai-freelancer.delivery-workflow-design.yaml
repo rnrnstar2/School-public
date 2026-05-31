@@ -1,0 +1,25 @@
+id: atom.ai-freelancer.delivery-workflow-design
+title: 受注から納品までのワークフローを設計する
+summary: "あなたがフリーランスとして仕事を受けたとき、「次に何をすればいいか」で迷わなくなるためのワークフロー（＝作業の流れを図にしたもの）をAIと一緒に設計できるようになります。最終的に、自分専用の「受注〜納品テンプレート」を1枚の文書として完成させます。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - design-delivery-workflow
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

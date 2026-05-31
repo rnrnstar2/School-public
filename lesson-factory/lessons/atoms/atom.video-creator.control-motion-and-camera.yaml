@@ -1,0 +1,30 @@
+id: atom.video-creator.control-motion-and-camera
+title: 動きとカメラ演出を調整する
+summary: "映像づくりで「なんか動きがのっぺりしているな…」と感じたことはありませんか？ 実は、映画やCMのプロも、カメラの動かし方（＝パン、ズーム、トラッキングなど）で「ワクワク感」を生み出しています。 料理にたとえると、食材をそのまま皿に盛るだけでは「美味しそう」に見えません。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - generate-base-video-from-prompt
+capability_outputs:
+  - apply-camera-motion-to-ai-video
+hard_prerequisites:
+  - atom.video-creator.compose-scenes-from-prompts
+soft_prerequisites:
+  - atom.video-creator.blend-ai-and-real-footage
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - runway/gen-motion
+  - pika/camera-controls
+status: draft

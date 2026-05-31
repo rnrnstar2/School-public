@@ -1,0 +1,26 @@
+id: atom.office-automator.meeting-summary-generation
+title: 議事録から決定事項・TODOを自動抽出する
+summary: "会議が終わったあと、「で、何を決めたっけ？」「誰が何をやるんだっけ？」とメモを見返して整理するのに、毎回30分〜1時間かかっていませんか？ これは、長い議事録から大事なポイントだけを抜き出す作業を手作業でやっているからです。AIチャットツール（＝ChatGPTやClaudeなど..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - ai-chat-basic-usage
+capability_outputs:
+  - extract-decisions-todos-from-minutes
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.ai-tool-setup
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

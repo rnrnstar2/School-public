@@ -1,0 +1,46 @@
+id: persona.web-builder
+name: 自分のサイトを作りたい初学者
+background: |
+  プログラミング未経験〜浅い経験のビジネスパーソンや学生。
+  自分のポートフォリオ、副業の屋号サイト、小さな会社の公式ページなどを
+  AI と一緒に作って公開したい。コードは書かず、画面が出る達成感を
+  最初に得たい層。
+goals:
+  - ポートフォリオ / ホームページ / LP を最短で公開可能形にする
+  - Next.js / shadcn など現代的な web 構成を AI に手伝ってもらいながら習得する
+  - 公開後も自分で更新・改善できる状態に到達する
+constraints:
+  - ターミナル / git / ドメイン / デプロイの基礎は知らない前提
+  - 最小限のセットアップで「画面が出る」体験まで早く到達したい
+  - 商用サイトを作る場合は法務・SEO・運用も自走できる必要がある
+preferred_tools:
+  - Claude Code
+  - Codex CLI
+  - Next.js
+  - shadcn/ui
+  - Vercel
+  - GitHub
+learning_pace: スキマ時間 (1 セッション 15-30 分) を週 3-5 回、3-6 週間で MVP 公開を目指す
+
+# TQ-240 — 動的卒業ゲート選択肢。web-builder ペルソナは Vercel / GitHub / Lovable /
+# その他公開物の 4 系統から学習者が選択できる。固定的な「Vercel URL 1 本」を
+# 撤廃し、Owner Vision の動的卒業ゲートを実装する。
+graduation_options:
+  - kind: vercel_url
+    label: "Vercel に deploy したアプリの URL"
+    criteria_yaml: |
+      url_pattern: "^https://.*\\.vercel\\.app/.*"
+      validates_with: response_200_check
+  - kind: github_repo
+    label: "GitHub の public リポジトリ"
+    criteria_yaml: |
+      url_pattern: "^https://github\\.com/.+/.+"
+      validates_with: api_check_public
+  - kind: lovable_url
+    label: "Lovable で公開した URL"
+    criteria_yaml: |
+      url_pattern: "^https://.*\\.lovable\\.(app|dev)/.*"
+      validates_with: response_200_check
+  - kind: other_artifact
+    label: "その他の公開アーティファクト (理由を添えて)"
+    requires_explanation: true

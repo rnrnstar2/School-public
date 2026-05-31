@@ -1,0 +1,25 @@
+id: atom.nocode-builder.define-operations-ownership
+title: 運用責任と対応基準を決める
+summary: "引っ越しして初めての一人暮らしを想像してみてください。ゴミ出しの曜日、掃除のタイミング、食費の管理——これらを「いつかやる」で放置すると、あっという間に部屋はカオスになります。 ノーコード（＝プログラミングを書かずにアプリを作る方法）で作ったアプリも同じです。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - nocode-app-deployed
+capability_outputs:
+  - define-operations-ownership
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

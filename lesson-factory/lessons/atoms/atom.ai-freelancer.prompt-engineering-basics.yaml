@@ -1,0 +1,24 @@
+id: atom.ai-freelancer.prompt-engineering-basics
+title: プロンプトの基本構造を身につける
+summary: "AI に何かを頼むとき、「いい感じにお願い」と伝えるだけだと、思ったような答えが返ってこないことがあります。これは、レストランで「おいしいもの下さい」と注文するようなもの。和食がいいのか洋食がいいのか、量はどれくらいか――具体的に伝えるほど、ぴったりの料理が出てきますよね。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - write-structured-prompt
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

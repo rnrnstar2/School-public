@@ -1,0 +1,24 @@
+id: atom.cs-automator.faq-history-inventory
+title: 過去の質問履歴からFAQ候補を洗い出す
+summary: "カスタマーサポートの現場では、毎日似たような質問が届きます。「パスワードを忘れました」「送料はいくらですか」「返品はどうすればいいですか」——こうした繰り返しの質問を FAQ（＝よくある質問集）にまとめれば、お客様は自分で答えを見つけられるようになり、あなたの対応時間も大幅に減ります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - extract-faq-candidates-from-history
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

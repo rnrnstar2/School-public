@@ -1,0 +1,30 @@
+id: atom.web-builder.claude-code-settings-and-memory
+title: Claude Codeの設定とCLAUDE.mdを整える
+summary: "新しい料理人をキッチンに迎えたとしましょう。何も伝えないまま作業を任せると、塩と砂糖を間違えてしまうかもしれません。だから「だしは冷蔵庫の右側」「味付けは薄めが好き」と事前に伝えますよね。 CLAUDE.md（＝クロード・エムディー）は、AIにその「事前説明」を伝えるファイルです。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:setup
+  - level:beginner
+  - saas-mvp
+capability_inputs:
+  - claude-code-installed
+capability_outputs:
+  - claude-code-configured
+hard_prerequisites:
+  - atom.web-builder.install-claude-code-and-verify
+soft_prerequisites: []
+deliverable:
+  type: config_file
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - claude-code/docs/claude-md
+status: draft

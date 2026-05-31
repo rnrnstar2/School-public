@@ -1,0 +1,28 @@
+id: atom.cs-automator.bot-prototype-build
+title: Difyでチャットボットの初版を作る
+summary: "初めてのチャットボット作りは「自動販売機を組み立てる」ことに似ています。 お客さまがボタンを押したら、ちゃんと飲み物が出てくる――その仕組みを、15分で一緒に作ってみましょう。 ここではDify（ディファイ＝プログラミングなしでAIチャットボットを作れる無料のWebサービス）を使います。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - dify-account-ready
+capability_outputs:
+  - build-basic-dify-chatbot
+hard_prerequisites:
+  - atom.cs-automator.workspace-setup
+soft_prerequisites:
+  - atom.cs-automator.scenario-design
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - dify/docs-chatbot
+status: draft

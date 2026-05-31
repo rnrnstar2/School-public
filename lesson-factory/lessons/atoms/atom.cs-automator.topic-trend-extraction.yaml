@@ -1,0 +1,24 @@
+id: atom.cs-automator.topic-trend-extraction
+title: トピックの増減傾向を抽出する
+summary: "毎日の買い物メモを見返すと、「今週は野菜が多かったな」「先月はお菓子ばかり買っていたな」と傾向が見えてきますよね。お客様からのお問い合わせも同じです。1件ずつ眺めているだけでは気づけなくても、AIに手伝ってもらってまとめて振り返ると「最近この話題が急に増えている！」と一目でわかるようになります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - extract-topic-trend
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

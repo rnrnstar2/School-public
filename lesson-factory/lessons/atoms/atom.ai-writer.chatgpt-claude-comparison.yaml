@@ -1,0 +1,24 @@
+id: atom.ai-writer.chatgpt-claude-comparison
+title: ChatGPTとClaudeの特性を比較する
+summary: "このレッスンを終えると、あなたは「ChatGPT」と「Claude」という2つのAI（＝人工知能のチャットツール）の得意・不得意を自分の言葉で説明でき、「この作業にはこっちを使おう」と目的に応じて選べるようになります。最後に、あなた専用の使い分けメモを1枚つくるのがゴールです。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - compare-chatgpt-claude
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

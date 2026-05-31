@@ -1,0 +1,32 @@
+id: atom.web-builder.nextjs-routing
+title: ページ遷移の仕組み——URLとフォルダの関係
+summary: "このレッスンでは、あなたが作った Next.js アプリに 新しいページを1つ追加し、ブラウザのアドレス欄から開けるようにする ところまでを体験します。所要時間は 15 分です。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:build
+  - level:beginner
+  - business-homepage
+  - blog-site
+capability_inputs:
+  - create-next-project
+capability_outputs:
+  - understand-routing
+  - create-pages
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - nextjs/docs/app-router
+status: draft

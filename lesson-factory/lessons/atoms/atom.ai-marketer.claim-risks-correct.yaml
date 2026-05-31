@@ -1,0 +1,27 @@
+id: atom.ai-marketer.claim-risks-correct
+title: 危ない表現を検出して修正する
+summary: "マーケティングの文章にひそむ「危ない表現」を、AIに見つけてもらい、安全な書き方に直せるようになります。料理のレシピを味見してもらうように、AIに「法律のチェック係」をお願いする方法を身につけましょう。所要時間は約15分です。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - detect-risky-claims-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.prompt-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - jpn-ad-regulation/jtc-guidelines
+status: draft

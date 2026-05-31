@@ -1,0 +1,29 @@
+id: atom.web-builder.install-claude-code-and-verify
+title: Claude Codeを導入して確認する
+summary: "このレッスンでは、あなたのパソコンに「Claude Code（クロードコード＝文章で指示するとコードを書いてくれるAIアシスタント）」を入れて、ちゃんと動くところまでを15分で確認します。料理で例えるなら、新しい調理道具を箱から出してコンセントに挿し、試運転でお湯を沸かすところまで、というイメージです。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:setup
+  - level:beginner
+capability_inputs:
+  - understand-why-ai-coding-tool
+capability_outputs:
+  - install-claude-code-and-verify
+hard_prerequisites:
+  - atom.web-builder.node-pnpm-setup
+  - atom.web-builder.choose-ai-tool-by-goal-os-cli
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - test_result
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - anthropic/claude-code
+status: draft

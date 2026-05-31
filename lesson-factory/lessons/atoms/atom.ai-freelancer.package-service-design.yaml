@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.package-service-design
+title: 単品からパッケージ型サービスに進化させる
+summary: "「メインディッシュだけ頼む」のが単品サービス。 「前菜＋メイン＋デザート＋ドリンクがセットで少しだけお得」なのがパッケージ型サービスです。 あなたが今やっている「1つの作業を請ける」かたちを、いくつか組み合わせてワンセットにすると、お客さんにとっても選びやすく、あなたの売上も上がりやすくなります。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - list-single-services
+capability_outputs:
+  - design-package-service
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.pricing-strategy
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,28 @@
+id: atom.training-designer.output-quality-baseline
+title: AI出力の品質基準を設定する
+summary: "料理をするとき、「味見」をしますよね。塩加減はどうか、火は通っているか、盛り付けはきれいか。この「味見の基準」があいまいだと、毎回ちがう味になってしまいます。 AIが書いた文章や作った資料も同じです。「なんとなくよさそう」で終わらせず、 「ここをチェックすればOK」という明確な基準 を持っておくと..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+  - quality-control
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-quality-checklist
+  - evaluate-ai-output
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.training-designer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

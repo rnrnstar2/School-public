@@ -1,0 +1,26 @@
+id: atom.data-analyst.clean-missing-values
+title: 欠損と空欄を整理する
+summary: "たとえば、あなたがイベントの参加者リストを整理しているとします。「名前」はあるのに「電話番号」が空っぽ……そんな行があちこちに散らばっていると、集計も連絡もスムーズにいきません。 この Atom では、データ（＝表形式の情報）の「空欄・欠損（＝値が入っていないセル）」を見つけて..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - has-csv-data
+capability_outputs:
+  - clean-missing-values-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.prepare-csv
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

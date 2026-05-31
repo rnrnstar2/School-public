@@ -1,0 +1,27 @@
+id: anchor.web-builder.start
+persona_id: persona.web-builder
+# TQ-217 (2026-05-09): 教科書順序 (terminal-basics → node-pnpm-setup → git-github-cli
+# → create-next-app → install-shadcn → create-homepage) を解体し、no-code-first へ。
+# Owner Vision「1 step 目に画面に何か出る」を満たすため、AI scaffold (v0 / Bolt /
+# Lovable / Claude Code) を先頭に置く。CLI 経路は anchor.web-builder-cli へ分離。
+ordered_atom_ids:
+  # 1. 1 step 目で「画面に何か出る」: v0 で UI を 1 ショット生成して Vercel に公開
+  - atom.common.scaffold-with-v0
+  # 2. ゴール明確化: 何を作りたいか 1 文で言えるようにする
+  - atom.web-builder.choose-project-goal
+  # 3. AI に丸ごと委譲して機能を増やす: Claude Code に「全部作って」と任せる
+  - atom.web-builder.let-claude-build-everything
+  # 4. 公開できる状態にする: Vercel 1 コマンド deploy
+  - atom.web-builder.deploy-with-vercel-cli
+  # 5. ペルソナ別の追加機能 (フォーム / 認証 等) は feature 単位で AI 委譲
+  - atom.common.delegate-full-feature-to-cli-agent
+required_capabilities:
+  - scaffold-ui-with-v0
+  - define-project-goal
+  - delegate-build-to-cli-agent
+  - deploy-with-vercel-cli
+  - delegate-feature-to-cli-agent
+description: |
+  web-builder ペルソナ向け、no-code-first の最短公開ルート。1 step 目で画面に
+  何か出る (v0 scaffold)、AI 委譲で機能追加、Vercel CLI で公開、までを 5 step。
+  CLI / git / pnpm / shadcn の textbook 経路は anchor.web-builder-cli に分離。

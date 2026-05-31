@@ -1,0 +1,25 @@
+id: atom.ai-freelancer.pricing-strategy
+title: 適正価格の設定と値上げ交渉を学ぶ
+summary: "あなたが個人で仕事を請け負うとき、「いくらで請けよう？」と迷った経験はありませんか？ このレッスンでは、AIツールを活用して自分に合った価格を決め、既存の取引先に値上げを提案する方法を15分で学びます。 旅に出るとき、宿や食事にいくら使うか予算を決めますよね。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - set-freelance-pricing
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.first-job-strategy
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

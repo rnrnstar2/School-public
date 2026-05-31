@@ -1,0 +1,24 @@
+id: atom.office-automator.estimate-automation-roi
+title: 自動化の費用対効果をざっくり計算する
+summary: "「これ、自動化した方がいいのかな？」と思ったとき、感覚だけで決めるのではなく、 数字でざっくり判断 できるようになります。 たとえば、毎日15分かかるデータ入力があるとします。これを自動化するのに最初の準備で2時間かかる場合、「何日で元が取れるか」を計算できれば、やるべきかどうか自信を持って決められます。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - estimate-automation-roi
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

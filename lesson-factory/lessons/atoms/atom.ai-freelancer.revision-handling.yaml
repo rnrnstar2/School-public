@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.revision-handling
+title: 修正依頼を最小化する納品術を身につける
+summary: "レストランで料理を運ぶことを想像してみましょう。お客さんの注文を確認せずに適当な料理を出したら、「これじゃない」と言われて作り直しになりますよね。でも、注文を復唱してから作り始め、盛り付けを確認してから出せば、作り直しはぐっと減ります。 クライアントへの納品も同じです。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - deliver-with-minimal-revision
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.proposal-writing-ai
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,30 @@
+case_id: execution.runnable.002
+target_rubric: execution.v1
+description: Make webhook から Google Sheets へ問い合わせを流す runbook
+sample_execution_excerpt: |
+  対象バージョン:
+  - Make scenario editor 2026-04 時点
+  - Google Sheets 現行 UI
+
+  所要時間の目安: 25分
+
+  1. Make で Custom webhook を新規作成し、URL をコピーする
+  2. テスト用に `curl -X POST` で `name` と `email` を送る
+  3. Make の webhook module にサンプル payload が1件表示されることを確認する
+  4. Google Sheets の `inquiries` シートへ `name` と `email` を map する
+  5. Scenario を Run once で動かし、シートに新規行が1行追加されたことを確認する
+
+  失敗時:
+  - payload が来ないときは webhook URL を再発行せず、まず `Run once` が有効か確認する
+  - 列がずれるときは header 行のスペルを確認して再 map する
+expected_scores:
+  procedure_reproducibility: 5
+  objective_verification: 5
+  version_dependency_disclosure: 4
+  fallback_quality: 4
+  time_estimate_realism: 4
+expected_average_score: 4.55
+expected_status: pass
+failure_modes: []
+notes: |
+  途中結果が Make 側と Sheets 側の両方で確認できる。失敗時も再発行ではなく先に見る箇所が定義されている。

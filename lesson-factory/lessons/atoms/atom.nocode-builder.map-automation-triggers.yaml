@@ -1,0 +1,24 @@
+id: atom.nocode-builder.map-automation-triggers
+title: 自動化の起点と処理を整理する
+summary: "あなたは毎朝、メールを開いてスプレッドシートにデータを転記して、上司にチャットで報告して…という「お決まりの手順」を繰り返していませんか？ これは料理でいえば、毎回レシピを最初から読み直しているようなものです。一度「この材料が届いたら→この順番で調理する」と決めてしまえば、あとは流れに乗るだけですよね。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - map-trigger-action-pair
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

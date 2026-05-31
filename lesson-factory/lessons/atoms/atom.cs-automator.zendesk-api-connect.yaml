@@ -1,0 +1,26 @@
+id: atom.cs-automator.zendesk-api-connect
+title: Zendesk APIでデータを取得する
+summary: "カスタマーサポートの現場では、「今日届いた問い合わせは何件？」「未対応のチケットはどれ？」といった情報を毎日確認しますよね。Zendesk の管理画面を開いてひとつずつ見るのも良いですが、 API（＝ソフトウェア同士がデータをやり取りする窓口） を使えば、必要なデータをまとめて自動で取り出せるようになります。"
+persona_tags:
+  - cs-automator
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - zendesk-account-created
+capability_outputs:
+  - fetch-zendesk-tickets-via-api
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - zendesk/api-reference
+status: draft

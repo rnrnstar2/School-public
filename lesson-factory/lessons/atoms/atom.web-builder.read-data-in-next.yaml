@@ -1,0 +1,30 @@
+id: atom.web-builder.read-data-in-next
+title: Next.js でデータを読み込む
+summary: "レストランでメニューを注文する場面を想像してみてください。あなたがウェイターに注文を伝え、厨房から料理が出てきてテーブルに並ぶ——この流れは、ウェブページがデータを読み込む仕組みとそっくりです。厨房（＝データの置き場所）に注文を出して、料理（＝データ）をテーブル（＝画面）に運ぶ。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:connect
+  - level:beginner
+capability_inputs:
+  - supabase-ready
+  - api-json-basics
+capability_outputs:
+  - read-data-in-next
+hard_prerequisites:
+  - atom.web-builder.make-supabase-ai-ready
+  - atom.web-builder.api-json-basics
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - nextjs/docs/data-fetching
+status: draft

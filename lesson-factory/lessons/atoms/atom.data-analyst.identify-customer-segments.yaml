@@ -1,0 +1,24 @@
+id: atom.data-analyst.identify-customer-segments
+title: 顧客をセグメント分けする
+summary: "たとえば、あなたがイベントの企画者だとします。参加者全員に同じ料理を出すよりも、「ベジタリアンの方」「お肉が好きな方」「甘いものが好きな方」とグループを分けてメニューを提案したほうが、みんなが喜びますよね。 ビジネスでも同じです。顧客をセグメント（＝共通の特徴を持つグループ）に分けることで..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - segment-customers-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,23 @@
+id: atom.data-analyst.choose-metrics
+title: 見るべき指標を選ぶ
+summary: "データ分析をはじめるとき、いちばん大切なのは「何の数字を見ればいいか」を決めることです。これは料理にたとえると、冷蔵庫の中身をぜんぶ使おうとするのではなく、「今日はカレーを作る」と決めてから必要な材料だけを取り出すのと同じです。 この Atom では、AI（人工知能）チャットツールに相談しながら..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - select-key-metrics-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

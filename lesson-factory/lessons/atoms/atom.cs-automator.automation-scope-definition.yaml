@@ -1,0 +1,25 @@
+id: atom.cs-automator.automation-scope-definition
+title: 自動化する範囲と対象外を決める
+summary: "旅行の荷造りを思い出してください。すべての持ち物をカバンに詰めようとすると、重すぎて動けなくなります。「これは絶対に必要」「これは現地で買えばいい」「これは持っていかない」と分けるのがスマートな荷造りです。 自動化も同じです。すべての業務をAIに任せようとすると、かえって管理が大変になります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - create-automation-scope-doc
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.workspace-setup
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

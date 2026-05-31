@@ -1,0 +1,25 @@
+id: atom.cs-automator.feedback-loop-design
+title: 改善サイクルの仕組みを設計する
+summary: "あなたのカスタマーサポートにAIツールを導入したとしましょう。最初はうまく動いていても、お客様からの反応は日々変化します。「なんだか最近、AIの回答が的外れになってきたかも…」と感じたら、どうすればよいでしょうか。 料理にたとえてみましょう。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - ai-cs-tool-running
+capability_outputs:
+  - design-feedback-loop
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

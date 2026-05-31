@@ -1,0 +1,26 @@
+id: atom.ai-marketer.results-story-present
+title: 成果報告をプレゼンする
+summary: "あなたがAIツールを使って取り組んだ成果を、関係者に15分で伝えるプレゼンを作ります。 料理に例えると、このレッスンは「完成した料理をテーブルに並べて、おいしさを伝える」ステップです。どんなに頑張って作っても、出し方が雑だと味が半減してしまいます。逆に、盛り付けと説明が丁寧なら、シンプルな料理でも「すごい！"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - ai-tool-basic-usage
+capability_outputs:
+  - create-results-presentation
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.sns-copy-ai
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

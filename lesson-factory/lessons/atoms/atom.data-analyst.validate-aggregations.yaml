@@ -1,0 +1,26 @@
+id: atom.data-analyst.validate-aggregations
+title: 集計結果を検算する
+summary: "買い物のレシートを確認したことはありますか？「合計金額はこれで合っているかな？」と暗算や電卓で確かめますよね。データの集計（しゅうけい＝たくさんの数字をまとめて合計や件数にすること）も同じです。必ず検算（＝計算が合っているか確かめること）が必要です。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - upload-and-inspect-data
+capability_outputs:
+  - validate-aggregation-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.upload-and-inspect-data
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

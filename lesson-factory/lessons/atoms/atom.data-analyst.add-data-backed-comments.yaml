@@ -1,0 +1,26 @@
+id: atom.data-analyst.add-data-backed-comments
+title: 根拠付きコメントを差し込む
+summary: "観光ガイドブックを思い出してみましょう。「このお寺は745年に建てられました」という説明だけだと、本当かな？と少し気になりますよね。でも「（市の歴史資料より）」と出どころが添えてあれば、読み手は安心して受け取れます。 データのレポートでも同じです。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - write-evidence-backed-comment
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

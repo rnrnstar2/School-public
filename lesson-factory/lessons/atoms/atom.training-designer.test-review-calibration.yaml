@@ -1,0 +1,27 @@
+id: atom.training-designer.test-review-calibration
+title: テスト問題の品質を校正する
+summary: "あなたが作ったテスト問題、本当に「良い問題」になっていますか？ 料理にたとえると、レシピ（テスト問題）を書いたあとに「味見」をする工程がこの Atom です。味見をしないまま人に出すと、塩が足りなかったり焦げていたりすることに気づけません。テスト問題も同じで、作ったあとに AI..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+  - quality-assurance
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - calibrate-test-questions-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.training-designer.test-question-design
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

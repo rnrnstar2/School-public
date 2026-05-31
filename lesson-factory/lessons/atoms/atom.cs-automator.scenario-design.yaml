@@ -1,0 +1,24 @@
+id: atom.cs-automator.scenario-design
+title: チャットボットの対話シナリオを設計する
+summary: "お客さまからの問い合わせに自動で答えてくれるチャットボット。便利そうだけど、「何を話させればいいの？」と迷いますよね。 たとえば、レストランの受付を想像してみてください。お客さまが来たら「ご予約ですか？」と聞き、答えに応じて「お名前をお伺いできますか」「お席にご案内しますね」と会話が分岐します。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - design-chatbot-scenario
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

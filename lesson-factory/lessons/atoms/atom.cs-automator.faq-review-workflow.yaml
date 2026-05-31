@@ -1,0 +1,24 @@
+id: atom.cs-automator.faq-review-workflow
+title: FAQレビューの運用フローを設計する
+summary: "あなたの会社のウェブサイトに「よくある質問（FAQ）」のページがあります。 でも、商品が変わったりルールが変わったりすると、FAQの内容も古くなってしまいますよね。 これは、 レストランのメニュー と同じです。 新しい料理ができたら追加し、季節限定の料理が終わったら外す。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - design-faq-review-workflow
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

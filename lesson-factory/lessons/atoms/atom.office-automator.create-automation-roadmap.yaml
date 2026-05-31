@@ -1,0 +1,24 @@
+id: atom.office-automator.create-automation-roadmap
+title: 3ヶ月の自動化ロードマップを作る
+summary: "あなたの毎日の仕事のなかには「同じことの繰り返し」がたくさんあります。毎朝の売上データ転記、毎週の報告メール作成、月末の集計作業……。このレッスンでは、そうした繰り返し作業を見つけ出して、AIの力を借りながら 3ヶ月で順番に自動化する計画表（＝ロードマップ） を完成させます。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - create-automation-roadmap
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

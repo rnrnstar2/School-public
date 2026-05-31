@@ -1,0 +1,24 @@
+id: atom.cs-automator.workload-hotspot-identification
+title: 自動化候補の業務負荷を特定する
+summary: "毎日のお仕事のなかで、「これ、なんだか同じことの繰り返しだな」と感じたことはありませんか？ たとえば 料理 を考えてみましょう。毎回野菜を切って、鍋に入れて、味を調える——このなかで「切る作業」は手順が決まっているので、食品カッター（＝AIツール）に任せるとラクになります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - identify-automation-hotspot
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.video-creator.generate-avatar-and-voice
+title: アバターと音声を生成する
+summary: "動画を作りたいけれど「顔出しは恥ずかしい」「自分の声に自信がない」——そんなあなたでも大丈夫です。AIツールを使えば、あなたの代わりになるアバター（＝デジタルの分身キャラクター）と、自然に聞こえるAI音声を15分以内で作れます。このレッスンが終わるころには..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - browser-basic-operation
+capability_outputs:
+  - generate-ai-avatar
+  - generate-ai-voice
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

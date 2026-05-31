@@ -1,0 +1,26 @@
+id: atom.data-analyst.highlight-key-insights
+title: 重要な気づきを言語化する
+summary: "データを見て「なんとなく傾向はわかるけれど、ひとことで説明できない」――そんな経験はありませんか？ この Atom では、データから 一番伝えたい気づき（＝インサイト） を、AI の力を借りて明確な文章にする練習をします。15分以内で「自分の言葉で気づきを伝えられた！」という手応えを持ち帰れます。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - has-data-and-ai-chat
+capability_outputs:
+  - articulate-key-insight
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.setup-analysis-workspace
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

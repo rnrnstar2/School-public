@@ -1,0 +1,28 @@
+id: atom.ai-content-creator.create-sns-copy-with-ai
+title: SNS 投稿コピーを AI で媒体別に量産する
+summary: "X（旧 Twitter）・Instagram・TikTok では同じネタでも刺さる文体・尺・絵文字の使い方がまるで違います。媒体ごとに毎回ゼロから書いていると、投稿頻度を上げるほど消耗します。このレッスンでは、AI（ChatGPT / Claude）に 1 つのネタを渡して X / Instagram / TikTok 用の投稿コピーを同時に出させ、媒体別の文字数・トーン・ハッシュタグルールを反映するプロンプトテンプレを 15 分で作ります。完了時には、ネタ 1 行を入れるだけで 3 媒体ぶんの下書きが揃い、人間は最終調整だけで投稿できる状態になります。"
+persona_tags:
+  - ai-content-creator
+  - ai-first-learner
+goal_tags:
+  - content
+  - publish-content
+  - side-income
+capability_inputs: []
+capability_outputs:
+  - create-sns-copy-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+estimated_minutes: 15
+# W16-A1 (2026-05-10): persona.ai-content-creator anchor の Wave 15 round 5 audit
+# unsupported residue 解消用に reviewed として新規 seed。本格 review は /lesson-improve で別途。
+status: reviewed

@@ -1,0 +1,27 @@
+id: atom.ai-freelancer.business-doc-ai
+title: 事業計画書・企画書をAIで作成する
+summary: "あなたは「事業計画書を書かないといけないけど、何から手をつければいいかわからない…」と思ったことはありませんか？ 白紙のドキュメントに向かうのは、料理でいえば「冷蔵庫の中身だけでフルコースを作って」と言われるようなものです。 このレッスンでは、AI（人工知能）を「優秀な下書き担当」として使い..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - ai-chat-tool-ready
+capability_outputs:
+  - create-business-doc-with-ai
+hard_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+soft_prerequisites:
+  - atom.ai-freelancer.chatgpt-claude-comparison
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

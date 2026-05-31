@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.data-visualization-ai
+title: データ整理と図表作成をAIで効率化する
+summary: "たとえば、お店の売上メモや顧客リストが手書きやバラバラのファイルに散らばっていたとします。それを「見やすい表」や「一目でわかるグラフ」にまとめるのは、けっこう時間がかかる作業ですよね。この Atom では、AIに手伝ってもらって、その面倒なデータ整理と図表づくりを一気に楽にする方法を学びます。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - setup-ai-tools
+capability_outputs:
+  - create-ai-data-visualization
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

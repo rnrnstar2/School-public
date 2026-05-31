@@ -1,0 +1,25 @@
+id: atom.training-designer.adaptive-path-design
+title: 理解度に応じた学習パスを設計する
+summary: "このレッスンを終えると、あなたは 学習者の理解度に合わせて「次に何を学ぶべきか」を分岐させる学習パス をひとつ設計できるようになります。完成物は、そのまま研修資料や社内トレーニングに使える Markdown ドキュメントです。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - basic-ai-chat-usage
+capability_outputs:
+  - design-adaptive-learning-path
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

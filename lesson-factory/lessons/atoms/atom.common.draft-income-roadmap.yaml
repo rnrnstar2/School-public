@@ -1,0 +1,23 @@
+id: atom.common.draft-income-roadmap
+title: 収入 / 活動目標のステップ計画を作る
+summary: "「いきなり最終目標」ではなく、最初のマイルストーン → 中間 → 最終の 3 段階で目標金額（または活動量）を設定します。各段階で必要な活動を AI と相談しながら 1 枚にまとめます。所要 15 分。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - plan-progression
+  - side-income
+  - independence
+capability_inputs: []
+capability_outputs:
+  - income-roadmap-drafted
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

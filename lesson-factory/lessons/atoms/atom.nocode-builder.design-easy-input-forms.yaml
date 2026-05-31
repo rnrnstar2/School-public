@@ -1,0 +1,24 @@
+id: atom.nocode-builder.design-easy-input-forms
+title: 入力しやすいフォームを設計する
+summary: "レストランで初めて行くお店のメニューを思い出してみてください。料理名だけズラッと並んでいたら、何を頼めばいいか迷ってしまいますよね。でも「おすすめ」の印があったり、写真が添えてあったりすると、スッと決められるはずです。 フォーム（＝画面上で情報を入力する欄の集まり）も同じです。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - design-usable-form
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,24 @@
+id: atom.video-creator.identify-target-viewer
+title: 視聴者像を具体化する
+summary: "料理をするとき、「誰のために作るか」が決まっていればメニュー選びは簡単です。子ども向けなら甘くて見た目が楽しいもの、忙しい大人なら手軽で栄養バランスの良いもの——相手が見えていれば、迷わずに一品を作れます。 動画も同じです。「誰に見てほしいか」がはっきりしていると、タイトルのつけ方、話すスピード..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - create-viewer-persona
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

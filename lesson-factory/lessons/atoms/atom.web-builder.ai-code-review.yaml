@@ -1,0 +1,32 @@
+id: atom.web-builder.ai-code-review
+title: AIにコードレビューを依頼する
+summary: "料理を作ったあと、味見をプロの料理人にお願いする――それがコードレビュー（＝自分の書いたコードを別の人にチェックしてもらうこと）です。今回はその「別の人」をAIに担当してもらいます。 あなたがAIツール（Claude Code や Codex CLI など）を使ってコードを書いたあと..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:build
+  - level:intermediate
+  - portfolio-site
+  - business-homepage
+  - landing-page
+  - saas-mvp
+  - blog-site
+capability_inputs:
+  - apply-ai-output
+capability_outputs:
+  - ai-code-review-skill
+hard_prerequisites:
+  - atom.web-builder.git-github-cli
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.data-analyst.design-dashboard-layout
+title: 見やすい画面構成を設計する
+summary: "データを「ひと目でわかる画面」にまとめる力を身につけましょう。 レストランのメニューを想像してみてください。前菜・メイン・デザートがバラバラに並んでいたら、何を頼めばいいか迷ってしまいますよね。でも「コース順」にきれいにまとまっていたら、スッと選べます。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - design-dashboard-layout
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.ai-chat-first-step
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

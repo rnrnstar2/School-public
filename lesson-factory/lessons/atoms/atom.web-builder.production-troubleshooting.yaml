@@ -1,0 +1,30 @@
+id: atom.web-builder.production-troubleshooting
+title: 本番で動かなくなった時の緊急対応ガイド
+summary: "たとえば、あなたがパン屋さんを開いたとします。開店初日はお客さんが来て、レジも動いて、すべて順調。でも翌朝、店のドアが開かなくなってお客さんが入れない——そんなことが Web サイトでも起きます。 このレッスンでは、あなたのサイトが突然動かなくなった時に「落ち着いて原因を特定し、AI..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:deploy
+  - level:intermediate
+  - business-homepage
+  - saas-mvp
+capability_inputs:
+  - deployed-to-vercel
+capability_outputs:
+  - production-debug-skill
+hard_prerequisites:
+  - atom.web-builder.deploy-ai-app-to-vercel
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

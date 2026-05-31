@@ -1,0 +1,27 @@
+id: atom.cs-automator.classification-accuracy-review
+title: 分類精度を定期的に検証する
+summary: "レストランでは、料理の味が安定しているか「味見」を定期的にしますよね。AI の自動分類（＝お客様の問い合わせを自動でカテゴリ分けすること）も同じです。最初は正しく分類していても、お客様の問い合わせの傾向が変わると、だんだん精度が落ちることがあります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - ai-classification-running
+capability_outputs:
+  - conduct-classification-accuracy-review
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.ai-batch-production
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

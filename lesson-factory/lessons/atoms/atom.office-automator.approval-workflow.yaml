@@ -1,0 +1,28 @@
+id: atom.office-automator.approval-workflow
+title: 承認ワークフローをノーコードで自動化する
+summary: "このレッスンを終えると、「申請 → 承認 → 完了通知」の流れをプログラミングなしで自動化できるようになります。所要時間はおよそ 15 分です。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - google-account-ready
+capability_outputs:
+  - build-approval-workflow-nocode
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - google/workspace-forms
+status: draft

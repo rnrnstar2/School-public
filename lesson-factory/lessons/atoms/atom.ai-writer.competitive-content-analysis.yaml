@@ -1,0 +1,24 @@
+id: atom.ai-writer.competitive-content-analysis
+title: 競合コンテンツをAIで分析する
+summary: "あなたがブログ記事やSNS投稿を書くとき、「同じテーマで他の人はどんなことを書いているんだろう？」と気になったことはありませんか？ 競合コンテンツの分析とは、同じジャンルで人気のある記事やSNS投稿を調べて、 何が読者に刺さっているのか を見つける作業のことです。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - analyze-competitor-content-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.nocode-builder.plan-cross-team-rollout
+title: 利用部門への展開計画を作る
+summary: "自分で作ったツールやしくみを、チームや他部署の人にも使ってもらいたい——でも「どう説明すればいいの？」「誰から始める？」と悩んだ経験はありませんか？ この Atom では、AI チャット（ChatGPT や Claude など）に相談しながら、 社内ツールを他の部門に広げるための「展開計画書」 を 15..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - basic-ai-chat-usage
+capability_outputs:
+  - create-rollout-plan-doc
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.build-internal-tool
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

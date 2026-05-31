@@ -1,0 +1,26 @@
+id: atom.data-analyst.detect-seasonality
+title: 季節性と周期を見つける
+summary: "お店の売上やウェブサイトのアクセス数を見ていると、「夏になると増える」「月曜は少ない」といった繰り返しのパターンに気づくことがあります。こうした繰り返しを 季節性 （＝データが一定の周期で上がったり下がったりする傾向）と呼びます。 この Atom では、AIチャット（ChatGPT や Claude..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-spreadsheet-basic
+capability_outputs:
+  - detect-seasonality-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.summarize-csv
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

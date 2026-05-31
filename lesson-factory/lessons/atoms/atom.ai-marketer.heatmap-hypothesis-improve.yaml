@@ -1,0 +1,26 @@
+id: atom.ai-marketer.heatmap-hypothesis-improve
+title: 改善仮説を立ててLPを改善する
+summary: "このレッスンでは、LP（ランディングページ＝商品やサービスを紹介するための専用のWebページ）の改善を、AIと一緒に行います。 LPの改善は、お店のショーウィンドウをより魅力的に改装するようなものです。ウィンドウの前でお客さんがどこに目を留めているか（ヒートマップ）を観察し..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - read-heatmap-basics
+capability_outputs:
+  - build-lp-improvement-hypothesis
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.heatmap-analysis-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

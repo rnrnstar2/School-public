@@ -1,0 +1,29 @@
+id: atom.web-builder.design-consistency
+title: 見た目の統一感を整える
+summary: "レストランのメニューを想像してみてください。前菜は和風の皿、メインは洋食のプレート、デザートは中華の器……いろんな雰囲気が混ざっていると、「このお店は何のお店なんだろう？」と迷ってしまいますよね。 Webサイトも同じです。ページごとに色や文字の大きさがバラバラだと、訪れた人が「ここは何のサイト？"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - portfolio-site
+  - business-homepage
+  - stage:polish
+  - level:intermediate
+capability_inputs:
+  - has-basic-homepage
+capability_outputs:
+  - ensure-design-consistency
+hard_prerequisites:
+  - atom.web-builder.create-homepage
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - web-design/consistency-principles
+status: draft

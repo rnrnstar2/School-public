@@ -1,0 +1,24 @@
+id: atom.nocode-builder.prepare-builder-workspace
+title: 学習と試作の環境を準備する
+summary: "料理を始める前に、まな板や包丁、調味料を揃えておきますよね。同じように、AIを使ってアプリやツールを作る前に、必要な道具を手元に揃えておきましょう。 このレッスンでは、あなたがこれからの学習や試作で使う「3つのツール」を準備します。すべて無料で、ブラウザだけで完了します。15分もかかりません。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - setup-ai-builder-workspace
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

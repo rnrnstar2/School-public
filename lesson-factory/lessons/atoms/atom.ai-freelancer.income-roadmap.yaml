@@ -1,0 +1,25 @@
+id: atom.ai-freelancer.income-roadmap
+title: 月5万→10万→20万のロードマップを描く
+summary: "あなたは「AIを使って自分の稼ぎ方を見つけたい」と思っていませんか？ いきなり「月20万円稼ぐ！」と大きな目標を立てるのは、地図も持たずに知らない土地へ旅に出るようなものです。まずは「月5万円」という最初の目的地をクリアし、そこから「10万」「20万」と階段を一段ずつ登るように計画を立てましょう。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - create-income-roadmap-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

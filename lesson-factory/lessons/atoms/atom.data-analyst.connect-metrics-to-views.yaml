@@ -1,0 +1,26 @@
+id: atom.data-analyst.connect-metrics-to-views
+title: 指標と表示を結び付ける
+summary: "データをただの数字の羅列から、パッと見てわかる「グラフ」に変える作業は、料理に例えられます。 せっかく美味しいシチュー（＝指標のデータ）を作っても、お皿（＝グラフの種類）を選び間違えると、こぼれてしまったり見た目がイマイチになってしまいます。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - has-sample-data
+capability_outputs:
+  - select-chart-type-for-metric
+  - generate-chart-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

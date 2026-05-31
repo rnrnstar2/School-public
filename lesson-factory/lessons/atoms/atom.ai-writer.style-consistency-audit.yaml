@@ -1,0 +1,25 @@
+id: atom.ai-writer.style-consistency-audit
+title: 文体の一貫性を監査する
+summary: "あなたが書いた文章やAIに作ってもらった文章を読み返すと、途中から「です・ます」が「だ・である」に変わっていたり、同じものを「ユーザー」と呼んだり「お客様」と呼んだりしていることはありませんか？ これは 文体のブレ と呼ばれる問題で、読み手に「この文章、なんだか読みにくいな」という印象を与えてしまいます。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - write-draft-with-ai
+capability_outputs:
+  - audit-style-consistency
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.first-draft
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

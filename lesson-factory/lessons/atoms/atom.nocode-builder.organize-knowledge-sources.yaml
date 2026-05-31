@@ -1,0 +1,24 @@
+id: atom.nocode-builder.organize-knowledge-sources
+title: 社内知識の情報源を整理する
+summary: "あなたの会社には、マニュアル・議事録・FAQ・チャットの過去ログなど、いろいろな場所に「知識」が散らばっていませんか？ たとえるなら、引っ越したばかりの部屋のようなものです。段ボール箱がリビングにも寝室にもあって、どこに何が入っているかわからない。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - organize-knowledge-source-list
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.ai-writer.human-revision-layer
+title: AI下書きに自分の視点を加えて書き直す
+summary: "レストランで出てきた料理を、自分好みに味付けし直したことはありますか？ 出てきたままでも美味しいけれど、少し塩を足したり、レモンを絞ったりすると「自分の味」になりますよね。 AIが書いた文章も同じです。そのままでまとまっていても、あなたの体験や考えを少し混ぜるだけで..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - revise-ai-draft-with-personal-voice
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.first-draft-with-ai
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

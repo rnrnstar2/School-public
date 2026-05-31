@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.mock-project-writing
+title: 模擬案件でライティング納品を実践する
+summary: "あなたはこれから、本物の案件を模した「模擬ライティング案件」に取り組みます。 これは、スポーツの「練習試合」のようなものです。本番の試合（＝実際のクライアントからの依頼）に出る前に、試合形式の練習をして流れを体に覚えさせるイメージです。この1回の模擬案件をやりきるだけで..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - deliver-mock-writing-project
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

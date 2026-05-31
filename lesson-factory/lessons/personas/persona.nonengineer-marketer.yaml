@@ -1,0 +1,46 @@
+# persona.nonengineer-marketer — TQ-240 (2026-05-09) で新設。
+# TQ-224 で anchor (`lesson-factory/lessons/anchors/nonengineer-marketer.yaml`) は整備済み。
+# 本ファイルは Owner Vision「卒業ゲートはペルソナによって違う」を満たすための
+# 動的卒業ゲート設定を主目的として作成された persona document である。
+
+id: persona.nonengineer-marketer
+name: 非エンジニアのマーケター
+background: |
+  社内マーケ担当・副業マーケ・中小企業の経営者など、コードは書かないが AI で
+  マーケティング業務 (広告コピー / SNS 運用 / コンテンツ供給) を効率化したい層。
+  CLI / git / ローカル環境セットアップは触らない前提で、ChatGPT / Claude / Canva /
+  Notion 等のチャット & no-code ツールだけで完結する成果物を出すことを優先する。
+goals:
+  - AI を使って広告コピー / SNS 投稿 / LP コピーを量産・改善できる状態に到達する
+  - ブランド情報を AI に渡せる「再利用可能な資産」として整備する
+  - キャンペーン LP / コンテンツ calendar を公開し、運用ループを回せる状態にする
+constraints:
+  - ターミナル / git / コーディングは触らない前提
+  - 月の学習時間は 5-8 時間程度、スキマ時間で進める
+  - 法務 / 著作権 / 商用利用ルールは別レーンで補足が必要
+preferred_tools:
+  - ChatGPT
+  - Claude
+  - Canva
+  - Notion
+  - Google Sheets
+  - Figma (閲覧)
+learning_pace: スキマ時間 (1 セッション 10-20 分) を週 3-5 回、3-5 週間で公開キャンペーン到達を目指す
+
+# TQ-240 — 動的卒業ゲート選択肢。マーケター層は Vercel / GitHub のような開発成果物
+# ではなく、公開された LP / キャンペーンページ や AI ワークフロー実行の録画を
+# 「学習成果」として提示する。
+graduation_options:
+  - kind: campaign_lp
+    label: "公開した LP / キャンペーンページの URL"
+    criteria_yaml: |
+      url_pattern: "^https?://.+\\..+"
+      validates_with: response_200_check
+  - kind: workflow_recording
+    label: "AI ワークフロー実行録画 (動画 URL)"
+    criteria_yaml: |
+      url_pattern: "^https?://.+\\..+"
+      validates_with: response_200_check
+  - kind: other_artifact
+    label: "その他の公開アーティファクト (理由を添えて)"
+    requires_explanation: true

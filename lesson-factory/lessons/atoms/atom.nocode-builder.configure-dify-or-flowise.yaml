@@ -1,0 +1,27 @@
+id: atom.nocode-builder.configure-dify-or-flowise
+title: DifyまたはFlowiseを設定する
+summary: "新しいスマートフォンを買ったとき、最初にやることは「電源を入れて、アカウントを設定して、アプリを一つ開いてみる」ことですよね。今回やることもまったく同じです。Dify（ディファイ）というAIツールの「電源を入れて、最初のアプリを一つ作ってみる」ところまでを一緒に進めます。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - has-google-or-github-account
+capability_outputs:
+  - dify-workspace-created
+  - first-chatbot-running
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - dify/docs-cloud-setup
+status: draft

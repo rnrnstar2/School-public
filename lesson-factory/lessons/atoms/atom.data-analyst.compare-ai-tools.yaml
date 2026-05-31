@@ -1,0 +1,24 @@
+id: atom.data-analyst.compare-ai-tools
+title: 分析に使うAIツールを使い分ける
+summary: "料理をするとき、スープを混ぜるのに包丁は使いませんよね。用途に合わせて「泡立て器」「フライパン」「お玉」を使い分けるように、AIツールにもそれぞれ得意・不得意があります。 このレッスンでは、データを分析したいときに「どのAIツールを使えばよいか」を自分で判断できるようになります。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - select-ai-tool-for-analysis
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

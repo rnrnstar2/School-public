@@ -1,0 +1,27 @@
+id: atom.cs-automator.bot-helpdesk-integration
+title: ボットとヘルプデスクを統合する
+summary: "レストランで例えてみましょう。お店には「自動応答の受付係（ボット）」と「キッチンのシェフ（ヘルプデスクの担当者）」がいます。受付係が一人で解決できるお客様もいれば、シェフにバトンタッチしなければならない注文もあります。 このレッスンでは、受付係からシェフへスムーズに注文を渡す「橋渡しの仕組み」を作ります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - chatbot-basic-setup
+capability_outputs:
+  - bot-helpdesk-ticket-escalation
+hard_prerequisites:
+  - atom.cs-automator.llm-bot-role-basics
+soft_prerequisites:
+  - atom.cs-automator.answer-prompt-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

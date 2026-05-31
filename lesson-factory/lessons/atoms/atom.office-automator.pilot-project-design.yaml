@@ -1,0 +1,24 @@
+id: atom.office-automator.pilot-project-design
+title: 小さなパイロットプロジェクトを設計する
+summary: "大きな宴会料理をいきなり作る人はいませんよね。まずは一人分だけ試しに作って、味を見てから大皿に取り掛かるのが普通です。仕事の自動化でも同じです。いきなり社内の全部署を巻き込む大きな仕組みを作るのではなく、まずは「自分の作業の中で一番時間がかかっている小さな一つ」をAIに任せてみる。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - design-pilot-project
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

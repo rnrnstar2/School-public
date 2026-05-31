@@ -1,0 +1,28 @@
+id: atom.web-builder.read-ai-output-and-apply
+title: AIの出力を読んで正しく適用する
+summary: "料理のレシピをもらったとしましょう。材料と手順が書いてありますが、それを 読んで、理解して、実際に料理に反映する までは、レシピを持っているだけでは意味がありません。 AIの出力も同じです。AIが書いたコードや指示を、あなたのプロジェクトに正しく届けるスキルをこのレッスンで身につけます。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:scaffold
+  - level:beginner
+capability_inputs:
+  - effective-prompting
+capability_outputs:
+  - apply-ai-output
+hard_prerequisites:
+  - atom.web-builder.write-effective-prompts
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,25 @@
+id: atom.training-designer.design-scope-decision
+title: AI活用する研修設計の範囲を決める
+summary: "旅行の計画を立てるとき、「どこに行くか」を決めないと荷造りも予約もできませんよね。研修設計も同じです。AIツール（ChatGPTやClaudeなどの、質問すると文章で答えてくれるサービス）を活用した研修をつくるときも、まず「どこからどこまでをやるか」という範囲（スコープ＝やること・やらないことの境界線）..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - write-training-scope-doc
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.office-automator.error-handling-monitoring
+title: 自動化フローのエラー通知と監視を設定する
+summary: "自動化を始めたばかりの頃は、「フローが動いた！」と喜ぶだけで満足しがちです。でも、フローはずっと順調に動き続けるわけではありません。通信が途切れたり、データの形式が変わったりすると、フローは黙って止まってしまいます。 このレッスンでは、自動化フローでエラー（＝想定外のトラブル）が起きたときに..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - has-working-automation-flow
+capability_outputs:
+  - setup-error-notification
+  - verify-error-handler
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

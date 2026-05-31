@@ -1,0 +1,24 @@
+id: atom.cs-automator.support-flow-visualize
+title: 現在のサポート業務の流れを可視化する
+summary: "「今日の仕事、どんな順番で進めたっけ？」——頭の中では分かっているのに、人に説明しようとすると意外と言葉に詰まりますよね。 それは料理と同じです。毎日自然と作っている「わが家のカレー」も、手順を紙に書いて誰かに渡そうとすると、「あれ、玉ねぎ炒める前に切るんだっけ？」と抜けが出るもの。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - visualize-support-flow
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

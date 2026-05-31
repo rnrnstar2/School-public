@@ -1,0 +1,24 @@
+id: atom.office-automator.data-narrative-generation
+title: 数値データからナラティブ（説明文）を自動生成する
+summary: "料理に例えると、数値データは「素材」、AIは「腕のいい料理人」、そしてナラティブ（＝数字の意味を言葉で説明した文章）は「完成した一皿」です。あなたが用意するのは素材と、料理人への注文（プロンプト＝AIへの指示文）だけ。あとはAIが美味しい一皿に仕上げてくれます。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - generate-data-narrative
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

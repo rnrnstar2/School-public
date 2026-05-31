@@ -1,0 +1,26 @@
+id: atom.data-analyst.redact-and-share-safely
+title: 安全に共有できる形に整える
+summary: "データを分析した結果を、上司やチームメンバーに共有する場面を想像してください。そのとき、「この情報、そのまま見せて大丈夫かな？」と不安になったことはありませんか？ たとえば料理のレシピを友人にシェアするとき、自分の家の住所や電話番号まで一緒に渡す人はいませんよね。データの共有もこれと同じです。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - basic-spreadsheet-use
+capability_outputs:
+  - redact-sensitive-data-for-sharing
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.understand-data-types
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

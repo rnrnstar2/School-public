@@ -1,0 +1,24 @@
+id: atom.ec-operator.create-response-templates
+title: 返信テンプレートを作る
+summary: "お店に「発送はいつ？」「返品したいんですが」というお問い合わせが毎日何件も届くと、毎回ゼロから返信を書くのは大変です。これは 毎回レシピを見ずに同じ料理を作る ようなもの。一度「レシピカード（＝返信テンプレート）」を作っておけば、あとはそれを見ながらサッと仕上げるだけで済みます。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - create-cs-reply-template-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

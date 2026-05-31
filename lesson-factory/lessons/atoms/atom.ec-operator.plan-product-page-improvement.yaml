@@ -1,0 +1,24 @@
+id: atom.ec-operator.plan-product-page-improvement
+title: 商品ページ改善の実践計画を立てる
+summary: "あなたのお店の商品ページ、お客様にとって「わかりやすい」と自信を持って言えますか？ 商品ページは、実店舗でいう「店員さんの接客」と「商品のディスプレイ」が合わさったものです。ネットショップでは、このページがお客様との唯一の接点になります。だからこそ、少しずつ改善していくことが売上アップにつながります。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - create-product-page-improvement-plan
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

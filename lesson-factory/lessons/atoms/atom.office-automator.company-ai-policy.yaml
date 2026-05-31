@@ -1,0 +1,24 @@
+id: atom.office-automator.company-ai-policy
+title: 社内AI利用ガイドラインのドラフトを作る
+summary: "会社でAIを使う人が増えると、「何に使っていいの？」「お客さんのデータをAIに入れても大丈夫？」といった疑問が次々に出てきます。このレッスンでは、そうした疑問に答える 社内AI利用ガイドライン （＝みんながAIを安全に使うための約束事をまとめた文書）のドラフトを、AIチャットツールを使って 15分以内..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - draft-company-ai-guideline
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

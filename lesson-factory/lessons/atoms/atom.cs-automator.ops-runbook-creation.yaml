@@ -1,0 +1,24 @@
+id: atom.cs-automator.ops-runbook-creation
+title: 運用マニュアルを作成する
+summary: "チームに新しいメンバーが加わったとき、「この作業、どうやるんでしたっけ？」と何度も聞かれた経験はありませんか？ 料理のレシピと同じで、手順が書き出してあれば誰でも同じ結果を出せます。この Atom では、AI を使って 誰が読んでもわかる運用マニュアル を 15 分で作る方法を学びます。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - create-ops-runbook-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,25 @@
+id: atom.ai-freelancer.slide-design-canva-ai
+title: Canva AI+テンプレートでスライドを仕上げる
+summary: "プレゼンのスライド作りって、デザインに悩みすぎて時間が足りなくなった経験はありませんか？ これはレストランでメニューを作るのと似ています。 テンプレートは「すでに美味しそうに盛り付けられた皿」 であり、 Canva AI は「あなたの好みに合わせて味を調整してくれるシェフ」 です。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - create-canva-ai-slide
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - canva/magic-design
+status: draft

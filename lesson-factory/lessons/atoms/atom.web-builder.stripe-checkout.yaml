@@ -1,0 +1,31 @@
+id: atom.web-builder.stripe-checkout
+title: Stripe Checkoutで決済を組み込む
+summary: "あなたが作ったアプリで「お金を受け取れる」状態にする回です。自分でゼロからクレジットカード入力画面を作るのは大変ですが、Stripe Checkout（＝Stripeがまるごと用意してくれた決済ページ）を使えば、レストランで注文を取る店員さんのように..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:polish
+  - level:advanced
+capability_inputs:
+  - crud-operations
+  - auth-email-password
+capability_outputs:
+  - payment-integration
+hard_prerequisites:
+  - atom.web-builder.supabase-auth-setup
+  - atom.web-builder.api-json-basics
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - stripe/docs/checkout
+status: draft

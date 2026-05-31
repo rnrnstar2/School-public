@@ -1,0 +1,24 @@
+id: atom.ai-marketer.lp-structure-design
+title: LP全体の構成を設計する
+summary: "LP（ランディングページ＝商品やサービスを紹介して、申し込みや購入につなげるための1枚の縦長Webページ）を作るとき、いきなりデザインに取りかかると「何をどの順番で伝えればいいんだろう？」と手が止まりがちです。 これは料理にたとえると「レシピを決めずに材料を買いに行く」ようなもの。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - design-lp-structure
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

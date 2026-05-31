@@ -1,0 +1,26 @@
+id: atom.ec-operator.review-and-polish-product-copy
+title: 説明文を校正して整える
+summary: "たとえば、あなたがレストランを経営しているとします。おいしい料理を作っても、メニューの説明が「肉と野菜の料理」だけだったら、お客さんはなかなか注文してくれませんよね。「北海道産黒毛和牛を、季節の有機野菜と特製赤ワインソースで仕上げました」と書いてあれば、思わず頼みたくなります。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - polish-product-copy-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ec-operator.write-product-description
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,24 @@
+id: atom.cs-automator.automation-outcome-map
+title: 問い合わせ自動化の到達点を描く
+summary: "このレッスンでは、あなたが目指す「問い合わせ自動化の完成イメージ」を、AIツールの力を借りて一枚の文書にまとめます。 大きな旅に出るとき、まず「目的地の写真」があると安心ですよね。このレッスンは、あなたにとってのその写真を撮る作業です。実際にツールを動かす前に、到達点をはっきりさせることで..."
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - create-automation-outcome-doc
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

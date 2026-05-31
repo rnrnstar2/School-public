@@ -1,0 +1,27 @@
+id: atom.web-builder.understand-file-structure
+title: Webプロジェクトのフォルダ構成を理解する
+summary: "前のレッスンで作った Web プロジェクトには、たくさんのファイルやフォルダが自動で生成されています。初めて見ると「何がなんだかわからない…」と感じるかもしれません。でも大丈夫です。料理にたとえると、冷蔵庫の中身を「野菜はここ、調味料はここ」と整理するのと同じで..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:scaffold
+  - level:beginner
+capability_inputs:
+  - vscode-ready
+capability_outputs:
+  - understand-project-files
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

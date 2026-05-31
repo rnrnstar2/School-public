@@ -1,0 +1,28 @@
+id: atom.web-builder.vercel-build-errors
+title: Vercelビルドエラーの読み方と対処法
+summary: "レストランで料理を出すとき、厨房で「この材料が足りない」「調理手順が間違っている」と見つかることがありますよね。Vercel（ヴァーセル＝Webサイトをインターネットに公開するサービス）のビルドエラーは、これと同じです。あなたのサイトを公開する準備中に「ここがうまくいかないよ」と教えてくれる合図にすぎません。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:deploy
+  - level:intermediate
+capability_inputs:
+  - deployed-to-vercel
+capability_outputs:
+  - debug-build-errors
+hard_prerequisites:
+  - atom.web-builder.deploy-ai-app-to-vercel
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - vercel/docs/build-errors
+status: draft

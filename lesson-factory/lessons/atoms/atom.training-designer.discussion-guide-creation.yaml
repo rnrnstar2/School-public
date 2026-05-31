@@ -1,0 +1,24 @@
+id: atom.training-designer.discussion-guide-creation
+title: グループワークの進行ガイドをAIで作る
+summary: "このAtomでは、AIチャットツール（＝ChatGPTやClaudeなど、AIと対話できるアプリ）を使って、15分でグループワークの進行ガイドを作ります。完成したガイドはそのまま研修本番で使える実用レベルのものです。 料理のホームパーティーを想像してみてください。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - create-discussion-guide-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

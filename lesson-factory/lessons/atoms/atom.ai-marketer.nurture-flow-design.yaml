@@ -1,0 +1,24 @@
+id: atom.ai-marketer.nurture-flow-design
+title: ステップメールを設計する
+summary: "新しいお店に初めて行ったとき、店員さんから「ようこそ！」「今日は何をお探しですか？」「こちらもおすすめですよ」と順番に声をかけてもらうと、親切に感じますよね。 ステップメール（＝登録した人に、決まったタイミングで自動的に送られるメールの連続）は、これをメールで実現する仕組みです。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - design-step-email-sequence
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

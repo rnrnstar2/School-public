@@ -1,0 +1,29 @@
+id: atom.web-builder.og-image-and-social-share
+title: OG画像を設定してSNSシェアを最適化する
+summary: "このレッスンを終えると、あなたのWebサイトのURLをLINEやX（旧Twitter）でシェアしたとき、キレイな画像付きのカードが表示されるようになります。所要時間はおよそ 15分 です。 たとえば、レストランの入り口には「何のお店か」がひと目でわかる 看板 がありますよね。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - business-homepage
+  - landing-page
+  - blog-site
+  - stage:polish
+  - level:beginner
+capability_inputs:
+  - seo-metadata-set
+capability_outputs:
+  - og-image-configured
+hard_prerequisites:
+  - atom.web-builder.seo-metadata
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

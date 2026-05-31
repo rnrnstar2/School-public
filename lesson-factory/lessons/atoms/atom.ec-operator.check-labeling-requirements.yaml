@@ -1,0 +1,24 @@
+id: atom.ec-operator.check-labeling-requirements
+title: 表示義務の基本を確認する
+summary: "あなたがネットショップをオープンするとき、お店の「看板」や「メニュー」に書くべきことが法律で決まっています。 レストランを想像してみてください。入口に店名があったり、メニューに価格が書いてあったりするのは、お客さんが安心して注文できるようにするためです。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - create-labeling-checklist
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

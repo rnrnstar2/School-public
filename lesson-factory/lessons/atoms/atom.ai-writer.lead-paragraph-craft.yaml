@@ -1,0 +1,26 @@
+id: atom.ai-writer.lead-paragraph-craft
+title: リード文をAIと共作する
+summary: "レストランの入り口で笑顔のスタッフに「ようこそ！」と迎えられたら、思わず中に入りたくなりますよね。 Web記事やブログにも同じ役割をもつ部分があります。それが リード文（＝読者を最初に引き込む導入部分） です。魅力的なリード文があると、読者は「この先も読んでみたい」と自然に思ってくれます。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - craft-lead-paragraph-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-first-learner.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

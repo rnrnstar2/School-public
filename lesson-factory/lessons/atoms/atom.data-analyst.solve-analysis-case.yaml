@@ -1,0 +1,26 @@
+id: atom.data-analyst.solve-analysis-case
+title: 売上改善ケースを分析する
+summary: "料理で考えてみましょう。冷蔵庫にある食材（＝データ）をそのまま並べても、まだ食事にはなりません。「何を作りたいか」を決めて、レシピ（＝分析のしかた）にそって手を動かしてはじめて、一品が完成します。 このレッスンでは、あなたが AIチャットツール（＝質問すると答えてくれるAIサービス。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - analyze-business-case-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.ai-chat-first-step
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

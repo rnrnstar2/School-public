@@ -1,0 +1,30 @@
+case_id: execution.runnable.003
+target_rubric: execution.v1
+description: Vercel で Next.js を env 付きで再デプロイする runbook
+sample_execution_excerpt: |
+  対象バージョン:
+  - Next.js 15 系
+  - Vercel Project Settings UI 2026-04 時点
+
+  所要時間の目安: 12-18分
+
+  1. Vercel の Project Settings > Environment Variables を開く
+  2. `NEXT_PUBLIC_SUPABASE_URL` と `NEXT_PUBLIC_SUPABASE_ANON_KEY` を Preview / Production に追加する
+  3. 最新 deploy を開いて Redeploy を実行する
+  4. Build log に `Error: Missing Supabase env` が出ていないことを確認する
+  5. Preview URL を開き、トップページが表示されることを確認する
+
+  失敗時:
+  - 白画面のままなら Browser Console で `undefined` env が出ていないか確認する
+  - 片方の環境だけ直した場合は、両環境をそろえてから再デプロイする
+expected_scores:
+  procedure_reproducibility: 5
+  objective_verification: 4
+  version_dependency_disclosure: 5
+  fallback_quality: 4
+  time_estimate_realism: 4
+expected_average_score: 4.45
+expected_status: pass
+failure_modes: []
+notes: |
+  再デプロイ対象と UI 導線が明確。Build log と Preview URL の2段で結果を確認できる。

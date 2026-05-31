@@ -1,0 +1,24 @@
+id: atom.ai-marketer.message-angle-organize
+title: 訴求軸を整理する
+summary: "商品やサービスには、いろいろな「見せ方」があります。 たとえば料理を例に考えてみましょう。 このように、同じものでも どの面を見せるか で伝わり方が変わります。 この「見せ方の方向」を 訴求軸（＝お客様に伝える切り口） と呼びます。 このレッスンでは、あなたの商品・サービスの訴求軸を..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - organize-message-angles
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

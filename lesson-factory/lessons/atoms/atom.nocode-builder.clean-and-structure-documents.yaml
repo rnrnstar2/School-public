@@ -1,0 +1,24 @@
+id: atom.nocode-builder.clean-and-structure-documents
+title: 参照資料を整形する
+summary: "買い物のレシートやメモが紙ごとにバラバラだと、後から見返したときに何がなんだか分かりませんよね。これを「今週の献立表」のように見やすくまとめる作業を想像してみてください。 このレッスンでは、AI ツール（ChatGPT や Claude など、文章を理解して返してくれるサービス）を使って..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - format-reference-doc-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

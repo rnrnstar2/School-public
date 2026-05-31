@@ -1,0 +1,24 @@
+id: atom.ai-freelancer.why-ai-side-job
+title: AI副業が今アツい理由を理解する
+summary: "スマートフォンが登場する前、「写真をきれいに撮る」にはカメラの専門知識が必要でした。でも今は、スマホを向けてシャッターを押すだけで、誰でもそれなりの写真が撮れますよね。 AIツールも同じような変化を、仕事の世界にもたらしています。このレッスンでは、「なぜ今..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - understand-ai-sidejob-demand
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: archived

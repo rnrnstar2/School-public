@@ -1,0 +1,27 @@
+id: atom.ai-writer.body-draft-generation
+title: 本文の下書きをAIに書かせる
+summary: "レストランで料理を注文するとき、「パスタをください」だけでも出てきますが、「トマトベースで、辛さ控えめ、大盛りで」と伝えたほうが、ずっと自分好みの一皿が届きますよね。AIに文章を書いてもらうときも同じです。あなたが「こんな文章が欲しい」という注文（指示）を上手に出せば..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - ai-tool-account-ready
+capability_outputs:
+  - generate-body-draft-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.prompt-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

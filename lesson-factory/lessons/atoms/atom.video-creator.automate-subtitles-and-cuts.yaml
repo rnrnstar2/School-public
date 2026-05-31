@@ -1,0 +1,27 @@
+id: atom.video-creator.automate-subtitles-and-cuts
+title: 字幕とカットを自動化する
+summary: "動画を作ったあと、「字幕を手でひとつずつ入力する」「無駄な間（ま）を探して切り取る」という作業は、料理でいうと野菜を全部包丁で一つずつ刻むようなもの。フードプロセッサーがあれば一瞬で終わりますよね。動画編集にも同じ「フードプロセッサー」があります。それが AI による自動字幕と自動カットです。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - has-short-video-file
+capability_outputs:
+  - auto-generate-subtitles
+  - auto-cut-silence
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - capcut/auto-captions
+status: draft

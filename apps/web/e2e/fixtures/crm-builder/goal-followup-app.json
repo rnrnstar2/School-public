@@ -1,0 +1,21 @@
+{
+  "$schema": "TQ-208 mock fixture (TQ-202 merge 待ち)",
+  "personaId": "persona.crm-builder",
+  "goalText": "顧客フォロー web app を作りたい",
+  "expectedDomain": "app",
+  "expectedGoalTags": ["crm", "follow-up", "customer-management"],
+  "hearingAnswers": {
+    "purpose": "個人事業の顧客フォローを Spreadsheet から専用 web app に置き換えたい",
+    "audience": "リピート見込みのある既存顧客 30 名前後",
+    "deadline": "今月末までに最低限の顧客一覧 + 次回コンタクト管理を動かしたい",
+    "existingMaterials": "Google Spreadsheet に氏名/連絡先/最終コンタクト日が入っている",
+    "aiTools": "ChatGPT + Claude を日常で使用、コードは未経験",
+    "operatingSystem": "Mac"
+  },
+  "expectedAnchors": ["anchor.crm-builder.default"],
+  "notes": [
+    "TQ-202 merge 後にこの fixture を hearing mock の応答列として読み込む想定",
+    "現状は spec が test.fixme なので fixture は load されない",
+    "PII を含めない: 全フィールドは合成データ"
+  ]
+}

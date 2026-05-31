@@ -1,0 +1,45 @@
+rubric_id: execution.v1
+version: 1
+description: 手順をそのまま再現したときに成果物まで到達できるかを採点する
+criteria:
+  - id: procedure_reproducibility
+    weight: 0.25
+    description: 手順順序と依存関係が明確で再現可能か
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 順序や依存関係が欠落し再現できない
+      3: 大筋は追えるが暗黙前提が残る
+      5: 順序、入力、期待出力が明示され誰が実行しても追える
+  - id: objective_verification
+    weight: 0.25
+    description: 成果物や確認結果を客観的に検証できるか
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 成功判定が主観的で検証不能
+      3: 成功判定はあるが結果の比較軸が弱い
+      5: コマンド、UI、レスポンスなどで成功判定が客観化されている
+  - id: version_dependency_disclosure
+    weight: 0.15
+    description: version や UI 差分に依存する箇所が明示されているか
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: version 依存があるのに記載が無い
+      3: 主要 version はあるが差分注意が不足
+      5: version や UI 差分の注意点まで明示されている
+  - id: fallback_quality
+    weight: 0.2
+    description: 失敗時に別導線や切り分け手順があるか
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 失敗時はやり直し指示しかない
+      3: 別導線はあるが条件分岐が曖昧
+      5: よくある失敗ごとに切り分け順と代替手段がある
+  - id: time_estimate_realism
+    weight: 0.15
+    description: 所要時間見積が学習者像と実作業量に見合うか
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 見積が無いか現実離れしている
+      3: 見積はあるが待ち時間やトラブル余白が弱い
+      5: 初学者を前提に待ち時間と確認時間を含めて妥当
+pass_threshold: 3.6

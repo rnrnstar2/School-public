@@ -1,0 +1,24 @@
+id: atom.ai-marketer.metrics-dashboard-organize
+title: 見るべき指標を整理する
+summary: "旅行の荷造りと似ています。「何を持っていくか」を決める前に、まず「どこへ行くのか」「何をするのか」を整理しますよね。マーケティングの指標（＝数字で成果を測るための目印）も同じです。あなたのビジネスにとって「本当に見るべき数字」を整理するのが、このレッスンの目標です。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - organize-priority-metrics
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

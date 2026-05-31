@@ -1,0 +1,21 @@
+id: atom.common.benchmark-case-study
+title: ベンチマーク事例を AI で分析する
+summary: "自分の goal に近い「うまくいっている事例」を 3-5 件集め、AI チャットに共通点を抽出してもらい、自分用の「勝ちパターン」を 1 件書き出します。所要 15 分。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - research-benchmark
+capability_inputs: []
+capability_outputs:
+  - benchmark-pattern-drafted
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

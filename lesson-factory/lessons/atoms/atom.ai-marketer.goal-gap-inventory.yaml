@@ -1,0 +1,24 @@
+id: atom.ai-marketer.goal-gap-inventory
+title: 学習ゴールと現場課題を棚卸しする
+summary: "旅行の荷造りを想像してみてください。 目的地に着いてから「あ、これ忘れた！」とならないよう、出発前に持ち物チェックをしますよね。 学習も同じです。 いきなり新しいツールやスキルを詰め込む前に、「いま自分が何に困っていて、何を身につけたいか」を先に整理しておくと、迷わず進めます。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - create-goal-gap-doc
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,24 @@
+id: atom.ec-operator.reflect-review-insights
+title: 口コミ分析を販売施策に反映する
+summary: "ネットショップを運営していると、お客様の口コミ（レビュー）がたくさん集まりますよね。「良かった」「ここがイマイチ」——そうした声の中には、売上を伸ばすヒントが隠れています。 でも、何十件・何百件もの口コミを一つひとつ読んで分析するのは大変です。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - analyze-reviews-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

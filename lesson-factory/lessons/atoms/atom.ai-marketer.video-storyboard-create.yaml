@@ -1,0 +1,24 @@
+id: atom.ai-marketer.video-storyboard-create
+title: 動画広告の構成案をつくる
+summary: "「動画広告を作りたいけど、何から始めればいいかわからない…」と感じたことはありませんか？ 映像の専門知識がなくても、AIに手伝ってもらえば、たった15分で動画広告の「設計図」をつくることができます。 料理にたとえると、いきなりフライパンを振る前に「レシピ」を用意するのと同じです。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - create-video-ad-storyboard-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

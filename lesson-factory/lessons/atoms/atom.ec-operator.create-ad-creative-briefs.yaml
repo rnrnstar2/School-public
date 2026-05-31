@@ -1,0 +1,24 @@
+id: atom.ec-operator.create-ad-creative-briefs
+title: 画像広告の制作指示を作る
+summary: "レストランで料理を注文するとき、「何かおいしいもの」とだけ言ったら厨房は困ってしまいますよね。「和風のパスタで、少し辛めで」と伝えると、思い通りの一品が出てきやすくなります。 画像広告（バナー広告＝ネット上で見かける横長や四角い広告画像のこと）の制作も同じです。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - create-ad-creative-brief
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,29 @@
+id: atom.web-builder.install-codex-cli-and-verify
+title: Codex CLI を導入して確認する
+summary: "料理をする前に「包丁」や「まな板」を用意するように、AI にコードを書いてもらうためには「道具」をあなたのパソコンに用意する必要があります。このレッスンでは、OpenAI が提供する Codex CLI （＝ターミナルから AI にプログラムを書いてもらう道具）をインストールし..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:setup
+  - level:beginner
+capability_inputs:
+  - understand-ai-coding-tool-value
+capability_outputs:
+  - install-codex-cli-and-verify
+hard_prerequisites:
+  - atom.web-builder.node-pnpm-setup
+  - atom.web-builder.choose-ai-tool-by-goal-os-cli
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - test_result
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - openai/codex-cli
+status: draft

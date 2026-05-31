@@ -1,0 +1,28 @@
+id: atom.ai-writer.grammar-style-check
+title: 文法と表記ゆれをAIで検出する
+summary: "長い文章を書いたあと、「送りがなの間違い」や「です・ます」と「だ・である」の混在に気づいて冷や汗をかいたことはありませんか？ これは 表記ゆれ （＝同じ意味の言葉なのに、漢字・ひらがなの使い分けがバラバラになっていること）や 文体の混在 （＝「です・ます調」と「だ・である調」が混ざってしまうこと）と呼ばれる..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - detect-grammar-inconsistency-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: grammar_check_result_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - chatgpt/usage
+  - claude/usage
+status: draft

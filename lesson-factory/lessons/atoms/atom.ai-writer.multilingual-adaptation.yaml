@@ -1,0 +1,26 @@
+id: atom.ai-writer.multilingual-adaptation
+title: 多言語展開時のトーン調整を行う
+summary: "同じ内容を別の言語に展開するとき、ただ翻訳するだけでは「なんか違う」と感じられてしまうことがあります。たとえば、日本語で「お気軽にどうぞ」と書いた文章を英語にするとき、\"Please feel free\" では少し堅すぎるかもしれません。逆に英語のカジュアルなコピーをそのまま日本語にすると..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - adjust-tone-for-multilingual
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.prompt-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

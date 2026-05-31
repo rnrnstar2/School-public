@@ -1,0 +1,25 @@
+id: atom.office-automator.gas-basics
+title: Google Apps Scriptの基本を理解して最初のスクリプトを動かす
+summary: "毎日スプレッドシートを開いて、同じ作業を繰り返していませんか？ たとえば売上表のコピー、日報の転記、メール送信リストの更新——こうした「決まった手順」は、Google Apps Script（＝Googleのアプリを自動で動かすための仕組み）に任せられます。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - run-first-gas-script
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - google/apps-script-overview
+status: draft

@@ -1,0 +1,30 @@
+id: atom.web-builder.make-supabase-ai-ready
+title: Supabaseを導入してAIから扱いやすい状態にする
+summary: "新しいキッチンを使い始めるとき、調理器具にラベルを貼ったり、食材を分類して棚にしまったりしますよね。そうしておけば、初めてキッチンに入った人でも「塩はここ、フライパンはあそこ」とすぐに見つけられます。 データベース（＝データを整理して保存する場所）も同じです。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:connect
+  - level:beginner
+capability_inputs:
+  - next-app-created
+capability_outputs:
+  - make-supabase-ai-ready
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+  - atom.web-builder.understand-env-variables
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+  - icon
+freshness_sources:
+  - supabase/docs
+status: draft

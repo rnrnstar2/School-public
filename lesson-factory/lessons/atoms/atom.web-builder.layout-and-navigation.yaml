@@ -1,0 +1,32 @@
+id: atom.web-builder.layout-and-navigation
+title: 共通ヘッダー・フッター・ナビゲーションを作る
+summary: "レストランのメニュー表を想像してみてください。表紙にはお店のロゴ、裏表紙には住所と電話番号があって、中身のページだけが次々と変わりますよね。Webサイトもまったく同じ仕組みです。すべてのページで共通する「枠組み」をまとめる仕組みを レイアウト と呼びます。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - portfolio-site
+  - business-homepage
+  - landing-page
+  - stage:build
+  - level:beginner
+capability_inputs:
+  - create-next-project
+  - understand-routing
+capability_outputs:
+  - shared-layout
+  - navigation-menu
+hard_prerequisites:
+  - atom.web-builder.nextjs-routing
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

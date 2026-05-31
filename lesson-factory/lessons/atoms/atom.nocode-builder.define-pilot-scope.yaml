@@ -1,0 +1,24 @@
+id: atom.nocode-builder.define-pilot-scope
+title: 実務向け試作の範囲を定める
+summary: "旅行の計画を立てるときを思い出してみましょう。3日間の休みで「ヨーロッパ全部回ろう！」と計画したら、移動だけで終わってしまいますよね。楽しい旅行にするには「この3日で絶対に行きたい場所を3つだけ決める」ことが大切です。 試作（＝プロトタイプ。本番前に「小さく作って試すこと」）でもまったく同じです。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - define-pilot-scope
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

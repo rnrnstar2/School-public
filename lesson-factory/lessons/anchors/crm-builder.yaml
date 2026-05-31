@@ -1,0 +1,38 @@
+id: anchor.crm-builder.default
+persona_id: persona.crm-builder
+# W49 (2026-05-09): salvaged from parallel session TQ-202.
+# 顧客フォロー web app を作る最短ルート: 登録 → 設計 → ステータス → フォロー →
+# ビュー → ダッシュボード。既存の nocode-builder + ai-marketer atoms を再利用し、
+# 新規 atom 作成を伴わず persona.crm-builder を unblock する。
+ordered_atom_ids:
+  # 1. データ構造を考える: 何をどこに置くかを Excel 感覚で設計
+  - atom.nocode-builder.design-tables-and-relations
+  # 2. 誰が何を見えるかを決める: アクセス制御を最低限安全に
+  - atom.nocode-builder.design-access-control
+  # 3. 顧客登録フォームを置いて入り口を作る
+  - atom.nocode-builder.build-request-form
+  # 4. ステータス遷移を可視化する (新規 → フォロー中 → 商談 → 受注 等)
+  - atom.nocode-builder.build-status-visibility
+  # 5. フォローアップの動線を AI に設計させる (顧客育成シナリオ)
+  - atom.ai-marketer.nurture-flow-design
+  # 6. 「今日やることリスト」を生成する (next-actions)
+  - atom.ai-marketer.next-actions-prioritize
+  # 7. 進捗が見えるレポートビューを設計する
+  - atom.nocode-builder.design-reporting-views
+  # 8. 関係者全員が読める dashboard に整える
+  - atom.nocode-builder.build-readable-dashboards
+required_capabilities:
+  # W15 B2 (Codex Option A): yaml capability_outputs と整合。
+  - design-table-schema-with-ai
+  - design-access-control-matrix
+  - build-simple-form-with-ai
+  - build-progress-dashboard
+  - design-step-email-sequence
+  - prioritize-next-actions
+  - design-report-layout-with-ai
+  - build-readable-dashboard
+description: |
+  persona.crm-builder 向け default anchor (顧客フォロー web アプリの内製ジャーニー)。
+  既存の nocode-builder + ai-marketer atoms を「登録 → 設計 → ステータス → フォロー →
+  ビュー → ダッシュボード」の 8 step に並べ、新規 atom を作らずに persona.crm-builder を
+  unblock する。W49 で並列 session (TQ-202) から salvage。

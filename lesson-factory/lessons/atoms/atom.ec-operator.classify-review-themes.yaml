@@ -1,0 +1,24 @@
+id: atom.ec-operator.classify-review-themes
+title: 口コミの論点を分類する
+summary: "あなたが運営するECサイトに、毎日たくさんの口コミ（レビュー）が届きます。 「商品が良い」「配送が遅い」「梱包が丁寧」……いろんな感想が混ざっていて、全体像をつかむのが大変ですよね。 これは、 郵便局の手紙を仕分ける のに似ています。 差出人別に仕分ければ、どこからたくさん手紙が来ているか一目でわかります。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - classify-review-by-theme
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

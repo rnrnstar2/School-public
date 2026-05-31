@@ -1,0 +1,23 @@
+id: atom.common.ai-copyright-basics
+title: AI 生成物の著作権と商用利用ルール
+summary: "AI が生成した文章・画像・コードを「自分の制作物」として公開・販売するときのルールを 15 分でつかみます。商用利用可否の判定フロー、出典明示の要否、規約違反のリスクを 1 枚にまとめます。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - comply-with-law
+  - publish-content
+  - sell-content
+capability_inputs: []
+capability_outputs:
+  - judge-ai-output-commercial-use
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

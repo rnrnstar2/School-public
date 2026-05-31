@@ -1,0 +1,29 @@
+id: atom.ai-marketer.post-results-improve
+title: 投稿結果を振り返り改善する
+summary: "SNS に投稿したあと、「いいね」の数だけ見て終わりにしていませんか？ このレッスンでは、AI を使って 投稿結果を振り返り、次の投稿をもっと良くするための改善メモ を 15 分で作る方法を学びます。 料理にたとえると、味見をして「塩が足りなかった」「焼き時間が長すぎた」とメモしておくようなものです。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - create-sns-post-script
+  - generate-social-visuals
+capability_outputs:
+  - review-post-results-with-ai
+hard_prerequisites:
+  - atom.ai-marketer.channel-scripts-create
+soft_prerequisites:
+  - atom.ai-marketer.social-visuals-generate
+  - atom.ai-marketer.reply-playbook-build
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

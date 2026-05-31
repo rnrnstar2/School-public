@@ -1,0 +1,27 @@
+id: atom.ai-marketer.copy-tests-design
+title: コピーのABテスト案を設計する
+summary: "あなたはこのAtomを終えると、キャッチコピー（＝商品やサービスを紹介する短い文句）の「どっちがいいか」を確かめるテスト計画を、AIツールと一緒に自分で組み立てられるようになります。完成までの目安は 15分 です。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - understand-copy-variation
+capability_outputs:
+  - design-ab-test-plan
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.copy-variation-ideas
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - ab-testing/best-practices
+status: draft

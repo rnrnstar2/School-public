@@ -1,0 +1,25 @@
+id: atom.training-designer.lms-content-formatting
+title: LMS向けにコンテンツを整形する
+summary: "あなたは、研修用のテキストや手順書を書いたことがありますか？ 中身がどんなに良くても、見せ方ひとつで「読みやすい」「わかりにくい」がガラッと変わります。 この Atom では、AI ツール（ChatGPT や Claude など）の力を借りて..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - format-content-for-lms
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,29 @@
+id: atom.data-analyst.detect-data-issues
+title: データの乱れを見つける
+summary: "スプレッドシートを使っていて、「あれ、合計が合わない」「同じ会社なのに名前が微妙に違う」と感じたことはありませんか？ これが データの乱れ です。料理にたとえると、冷蔵庫の中に賞味期限切れの食材や、ラベルのない容器が混ざっている状態です。そのまま料理を始めると、味がおかしくなったり、お腹を壊したりしますよね。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - upload-and-inspect-data
+capability_outputs:
+  - detect-data-quality-issues
+hard_prerequisites:
+  - atom.data-analyst.upload-and-inspect-data
+soft_prerequisites:
+  - atom.data-analyst.prompt-for-analysis
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - chatgpt/data-analysis
+  - claude/analysis
+status: draft

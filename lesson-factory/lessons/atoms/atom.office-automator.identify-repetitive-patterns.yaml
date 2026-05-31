@@ -1,0 +1,24 @@
+id: atom.office-automator.identify-repetitive-patterns
+title: 繰り返しパターンを見つけて分類する
+summary: "毎日の仕事を振り返ってみましょう。メール返信、データ入力、報告書の作成……「これ、昨日もやったな」と感じる瞬間がありませんか？ 料理にたとえると分かりやすいです。毎朝の味噌汁を作る手順は、考えなくても体が覚えていますよね。仕事にも、こうした「無意識の繰り返し」がたくさん隠れています。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - identify-repetitive-work-patterns
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

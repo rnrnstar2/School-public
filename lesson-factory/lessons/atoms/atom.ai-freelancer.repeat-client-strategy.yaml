@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.repeat-client-strategy
+title: リピート受注を生む関係構築術を学ぶ
+summary: "お気に入りのレストランを思い出してみてください。料理がおいしいのはもちろんですが、店員さんが「前回お好きだったメニュー、今日もありますよ」と声をかけてくれたら、きっとまた行きたくなりますよね。 フリーランス（＝個人で仕事を受ける働き方）の世界も同じです。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - ai-chat-basic
+capability_outputs:
+  - create-followup-plan
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.first-job-strategy
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

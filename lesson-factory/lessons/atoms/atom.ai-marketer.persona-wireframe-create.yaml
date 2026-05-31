@@ -1,0 +1,24 @@
+id: atom.ai-marketer.persona-wireframe-create
+title: ペルソナ別のワイヤーをつくる
+summary: "レストランのメニューを考えてみましょう。子連れの家族には写真付きの「お子様セット」が嬉しいですが、ビジネスディナーの大人にはシンプルな黒文字のメニューが好まれます。同じ料理でも、見せる相手によって見せ方を変えるのが大事ですよね。 このレッスンでは..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - create-persona-wireframe-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

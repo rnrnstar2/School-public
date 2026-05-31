@@ -1,0 +1,26 @@
+id: atom.video-creator.add-brand-consistency
+title: ブランド感を画像に揃える
+summary: "料理を例にしてみましょう。あなたが「和食の懐石料理」のお店を開くとしたら、お皿の色、箸の材質、メニューの書体まで統一されていると、お客さんは「ちゃんとした和食店だ」と安心しますよね。 画像も同じです。色味・書体・雰囲気がバラバラだと、「この人のチャンネル？」と一瞬迷わせてしまいます。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - use-ai-image-generation
+capability_outputs:
+  - apply-brand-rules-to-ai-images
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.generate-thumbnail
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

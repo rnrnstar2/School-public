@@ -1,0 +1,15 @@
+{
+  "lesson_yaml": "id: atom.mock.publish-ready\ntitle: Owner Local Policy Draft\npersona_tags: [web-builder, crm-builder]\ngoal_tags: [security, policy]\ncapability_inputs: [owner-request-normalized]\ncapability_outputs: [write-basic-policy]\nhard_prerequisites: []\nsoft_prerequisites: []\ndeliverable:\n  type: markdown_doc\n  validation: owner_local_review_v1\nevidence: [url]\nmedia_slots: []\nfreshness_sources: [supabase/rls]\nstatus: draft\n",
+  "body_markdown": "# Owner Local Policy Draft\n\nThis lesson keeps the learner on a single deliverable.\n\n## Steps\n\n1. Confirm the prerequisite context.\n2. Write the minimal policy text.\n3. Verify the observable result.\n",
+  "image_briefs": [],
+  "video_briefs": [],
+  "eval_cases": [
+    "Learner can explain the expected verification result",
+    "Learner can produce the draft deliverable"
+  ],
+  "anticipated_blockers": [
+    "Skipping the verification step",
+    "Confusing the policy goal with deployment"
+  ],
+  "pr_summary": "Prepare owner-local policy lesson for review"
+}

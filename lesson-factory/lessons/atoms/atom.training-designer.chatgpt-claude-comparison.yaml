@@ -1,0 +1,25 @@
+id: atom.training-designer.chatgpt-claude-comparison
+title: ChatGPTとClaudeの研修用途を比較する
+summary: "「AI を研修に使ってみたいけど、ChatGPT と Claude、どっちを選べばいいの？」——これは、社内研修やオンライン講座を設計する人がまず最初にぶつかる疑問です。 たとえるなら、料理で「フードプロセッサーとハンドブレンダー、どっちが便利？」と聞かれたようなもの。答えは「何を作りたいかによる」ですよね。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+  - ai-tool-selection
+capability_inputs: []
+capability_outputs:
+  - compare-chatgpt-claude-for-training
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

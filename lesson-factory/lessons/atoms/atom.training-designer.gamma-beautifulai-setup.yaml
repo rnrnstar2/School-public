@@ -1,0 +1,27 @@
+id: atom.training-designer.gamma-beautifulai-setup
+title: GammaとBeautiful.aiの環境を整える
+summary: "料理を始める前に、まな板や包丁をちゃんと揃えておくと、調理がぐんとスムーズになりますよね。プレゼン資料を作るのも同じです。便利なツールをあらかじめ準備しておけば、いざというときにすぐ素晴らしいスライドが作れます。 このレッスンでは、AI（＝人工知能。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - gamma-account-ready
+  - beautifulai-account-ready
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - gamma/app
+  - beautifulai/app
+status: draft

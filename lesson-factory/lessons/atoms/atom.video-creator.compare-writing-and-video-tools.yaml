@@ -1,0 +1,24 @@
+id: atom.video-creator.compare-writing-and-video-tools
+title: 用途別にAIツールを使い分ける
+summary: "このレッスンを終えると、あなたは 「文章を書くAI」と「動画を作るAI」の違いを自分の言葉で説明でき、やりたいことに合わせてぴったりのツールを選べるようになります。 料理に例えてみましょう。サラダを作るときは包丁とまな板、スープを作るときは鍋とお玉を使いますよね。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - select-ai-tool-by-purpose
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

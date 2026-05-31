@@ -1,0 +1,22 @@
+case_id: meal-planner.success.001
+persona_id: persona.meal-planner
+target_rubric: persona-fit.v1
+simulation_type: success
+scenario: |
+  Google Sheets にある食材リストを元に、1週間分の献立候補と買い物リストを半自動で出したい。
+  平日は短時間しか触れないため、週末にまとめて設定して日々は微修正だけで回したい。
+expected_blocker_tags:
+  - data-normalization
+  - api-quotas
+expected_recovery_atoms:
+  - atom.google-sheets.template-clone
+  - atom.llm.prompt-guardrails
+  - atom.scheduler.weekly-trigger
+narrative: |
+  「平日は細かい調整だけにしたい。毎回ゼロから入力するのではなく、先週のデータを少し直すだけで回したい。」
+success_criteria:
+  - 週末2時間でセットアップし、平日は15分で更新できる構成になっている
+  - 日本語UI中心で進み、英語長文を読まなくても理解できる
+  - quota 超過時に手動運用へ戻す簡易フローがある
+notes: |
+  時間制約が強い success case。小さく始めて維持できる構成なら persona-fit が高くなる。

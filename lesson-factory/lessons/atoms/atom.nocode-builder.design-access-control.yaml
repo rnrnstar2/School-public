@@ -1,0 +1,26 @@
+id: atom.nocode-builder.design-access-control
+title: 権限管理を設計する
+summary: "レストランを想像してみてください。店長はすべての部屋の鍵を持っていますが、ホールスタッフは厨房には入れません。アルバイトは売上データを見ることもできません。このように「誰が、どこまでアクセスできるか」を決めるのが 権限管理 （＝アクセスコントロール）です。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - app-feature-list-drafted
+capability_outputs:
+  - design-access-control-matrix
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.plan-app-features
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

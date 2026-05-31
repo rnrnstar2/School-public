@@ -1,0 +1,25 @@
+id: atom.nocode-builder.create-security-review-checklist
+title: 導入審査の確認項目を作る
+summary: "このレッスンでは、新しいツールやサービスをチームに導入する前に「セキュリティ面で大丈夫か？」を確認するためのチェックリストを、AIの力を借りて作ります。プログラミングの知識は一切不要で、15分ほどで完成します。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-security-checklist-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

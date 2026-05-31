@@ -1,0 +1,21 @@
+id: atom.common.write-learning-roadmap
+title: 自分の学習ロードマップを 1 枚にまとめる
+summary: "「次に何を学ぶか」を AI と相談しながら 15 分で言語化します。今のスキル → 目指す状態 → 3 ヶ月の学習トピック → 各週の最初の一手 を 1 枚のドキュメントに起こします。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - plan-learning
+capability_inputs: []
+capability_outputs:
+  - learning-roadmap-drafted
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

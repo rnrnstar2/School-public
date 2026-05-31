@@ -1,0 +1,25 @@
+id: atom.web-builder.how-ai-changes-learning
+title: AIがあると学び方はどう変わるか
+summary: "旅行先で言葉が通じないとき、昔は辞書を片手に一語ずつ調べていました。今はスマホの翻訳アプリに話しかけるだけで、すぐに意味が伝わりますよね。 プログラミングの学び方にも、まったく同じ変化が起きています。AI（＝人工知能で、あなたの質問に答えてくれる仕組み）を使えば、分厚い教科書を最初から読む必要はありません。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:orient
+  - level:beginner
+capability_inputs: []
+capability_outputs:
+  - understand-ai-first-learning
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: archived

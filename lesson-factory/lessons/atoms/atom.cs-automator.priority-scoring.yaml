@@ -1,0 +1,26 @@
+id: atom.cs-automator.priority-scoring
+title: 優先度スコアリングの基準を設計する
+summary: "カスタマーサポートに届く問い合わせは、すべてが同じ緊急度ではありません。「今すぐ対応しないとお客さまが困る」ものと「来週でも大丈夫」なものを見分ける仕組みがあれば、チーム全体の対応スピードが上がります。 たとえるなら、病院のトリアージ（＝患者さんの症状に応じて診察の順番を決めること）と同じ考え方です。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - design-auto-classification-prompt
+capability_outputs:
+  - design-priority-scoring-criteria
+hard_prerequisites:
+  - atom.cs-automator.auto-classification-prompt
+soft_prerequisites:
+  - atom.cs-automator.inquiry-category-design
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

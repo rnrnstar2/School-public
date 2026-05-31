@@ -1,0 +1,27 @@
+id: atom.video-creator.evaluate-seo-results
+title: SEO結果を振り返る
+summary: "料理を作ってお客さんに出したあと、「おいしかった？」「どこで知ったの？」と聞きたくなりますよね。動画も同じです。公開した動画がどんな人に見られているか、どんな検索キーワードで見つけてもらえたかを知ることで、次の動画をぐっと良くできます。 この Atom では、あなたが公開した動画の..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - youtube-video-published
+capability_outputs:
+  - analyze-seo-metrics-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.optimize-seo
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - youtube/studio-analytics
+status: draft

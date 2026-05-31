@@ -1,0 +1,36 @@
+id: atom.ai-writer.full-article-production
+title: 企画から納品まで通しで記事を制作する
+summary: "これまでのレッスンでは、構成案を作る・下書きを書かせる・自分の視点を加える・最終チェックをする、と一つずつ個別のスキルを練習してきました。このレッスンでは、それらを 最初から最後まで一気に通して 1本の記事を完成させます。 料理にたとえると..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+  - workflow
+capability_inputs:
+  - generate-outline
+  - generate-body-draft
+  - revise-with-human-perspective
+  - run-final-polish-checklist
+capability_outputs:
+  - produce-full-article-end-to-end
+hard_prerequisites:
+  - atom.ai-writer.outline-generation
+  - atom.ai-writer.body-draft-generation
+  - atom.ai-writer.human-revision-layer
+  - atom.ai-writer.final-polish-checklist
+soft_prerequisites:
+  - atom.ai-writer.fact-check-workflow
+  - atom.ai-writer.readability-scoring
+deliverable:
+  type: markdown_doc
+  validation: full_article_manual_review_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

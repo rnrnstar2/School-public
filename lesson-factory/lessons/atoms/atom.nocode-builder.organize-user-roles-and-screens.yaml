@@ -1,0 +1,26 @@
+id: atom.nocode-builder.organize-user-roles-and-screens
+title: 利用者別の画面要件を整理する
+summary: "アプリを作る前に「誰が」「どの画面を」「何のために」使うのかを一覧にしておくと、あとから「この画面、いらなかったかも…」という手戻りを防げます。レストランに例えると、お客さん用のメニュー表と、キッチン用の注文票と、店長用の売上レポート——それぞれ見る人が違えば、必要な情報もレイアウトも変わりますよね。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - app-idea-defined
+capability_outputs:
+  - user-role-screen-map
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.define-app-concept
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

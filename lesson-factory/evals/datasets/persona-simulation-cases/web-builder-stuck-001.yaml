@@ -1,0 +1,23 @@
+case_id: web-builder.stuck.001
+persona_id: persona.web-builder
+target_rubric: persona-fit.v1
+simulation_type: stuck
+scenario: |
+  Vercel に Next.js をデプロイしようとしたが、環境変数の設定で詰まる。
+  Build は通るのに画面が真っ白で、どの env をどこへ入れるか分からない。
+expected_blocker_tags:
+  - env-setup
+  - deploy-secrets
+expected_recovery_atoms:
+  - atom.vercel.env-vars
+  - atom.nextjs.runtime-config
+  - atom.error-to-cause-mapping
+narrative: |
+  「Build succeeded だけど画面が真っ白になる。Vercel ダッシュボードのどこに env を入れるか分からない。
+  `NEXT_PUBLIC_` を付けるかも毎回迷う。」
+success_criteria:
+  - レッスンが Vercel の env 設定 UI 導線を段階つきで示す
+  - 公開してよい env と secrets を分けて説明する
+  - 白画面、build success、console error の関係を原因別に切り分ける
+notes: |
+  ツール好みは Vercel / Supabase 寄り。英語長文なしで進められる説明が必要。

@@ -1,0 +1,24 @@
+id: atom.ec-operator.organize-input-materials
+title: 指示に必要な素材を整理する
+summary: "料理をする前に、食材と調理器具をすべて揃えますよね。 それと同じで、AIツールに仕事を頼む前にも「材料」をきちんと揃えておくことが大切です。 材料が足りないと、AIはあなたの意図を推測してしまい、思った通りの結果が出ないことが多くなります。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - organize-ai-input-materials
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

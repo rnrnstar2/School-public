@@ -1,0 +1,24 @@
+id: atom.office-automator.prompt-basics
+title: AIへの指示（プロンプト）の基本型を覚える
+summary: "レストランで料理を注文するときのことを思い出してください。「何かください」だけだと、店員さんは困ってしまいますよね。でも「温かいパスタを、トマトソースで、小盛りでお願いします」と伝えれば、あなたのイメージ通りのお皿が出てきやすいはずです。 AIへの指示もまったく同じです。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - write-structured-prompt
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

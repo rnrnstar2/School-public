@@ -1,0 +1,30 @@
+id: atom.ai-content-creator.choose-llm-by-task
+title: コンテンツ用途別に LLM（ChatGPT / Claude 等）を使い分ける
+summary: "コンテンツ制作では、台本ライティング・SNS コピー・要約・動画ナレーション原稿など、求められる文体や得意分野が場面ごとに違います。料理に例えるなら「煮込みは土鍋、炒めはフライパン」のように、AI も用途ごとに最適なモデルを使い分けると仕上がりが安定します。このレッスンでは、ChatGPT・Claude・その他主要 LLM のコンテンツ用途別の得意/不得意を 15 分で整理し、自分の常用 2-3 モデルを決めて手元にチートシートを 1 枚作ります。完了する頃には『この投稿はこっち、あの台本はこっち』と迷わず使い分けられます。"
+persona_tags:
+  - ai-content-creator
+  - ai-first-learner
+goal_tags:
+  - content
+  - choose-tool
+  - learn-tool
+  - publish-content
+capability_inputs: []
+capability_outputs:
+  - choose-llm-by-task
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources:
+  - openai-model-releases
+  - anthropic-model-releases
+estimated_minutes: 15
+# W16-A1 (2026-05-10): persona.ai-content-creator anchor の Wave 15 round 5 audit
+# unsupported residue 解消用に reviewed として新規 seed。本格 review は /lesson-improve で別途。
+status: reviewed

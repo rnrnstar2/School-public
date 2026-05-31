@@ -1,0 +1,25 @@
+id: atom.ai-freelancer.slide-market-research
+title: 資料作成案件の市場と単価を調査する
+summary: "「資料作成の仕事って、いくらくらいもらえるの？」「そもそもどんな種類の仕事があるの？」——副業を始める前に、こうした疑問を持つのは自然なことです。 これは旅行に行く前にガイドブックを開くのと似ています。 行き先（＝どんな案件があるか）と予算感（＝いくらもらえるか）を先に調べておけば..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - research-slide-market-pricing
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.platform-overview
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

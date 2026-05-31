@@ -1,0 +1,19 @@
+id: persona.meal-planner
+name: 食事設計ツール制作者（生活改善・家族運用）
+background: |
+  家族の献立管理と買い物リスト作成を楽にしたくて、簡単な meal planner を作りたい。エンジニアではなく、
+  Notion と Google Sheets の整備経験が中心。データ正規化、定期実行、API quota を意識せず作り始めて
+  後から詰まりやすい。理想は毎週30分の更新で回る仕組み。
+goals:
+  - 1週間分の献立と買い物リストを半自動で出したい
+  - 家族の好みと栄養条件を無理なく反映したい
+  - 手入力の手間を減らして継続運用したい
+constraints:
+  - 週末に2時間、平日は15分しか触れない
+  - 有料APIは最小限に抑えたい
+  - 英語UIより日本語UIの方が圧倒的に速い
+preferred_tools:
+  - notion
+  - google-sheets
+  - openai-playground
+learning_pace: slow-steady

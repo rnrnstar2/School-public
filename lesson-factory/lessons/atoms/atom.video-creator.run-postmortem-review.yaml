@@ -1,0 +1,24 @@
+id: atom.video-creator.run-postmortem-review
+title: 制作プロセスを振り返る
+summary: "料理を作り終えたあと、「次は塩を少なめにしよう」「火加減はもう少し弱く」と思うことがありますよね。映像制作も同じです。一度作品を作り終えたら、次により良いものを作るために振り返り（＝ポストモーテム：事後振り返り）をしましょう。 この Atom では、あなたが AI ツールを使って映像を1本作り終えたあとに、..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - write-postmortem-sheet
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

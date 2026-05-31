@@ -1,0 +1,24 @@
+id: atom.training-designer.pre-post-assessment
+title: 研修前後の理解度テストを設計する
+summary: "研修の前と後で「どれくらい理解が進んだか」を数字で確認できるテスト一式（Markdown形式）を、AIの力を借りて15分で作ります。 完成イメージは、研修前テスト5問＋研修後テスト5問のセットです。受講者に配れるドキュメントとして仕上げます。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - design-pre-post-assessment
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

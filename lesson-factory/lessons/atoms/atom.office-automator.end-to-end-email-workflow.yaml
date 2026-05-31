@@ -1,0 +1,30 @@
+id: atom.office-automator.end-to-end-email-workflow
+title: メール受信→分類→返信→記録の全自動フローを構築する
+summary: "毎日届くメールをひとつひとつ開いて、内容を確認して、分類して、返事を書いて、記録を残す——この作業を毎回手作業で行うのは、まるで郵便局で手紙を1通ずつ手作業で仕分けしているようなものです。 このレッスンでは、AI と自動化ツールを組み合わせて..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - make-account-created
+  - openai-api-key-obtained
+capability_outputs:
+  - build-email-automation-flow
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - make/integrations
+  - openai/api-models
+status: draft

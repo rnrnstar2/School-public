@@ -1,0 +1,27 @@
+id: atom.video-creator.systemize-production-ops
+title: 量産体制を仕組み化する
+summary: "このレッスンでは、動画を「毎回ゼロから」作るのではなく、決まった手順にそってスピーディに量産できる仕組みをつくります。 料理で考えてみましょう。レシピがあって、食材の買い出しリストがあって、調理の手順が紙に書いてあれば、誰でも同じ味の料理を何度でも作れますよね。動画制作も同じです。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - basic-video-editing
+  - use-ai-chat
+capability_outputs:
+  - build-production-pipeline
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.ai-batch-production
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.ec-operator.review-results-and-improve
+title: 実践結果を振り返って改善する
+summary: "料理を作ったあと、食べてみて「次はもう少し塩を減らそうかな」と思うこと、ありますよね。仕事でも同じです。やってみた結果をふり返り、AIの力を借りて次の一手を見つけるのがこのレッスンの目標です。 あなたがこれまでの実践で得た結果（商品説明文、キャンペーン、画像改善など）を振り返り..."
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs:
+  - use-ai-for-ec-tasks
+capability_outputs:
+  - create-improvement-plan-from-results
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ec-operator.design-mini-campaign
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

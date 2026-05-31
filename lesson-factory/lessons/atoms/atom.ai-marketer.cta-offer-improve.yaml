@@ -1,0 +1,26 @@
+id: atom.ai-marketer.cta-offer-improve
+title: CTAとオファー文を改善する
+summary: "あなたが作ったランディングページやSNS投稿に、「今すぐ申し込む」「無料で試す」といったボタンや誘い文句がありますよね。これを CTA（コール・トゥ・アクション＝読者に次の行動を促す言葉） と呼びます。そして、「初月無料」「先着10名限定」のように読者の背中を押す条件提示が オファー文 です。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - understand-cta-basics
+capability_outputs:
+  - improve-cta-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.sns-copy-ai
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

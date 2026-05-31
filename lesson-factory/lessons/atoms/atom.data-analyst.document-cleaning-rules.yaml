@@ -1,0 +1,24 @@
+id: atom.data-analyst.document-cleaning-rules
+title: 前処理ルールを記録する
+summary: "データを分析する前に、必ず「データの整理」が必要です。料理でいうと、野菜を洗って皮をむいて切りそろえる 下ごしらえ のようなもの。下ごしらえを丁寧にしておけば、あとの調理（＝分析）がぐんとスムーズになります。 この Atom では、その下ごしらえの手順を「前処理ルール（＝データを整理するための手順書）」..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - write-cleaning-rules-doc
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

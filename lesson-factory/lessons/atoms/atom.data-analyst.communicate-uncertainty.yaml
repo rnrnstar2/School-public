@@ -1,0 +1,26 @@
+id: atom.data-analyst.communicate-uncertainty
+title: 不確実性を前提に判断する
+summary: "天気予報を思い出してください。「明日の降水確率は60%です」と聞いたとき、あなたはどうしますか？傘を持っていくか、持っていかないか——60%という数字のおかげで、あなたは「自分で」判断できますよね。もし予報士が「明日は絶対に雨です」と断言して晴れたら、がっかりします。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - write-uncertainty-aware-report
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

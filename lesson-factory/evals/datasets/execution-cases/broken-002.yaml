@@ -1,0 +1,24 @@
+case_id: execution.broken.002
+target_rubric: execution.v1
+description: fallback と時間見積が破綻している悪い runbook
+sample_execution_excerpt: |
+  所要時間: 5分
+
+  1. Meta アプリを作成する
+  2. OAuth の redirect URI と webhook を設定する
+  3. Instagram アカウントを接続する
+  4. だめなら最初からやり直す
+expected_scores:
+  procedure_reproducibility: 2
+  objective_verification: 1
+  version_dependency_disclosure: 1
+  fallback_quality: 0
+  time_estimate_realism: 0
+expected_average_score: 0.95
+expected_status: fail
+failure_modes:
+  - fallback_quality
+  - time_estimate_realism
+  - objective_verification
+notes: |
+  OAuth と webhook を含む作業を5分で終える想定は非現実的。成功判定もなく、失敗時はリセット指示しかない。

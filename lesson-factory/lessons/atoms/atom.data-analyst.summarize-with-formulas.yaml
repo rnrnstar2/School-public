@@ -1,0 +1,24 @@
+id: atom.data-analyst.summarize-with-formulas
+title: 基本集計を素早く作る
+summary: "買い物のレシートを思い出してみてください。「合計いくらだったかな？」と確認するとき、全部の金額を暗算するのは大変ですよね。でも電卓があれば一瞬で出せます。 スプレッドシート（＝表計算ソフト。Google スプレッドシートや Excel などのこと）での「基本集計」も同じです。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - ask-ai-for-spreadsheet-formula
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

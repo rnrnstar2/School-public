@@ -1,0 +1,29 @@
+id: atom.web-builder.vscode-setup
+title: VS Codeをインストールして開発用に設定する
+summary: "この Atom では、プログラムを書くための「作業台」となるエディタ VS Code （Visual Studio Code）をパソコンにインストールし、AI ツールを使った開発にすぐ取りかかれる状態にします。料理にたとえると、「まな板と包丁をキッチンに揃える」ステップです。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:setup
+  - level:beginner
+capability_inputs:
+  - terminal-basic-ops
+capability_outputs:
+  - vscode-ready
+hard_prerequisites:
+  - atom.web-builder.terminal-basics
+soft_prerequisites: []
+deliverable:
+  type: config_file
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - vscode/docs/setup
+status: draft

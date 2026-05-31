@@ -1,0 +1,24 @@
+id: atom.video-creator.review-ai-output-quality
+title: AI出力の品質を見極める
+summary: "料理に例えるなら、AIは「食材を切って鍋に入れてくれる優秀な助手」です。 味見をして「もう少し塩が足りない」「火が強すぎる」と判断するのは、あなたの役目です。 このレッスンでは、AIが作った文章や画像を「味見」するコツを15分で学びます。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - evaluate-ai-output-quality
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,27 @@
+id: atom.web-builder.showcase-your-work
+title: 作品をSNS・ポートフォリオに掲載して実績にする
+summary: "料理を作り終えたら、一番おいしそうな瞬間を写真に撮ってSNSに投稿しますよね。Webアプリも同じです。せっかく作った作品は、ちゃんと見せ場を作って発信することで「自分の実績」になります。 このレッスンでは、デプロイ（＝作ったものをインターネットに公開すること）が終わった作品を..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - portfolio-site
+  - stage:capstone
+  - level:beginner
+capability_inputs:
+  - deployed-to-vercel
+capability_outputs:
+  - work-showcased
+hard_prerequisites:
+  - atom.web-builder.deploy-ai-app-to-vercel
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: archived

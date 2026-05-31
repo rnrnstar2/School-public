@@ -1,0 +1,24 @@
+id: atom.office-automator.presentation-draft
+title: プレゼン資料のスライド構成と要点をAIで下書きする
+summary: "プレゼン資料を作るとき、「1ページ目は何を書こう…」と白紙の画面を前に固まった経験はありませんか？ このレッスンでは、AIチャットツール（＝ChatGPTやClaudeなど、対話形式で文章を生成してくれるツール）を使って、スライドの構成と各ページの要点を 15分でサクッと下書き する方法を学びます。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - ai-presentation-outline
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,33 @@
+id: atom.web-builder.preview-deployments
+title: プレビューデプロイで安全に動作確認する
+summary: "新しい料理をレストランのメニューに出す前、まずは厨房で味見しますよね。 プレビューデプロイ（＝本番公開前に、インターネット上のテスト環境で動作を確認すること） は、まさにその「味見」です。 この Atom では、あなたが AI ツールと一緒に作った Web アプリの変更を、..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:deploy
+  - level:intermediate
+  - business-homepage
+  - landing-page
+  - saas-mvp
+capability_inputs:
+  - deployed-to-vercel
+  - git-ready
+capability_outputs:
+  - preview-deploy-workflow
+hard_prerequisites:
+  - atom.web-builder.deploy-ai-app-to-vercel
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - vercel/preview-deployments
+status: draft

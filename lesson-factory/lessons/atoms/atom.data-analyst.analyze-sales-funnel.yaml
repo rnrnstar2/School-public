@@ -1,0 +1,26 @@
+id: atom.data-analyst.analyze-sales-funnel
+title: 売上の流れを分解する
+summary: "あなたのお店やサービスで、「商品を知ったのに買わなかった人」はいませんか？ この Atom では、売上が生まれるまでの道のりを「ファネル（＝漏斗のように上が広く下が狭い形）」として分解し、 どこでお客さんが離れているのか を AI と一緒に見つけ出します。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - build-sales-funnel
+  - identify-funnel-bottleneck
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

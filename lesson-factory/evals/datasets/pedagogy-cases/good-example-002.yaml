@@ -1,0 +1,40 @@
+case_id: pedagogy.good.002
+target_rubric: pedagogy.v1
+description: Vercel 環境変数設定の良い例
+sample_lesson_excerpt: |
+  ## 対象者
+  Next.js 初学者で、Vercel への初回デプロイを自力で通したい人
+
+  ## 事前にあるもの
+  - GitHub に push 済みの Next.js プロジェクト
+  - `NEXT_PUBLIC_SUPABASE_URL` と `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+  - Vercel にログインできること
+
+  ## 今日のゴール
+  - Vercel の Project Settings から2つの環境変数を登録できる
+  - 再デプロイ後に `Missing Supabase env` エラーが消える
+  - 反映後のトップページが白画面ではなく表示される
+
+  ## 手順
+  1. Deploy を押す前に、Project Settings > Environment Variables を開く
+  2. 2つの env を Preview / Production の両方へ登録する
+  3. その場で Redeploy を押し、Build log の `Collecting page data` 以降で失敗しないことを確認する
+  4. ブラウザでトップページを開き、ネットワークエラーが無いかを見る
+
+  ## 初学者向けメモ
+  `NEXT_PUBLIC_` は「ブラウザ側から読まれてよい値」に付く接頭辞です。秘密鍵はここに入れません。
+
+  ## 失敗したら
+  - Build は成功するのに白画面なら、env のスペルと適用環境を見直す
+  - 1つだけ登録した場合は、両方そろえてから Redeploy し直す
+expected_scores:
+  prerequisite_clarity: 5
+  completion_criteria: 5
+  jargon_management: 5
+  scaffolding: 4
+  failure_recovery: 4
+expected_average_score: 4.65
+expected_status: pass
+defect_tags: []
+notes: |
+  目的が Vercel env の設定に限定されており、用語説明と失敗時の切り分けも初学者向け。

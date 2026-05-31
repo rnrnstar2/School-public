@@ -1,0 +1,26 @@
+id: atom.cs-automator.faq-draft-generation
+title: AIにFAQ初稿を生成させる
+summary: "「お客様からよく聞かれる質問」をまとめたFAQ（よくある質問集）は、カスタマーサポートの強い味方です。でも、ゼロから書き始めると意外と時間がかかりますよね。 このレッスンでは、AIチャットツール（ChatGPTやClaudeなど）に「たたき台」を作ってもらい、それをあなたが手直しして完成させる方法を学びます。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - generate-faq-draft-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: faq_draft_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

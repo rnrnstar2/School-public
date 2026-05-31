@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://school.local/lesson-factory/schemas/lesson-draft.schema.json",
+  "title": "Lesson Draft",
+  "description": "Schema for owner-local lesson draft output prior to critique and media generation.",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "lesson_yaml",
+    "body_markdown",
+    "image_briefs",
+    "video_briefs",
+    "eval_cases",
+    "anticipated_blockers",
+    "pr_summary"
+  ],
+  "properties": {
+    "lesson_yaml": {
+      "type": "string",
+      "description": "Serialized YAML that should parse into a Lesson Atom compatible with lesson.schema.json."
+    },
+    "body_markdown": {
+      "type": "string"
+    },
+    "image_briefs": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "video_briefs": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "eval_cases": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "anticipated_blockers": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "pr_summary": {
+      "type": "string"
+    }
+  }
+}

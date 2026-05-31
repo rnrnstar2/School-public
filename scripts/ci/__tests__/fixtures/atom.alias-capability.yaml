@@ -1,0 +1,23 @@
+id: atom.training-designer.training-goal-definition
+title: 研修のゴールと成果指標を定義する
+summary: AI を使って研修のゴールを明文化する。
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - alias-capability
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

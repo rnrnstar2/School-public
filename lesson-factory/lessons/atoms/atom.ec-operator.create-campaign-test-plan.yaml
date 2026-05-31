@@ -1,0 +1,26 @@
+id: atom.ec-operator.create-campaign-test-plan
+title: 配信計画と検証案を作る
+summary: "大きなホームパーティーを開くときのことを想像してみてください。何を出すか（メニュー）、誰を呼ぶか（ゲスト）、いつ始めるか（タイミング）を計画して、本番前に味見をしますよね。ECサイトのメール配信もこれとまったく同じです。 このレッスンでは、AIツール（＝チャット形式で質問すると答えてくれる便利なサービス。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs:
+  - ai-chat-basic-usage
+capability_outputs:
+  - create-campaign-test-plan
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ec-operator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

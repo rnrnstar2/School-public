@@ -1,0 +1,31 @@
+id: atom.web-builder.define-mvp-pages
+title: 最初に必要なページを決める
+summary: "レストランをオープンするとき、最初から50品のフルメニューは必要ありません。「これがうちのお店です」と伝える、最少限のメニューがあればオープンできますよね。あとの料理は、お客さんが来てから増やしていけば大丈夫。 Webアプリも同じです。最初は「ユーザーに最低限見せたいページ」だけを揃えて公開するのが賢い..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - portfolio-site
+  - business-homepage
+  - landing-page
+  - saas-mvp
+  - stage:scaffold
+  - level:beginner
+capability_inputs:
+  - project-goal-decided
+capability_outputs:
+  - define-mvp-pages
+hard_prerequisites:
+  - atom.web-builder.choose-project-goal
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+  - icon
+freshness_sources: []
+status: draft

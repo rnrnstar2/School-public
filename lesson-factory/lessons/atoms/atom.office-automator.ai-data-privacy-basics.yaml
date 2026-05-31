@@ -1,0 +1,24 @@
+id: atom.office-automator.ai-data-privacy-basics
+title: AIに渡してよいデータ・渡してはいけないデータを区別する
+summary: "旅行先で知らない人に「どこから来ました？」と聞かれたら、「東京から」と気軽に答えますよね。でも「銀行の暗証番号は？」と聞かれたら絶対に答えません。 AIツール（＝ChatGPTやClaudeなど、人工知能と対話して仕事を助けてもらうサービス）も同じです。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - classify-data-for-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

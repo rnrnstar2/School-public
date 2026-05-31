@@ -1,0 +1,26 @@
+id: atom.nocode-builder.design-error-handling
+title: 失敗時の処理を設計する
+summary: "あなたが作ったアプリで、ボタンを押したのに画面が真っ白になる――そんな体験をしたことはありませんか？ レストランにたとえてみましょう。注文した料理がいつまでも出てこないとき、何も言われなければ不安ですよね。でも店員さんが「あと5分でお持ちします」と声をかけてくれたら、安心して待てます。アプリでも同じです。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - define-app-workflow
+capability_outputs:
+  - design-error-handling-doc
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.map-business-processes
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

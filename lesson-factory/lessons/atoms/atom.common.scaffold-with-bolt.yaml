@@ -1,0 +1,34 @@
+id: atom.common.scaffold-with-bolt
+title: Bolt.new でブラウザ完結の Web アプリを作る
+summary: "Bolt.new は「作りたい Web アプリ」を日本語で指示するだけで、ブラウザ内で動く完成形を作ってくれます。インストール不要・ターミナル不要。15-25 分で「動くアプリ」を画面に出すのが目標です。"
+persona_tags:
+  - web-builder
+  - ai-app-builder
+  - p-noneng-webapp
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - saas-mvp
+  - internal-tools
+  - nocode-development
+  - stage:scaffold
+  - level:beginner
+capability_inputs: []
+capability_outputs:
+  - scaffold-app-with-bolt
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: url
+  validation: basic_manual_check_v1
+evidence:
+  - url
+  - screenshot
+media_slots:
+  - screen_capture
+freshness_sources:
+  - bolt.new/docs
+estimated_minutes: 20
+# TQ-222: Shortest-Path Planner (TQ-235) 用に worker が暫定 reviewed に昇格。
+# TQ-218 で no-code-first set として整備済み。本格 review は /lesson-improve で別途実施。
+status: reviewed

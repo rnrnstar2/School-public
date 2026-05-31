@@ -1,0 +1,24 @@
+id: atom.office-automator.team-training-plan
+title: 非エンジニアの同僚にAIツールを教える研修を設計する
+summary: "あなたの職場にも「AIって便利そうだけど、何から始めればいいかわからない」という同僚はいませんか？ このレッスンでは、あなたが 15分で「AI研修プラン」を1枚のドキュメントにまとめる ことをゴールにします。料理のレシピを書くように、「誰に・何を・どの順番で教えるか」を整理していきましょう。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - design-ai-training-plan
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

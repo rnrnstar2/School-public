@@ -1,0 +1,27 @@
+id: atom.data-analyst.build-forecast-baseline
+title: 予測の基準線を作る
+summary: "レストランで新しいメニューを考えるとき、まずは「素材そのものの味」を確かめますよね。素材の味を知っていれば、「どこを工夫すればもっと良くなるか」がわかりやすくなります。 データの予測でも同じです。複雑な分析に入る前に、まずは シンプルな予測の基準線（ベースライン） を作ります。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-chatgpt-basic
+capability_outputs:
+  - build-forecast-baseline
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.chatgpt-data-upload
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - chatgpt/data-analysis
+status: draft

@@ -1,0 +1,22 @@
+id: atom.common.draft-domain-area-map
+title: 業務 / 領域マップを書き出して優先順位をつける
+summary: "EC 運営・ノーコード構築・業務自動化など、複数の作業領域がある goal で「どこから始めるか」を決めるための 1 枚マップを 15 分で作ります。AI に各領域の最初の一歩を提案させ、最も詰まっている 1 つに絞ります。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - prioritize-work
+  - decompose-domain
+capability_inputs: []
+capability_outputs:
+  - domain-area-map-drafted
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

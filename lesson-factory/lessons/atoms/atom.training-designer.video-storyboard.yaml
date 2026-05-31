@@ -1,0 +1,25 @@
+id: atom.training-designer.video-storyboard
+title: 動画教材の絵コンテをAIで作る
+summary: "料理を始める前に「何を作るか」「どんな順番で進めるか」をメモしておくと、焦らずスムーズに調理できますよね。動画教材も同じです。撮影や編集に取りかかる前に、各シーンで「何を見せるか・何を伝えるか」をまとめた設計図があると、あとでの手戻りがぐっと減ります。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+  - video-production
+capability_inputs: []
+capability_outputs:
+  - create-video-storyboard-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

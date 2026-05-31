@@ -1,0 +1,25 @@
+id: atom.ec-operator.understand-ec-operations-overview
+title: EC運営の全体像を理解する
+summary: "レストランを思い浮かべてみてください。厨房で料理を作る人、ホールで注文を取る人、食材を発注する人、お客様の声を聞く人——みんなが役割を分担して、お店を回しています。 EC（＝インターネットで商品を売る仕組みのこと）も同じです。商品を用意する人、注文をさばく人、お客様と話す人、広告を出す人……。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - explain-ec-six-areas
+  - create-ec-checklist-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

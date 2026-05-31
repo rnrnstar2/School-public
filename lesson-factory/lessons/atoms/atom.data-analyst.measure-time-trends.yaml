@@ -1,0 +1,26 @@
+id: atom.data-analyst.measure-time-trends
+title: 時系列の変化を捉える
+summary: "毎月の体重を記録しているノートを見返すと、「あ、この時期に増えてるな」と気づくことがありますよね。データにも同じように 時間の流れに沿ってどう変わったか を読み取る力があります。このレッスンでは、AIチャットツール（ChatGPTやClaude）を使って..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - analyze-time-series-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.ask-data-with-ai
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

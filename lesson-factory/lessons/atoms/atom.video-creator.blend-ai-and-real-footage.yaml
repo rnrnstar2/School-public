@@ -1,0 +1,29 @@
+id: atom.video-creator.blend-ai-and-real-footage
+title: 実写とAI素材を自然に混ぜる
+summary: "動画を作っていると、「ここにもう1カット欲しいけど、撮影し直すのは大変…」と感じることがありませんか？ そんなとき頼りになるのが、AIで映像を生成するツールです。 これを料理に例えてみましょう。実写の映像は「新鮮なお肉や野菜」、AIで作った映像は「プロの味付けがされた万能だし」です。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - basic-video-shooting
+  - ai-image-generation-basics
+capability_outputs:
+  - blend-real-and-ai-footage
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.ai-video-generation-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - luma-dream-machine
+  - capcut-ai-features
+status: draft

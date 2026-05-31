@@ -1,0 +1,24 @@
+id: atom.nocode-builder.design-tables-and-relations
+title: テーブルと関連を設計する
+summary: "アプリを作るとき、最初に考えるのが「データをどう整理して保存するか」です。これがデータベース（＝情報を整理して保存する仕組み）の設計にあたります。 難しそうに聞こえるかもしれませんが、やっていることは「Excelのシートを分けて、シート同士を線でつなぐ」のと同じです。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - design-table-schema-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,27 @@
+id: atom.web-builder.reading-docs-and-asking-questions
+title: 公式ドキュメントの読み方と質問の仕方
+summary: "旅行先で道に迷ったとき、どうしますか？ 地図を見るか、地元の人に聞きますよね。 プログラミングでも同じです。 公式ドキュメント （＝その道具を作った人が書いた説明書）が「地図」で、 AI が「親切な地元の人」です。 このレッスンでは、15分で次の2つのコツを身につけます。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:scaffold
+  - level:beginner
+capability_inputs:
+  - error-reporting-to-ai
+capability_outputs:
+  - self-learning-skill
+hard_prerequisites:
+  - atom.web-builder.first-project-and-basic-ai-requests
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

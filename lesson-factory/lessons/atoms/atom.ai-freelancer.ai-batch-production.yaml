@@ -1,0 +1,27 @@
+id: atom.ai-freelancer.ai-batch-production
+title: AIでバッチ制作して作業時間を圧縮する
+summary: "週末に「作り置きおかず」をまとめて作っておくと、平日の食事準備がグッとラクになりますよね。AIを使ったバッチ制作（＝同じ種類のものをまとめて一気に作ること）も、まさにこれと同じ考え方です。1つずつバラバラに作業する代わりに、AIにまとめてお願いすることで、作業時間を5分の1〜10分の1に圧縮できます。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - create-batch-content-with-ai
+hard_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+soft_prerequisites:
+  - atom.ai-freelancer.prompt-engineering-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

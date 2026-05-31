@@ -1,0 +1,24 @@
+id: atom.nocode-builder.understand-ai-app-architecture
+title: AI連携アプリの基本構成を理解する
+summary: "レストランで食事を頼む場面を思い出してみましょう。あなたはウェイターに注文を伝えます。ウェイターはそれを厨房に届け、シェフが料理を作ります。完成した料理はウェイターがあなたのテーブルまで運んできます。 AI連携アプリ（＝AIの力を借りて動くアプリ）も、これとそっくりな仕組みで動いています。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - explain-ai-app-3layer-architecture
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

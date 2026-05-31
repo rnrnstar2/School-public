@@ -1,0 +1,26 @@
+id: atom.ai-writer.rewrite-variation
+title: 同じ内容を異なる表現で書き換える
+summary: "料理にたとえてみましょう。冷蔵庫にある同じ材料でも、炒め物にしたりスープにしたりサラダにしたりできますよね。文章も同じです。伝えたい中身は変えずに、「丁寧な言い方」「親しみやすい言い方」「簡潔な言い方」など、さまざまな表現に作り変えることができます。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - rewrite-text-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.ai-chat-start
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

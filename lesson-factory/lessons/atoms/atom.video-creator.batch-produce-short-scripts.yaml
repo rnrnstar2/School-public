@@ -1,0 +1,28 @@
+id: atom.video-creator.batch-produce-short-scripts
+title: 短尺台本をまとめて作る
+summary: "動画を1本ずつ台本から作っていると、「ネタ考え→構成→台本→修正」を毎回イチからやることになり、時間がいくらあっても足りません。お弁当づくりに例えるなら、おかずを1品ずつ違うフライパンで作っている状態です。 このレッスンでは、AIツールを使って 5本ぶんの短尺台本をまとめて一気に下書きする方法..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+  - efficiency
+capability_inputs:
+  - write-short-script-single
+capability_outputs:
+  - batch-produce-short-scripts
+hard_prerequisites:
+  - atom.video-creator.write-shooting-script
+soft_prerequisites:
+  - atom.video-creator.structure-short-video-hooks
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

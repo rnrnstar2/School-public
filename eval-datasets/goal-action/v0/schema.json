@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://school.local/eval-datasets/goal-action/v0/schema.json",
+  "title": "Goal Action Eval Dataset v0",
+  "type": "object",
+  "$defs": {
+    "goalId": {
+      "type": "string",
+      "pattern": "^goal-[a-z0-9-]+$"
+    },
+    "actionId": {
+      "type": "string",
+      "pattern": "^action-[a-z0-9-]+$"
+    },
+    "domain": {
+      "type": "string",
+      "minLength": 1
+    },
+    "capability": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stringList": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      },
+      "uniqueItems": true
+    },
+    "lessonOrAtomId": {
+      "type": "string",
+      "pattern": "^(lesson|atom)\\.[a-z0-9._-]+$"
+    },
+    "goalRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "goalId",
+        "text",
+        "domain",
+        "createdAt"
+      ],
+      "properties": {
+        "goalId": {
+          "$ref": "#/$defs/goalId"
+        },
+        "text": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "domain": {
+          "$ref": "#/$defs/domain"
+        },
+        "personaHint": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "createdAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+        }
+      }
+    },
+    "expectedActionRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "goalId",
+        "actionId",
+        "canonical"
+      ],
+      "properties": {
+        "goalId": {
+          "$ref": "#/$defs/goalId"
+        },
+        "actionId": {
+          "$ref": "#/$defs/actionId"
+        },
+        "canonical": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "capability",
+            "outcome",
+            "blocker",
+            "stack"
+          ],
+          "properties": {
+            "capability": {
+              "$ref": "#/$defs/capability"
+            },
+            "outcome": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "blocker": {
+              "$ref": "#/$defs/stringList"
+            },
+            "stack": {
+              "$ref": "#/$defs/stringList"
+            }
+          }
+        }
+      }
+    },
+    "expectedLessonRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "actionId",
+        "expectedCoverageScore",
+        "gap"
+      ],
+      "properties": {
+        "actionId": {
+          "$ref": "#/$defs/actionId"
+        },
+        "lessonOrAtomId": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^(lesson|atom)\\.[a-z0-9._-]+$"
+        },
+        "expectedCoverageScore": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "gap": {
+          "type": "boolean"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "gap": {
+                "const": true
+              }
+            },
+            "required": [
+              "gap"
+            ]
+          },
+          "then": {
+            "properties": {
+              "lessonOrAtomId": {
+                "type": "null"
+              }
+            }
+          },
+          "else": {
+            "required": [
+              "lessonOrAtomId"
+            ],
+            "properties": {
+              "lessonOrAtomId": {
+                "$ref": "#/$defs/lessonOrAtomId"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "expectedGapRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "actionId",
+        "reason",
+        "expectedProposalPriority"
+      ],
+      "properties": {
+        "actionId": {
+          "$ref": "#/$defs/actionId"
+        },
+        "reason": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "expectedProposalPriority": {
+          "type": "string",
+          "enum": [
+            "high",
+            "mid",
+            "low"
+          ]
+        }
+      }
+    },
+    "goalsFile": {
+      "type": "array",
+      "minItems": 10,
+      "items": {
+        "$ref": "#/$defs/goalRecord"
+      }
+    },
+    "expectedActionsFile": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/expectedActionRecord"
+      }
+    },
+    "expectedLessonsFile": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/expectedLessonRecord"
+      }
+    },
+    "expectedGapsFile": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "$ref": "#/$defs/expectedGapRecord"
+      }
+    }
+  }
+}

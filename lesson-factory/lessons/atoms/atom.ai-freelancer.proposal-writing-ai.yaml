@@ -1,0 +1,25 @@
+id: atom.ai-freelancer.proposal-writing-ai
+title: 通る提案文をAIで作成する
+summary: "フリーランスの仕事をもらうとき、最初の関門は「提案文（＝クライアントに『私にこの仕事を任せてください』と伝える文章）」です。 レストランの入り口メニューを想像してみてください。お客さんはメニューを見て「ここで食べよう」と決めますよね。提案文も同じです。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - write-proposal-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

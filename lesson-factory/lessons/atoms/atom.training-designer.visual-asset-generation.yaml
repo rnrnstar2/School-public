@@ -1,0 +1,30 @@
+id: atom.training-designer.visual-asset-generation
+title: 図解やアイコンをAIで生成する
+summary: "資料を作っているとき、「ここ、図があった方がわかりやすいのに…」と思ったことはありませんか？ 料理でいえば、レシピの文章だけより完成写真がある方がぐっと作りたくなりますよね。それと同じで、説明文だけのスライドに1枚フロー図が加わるだけで、読み手の理解度はまるで変わります。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+  - visual-content
+capability_inputs:
+  - use-chatgpt-basic
+capability_outputs:
+  - generate-diagram-with-ai
+  - generate-icon-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.training-designer.prompt-writing-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+  - icon
+freshness_sources:
+  - openai/chatgpt-image-gen
+status: draft

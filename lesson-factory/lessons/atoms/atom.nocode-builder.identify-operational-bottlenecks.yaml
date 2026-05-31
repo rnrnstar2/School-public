@@ -1,0 +1,25 @@
+id: atom.nocode-builder.identify-operational-bottlenecks
+title: 現場の詰まりどころを特定する
+summary: "あなたが毎日やっている仕事の中で、「ここ、いつも時間がかかるな……」と感じる場所はありませんか？ レストランの厨房を想像してみてください。注文はどんどん入ってくるのに、焼き場（グリル）が1つしかなくて料理が追いつかない――。この場合、ウェイターを増やしても解決しません。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - identify-bottleneck
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.map-business-processes
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

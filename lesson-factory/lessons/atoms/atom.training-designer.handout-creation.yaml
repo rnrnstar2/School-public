@@ -1,0 +1,24 @@
+id: atom.training-designer.handout-creation
+title: 配布資料をAIで作成する
+summary: "「研修の配布資料、ゼロから書くのは大変…」と感じたことはありませんか？ AIチャットツール（＝人工知能と対話できるアプリ。ChatGPTやClaudeなど）を使えば、あなたのアイデアを元に、見やすい資料の原稿を数分で仕上げることができます。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - create-handout-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

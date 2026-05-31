@@ -1,0 +1,25 @@
+id: atom.training-designer.quiz-objective-design
+title: テスト問題の出題方針を設計する
+summary: "レストランのコース料理を思い浮かべてみてください。メニューを作る前に「何をメインにするか」「何人分用意するか」を決めますよね。テスト問題も同じです。いきなり問題を書き始める前に、「何を確かめたいのか」「どのくらいの難易度にするか」という方針を先に決めておくと、あとの作業がぐっとスムーズになります。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - design-quiz-objective-doc
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

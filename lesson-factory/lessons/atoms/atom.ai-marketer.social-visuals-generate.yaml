@@ -1,0 +1,26 @@
+id: atom.ai-marketer.social-visuals-generate
+title: SNS用の画像と動画ラフを生成する
+summary: "SNS投稿の「パッと見」で、見ている人の指が止まるかどうかが決まります。でも、デザインソフトを一から覚えるのは大変ですよね。 このレッスンでは、AIツールを使って 15分以内 に、SNS投稿用の画像1枚と動画ラフ（＝簡単な下書き）1本を作り切ります。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - use-chatgpt-basic-prompt
+capability_outputs:
+  - generate-sns-visual-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.benefit-copy-write
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

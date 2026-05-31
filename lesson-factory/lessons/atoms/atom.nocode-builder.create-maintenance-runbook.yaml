@@ -1,0 +1,27 @@
+id: atom.nocode-builder.create-maintenance-runbook
+title: 保守手順を作る
+summary: "あなたが作ったアプリやツールは、一度完成したら終わりではありません。 定期的にお手入れをすることで、長く安全に使い続けられます。 このレッスンでは、AIツール（＝チャットで話しかけて作業を助けてくれるツール）を使って、 保守手順書（ランブック） を作ります。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - create-maintenance-runbook
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.deploy-first-app
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

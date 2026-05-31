@@ -1,0 +1,24 @@
+id: atom.ai-freelancer.image-gen-market-research
+title: 画像生成案件の市場と単価を調査する
+summary: "あなたが「AIで絵を作れる」というスキルを、実際の収入に結びつけるための第一歩を踏み出します。具体的には、ネット上で画像生成の仕事がどれくらいあるか、ひとつあたりいくら報酬がもらえるかを、 15分でサッと調べる方法 を身につけます。 旅行に行く前に「ホテルの料金相場」をチェックしますよね。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - research-image-gen-market
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

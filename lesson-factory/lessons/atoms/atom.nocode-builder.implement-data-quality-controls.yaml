@@ -1,0 +1,26 @@
+id: atom.nocode-builder.implement-data-quality-controls
+title: データ品質の仕組みを作る
+summary: "レストランを思い浮かべてみてください。食材の鮮度を確認せずに料理を出したら、お客さんに嫌な思いをさせてしまいますよね。データも同じです。中身が正しくないままアプリで使うと、通知が届かなかったり、集計が間違っていたりと、あとから大きな手戻りが発生します。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - use-spreadsheet-basic
+capability_outputs:
+  - build-data-quality-rules
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.create-spreadsheet-app
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

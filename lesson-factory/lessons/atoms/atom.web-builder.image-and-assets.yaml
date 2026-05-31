@@ -1,0 +1,32 @@
+id: atom.web-builder.image-and-assets
+title: 画像やアイコンを正しく配置する
+summary: "このレッスンでは、あなたが作ったホームページに画像やアイコンを「ちゃんと表示される形」で配置します。料理でいえば、盛り付けの段階です。素材（画像ファイル）を正しい場所に置き、正しい名前で呼び出してあげると、ページにきれいに並びます。 AIツール（Claude Code、Codex CLI、Cursor..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - portfolio-site
+  - business-homepage
+  - landing-page
+  - stage:build
+  - level:beginner
+capability_inputs:
+  - homepage-created
+capability_outputs:
+  - image-handling
+  - icon-usage
+hard_prerequisites:
+  - atom.web-builder.create-homepage
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - nextjs/docs/image-optimization
+status: draft

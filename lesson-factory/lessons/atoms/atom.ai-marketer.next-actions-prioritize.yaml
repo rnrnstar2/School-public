@@ -1,0 +1,26 @@
+id: atom.ai-marketer.next-actions-prioritize
+title: 次の改善施策を優先順位付けする
+summary: "レストランのメニューを考えていると想像してみてください。人気の料理もあれば、あまり注文されない料理もあります。「どの料理のレシピから見直そうか？」と考えるとき、なんとなく選ぶのではなく、「コストが安くて効果が大きい順」に選びますよね。マーケティングの改善も同じです。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - identify-improvement-points
+capability_outputs:
+  - prioritize-next-actions
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.analyze-current-metrics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

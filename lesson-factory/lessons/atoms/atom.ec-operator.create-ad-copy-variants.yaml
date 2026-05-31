@@ -1,0 +1,24 @@
+id: atom.ec-operator.create-ad-copy-variants
+title: 広告文の案を作る
+summary: "広告文を作るのは、料理に似ています。美味しい料理を作るには、レシピ（目的）と新鮮な食材（商品の魅力）が必要ですよね。AI（＝人工知能。ここではChatGPTやClaudeのようなチャットツールのこと）は、あなたの優秀なアシスタントシェフです。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - generate-ad-copy-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

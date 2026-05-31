@@ -1,0 +1,24 @@
+id: atom.office-automator.onboarding-automation
+title: 新入社員オンボーディングの準備作業を自動化する
+summary: "新入社員が入社するたびに、歓迎メール、アカウントの準備、必要書類の案内……やることがたくさんありますよね。これを毎回手作業でやり直すのは、まるで毎回引っ越しの荷造りをゼロから始めるようなものです。 このレッスンでは、AIツール（＝人工知能を使った便利なツール。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - create-onboarding-workflow-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

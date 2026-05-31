@@ -1,0 +1,26 @@
+id: atom.office-automator.meeting-insights-dashboard
+title: 会議の傾向を可視化して無駄な会議を減らす
+summary: "買い物のレシートを月末にまとめて「今月は外食が多すぎた……」と気づいた経験はありませんか。会議も同じです。カレンダーのデータを整理すれば「どこに時間を使いすぎているか」が一目でわかります。このレッスンでは、あなたのカレンダーから会議データを取り出し、AIチャットツール（＝ChatGPT や Claude..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - analyze-calendar-data-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

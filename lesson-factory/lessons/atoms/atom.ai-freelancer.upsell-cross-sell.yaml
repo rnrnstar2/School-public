@@ -1,0 +1,25 @@
+id: atom.ai-freelancer.upsell-cross-sell
+title: 既存クライアントへの追加提案で売上を伸ばす
+summary: "いつも行っているお店で「今日は〇〇もおすすめですよ」と声をかけられると、つい追加で注文してしまう……そんな経験はありませんか？ 実は、これと同じことがあなたの仕事でもできます。新しいクライアントを探すのは大変ですが、すでに信頼関係があるクライアントへの追加提案なら、ぐっとハードルが下がります。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - create-upsell-proposal
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.repeat-client-strategy
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

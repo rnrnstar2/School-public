@@ -1,0 +1,24 @@
+id: atom.ec-operator.set-support-tone
+title: 対応文のトーンを設定する
+summary: "ネットショップのお客さま対応で、「なんだか冷たい印象だな」「逆に馴れ馴れしすぎるかも」と感じたことはありませんか？ メールやチャットの文面は、言葉づかいひとつでお客さまの受け取り方がガラッと変わります。 この Atom では、AI（ここでは ChatGPT や Claude などの文章生成ツール）を使って..."
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - set-support-tone
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

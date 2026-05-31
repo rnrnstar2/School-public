@@ -1,0 +1,27 @@
+id: atom.training-designer.free-text-analysis
+title: 自由記述回答をAIで分析する
+summary: "アンケートや研修後のふりかえりで「自由に書いてください」と聞くと、10人分でも読むだけで大変です。100人、200人と増えると、もう人の目だけで傾向をつかむのは現実的ではありません。 この Atom では、 自由記述回答をAIチャットに貼り付けて、傾向・キーワード・改善ヒントを短時間で引き出す方法..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+  - text-analysis
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - analyze-free-text-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.training-designer.survey-design-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

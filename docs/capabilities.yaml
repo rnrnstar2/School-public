@@ -1,0 +1,4712 @@
+# Canonical capability master generated from existing ATOM YAML files.
+# Normalization rules:
+# - Canonical ids must stay lower-case and kebab-case.
+# - Comparison for merge candidates normalizes ids via lower-case + kebab-case.
+# - Similar ids with Levenshtein edit distance <= 2 are marked as merge candidates only.
+# - Merge candidates are suggestions for human review; automatic merge is prohibited.
+version: 1
+generated_at: '2026-04-18'
+source:
+  atoms_glob: lesson-factory/lessons/atoms/*.yaml
+  atom_count: 576
+  capability_count: 780
+  capability_fields:
+  - capability_inputs
+  - capability_outputs
+normalization:
+  canonical_case: lower-case
+  canonical_separator: kebab-case
+  comparison_transform: lower-case + kebab-case
+  merge_candidate_rule: Levenshtein edit distance <= 2 after normalization
+  auto_merge: false
+merge_candidates:
+- ids:
+  - ai-tool-ready
+  - ai-tools-ready
+  normalized_distance: 1
+  mark: merge-candidate
+  auto_merge: false
+- ids:
+  - define-mvp-pages
+  - defined-mvp-pages
+  normalized_distance: 1
+  mark: merge-candidate
+  auto_merge: false
+- ids:
+  - use-spreadsheet-basic
+  - use-spreadsheet-basics
+  normalized_distance: 1
+  mark: merge-candidate
+  auto_merge: false
+capabilities:
+- id: add-endscreen-and-cards
+  label: Add Endscreen And Cards
+  description: 'Canonical capability extracted from existing ATOM metadata: Add Endscreen
+    And Cards.'
+  synonyms: []
+  deprecated_aliases: []
+- id: add-readable-captions-to-shorts
+  label: Add Readable Captions To Shorts
+  description: 'Canonical capability extracted from existing ATOM metadata: Add Readable
+    Captions To Shorts.'
+  synonyms: []
+  deprecated_aliases: []
+- id: add-shadcn-component
+  label: Add Shadcn Component
+  description: 'Canonical capability extracted from existing ATOM metadata: Add Shadcn
+    Component.'
+  synonyms: []
+  deprecated_aliases: []
+- id: adjust-tone-for-multilingual
+  label: Adjust Tone For Multilingual
+  description: 'Canonical capability extracted from existing ATOM metadata: Adjust
+    Tone For Multilingual.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-chat-account
+  label: AI Chat Account
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Chat
+    Account.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-chat-account-ready
+  label: AI Chat Account Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Chat
+    Account Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-chat-basic
+  label: AI Chat Basic
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Chat
+    Basic.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-chat-basic-usage
+  label: AI Chat Basic Usage
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Chat
+    Basic Usage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-chat-file-upload
+  label: AI Chat File Upload
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Chat
+    File Upload.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-chat-tool-access
+  label: AI Chat Tool Access
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Chat
+    Tool Access.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-chat-tool-ready
+  label: AI Chat Tool Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Chat
+    Tool Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-classification-running
+  label: AI Classification Running
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Classification
+    Running.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-code-review-skill
+  label: AI Code Review Skill
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Code
+    Review Skill.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-coding-tool-overview
+  label: AI Coding Tool Overview
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Coding
+    Tool Overview.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-creation-tools-ready
+  label: AI Creation Tools Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Creation
+    Tools Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-cs-tool-running
+  label: AI Cs Tool Running
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Cs
+    Tool Running.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-draft-created
+  label: AI Draft Created
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Draft
+    Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-image-generated
+  label: AI Image Generated
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Image
+    Generated.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-image-generation-basics
+  label: AI Image Generation Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Image
+    Generation Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-output-quality-check
+  label: AI Output Quality Check
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Output
+    Quality Check.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-output-quality-review
+  label: AI Output Quality Review
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Output
+    Quality Review.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-pivot-analysis-angles
+  label: AI Pivot Analysis Angles
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Pivot
+    Analysis Angles.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-presentation-outline
+  label: AI Presentation Outline
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Presentation
+    Outline.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-prompt-basics
+  label: AI Prompt Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Prompt
+    Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-text-generated
+  label: AI Text Generated
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Text
+    Generated.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-text-prompting-basics
+  label: AI Text Prompting Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Text
+    Prompting Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-tool-account-ready
+  label: AI Tool Account Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Tool
+    Account Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-tool-basic-operation
+  label: AI Tool Basic Operation
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Tool
+    Basic Operation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-tool-basic-usage
+  label: AI Tool Basic Usage
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Tool
+    Basic Usage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-tool-ready
+  label: AI Tool Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Tool
+    Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-tools-ready
+  label: AI Tools Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Tools
+    Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ai-video-one-complete
+  label: AI Video One Complete
+  description: 'Canonical capability extracted from existing ATOM metadata: AI Video
+    One Complete.'
+  synonyms: []
+  deprecated_aliases: []
+- id: align-faq-tone-with-ai
+  label: Align FAQ Tone With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Align
+    FAQ Tone With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analytics-configured
+  label: Analytics Configured
+  description: 'Canonical capability extracted from existing ATOM metadata: Analytics
+    Configured.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analyze-business-case-with-ai
+  label: Analyze Business Case With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Analyze
+    Business Case With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analyze-calendar-data-with-ai
+  label: Analyze Calendar Data With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Analyze
+    Calendar Data With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analyze-competitor-content-with-ai
+  label: Analyze Competitor Content With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Analyze
+    Competitor Content With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analyze-free-text-with-ai
+  label: Analyze Free Text With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Analyze
+    Free Text With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analyze-funnel-bottleneck-with-ai
+  label: Analyze Funnel Bottleneck With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Analyze
+    Funnel Bottleneck With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analyze-gsc-gap
+  label: Analyze Gsc Gap
+  description: 'Canonical capability extracted from existing ATOM metadata: Analyze
+    Gsc Gap.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analyze-high-value-cases
+  label: Analyze High Value Cases
+  description: 'Canonical capability extracted from existing ATOM metadata: Analyze
+    High Value Cases.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analyze-product-sales-with-ai
+  label: Analyze Product Sales With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Analyze
+    Product Sales With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analyze-reviews-with-ai
+  label: Analyze Reviews With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Analyze
+    Reviews With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analyze-seo-metrics-with-ai
+  label: Analyze SEO Metrics With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Analyze
+    SEO Metrics With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: analyze-time-series-with-ai
+  label: Analyze Time Series With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Analyze
+    Time Series With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: api-json-basics
+  label: API JSON Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: API JSON
+    Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: app-feature-list-drafted
+  label: App Feature List Drafted
+  description: 'Canonical capability extracted from existing ATOM metadata: App Feature
+    List Drafted.'
+  synonyms: []
+  deprecated_aliases: []
+- id: app-idea-defined
+  label: App Idea Defined
+  description: 'Canonical capability extracted from existing ATOM metadata: App Idea
+    Defined.'
+  synonyms: []
+  deprecated_aliases: []
+- id: app-shell-built
+  label: App Shell Built
+  description: 'Canonical capability extracted from existing ATOM metadata: App Shell
+    Built.'
+  synonyms: []
+  deprecated_aliases: []
+- id: app-shell-ready
+  label: App Shell Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: App Shell
+    Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: apply-ai-design-to-slides
+  label: Apply AI Design To Slides
+  description: 'Canonical capability extracted from existing ATOM metadata: Apply
+    AI Design To Slides.'
+  synonyms: []
+  deprecated_aliases: []
+- id: apply-ai-output
+  label: Apply AI Output
+  description: 'Canonical capability extracted from existing ATOM metadata: Apply
+    AI Output.'
+  synonyms: []
+  deprecated_aliases: []
+- id: apply-ai-usage-rules
+  label: Apply AI Usage Rules
+  description: 'Canonical capability extracted from existing ATOM metadata: Apply
+    AI Usage Rules.'
+  synonyms: []
+  deprecated_aliases: []
+- id: apply-brand-rules-to-ai-images
+  label: Apply Brand Rules To AI Images
+  description: 'Canonical capability extracted from existing ATOM metadata: Apply
+    Brand Rules To AI Images.'
+  synonyms: []
+  deprecated_aliases: []
+- id: apply-camera-motion-to-ai-video
+  label: Apply Camera Motion To AI Video
+  description: 'Canonical capability extracted from existing ATOM metadata: Apply
+    Camera Motion To AI Video.'
+  synonyms: []
+  deprecated_aliases: []
+- id: apply-common-fix
+  label: Apply Common Fix
+  description: 'Canonical capability extracted from existing ATOM metadata: Apply
+    Common Fix.'
+  synonyms: []
+  deprecated_aliases: []
+- id: articulate-key-insight
+  label: Articulate Key Insight
+  description: 'Canonical capability extracted from existing ATOM metadata: Articulate
+    Key Insight.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ask-ai-basic-question
+  label: Ask AI Basic Question
+  description: 'Canonical capability extracted from existing ATOM metadata: Ask AI
+    Basic Question.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ask-ai-for-spreadsheet-formula
+  label: Ask AI For Spreadsheet Formula
+  description: 'Canonical capability extracted from existing ATOM metadata: Ask AI
+    For Spreadsheet Formula.'
+  synonyms: []
+  deprecated_aliases: []
+- id: assess-photo-quality-for-ai
+  label: Assess Photo Quality For AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Assess
+    Photo Quality For AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: assign-materials-by-profile
+  label: Assign Materials By Profile
+  description: 'Canonical capability extracted from existing ATOM metadata: Assign
+    Materials By Profile.'
+  synonyms: []
+  deprecated_aliases: []
+- id: audit-current-writing-workflow
+  label: Audit Current Writing Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Audit
+    Current Writing Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: audit-own-workflow
+  label: Audit Own Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Audit
+    Own Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: audit-style-consistency
+  label: Audit Style Consistency
+  description: 'Canonical capability extracted from existing ATOM metadata: Audit
+    Style Consistency.'
+  synonyms: []
+  deprecated_aliases: []
+- id: auth-email-password
+  label: Auth Email Password
+  description: 'Canonical capability extracted from existing ATOM metadata: Auth Email
+    Password.'
+  synonyms: []
+  deprecated_aliases: []
+- id: auto-cut-silence
+  label: Auto Cut Silence
+  description: 'Canonical capability extracted from existing ATOM metadata: Auto Cut
+    Silence.'
+  synonyms: []
+  deprecated_aliases: []
+- id: auto-generate-subtitles
+  label: Auto Generate Subtitles
+  description: 'Canonical capability extracted from existing ATOM metadata: Auto Generate
+    Subtitles.'
+  synonyms: []
+  deprecated_aliases: []
+- id: automate-recurring-report
+  label: Automate Recurring Report
+  description: 'Canonical capability extracted from existing ATOM metadata: Automate
+    Recurring Report.'
+  synonyms: []
+  deprecated_aliases: []
+- id: automate-weekly-report-with-ai
+  label: Automate Weekly Report With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Automate
+    Weekly Report With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-ai-chat
+  label: Basic AI Chat
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    AI Chat.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-ai-chat-usage
+  label: Basic AI Chat Usage
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    AI Chat Usage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-ai-requests
+  label: Basic AI Requests
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    AI Requests.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-analytics-understanding
+  label: Basic Analytics Understanding
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    Analytics Understanding.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-data-analysis-done
+  label: Basic Data Analysis Done
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    Data Analysis Done.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-office-usage
+  label: Basic Office Usage
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    Office Usage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-product-info-ready
+  label: Basic Product Info Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    Product Info Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-prompt-skill
+  label: Basic Prompt Skill
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    Prompt Skill.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-spreadsheet-data
+  label: Basic Spreadsheet Data
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    Spreadsheet Data.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-spreadsheet-use
+  label: Basic Spreadsheet Use
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    Spreadsheet Use.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-video-editing
+  label: Basic Video Editing
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    Video Editing.'
+  synonyms: []
+  deprecated_aliases: []
+- id: basic-video-shooting
+  label: Basic Video Shooting
+  description: 'Canonical capability extracted from existing ATOM metadata: Basic
+    Video Shooting.'
+  synonyms: []
+  deprecated_aliases: []
+- id: batch-produce-short-scripts
+  label: Batch Produce Short Scripts
+  description: 'Canonical capability extracted from existing ATOM metadata: Batch
+    Produce Short Scripts.'
+  synonyms: []
+  deprecated_aliases: []
+- id: beautifulai-account-ready
+  label: Beautifulai Account Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Beautifulai
+    Account Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: blend-real-and-ai-footage
+  label: Blend Real And AI Footage
+  description: 'Canonical capability extracted from existing ATOM metadata: Blend
+    Real And AI Footage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: bot-helpdesk-ticket-escalation
+  label: Bot Helpdesk Ticket Escalation
+  description: 'Canonical capability extracted from existing ATOM metadata: Bot Helpdesk
+    Ticket Escalation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: brand-brief-created
+  label: Brand Brief Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Brand
+    Brief Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: branding-configured
+  label: Branding Configured
+  description: 'Canonical capability extracted from existing ATOM metadata: Branding
+    Configured.'
+  synonyms: []
+  deprecated_aliases: []
+- id: browser-basic-operation
+  label: Browser Basic Operation
+  description: 'Canonical capability extracted from existing ATOM metadata: Browser
+    Basic Operation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-ai-edit-workflow
+  label: Build AI Edit Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    AI Edit Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-app-shell
+  label: Build App Shell
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    App Shell.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-approval-workflow-nocode
+  label: Build Approval Workflow Nocode
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Approval Workflow Nocode.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-auto-dashboard
+  label: Build Auto Dashboard
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Auto Dashboard.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-basic-dify-chatbot
+  label: Build Basic Dify Chatbot
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Basic Dify Chatbot.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-cohort-retention-table
+  label: Build Cohort Retention Table
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Cohort Retention Table.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-cross-app-sync-flow
+  label: Build Cross App Sync Flow
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Cross App Sync Flow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-data-quality-rules
+  label: Build Data Quality Rules
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Data Quality Rules.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-email-automation-flow
+  label: Build Email Automation Flow
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Email Automation Flow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-end-to-end-pilot
+  label: Build End To End Pilot
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    End To End Pilot.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-expense-sheet-with-ai
+  label: Build Expense Sheet With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Expense Sheet With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-forecast-baseline
+  label: Build Forecast Baseline
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Forecast Baseline.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-form-to-db-automation
+  label: Build Form To DB Automation
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Form To DB Automation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-internal-tool-with-ai
+  label: Build Internal Tool With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Internal Tool With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-knowledge-bot
+  label: Build Knowledge Bot
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Knowledge Bot.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-kpi-tracking-sheet
+  label: Build KPI Tracking Sheet
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    KPI Tracking Sheet.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-lp-improvement-hypothesis
+  label: Build Lp Improvement Hypothesis
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Lp Improvement Hypothesis.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-make-multistep-scenario
+  label: Build Make Multistep Scenario
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Make Multistep Scenario.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-monthly-checklist-with-ai
+  label: Build Monthly Checklist With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Monthly Checklist With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-monthly-report-pipeline
+  label: Build Monthly Report Pipeline
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Monthly Report Pipeline.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-production-pipeline
+  label: Build Production Pipeline
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Production Pipeline.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-progress-dashboard
+  label: Build Progress Dashboard
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Progress Dashboard.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-prompt-template-library
+  label: Build Prompt Template Library
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Prompt Template Library.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-proofread-translate-flow
+  label: Build Proofread Translate Flow
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Proofread Translate Flow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-quality-dashboard
+  label: Build Quality Dashboard
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Quality Dashboard.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-readable-dashboard
+  label: Build Readable Dashboard
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Readable Dashboard.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-reply-playbook
+  label: Build Reply Playbook
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Reply Playbook.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-reusable-prompt-library
+  label: Build Reusable Prompt Library
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Reusable Prompt Library.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-sales-funnel
+  label: Build Sales Funnel
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Sales Funnel.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-simple-chatbot
+  label: Build Simple Chatbot
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Simple Chatbot.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-simple-form-with-ai
+  label: Build Simple Form With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Simple Form With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-trigger-action-workflow
+  label: Build Trigger Action Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Trigger Action Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: build-two-step-automation
+  label: Build Two Step Automation
+  description: 'Canonical capability extracted from existing ATOM metadata: Build
+    Two Step Automation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: calculate-training-roi
+  label: Calculate Training ROI
+  description: 'Canonical capability extracted from existing ATOM metadata: Calculate
+    Training ROI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: calibrate-test-questions-with-ai
+  label: Calibrate Test Questions With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Calibrate
+    Test Questions With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: canva-account-created
+  label: Canva Account Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Canva
+    Account Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: chatbot-basic-setup
+  label: Chatbot Basic Setup
+  description: 'Canonical capability extracted from existing ATOM metadata: Chatbot
+    Basic Setup.'
+  synonyms: []
+  deprecated_aliases: []
+- id: chatbot-deployed
+  label: Chatbot Deployed
+  description: 'Canonical capability extracted from existing ATOM metadata: Chatbot
+    Deployed.'
+  synonyms: []
+  deprecated_aliases: []
+- id: chatgpt-account-created
+  label: Chatgpt Account Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Chatgpt
+    Account Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: chatgpt-basic-usage
+  label: Chatgpt Basic Usage
+  description: 'Canonical capability extracted from existing ATOM metadata: Chatgpt
+    Basic Usage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: check-accessibility-with-ai
+  label: Check Accessibility With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Check
+    Accessibility With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: check-ad-copy-legal-compliance
+  label: Check Ad Copy Legal Compliance
+  description: 'Canonical capability extracted from existing ATOM metadata: Check
+    Ad Copy Legal Compliance.'
+  synonyms: []
+  deprecated_aliases: []
+- id: check-ai-image-commercial-use
+  label: Check AI Image Commercial Use
+  description: 'Canonical capability extracted from existing ATOM metadata: Check
+    AI Image Commercial Use.'
+  synonyms: []
+  deprecated_aliases: []
+- id: check-and-rewrite-ai-text-for-originality
+  label: Check And Rewrite AI Text For Originality
+  description: 'Canonical capability extracted from existing ATOM metadata: Check
+    And Rewrite AI Text For Originality.'
+  synonyms: []
+  deprecated_aliases: []
+- id: choose-ai-coding-tool
+  label: Choose AI Coding Tool
+  description: 'Canonical capability extracted from existing ATOM metadata: Choose
+    AI Coding Tool.'
+  synonyms: []
+  deprecated_aliases: []
+- id: choose-ai-tool-by-goal-os-cli
+  label: Choose AI Tool By Goal Os Cli
+  description: 'Canonical capability extracted from existing ATOM metadata: Choose
+    AI Tool By Goal Os Cli.'
+  synonyms: []
+  deprecated_aliases: []
+- id: choose-ai-tool-by-purpose
+  label: Choose AI Tool By Purpose
+  description: 'Canonical capability extracted from existing ATOM metadata: Choose
+    AI Tool By Purpose.'
+  synonyms: []
+  deprecated_aliases: []
+- id: choose-ai-tool-by-task
+  label: Choose AI Tool By Task
+  description: 'Canonical capability extracted from existing ATOM metadata: Choose
+    AI Tool By Task.'
+  synonyms: []
+  deprecated_aliases: []
+- id: choose-ai-tool-for-task
+  label: Choose AI Tool For Task
+  description: 'Canonical capability extracted from existing ATOM metadata: Choose
+    AI Tool For Task.'
+  synonyms: []
+  deprecated_aliases: []
+- id: choose-chart-type-with-ai
+  label: Choose Chart Type With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Choose
+    Chart Type With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: choose-nocode-tool-for-goal
+  label: Choose Nocode Tool For Goal
+  description: 'Canonical capability extracted from existing ATOM metadata: Choose
+    Nocode Tool For Goal.'
+  synonyms: []
+  deprecated_aliases: []
+- id: choose-video-structure-type
+  label: Choose Video Structure Type
+  description: 'Canonical capability extracted from existing ATOM metadata: Choose
+    Video Structure Type.'
+  synonyms: []
+  deprecated_aliases: []
+- id: classify-data-for-ai
+  label: Classify Data For AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Classify
+    Data For AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: classify-data-sensitivity-4levels
+  label: Classify Data Sensitivity 4levels
+  description: 'Canonical capability extracted from existing ATOM metadata: Classify
+    Data Sensitivity 4levels.'
+  synonyms: []
+  deprecated_aliases: []
+- id: classify-inquiries-with-ai
+  label: Classify Inquiries With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Classify
+    Inquiries With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: classify-review-by-theme
+  label: Classify Review By Theme
+  description: 'Canonical capability extracted from existing ATOM metadata: Classify
+    Review By Theme.'
+  synonyms: []
+  deprecated_aliases: []
+- id: classify-search-intent-4types
+  label: Classify Search Intent 4types
+  description: 'Canonical capability extracted from existing ATOM metadata: Classify
+    Search Intent 4types.'
+  synonyms: []
+  deprecated_aliases: []
+- id: classify-sensitive-data-with-ai
+  label: Classify Sensitive Data With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Classify
+    Sensitive Data With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: claude-code-configured
+  label: Claude Code Configured
+  description: 'Canonical capability extracted from existing ATOM metadata: Claude
+    Code Configured.'
+  synonyms: []
+  deprecated_aliases: []
+- id: claude-code-installed
+  label: Claude Code Installed
+  description: 'Canonical capability extracted from existing ATOM metadata: Claude
+    Code Installed.'
+  synonyms: []
+  deprecated_aliases: []
+- id: clean-and-deduplicate-data-with-ai
+  label: Clean And Deduplicate Data With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Clean
+    And Deduplicate Data With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: clean-missing-values-with-ai
+  label: Clean Missing Values With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Clean
+    Missing Values With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: clean-sales-stock-table
+  label: Clean Sales Stock Table
+  description: 'Canonical capability extracted from existing ATOM metadata: Clean
+    Sales Stock Table.'
+  synonyms: []
+  deprecated_aliases: []
+- id: collect-and-organize-reviews-with-ai
+  label: Collect And Organize Reviews With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Collect
+    And Organize Reviews With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: collect-content-ideas-with-ai
+  label: Collect Content Ideas With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Collect
+    Content Ideas With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: collect-training-feedback
+  label: Collect Training Feedback
+  description: 'Canonical capability extracted from existing ATOM metadata: Collect
+    Training Feedback.'
+  synonyms: []
+  deprecated_aliases: []
+- id: compare-chatgpt-claude
+  label: Compare Chatgpt Claude
+  description: 'Canonical capability extracted from existing ATOM metadata: Compare
+    Chatgpt Claude.'
+  synonyms: []
+  deprecated_aliases: []
+- id: compare-chatgpt-claude-for-training
+  label: Compare Chatgpt Claude For Training
+  description: 'Canonical capability extracted from existing ATOM metadata: Compare
+    Chatgpt Claude For Training.'
+  synonyms: []
+  deprecated_aliases: []
+- id: compare-monetization-options
+  label: Compare Monetization Options
+  description: 'Canonical capability extracted from existing ATOM metadata: Compare
+    Monetization Options.'
+  synonyms: []
+  deprecated_aliases: []
+- id: compare-nocode-tools
+  label: Compare Nocode Tools
+  description: 'Canonical capability extracted from existing ATOM metadata: Compare
+    Nocode Tools.'
+  synonyms: []
+  deprecated_aliases: []
+- id: compare-periods-with-ai
+  label: Compare Periods With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Compare
+    Periods With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: compare-trend-across-sessions
+  label: Compare Trend Across Sessions
+  description: 'Canonical capability extracted from existing ATOM metadata: Compare
+    Trend Across Sessions.'
+  synonyms: []
+  deprecated_aliases: []
+- id: compose-scene-video-from-prompt
+  label: Compose Scene Video From Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Compose
+    Scene Video From Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: conduct-classification-accuracy-review
+  label: Conduct Classification Accuracy Review
+  description: 'Canonical capability extracted from existing ATOM metadata: Conduct
+    Classification Accuracy Review.'
+  synonyms: []
+  deprecated_aliases: []
+- id: configure-app-notifications
+  label: Configure App Notifications
+  description: 'Canonical capability extracted from existing ATOM metadata: Configure
+    App Notifications.'
+  synonyms: []
+  deprecated_aliases: []
+- id: configure-intercom-webhook
+  label: Configure Intercom Webhook
+  description: 'Canonical capability extracted from existing ATOM metadata: Configure
+    Intercom Webhook.'
+  synonyms: []
+  deprecated_aliases: []
+- id: connect-github-remote
+  label: Connect Github Remote
+  description: 'Canonical capability extracted from existing ATOM metadata: Connect
+    Github Remote.'
+  synonyms: []
+  deprecated_aliases: []
+- id: connect-metrics-to-views
+  label: Connect Metrics To Views
+  description: 'Canonical capability extracted from existing ATOM metadata: Connect
+    Metrics To Views.'
+  synonyms: []
+  deprecated_aliases: []
+- id: connect-nocode-ui-to-ai-flow
+  label: Connect Nocode UI To AI Flow
+  description: 'Canonical capability extracted from existing ATOM metadata: Connect
+    Nocode UI To AI Flow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: contact-form-live
+  label: Contact Form Live
+  description: 'Canonical capability extracted from existing ATOM metadata: Contact
+    Form Live.'
+  synonyms: []
+  deprecated_aliases: []
+- id: continuous-deploy-workflow
+  label: Continuous Deploy Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Continuous
+    Deploy Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: convert-feature-to-benefit
+  label: Convert Feature To Benefit
+  description: 'Canonical capability extracted from existing ATOM metadata: Convert
+    Feature To Benefit.'
+  synonyms: []
+  deprecated_aliases: []
+- id: craft-lead-paragraph-with-ai
+  label: Craft Lead Paragraph With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Craft
+    Lead Paragraph With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: craft-video-hook
+  label: Craft Video Hook
+  description: 'Canonical capability extracted from existing ATOM metadata: Craft
+    Video Hook.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-accounting-ai-prompt
+  label: Create Accounting AI Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Accounting AI Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-accuracy-checklist
+  label: Create Accuracy Checklist
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Accuracy Checklist.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-acquisition-post-with-ai
+  label: Create Acquisition Post With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Acquisition Post With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-ad-creative-brief
+  label: Create Ad Creative Brief
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Ad Creative Brief.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-ai-assisted-daily-report
+  label: Create AI Assisted Daily Report
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    AI Assisted Daily Report.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-ai-audit-log
+  label: Create AI Audit Log
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    AI Audit Log.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-ai-business-case
+  label: Create AI Business Case
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    AI Business Case.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-ai-data-visualization
+  label: Create AI Data Visualization
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    AI Data Visualization.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-ai-disclosure-doc
+  label: Create AI Disclosure Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    AI Disclosure Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-ai-learning-plan
+  label: Create AI Learning Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    AI Learning Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-ai-operations-playbook
+  label: Create AI Operations Playbook
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    AI Operations Playbook.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-ai-presentation
+  label: Create AI Presentation
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    AI Presentation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-analysis-playbook-with-ai
+  label: Create Analysis Playbook With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Analysis Playbook With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-article-outlines-with-ai
+  label: Create Article Outlines With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Article Outlines With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-automation-outcome-doc
+  label: Create Automation Outcome Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Automation Outcome Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-automation-rate-report
+  label: Create Automation Rate Report
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Automation Rate Report.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-automation-roadmap
+  label: Create Automation Roadmap
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Automation Roadmap.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-automation-scope-doc
+  label: Create Automation Scope Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Automation Scope Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-banner-variants-with-ai
+  label: Create Banner Variants With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Banner Variants With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-banner-with-ai-and-canva
+  label: Create Banner With AI And Canva
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Banner With AI And Canva.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-basic-zap
+  label: Create Basic Zap
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Basic Zap.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-batch-content-with-ai
+  label: Create Batch Content With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Batch Content With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-brand-voice-guide
+  label: Create Brand Voice Guide
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Brand Voice Guide.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-budget-learning-plan
+  label: Create Budget Learning Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Budget Learning Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-business-doc-with-ai
+  label: Create Business Doc With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Business Doc With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-buyer-persona-with-ai
+  label: Create Buyer Persona With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Buyer Persona With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-campaign-test-plan
+  label: Create Campaign Test Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Campaign Test Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-canva-ai-design
+  label: Create Canva AI Design
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Canva AI Design.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-canva-ai-slide
+  label: Create Canva AI Slide
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Canva AI Slide.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-change-request-flow-doc
+  label: Create Change Request Flow Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Change Request Flow Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-channel-integration-plan
+  label: Create Channel Integration Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Channel Integration Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-channel-specific-script
+  label: Create Channel Specific Script
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Channel Specific Script.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-client-template-with-ai
+  label: Create Client Template With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Client Template With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-comparison-chart-with-ai
+  label: Create Comparison Chart With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Comparison Chart With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-copyright-checklist
+  label: Create Copyright Checklist
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Copyright Checklist.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-cs-reply-template-with-ai
+  label: Create Cs Reply Template With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Cs Reply Template With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-custom-gpt-agent
+  label: Create Custom GPT Agent
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Custom GPT Agent.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-customer-data-summary
+  label: Create Customer Data Summary
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Customer Data Summary.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-customer-segments-with-ai
+  label: Create Customer Segments With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Customer Segments With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-dashboard-update-routine
+  label: Create Dashboard Update Routine
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Dashboard Update Routine.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-delegation-plan
+  label: Create Delegation Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Delegation Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-demand-forecast-draft
+  label: Create Demand Forecast Draft
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Demand Forecast Draft.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-discussion-guide-with-ai
+  label: Create Discussion Guide With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Discussion Guide With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-ec-checklist-with-ai
+  label: Create EC Checklist With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    EC Checklist With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-efficiency-report
+  label: Create Efficiency Report
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Efficiency Report.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-email-newsletter-with-ai
+  label: Create Email Newsletter With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Email Newsletter With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-escalation-rules
+  label: Create Escalation Rules
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Escalation Rules.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-executive-proposal-draft
+  label: Create Executive Proposal Draft
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Executive Proposal Draft.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-expansion-roadmap
+  label: Create Expansion Roadmap
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Expansion Roadmap.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-faq-with-ai
+  label: Create FAQ With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    FAQ With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-followup-plan
+  label: Create Followup Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Followup Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-freelancer-profile
+  label: Create Freelancer Profile
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Freelancer Profile.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-goal-gap-doc
+  label: Create Goal Gap Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Goal Gap Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-handout-with-ai
+  label: Create Handout With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Handout With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-homepage
+  label: Create Homepage
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Homepage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-hr-ai-prompt
+  label: Create Hr AI Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Hr AI Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-implementation-checklist
+  label: Create Implementation Checklist
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Implementation Checklist.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-improvement-plan-from-results
+  label: Create Improvement Plan From Results
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Improvement Plan From Results.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-income-roadmap-with-ai
+  label: Create Income Roadmap With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Income Roadmap With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-income-simulation
+  label: Create Income Simulation
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Income Simulation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-independence-transition-plan
+  label: Create Independence Transition Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Independence Transition Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-labeling-checklist
+  label: Create Labeling Checklist
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Labeling Checklist.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-learner-profile-with-ai
+  label: Create Learner Profile With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Learner Profile With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-lp-mockup-in-canva
+  label: Create Lp Mockup In Canva
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Lp Mockup In Canva.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-maintenance-runbook
+  label: Create Maintenance Runbook
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Maintenance Runbook.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-market-context-sheet
+  label: Create Market Context Sheet
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Market Context Sheet.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-metrics-summary
+  label: Create Metrics Summary
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Metrics Summary.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-monthly-content-roadmap
+  label: Create Monthly Content Roadmap
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Monthly Content Roadmap.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-next-project
+  label: Create Next Project
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Next Project.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-notification-rule
+  label: Create Notification Rule
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Notification Rule.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-onboarding-workflow-with-ai
+  label: Create Onboarding Workflow With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Onboarding Workflow With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-ops-runbook-with-ai
+  label: Create Ops Runbook With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Ops Runbook With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-pages
+  label: Create Pages
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Pages.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-persona-wireframe-with-ai
+  label: Create Persona Wireframe With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Persona Wireframe With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-pivot-table-with-ai
+  label: Create Pivot Table With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Pivot Table With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-portfolio-piece-with-ai
+  label: Create Portfolio Piece With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Portfolio Piece With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-presentation-outline-with-ai
+  label: Create Presentation Outline With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Presentation Outline With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-pricing-strategy-sheet
+  label: Create Pricing Strategy Sheet
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Pricing Strategy Sheet.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-product-page-improvement-plan
+  label: Create Product Page Improvement Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Product Page Improvement Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-promo-image-with-ai
+  label: Create Promo Image With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Promo Image With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-prompt-template-set
+  label: Create Prompt Template Set
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Prompt Template Set.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-proposal-template-with-ai
+  label: Create Proposal Template With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Proposal Template With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-quality-checklist
+  label: Create Quality Checklist
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Quality Checklist.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-reorder-rule-doc
+  label: Create Reorder Rule Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Reorder Rule Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-report-prompt-template
+  label: Create Report Prompt Template
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Report Prompt Template.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-report-template-with-ai
+  label: Create Report Template With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Report Template With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-results-presentation
+  label: Create Results Presentation
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Results Presentation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-retention-driven-structure
+  label: Create Retention Driven Structure
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Retention Driven Structure.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-reusable-pattern-library
+  label: Create Reusable Pattern Library
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Reusable Pattern Library.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-reusable-prompt-template
+  label: Create Reusable Prompt Template
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Reusable Prompt Template.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-reusable-workflow-template
+  label: Create Reusable Workflow Template
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Reusable Workflow Template.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-rights-checklist
+  label: Create Rights Checklist
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Rights Checklist.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-risk-doc-with-ai
+  label: Create Risk Doc With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Risk Doc With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-rollout-measurement-doc
+  label: Create Rollout Measurement Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Rollout Measurement Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-rollout-plan-doc
+  label: Create Rollout Plan Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Rollout Plan Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-routing-rule
+  label: Create Routing Rule
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Routing Rule.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-rubric-with-ai
+  label: Create Rubric With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Rubric With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-scenario-question-with-ai
+  label: Create Scenario Question With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Scenario Question With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-scene-outline
+  label: Create Scene Outline
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Scene Outline.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-security-checklist-with-ai
+  label: Create Security Checklist With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Security Checklist With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-self-paced-material
+  label: Create Self Paced Material
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Self Paced Material.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-seo-product-title-with-ai
+  label: Create SEO Product Title With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    SEO Product Title With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-short-series-plan
+  label: Create Short Series Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Short Series Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-single-product-acquisition-plan
+  label: Create Single Product Acquisition Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Single Product Acquisition Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-skill-gap-report
+  label: Create Skill Gap Report
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Skill Gap Report.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-slide-test-package-with-ai
+  label: Create Slide Test Package With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Slide Test Package With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-sns-copy-with-ai
+  label: Create SNS Copy With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    SNS Copy With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-sns-post-script
+  label: Create SNS Post Script
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    SNS Post Script.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-structure-memo-with-ai
+  label: Create Structure Memo With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Structure Memo With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-style-reference-doc
+  label: Create Style Reference Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Style Reference Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-sync-monitoring-checklist
+  label: Create Sync Monitoring Checklist
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Sync Monitoring Checklist.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-team-operation-rules
+  label: Create Team Operation Rules
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Team Operation Rules.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-training-brief-with-ai
+  label: Create Training Brief With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Training Brief With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-training-doc-with-notion-ai
+  label: Create Training Doc With Notion AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Training Doc With Notion AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-training-material
+  label: Create Training Material
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Training Material.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-two-app-automation
+  label: Create Two App Automation
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Two App Automation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-upsell-proposal
+  label: Create Upsell Proposal
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Upsell Proposal.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-video-ad-storyboard-with-ai
+  label: Create Video Ad Storyboard With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Video Ad Storyboard With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-video-storyboard-with-ai
+  label: Create Video Storyboard With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Video Storyboard With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-viewer-persona
+  label: Create Viewer Persona
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Viewer Persona.'
+  synonyms: []
+  deprecated_aliases: []
+- id: create-weekly-task-list-with-time
+  label: Create Weekly Task List With Time
+  description: 'Canonical capability extracted from existing ATOM metadata: Create
+    Weekly Task List With Time.'
+  synonyms: []
+  deprecated_aliases: []
+- id: crud-operations
+  label: Crud Operations
+  description: 'Canonical capability extracted from existing ATOM metadata: Crud Operations.'
+  synonyms: []
+  deprecated_aliases: []
+- id: cs-workspace-ready
+  label: Cs Workspace Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Cs Workspace
+    Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: custom-domain-connected
+  label: Custom Domain Connected
+  description: 'Canonical capability extracted from existing ATOM metadata: Custom
+    Domain Connected.'
+  synonyms: []
+  deprecated_aliases: []
+- id: data-analysis-memo-ready
+  label: Data Analysis Memo Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Data Analysis
+    Memo Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: debug-build-errors
+  label: Debug Build Errors
+  description: 'Canonical capability extracted from existing ATOM metadata: Debug
+    Build Errors.'
+  synonyms: []
+  deprecated_aliases: []
+- id: decompose-marketing-tasks-with-ai
+  label: Decompose Marketing Tasks With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Decompose
+    Marketing Tasks With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-analysis-question
+  label: Define Analysis Question
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    Analysis Question.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-app-scope
+  label: Define App Scope
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    App Scope.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-app-workflow
+  label: Define App Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    App Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-channel-purpose-statement
+  label: Define Channel Purpose Statement
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    Channel Purpose Statement.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-dashboard-audience
+  label: Define Dashboard Audience
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    Dashboard Audience.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-form-fields-with-ai
+  label: Define Form Fields With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    Form Fields With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-mvp-pages
+  label: Define MVP Pages
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    MVP Pages.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-operations-ownership
+  label: Define Operations Ownership
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    Operations Ownership.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-pilot-scope
+  label: Define Pilot Scope
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    Pilot Scope.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-project-goal
+  label: Define Project Goal
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    Project Goal.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-promotion-goal
+  label: Define Promotion Goal
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    Promotion Goal.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-training-goal-with-ai
+  label: Define Training Goal With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    Training Goal With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: define-writing-style-with-ai
+  label: Define Writing Style With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Define
+    Writing Style With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: defined-mvp-pages
+  label: Defined MVP Pages
+  description: 'Canonical capability extracted from existing ATOM metadata: Defined
+    MVP Pages.'
+  synonyms: []
+  deprecated_aliases: []
+- id: deliver-mock-image-doc-project
+  label: Deliver Mock Image Doc Project
+  description: 'Canonical capability extracted from existing ATOM metadata: Deliver
+    Mock Image Doc Project.'
+  synonyms: []
+  deprecated_aliases: []
+- id: deliver-mock-writing-project
+  label: Deliver Mock Writing Project
+  description: 'Canonical capability extracted from existing ATOM metadata: Deliver
+    Mock Writing Project.'
+  synonyms: []
+  deprecated_aliases: []
+- id: deliver-with-minimal-revision
+  label: Deliver With Minimal Revision
+  description: 'Canonical capability extracted from existing ATOM metadata: Deliver
+    With Minimal Revision.'
+  synonyms: []
+  deprecated_aliases: []
+- id: deploy-ai-app-to-vercel
+  label: Deploy AI App To Vercel
+  description: 'Canonical capability extracted from existing ATOM metadata: Deploy
+    AI App To Vercel.'
+  synonyms: []
+  deprecated_aliases: []
+- id: deploy-app-to-vercel
+  label: Deploy App To Vercel
+  description: 'Canonical capability extracted from existing ATOM metadata: Deploy
+    App To Vercel.'
+  synonyms: []
+  deprecated_aliases: []
+- id: deployed-to-vercel
+  label: Deployed To Vercel
+  description: 'Canonical capability extracted from existing ATOM metadata: Deployed
+    To Vercel.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-ab-test-plan
+  label: Design Ab Test Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Ab Test Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-access-control-matrix
+  label: Design Access Control Matrix
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Access Control Matrix.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-ad-test-matrix
+  label: Design Ad Test Matrix
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Ad Test Matrix.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-adaptive-learning-path
+  label: Design Adaptive Learning Path
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Adaptive Learning Path.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-agent-workflow
+  label: Design Agent Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Agent Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-ai-portfolio-strategy
+  label: Design AI Portfolio Strategy
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    AI Portfolio Strategy.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-ai-training-plan
+  label: Design AI Training Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    AI Training Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-ai-tutor-prompt
+  label: Design AI Tutor Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    AI Tutor Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-answer-policy
+  label: Design Answer Policy
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Answer Policy.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-approval-flow
+  label: Design Approval Flow
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Approval Flow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-article-structure-from-search-intent
+  label: Design Article Structure From Search Intent
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Article Structure From Search Intent.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-auto-classification-prompt
+  label: Design Auto Classification Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Auto Classification Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-behavior-tracking-plan
+  label: Design Behavior Tracking Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Behavior Tracking Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-branching-scenario
+  label: Design Branching Scenario
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Branching Scenario.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-chatbot-scenario
+  label: Design Chatbot Scenario
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Chatbot Scenario.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-content-pillars
+  label: Design Content Pillars
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Content Pillars.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-dashboard-layout
+  label: Design Dashboard Layout
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Dashboard Layout.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-delivery-workflow
+  label: Design Delivery Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Delivery Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-error-handling-doc
+  label: Design Error Handling Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Error Handling Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-escalation-rules
+  label: Design Escalation Rules
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Escalation Rules.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-faq-review-workflow
+  label: Design FAQ Review Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    FAQ Review Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-feedback-loop
+  label: Design Feedback Loop
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Feedback Loop.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-field-definition-table
+  label: Design Field Definition Table
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Field Definition Table.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-governance-doc
+  label: Design Governance Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Governance Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-human-ai-role-model
+  label: Design Human AI Role Model
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Human AI Role Model.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-inquiry-category-table
+  label: Design Inquiry Category Table
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Inquiry Category Table.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-keyword-cluster
+  label: Design Keyword Cluster
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Keyword Cluster.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-kirkpatrick-measurement-plan
+  label: Design Kirkpatrick Measurement Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Kirkpatrick Measurement Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-lp-structure
+  label: Design Lp Structure
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Lp Structure.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-mini-campaign
+  label: Design Mini Campaign
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Mini Campaign.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-objection-faq
+  label: Design Objection FAQ
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Objection FAQ.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-outsource-ai-split
+  label: Design Outsource AI Split
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Outsource AI Split.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-package-service
+  label: Design Package Service
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Package Service.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-pilot-project
+  label: Design Pilot Project
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Pilot Project.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-pre-post-assessment
+  label: Design Pre Post Assessment
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Pre Post Assessment.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-priority-scoring-criteria
+  label: Design Priority Scoring Criteria
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Priority Scoring Criteria.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-quiz-objective-doc
+  label: Design Quiz Objective Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Quiz Objective Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-report-layout-with-ai
+  label: Design Report Layout With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Report Layout With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-sns-strategy-doc
+  label: Design SNS Strategy Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    SNS Strategy Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-step-email-sequence
+  label: Design Step Email Sequence
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Step Email Sequence.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-table-schema-with-ai
+  label: Design Table Schema With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Table Schema With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-thumbnail-composition
+  label: Design Thumbnail Composition
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Thumbnail Composition.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-training-survey-with-ai
+  label: Design Training Survey With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Training Survey With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-usable-form
+  label: Design Usable Form
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Usable Form.'
+  synonyms: []
+  deprecated_aliases: []
+- id: design-voc-collection-system
+  label: Design Voc Collection System
+  description: 'Canonical capability extracted from existing ATOM metadata: Design
+    Voc Collection System.'
+  synonyms: []
+  deprecated_aliases: []
+- id: detect-data-quality-issues
+  label: Detect Data Quality Issues
+  description: 'Canonical capability extracted from existing ATOM metadata: Detect
+    Data Quality Issues.'
+  synonyms: []
+  deprecated_aliases: []
+- id: detect-grammar-inconsistency-with-ai
+  label: Detect Grammar Inconsistency With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Detect
+    Grammar Inconsistency With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: detect-risky-claims-with-ai
+  label: Detect Risky Claims With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Detect
+    Risky Claims With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: detect-seasonality-with-ai
+  label: Detect Seasonality With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Detect
+    Seasonality With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: diagnose-install-error
+  label: Diagnose Install Error
+  description: 'Canonical capability extracted from existing ATOM metadata: Diagnose
+    Install Error.'
+  synonyms: []
+  deprecated_aliases: []
+- id: dify-account-ready
+  label: Dify Account Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Dify Account
+    Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: dify-workspace-created
+  label: Dify Workspace Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Dify Workspace
+    Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: direct-outreach-message-written
+  label: Direct Outreach Message Written
+  description: 'Canonical capability extracted from existing ATOM metadata: Direct
+    Outreach Message Written.'
+  synonyms: []
+  deprecated_aliases: []
+- id: distinguish-llm-bot-roles
+  label: Distinguish LLM Bot Roles
+  description: 'Canonical capability extracted from existing ATOM metadata: Distinguish
+    LLM Bot Roles.'
+  synonyms: []
+  deprecated_aliases: []
+- id: document-automation-results
+  label: Document Automation Results
+  description: 'Canonical capability extracted from existing ATOM metadata: Document
+    Automation Results.'
+  synonyms: []
+  deprecated_aliases: []
+- id: draft-ai-disclosure-policy
+  label: Draft AI Disclosure Policy
+  description: 'Canonical capability extracted from existing ATOM metadata: Draft
+    AI Disclosure Policy.'
+  synonyms: []
+  deprecated_aliases: []
+- id: draft-bilingual-email-with-ai
+  label: Draft Bilingual Email With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Draft
+    Bilingual Email With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: draft-business-document-with-ai
+  label: Draft Business Document With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Draft
+    Business Document With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: draft-client-reply-with-ai
+  label: Draft Client Reply With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Draft
+    Client Reply With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: draft-company-ai-guideline
+  label: Draft Company AI Guideline
+  description: 'Canonical capability extracted from existing ATOM metadata: Draft
+    Company AI Guideline.'
+  synonyms: []
+  deprecated_aliases: []
+- id: draft-email-reply-with-ai
+  label: Draft Email Reply With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Draft
+    Email Reply With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: draft-hr-document-with-ai
+  label: Draft Hr Document With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Draft
+    Hr Document With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: draft-slide-content-with-ai
+  label: Draft Slide Content With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Draft
+    Slide Content With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: draft-video-plan
+  label: Draft Video Plan
+  description: 'Canonical capability extracted from existing ATOM metadata: Draft
+    Video Plan.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ec-admin-login
+  label: EC Admin Login
+  description: 'Canonical capability extracted from existing ATOM metadata: EC Admin
+    Login.'
+  synonyms: []
+  deprecated_aliases: []
+- id: effective-prompting
+  label: Effective Prompting
+  description: 'Canonical capability extracted from existing ATOM metadata: Effective
+    Prompting.'
+  synonyms: []
+  deprecated_aliases: []
+- id: email-notification
+  label: Email Notification
+  description: 'Canonical capability extracted from existing ATOM metadata: Email
+    Notification.'
+  synonyms: []
+  deprecated_aliases: []
+- id: email-sending
+  label: Email Sending
+  description: 'Canonical capability extracted from existing ATOM metadata: Email
+    Sending.'
+  synonyms: []
+  deprecated_aliases: []
+- id: enhance-audio-and-pacing
+  label: Enhance Audio And Pacing
+  description: 'Canonical capability extracted from existing ATOM metadata: Enhance
+    Audio And Pacing.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ensure-design-consistency
+  label: Ensure Design Consistency
+  description: 'Canonical capability extracted from existing ATOM metadata: Ensure
+    Design Consistency.'
+  synonyms: []
+  deprecated_aliases: []
+- id: error-reporting-to-ai
+  label: Error Reporting To AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Error
+    Reporting To AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: error-ui
+  label: Error UI
+  description: 'Canonical capability extracted from existing ATOM metadata: Error
+    UI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: estimate-automation-roi
+  label: Estimate Automation ROI
+  description: 'Canonical capability extracted from existing ATOM metadata: Estimate
+    Automation ROI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: estimate-business-impact-with-ai
+  label: Estimate Business Impact With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Estimate
+    Business Impact With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: evaluate-ai-copywriting-output
+  label: Evaluate AI Copywriting Output
+  description: 'Canonical capability extracted from existing ATOM metadata: Evaluate
+    AI Copywriting Output.'
+  synonyms: []
+  deprecated_aliases: []
+- id: evaluate-ai-output
+  label: Evaluate AI Output
+  description: 'Canonical capability extracted from existing ATOM metadata: Evaluate
+    AI Output.'
+  synonyms: []
+  deprecated_aliases: []
+- id: evaluate-ai-output-quality
+  label: Evaluate AI Output Quality
+  description: 'Canonical capability extracted from existing ATOM metadata: Evaluate
+    AI Output Quality.'
+  synonyms: []
+  deprecated_aliases: []
+- id: evaluate-and-improve-ai-output
+  label: Evaluate And Improve AI Output
+  description: 'Canonical capability extracted from existing ATOM metadata: Evaluate
+    And Improve AI Output.'
+  synonyms: []
+  deprecated_aliases: []
+- id: evaluate-readability-with-ai
+  label: Evaluate Readability With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Evaluate
+    Readability With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: explain-ai-app-3layer-architecture
+  label: Explain AI App 3layer Architecture
+  description: 'Canonical capability extracted from existing ATOM metadata: Explain
+    AI App 3layer Architecture.'
+  synonyms: []
+  deprecated_aliases: []
+- id: explain-ai-marketer-role
+  label: Explain AI Marketer Role
+  description: 'Canonical capability extracted from existing ATOM metadata: Explain
+    AI Marketer Role.'
+  synonyms: []
+  deprecated_aliases: []
+- id: explain-ai-video-workflow
+  label: Explain AI Video Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Explain
+    AI Video Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: explain-analysis-workflow
+  label: Explain Analysis Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Explain
+    Analysis Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: explain-ec-six-areas
+  label: Explain EC Six Areas
+  description: 'Canonical capability extracted from existing ATOM metadata: Explain
+    EC Six Areas.'
+  synonyms: []
+  deprecated_aliases: []
+- id: explain-nocode-workflow
+  label: Explain Nocode Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Explain
+    Nocode Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: explain-trend-with-story
+  label: Explain Trend With Story
+  description: 'Canonical capability extracted from existing ATOM metadata: Explain
+    Trend With Story.'
+  synonyms: []
+  deprecated_aliases: []
+- id: explain-ui-data-logic-split
+  label: Explain UI Data Logic Split
+  description: 'Canonical capability extracted from existing ATOM metadata: Explain
+    UI Data Logic Split.'
+  synonyms: []
+  deprecated_aliases: []
+- id: export-optimized-for-platform
+  label: Export Optimized For Platform
+  description: 'Canonical capability extracted from existing ATOM metadata: Export
+    Optimized For Platform.'
+  synonyms: []
+  deprecated_aliases: []
+- id: extract-action-items-with-ai
+  label: Extract Action Items With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Extract
+    Action Items With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: extract-audience-pain-points-with-ai
+  label: Extract Audience Pain Points With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Extract
+    Audience Pain Points With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: extract-decisions-todos-from-minutes
+  label: Extract Decisions Todos From Minutes
+  description: 'Canonical capability extracted from existing ATOM metadata: Extract
+    Decisions Todos From Minutes.'
+  synonyms: []
+  deprecated_aliases: []
+- id: extract-document-checkpoints-with-ai
+  label: Extract Document Checkpoints With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Extract
+    Document Checkpoints With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: extract-faq-candidates-from-history
+  label: Extract FAQ Candidates From History
+  description: 'Canonical capability extracted from existing ATOM metadata: Extract
+    FAQ Candidates From History.'
+  synonyms: []
+  deprecated_aliases: []
+- id: extract-shop-improvement-points-with-ai
+  label: Extract Shop Improvement Points With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Extract
+    Shop Improvement Points With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: extract-short-clips-with-ai
+  label: Extract Short Clips With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Extract
+    Short Clips With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: extract-topic-trend
+  label: Extract Topic Trend
+  description: 'Canonical capability extracted from existing ATOM metadata: Extract
+    Topic Trend.'
+  synonyms: []
+  deprecated_aliases: []
+- id: favicon-set
+  label: Favicon Set
+  description: 'Canonical capability extracted from existing ATOM metadata: Favicon
+    Set.'
+  synonyms: []
+  deprecated_aliases: []
+- id: fetch-zendesk-tickets-via-api
+  label: Fetch Zendesk Tickets Via API
+  description: 'Canonical capability extracted from existing ATOM metadata: Fetch
+    Zendesk Tickets Via API.'
+  synonyms: []
+  deprecated_aliases: []
+- id: file-upload
+  label: File Upload
+  description: 'Canonical capability extracted from existing ATOM metadata: File Upload.'
+  synonyms: []
+  deprecated_aliases: []
+- id: filter-sensitive-info-with-ai
+  label: Filter Sensitive Info With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Filter
+    Sensitive Info With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: finalize-thumbnail-for-submission
+  label: Finalize Thumbnail For Submission
+  description: 'Canonical capability extracted from existing ATOM metadata: Finalize
+    Thumbnail For Submission.'
+  synonyms: []
+  deprecated_aliases: []
+- id: first-chatbot-running
+  label: First Chatbot Running
+  description: 'Canonical capability extracted from existing ATOM metadata: First
+    Chatbot Running.'
+  synonyms: []
+  deprecated_aliases: []
+- id: form-basics
+  label: Form Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Form Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: format-content-for-lms
+  label: Format Content For Lms
+  description: 'Canonical capability extracted from existing ATOM metadata: Format
+    Content For Lms.'
+  synonyms: []
+  deprecated_aliases: []
+- id: format-reference-doc-with-ai
+  label: Format Reference Doc With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Format
+    Reference Doc With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: full-stack-app-experience
+  label: Full Stack App Experience
+  description: 'Canonical capability extracted from existing ATOM metadata: Full Stack
+    App Experience.'
+  synonyms: []
+  deprecated_aliases: []
+- id: gamma-account-ready
+  label: Gamma Account Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Gamma
+    Account Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-ad-copy-with-ai
+  label: Generate Ad Copy With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Ad Copy With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-ad-headlines-with-ai
+  label: Generate Ad Headlines With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Ad Headlines With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-ai-avatar
+  label: Generate AI Avatar
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    AI Avatar.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-ai-broll-clips
+  label: Generate AI Broll Clips
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    AI Broll Clips.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-ai-image-basic
+  label: Generate AI Image Basic
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    AI Image Basic.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-ai-voice
+  label: Generate AI Voice
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    AI Voice.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-and-compare-thumbnail-variations
+  label: Generate And Compare Thumbnail Variations
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    And Compare Thumbnail Variations.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-and-list-stock-asset
+  label: Generate And List Stock Asset
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    And List Stock Asset.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-article-outline-with-ai
+  label: Generate Article Outline With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Article Outline With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-base-video-from-prompt
+  label: Generate Base Video From Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Base Video From Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-batch-documents-with-ai
+  label: Generate Batch Documents With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Batch Documents With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-body-draft
+  label: Generate Body Draft
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Body Draft.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-body-draft-with-ai
+  label: Generate Body Draft With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Body Draft With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-chart-with-ai
+  label: Generate Chart With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Chart With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-data-narrative
+  label: Generate Data Narrative
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Data Narrative.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-diagram-with-ai
+  label: Generate Diagram With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Diagram With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-email-templates-with-ai
+  label: Generate Email Templates With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Email Templates With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-email-variants-with-ai
+  label: Generate Email Variants With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Email Variants With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-facilitator-guide-with-ai
+  label: Generate Facilitator Guide With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Facilitator Guide With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-faq-draft-with-ai
+  label: Generate FAQ Draft With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    FAQ Draft With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-icebreaker-with-ai
+  label: Generate Icebreaker With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Icebreaker With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-icon-avatar-with-ai
+  label: Generate Icon Avatar With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Icon Avatar With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-icon-with-ai
+  label: Generate Icon With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Icon With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-image-with-prompt
+  label: Generate Image With Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Image With Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-interview-questions-with-ai
+  label: Generate Interview Questions With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Interview Questions With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-meta-tags-with-ai
+  label: Generate Meta Tags With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Meta Tags With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-outline
+  label: Generate Outline
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Outline.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-platform-specific-descriptions
+  label: Generate Platform Specific Descriptions
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Platform Specific Descriptions.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-product-name-with-ai
+  label: Generate Product Name With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Product Name With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-quiz-batch-with-ai
+  label: Generate Quiz Batch With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Quiz Batch With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-report-outline-with-ai
+  label: Generate Report Outline With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Report Outline With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-research-starting-points-with-ai
+  label: Generate Research Starting Points With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Research Starting Points With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-slide-outline-with-ai
+  label: Generate Slide Outline With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Slide Outline With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-sns-visual-with-ai
+  label: Generate SNS Visual With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    SNS Visual With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-social-visuals
+  label: Generate Social Visuals
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Social Visuals.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-survey-analysis-report
+  label: Generate Survey Analysis Report
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Survey Analysis Report.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-thumbnail-with-ai
+  label: Generate Thumbnail With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Thumbnail With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-video-ideas-with-ai
+  label: Generate Video Ideas With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Video Ideas With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: generate-voc-report-with-ai
+  label: Generate Voc Report With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Generate
+    Voc Report With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: git-ready
+  label: Git Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Git Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: google-account-ready
+  label: Google Account Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Google
+    Account Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: gsc-property-verified
+  label: Gsc Property Verified
+  description: 'Canonical capability extracted from existing ATOM metadata: Gsc Property
+    Verified.'
+  synonyms: []
+  deprecated_aliases: []
+- id: handle-user-input
+  label: Handle User Input
+  description: 'Canonical capability extracted from existing ATOM metadata: Handle
+    User Input.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-basic-homepage
+  label: Has Basic Homepage
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Basic
+    Homepage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-csv-data
+  label: Has CSV Data
+  description: 'Canonical capability extracted from existing ATOM metadata: Has CSV
+    Data.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-data-and-ai-chat
+  label: Has Data And AI Chat
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Data
+    And AI Chat.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-draft-text
+  label: Has Draft Text
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Draft
+    Text.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-google-or-github-account
+  label: Has Google Or Github Account
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Google
+    Or Github Account.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-long-video
+  label: Has Long Video
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Long
+    Video.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-pilot-prototype
+  label: Has Pilot Prototype
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Pilot
+    Prototype.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-raw-footage
+  label: Has Raw Footage
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Raw
+    Footage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-sample-data
+  label: Has Sample Data
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Sample
+    Data.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-short-video-file
+  label: Has Short Video File
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Short
+    Video File.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-video-channel
+  label: Has Video Channel
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Video
+    Channel.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-video-footage
+  label: Has Video Footage
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Video
+    Footage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-working-automation-flow
+  label: Has Working Automation Flow
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Working
+    Automation Flow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: has-working-prototype
+  label: Has Working Prototype
+  description: 'Canonical capability extracted from existing ATOM metadata: Has Working
+    Prototype.'
+  synonyms: []
+  deprecated_aliases: []
+- id: have-nextjs-project-local
+  label: Have Nextjs Project Local
+  description: 'Canonical capability extracted from existing ATOM metadata: Have Nextjs
+    Project Local.'
+  synonyms: []
+  deprecated_aliases: []
+- id: homepage-created
+  label: Homepage Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Homepage
+    Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: icon-usage
+  label: Icon Usage
+  description: 'Canonical capability extracted from existing ATOM metadata: Icon Usage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: idea-exists
+  label: Idea Exists
+  description: 'Canonical capability extracted from existing ATOM metadata: Idea Exists.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-ai-side-job-categories
+  label: Identify AI Side Job Categories
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    AI Side Job Categories.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-analysis-phases
+  label: Identify Analysis Phases
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Analysis Phases.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-automation-candidate
+  label: Identify Automation Candidate
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Automation Candidate.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-automation-hotspot
+  label: Identify Automation Hotspot
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Automation Hotspot.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-bottleneck
+  label: Identify Bottleneck
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Bottleneck.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-content-gaps-with-ai
+  label: Identify Content Gaps With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Content Gaps With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-data-entities
+  label: Identify Data Entities
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Data Entities.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-data-to-collect
+  label: Identify Data To Collect
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Data To Collect.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-ec-bottleneck
+  label: Identify EC Bottleneck
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    EC Bottleneck.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-freelance-platform
+  label: Identify Freelance Platform
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Freelance Platform.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-funnel-bottleneck
+  label: Identify Funnel Bottleneck
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Funnel Bottleneck.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-high-value-customer-traits
+  label: Identify High Value Customer Traits
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    High Value Customer Traits.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-improvement-points
+  label: Identify Improvement Points
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Improvement Points.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-personal-niche
+  label: Identify Personal Niche
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Personal Niche.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-repetitive-work-patterns
+  label: Identify Repetitive Work Patterns
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Repetitive Work Patterns.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-revenue-metrics
+  label: Identify Revenue Metrics
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Revenue Metrics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: identify-tracking-gaps
+  label: Identify Tracking Gaps
+  description: 'Canonical capability extracted from existing ATOM metadata: Identify
+    Tracking Gaps.'
+  synonyms: []
+  deprecated_aliases: []
+- id: image-gen-basics
+  label: Image Gen Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Image
+    Gen Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: image-handling
+  label: Image Handling
+  description: 'Canonical capability extracted from existing ATOM metadata: Image
+    Handling.'
+  synonyms: []
+  deprecated_aliases: []
+- id: improve-cta-with-ai
+  label: Improve Cta With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Improve
+    Cta With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: improve-form-flow-with-ai
+  label: Improve Form Flow With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Improve
+    Form Flow With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: improve-mail-open-rate-with-ai
+  label: Improve Mail Open Rate With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Improve
+    Mail Open Rate With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: initialize-git-repo
+  label: Initialize Git Repo
+  description: 'Canonical capability extracted from existing ATOM metadata: Initialize
+    Git Repo.'
+  synonyms: []
+  deprecated_aliases: []
+- id: inspect-data-summary
+  label: Inspect Data Summary
+  description: 'Canonical capability extracted from existing ATOM metadata: Inspect
+    Data Summary.'
+  synonyms: []
+  deprecated_aliases: []
+- id: install-claude-code-and-verify
+  label: Install Claude Code And Verify
+  description: 'Canonical capability extracted from existing ATOM metadata: Install
+    Claude Code And Verify.'
+  synonyms: []
+  deprecated_aliases: []
+- id: install-codex-cli-and-verify
+  label: Install Codex Cli And Verify
+  description: 'Canonical capability extracted from existing ATOM metadata: Install
+    Codex Cli And Verify.'
+  synonyms: []
+  deprecated_aliases: []
+- id: install-shadcn
+  label: Install Shadcn
+  description: 'Canonical capability extracted from existing ATOM metadata: Install
+    Shadcn.'
+  synonyms: []
+  deprecated_aliases: []
+- id: intercom-account-created
+  label: Intercom Account Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Intercom
+    Account Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: iterate-ai-output
+  label: Iterate AI Output
+  description: 'Canonical capability extracted from existing ATOM metadata: Iterate
+    AI Output.'
+  synonyms: []
+  deprecated_aliases: []
+- id: iterate-analysis-with-followups
+  label: Iterate Analysis With Followups
+  description: 'Canonical capability extracted from existing ATOM metadata: Iterate
+    Analysis With Followups.'
+  synonyms: []
+  deprecated_aliases: []
+- id: iterate-prompt-for-accuracy
+  label: Iterate Prompt For Accuracy
+  description: 'Canonical capability extracted from existing ATOM metadata: Iterate
+    Prompt For Accuracy.'
+  synonyms: []
+  deprecated_aliases: []
+- id: judge-copyright-risk-for-video-assets
+  label: Judge Copyright Risk For Video Assets
+  description: 'Canonical capability extracted from existing ATOM metadata: Judge
+    Copyright Risk For Video Assets.'
+  synonyms: []
+  deprecated_aliases: []
+- id: keyword-research-with-ai
+  label: Keyword Research With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Keyword
+    Research With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: know-why-ai-coding-tools
+  label: Know Why AI Coding Tools
+  description: 'Canonical capability extracted from existing ATOM metadata: Know Why
+    AI Coding Tools.'
+  synonyms: []
+  deprecated_aliases: []
+- id: learning-roadmap
+  label: Learning Roadmap
+  description: 'Canonical capability extracted from existing ATOM metadata: Learning
+    Roadmap.'
+  synonyms: []
+  deprecated_aliases: []
+- id: legal-pages-created
+  label: Legal Pages Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Legal
+    Pages Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: list-daily-ec-tasks-with-ai
+  label: List Daily EC Tasks With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: List Daily
+    EC Tasks With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: list-improvement-ideas
+  label: List Improvement Ideas
+  description: 'Canonical capability extracted from existing ATOM metadata: List Improvement
+    Ideas.'
+  synonyms: []
+  deprecated_aliases: []
+- id: list-single-services
+  label: List Single Services
+  description: 'Canonical capability extracted from existing ATOM metadata: List Single
+    Services.'
+  synonyms: []
+  deprecated_aliases: []
+- id: loading-ui
+  label: Loading UI
+  description: 'Canonical capability extracted from existing ATOM metadata: Loading
+    UI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: mail-tool-account-created
+  label: Mail Tool Account Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Mail Tool
+    Account Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: make-account-created
+  label: Make Account Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Make Account
+    Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: make-supabase-ai-ready
+  label: Make Supabase AI Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Make Supabase
+    AI Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: manage-multi-client-with-ai
+  label: Manage Multi Client With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Manage
+    Multi Client With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: manage-prompt-versions
+  label: Manage Prompt Versions
+  description: 'Canonical capability extracted from existing ATOM metadata: Manage
+    Prompt Versions.'
+  synonyms: []
+  deprecated_aliases: []
+- id: map-business-flow-with-ai
+  label: Map Business Flow With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Map Business
+    Flow With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: map-trigger-action-pair
+  label: Map Trigger Action Pair
+  description: 'Canonical capability extracted from existing ATOM metadata: Map Trigger
+    Action Pair.'
+  synonyms: []
+  deprecated_aliases: []
+- id: mask-pii-before-ai
+  label: Mask Pii Before AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Mask Pii
+    Before AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: measure-automation-roi
+  label: Measure Automation ROI
+  description: 'Canonical capability extracted from existing ATOM metadata: Measure
+    Automation ROI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: navigation-menu
+  label: Navigation Menu
+  description: 'Canonical capability extracted from existing ATOM metadata: Navigation
+    Menu.'
+  synonyms: []
+  deprecated_aliases: []
+- id: next-app-created
+  label: Next App Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Next App
+    Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: nextjs-app-initialized
+  label: Nextjs App Initialized
+  description: 'Canonical capability extracted from existing ATOM metadata: Nextjs
+    App Initialized.'
+  synonyms: []
+  deprecated_aliases: []
+- id: nocode-app-basic-built
+  label: Nocode App Basic Built
+  description: 'Canonical capability extracted from existing ATOM metadata: Nocode
+    App Basic Built.'
+  synonyms: []
+  deprecated_aliases: []
+- id: nocode-app-basic-crud
+  label: Nocode App Basic Crud
+  description: 'Canonical capability extracted from existing ATOM metadata: Nocode
+    App Basic Crud.'
+  synonyms: []
+  deprecated_aliases: []
+- id: nocode-app-basic-setup
+  label: Nocode App Basic Setup
+  description: 'Canonical capability extracted from existing ATOM metadata: Nocode
+    App Basic Setup.'
+  synonyms: []
+  deprecated_aliases: []
+- id: nocode-app-deployed
+  label: Nocode App Deployed
+  description: 'Canonical capability extracted from existing ATOM metadata: Nocode
+    App Deployed.'
+  synonyms: []
+  deprecated_aliases: []
+- id: nocode-app-published
+  label: Nocode App Published
+  description: 'Canonical capability extracted from existing ATOM metadata: Nocode
+    App Published.'
+  synonyms: []
+  deprecated_aliases: []
+- id: nocode-ui-created
+  label: Nocode UI Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Nocode
+    UI Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: node-installed
+  label: Node Installed
+  description: 'Canonical capability extracted from existing ATOM metadata: Node Installed.'
+  synonyms: []
+  deprecated_aliases: []
+- id: node-pnpm-ready
+  label: Node Pnpm Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Node Pnpm
+    Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: oauth-login
+  label: Oauth Login
+  description: 'Canonical capability extracted from existing ATOM metadata: Oauth
+    Login.'
+  synonyms: []
+  deprecated_aliases: []
+- id: og-image-configured
+  label: Og Image Configured
+  description: 'Canonical capability extracted from existing ATOM metadata: Og Image
+    Configured.'
+  synonyms: []
+  deprecated_aliases: []
+- id: openai-api-key-obtained
+  label: Openai API Key Obtained
+  description: 'Canonical capability extracted from existing ATOM metadata: Openai
+    API Key Obtained.'
+  synonyms: []
+  deprecated_aliases: []
+- id: operate-legal-review-flow
+  label: Operate Legal Review Flow
+  description: 'Canonical capability extracted from existing ATOM metadata: Operate
+    Legal Review Flow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: ops-runbook-creation
+  label: Ops Runbook Creation
+  description: 'Canonical capability extracted from existing ATOM metadata: Ops Runbook
+    Creation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: optimize-video-metadata
+  label: Optimize Video Metadata
+  description: 'Canonical capability extracted from existing ATOM metadata: Optimize
+    Video Metadata.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-ad-objective-and-placement
+  label: Organize Ad Objective And Placement
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    Ad Objective And Placement.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-ai-input-materials
+  label: Organize AI Input Materials
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    AI Input Materials.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-assets-for-editing
+  label: Organize Assets For Editing
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    Assets For Editing.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-customer-faqs-with-ai
+  label: Organize Customer Faqs With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    Customer Faqs With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-image-assets-with-naming-rules
+  label: Organize Image Assets With Naming Rules
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    Image Assets With Naming Rules.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-knowledge-source-list
+  label: Organize Knowledge Source List
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    Knowledge Source List.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-knowledge-sources-for-ai
+  label: Organize Knowledge Sources For AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    Knowledge Sources For AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-message-angles
+  label: Organize Message Angles
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    Message Angles.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-priority-metrics
+  label: Organize Priority Metrics
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    Priority Metrics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-product-info-with-ai
+  label: Organize Product Info With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    Product Info With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-prompt-with-4blocks
+  label: Organize Prompt With 4blocks
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    Prompt With 4blocks.'
+  synonyms: []
+  deprecated_aliases: []
+- id: organize-reusable-components
+  label: Organize Reusable Components
+  description: 'Canonical capability extracted from existing ATOM metadata: Organize
+    Reusable Components.'
+  synonyms: []
+  deprecated_aliases: []
+- id: package-deliverables-for-handoff
+  label: Package Deliverables For Handoff
+  description: 'Canonical capability extracted from existing ATOM metadata: Package
+    Deliverables For Handoff.'
+  synonyms: []
+  deprecated_aliases: []
+- id: payment-integration
+  label: Payment Integration
+  description: 'Canonical capability extracted from existing ATOM metadata: Payment
+    Integration.'
+  synonyms: []
+  deprecated_aliases: []
+- id: pick-first-category
+  label: Pick First Category
+  description: 'Canonical capability extracted from existing ATOM metadata: Pick First
+    Category.'
+  synonyms: []
+  deprecated_aliases: []
+- id: pnpm-installed
+  label: Pnpm Installed
+  description: 'Canonical capability extracted from existing ATOM metadata: Pnpm Installed.'
+  synonyms: []
+  deprecated_aliases: []
+- id: polish-product-copy-with-ai
+  label: Polish Product Copy With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Polish
+    Product Copy With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: portfolio-published
+  label: Portfolio Published
+  description: 'Canonical capability extracted from existing ATOM metadata: Portfolio
+    Published.'
+  synonyms: []
+  deprecated_aliases: []
+- id: portfolio-with-ai-created
+  label: Portfolio With AI Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Portfolio
+    With AI Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: preview-deploy-workflow
+  label: Preview Deploy Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Preview
+    Deploy Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: pricing-strategy-defined
+  label: Pricing Strategy Defined
+  description: 'Canonical capability extracted from existing ATOM metadata: Pricing
+    Strategy Defined.'
+  synonyms: []
+  deprecated_aliases: []
+- id: prioritize-ai-tasks
+  label: Prioritize AI Tasks
+  description: 'Canonical capability extracted from existing ATOM metadata: Prioritize
+    AI Tasks.'
+  synonyms: []
+  deprecated_aliases: []
+- id: prioritize-experiments-with-scoring
+  label: Prioritize Experiments With Scoring
+  description: 'Canonical capability extracted from existing ATOM metadata: Prioritize
+    Experiments With Scoring.'
+  synonyms: []
+  deprecated_aliases: []
+- id: prioritize-next-actions
+  label: Prioritize Next Actions
+  description: 'Canonical capability extracted from existing ATOM metadata: Prioritize
+    Next Actions.'
+  synonyms: []
+  deprecated_aliases: []
+- id: prioritize-use-cases-with-matrix
+  label: Prioritize Use Cases With Matrix
+  description: 'Canonical capability extracted from existing ATOM metadata: Prioritize
+    Use Cases With Matrix.'
+  synonyms: []
+  deprecated_aliases: []
+- id: produce-full-article-end-to-end
+  label: Produce Full Article End To End
+  description: 'Canonical capability extracted from existing ATOM metadata: Produce
+    Full Article End To End.'
+  synonyms: []
+  deprecated_aliases: []
+- id: produce-promo-video-with-ai
+  label: Produce Promo Video With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Produce
+    Promo Video With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: production-debug-skill
+  label: Production Debug Skill
+  description: 'Canonical capability extracted from existing ATOM metadata: Production
+    Debug Skill.'
+  synonyms: []
+  deprecated_aliases: []
+- id: productize-own-service
+  label: Productize Own Service
+  description: 'Canonical capability extracted from existing ATOM metadata: Productize
+    Own Service.'
+  synonyms: []
+  deprecated_aliases: []
+- id: project-goal-decided
+  label: Project Goal Decided
+  description: 'Canonical capability extracted from existing ATOM metadata: Project
+    Goal Decided.'
+  synonyms: []
+  deprecated_aliases: []
+- id: prompt-structure-basics
+  label: Prompt Structure Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Prompt
+    Structure Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: propose-actions-from-analysis
+  label: Propose Actions From Analysis
+  description: 'Canonical capability extracted from existing ATOM metadata: Propose
+    Actions From Analysis.'
+  synonyms: []
+  deprecated_aliases: []
+- id: propose-next-automation
+  label: Propose Next Automation
+  description: 'Canonical capability extracted from existing ATOM metadata: Propose
+    Next Automation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: publish-faq-document
+  label: Publish FAQ Document
+  description: 'Canonical capability extracted from existing ATOM metadata: Publish
+    FAQ Document.'
+  synonyms: []
+  deprecated_aliases: []
+- id: publish-first-sns-post
+  label: Publish First SNS Post
+  description: 'Canonical capability extracted from existing ATOM metadata: Publish
+    First SNS Post.'
+  synonyms: []
+  deprecated_aliases: []
+- id: read-data-in-next
+  label: Read Data In Next
+  description: 'Canonical capability extracted from existing ATOM metadata: Read Data
+    In Next.'
+  synonyms: []
+  deprecated_aliases: []
+- id: read-data-skill
+  label: Read Data Skill
+  description: 'Canonical capability extracted from existing ATOM metadata: Read Data
+    Skill.'
+  synonyms: []
+  deprecated_aliases: []
+- id: read-execution-history
+  label: Read Execution History
+  description: 'Canonical capability extracted from existing ATOM metadata: Read Execution
+    History.'
+  synonyms: []
+  deprecated_aliases: []
+- id: read-heatmap-basics
+  label: Read Heatmap Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Read Heatmap
+    Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: read-period-diff
+  label: Read Period Diff
+  description: 'Canonical capability extracted from existing ATOM metadata: Read Period
+    Diff.'
+  synonyms: []
+  deprecated_aliases: []
+- id: read-youtube-analytics
+  label: Read Youtube Analytics
+  description: 'Canonical capability extracted from existing ATOM metadata: Read Youtube
+    Analytics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: redact-sensitive-data-for-sharing
+  label: Redact Sensitive Data For Sharing
+  description: 'Canonical capability extracted from existing ATOM metadata: Redact
+    Sensitive Data For Sharing.'
+  synonyms: []
+  deprecated_aliases: []
+- id: refine-ai-output-iteratively
+  label: Refine AI Output Iteratively
+  description: 'Canonical capability extracted from existing ATOM metadata: Refine
+    AI Output Iteratively.'
+  synonyms: []
+  deprecated_aliases: []
+- id: refine-script-with-ai-feedback
+  label: Refine Script With AI Feedback
+  description: 'Canonical capability extracted from existing ATOM metadata: Refine
+    Script With AI Feedback.'
+  synonyms: []
+  deprecated_aliases: []
+- id: remove-product-background-with-ai
+  label: Remove Product Background With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Remove
+    Product Background With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: repurpose-single-doc-to-multi-format
+  label: Repurpose Single Doc To Multi Format
+  description: 'Canonical capability extracted from existing ATOM metadata: Repurpose
+    Single Doc To Multi Format.'
+  synonyms: []
+  deprecated_aliases: []
+- id: research-image-gen-market
+  label: Research Image Gen Market
+  description: 'Canonical capability extracted from existing ATOM metadata: Research
+    Image Gen Market.'
+  synonyms: []
+  deprecated_aliases: []
+- id: research-product-keywords
+  label: Research Product Keywords
+  description: 'Canonical capability extracted from existing ATOM metadata: Research
+    Product Keywords.'
+  synonyms: []
+  deprecated_aliases: []
+- id: research-search-demand
+  label: Research Search Demand
+  description: 'Canonical capability extracted from existing ATOM metadata: Research
+    Search Demand.'
+  synonyms: []
+  deprecated_aliases: []
+- id: research-slide-market-pricing
+  label: Research Slide Market Pricing
+  description: 'Canonical capability extracted from existing ATOM metadata: Research
+    Slide Market Pricing.'
+  synonyms: []
+  deprecated_aliases: []
+- id: research-writing-market-with-ai
+  label: Research Writing Market With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Research
+    Writing Market With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: reshape-table-with-ai
+  label: Reshape Table With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Reshape
+    Table With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: resize-product-image-per-platform
+  label: Resize Product Image Per Platform
+  description: 'Canonical capability extracted from existing ATOM metadata: Resize
+    Product Image Per Platform.'
+  synonyms: []
+  deprecated_aliases: []
+- id: responsive-design
+  label: Responsive Design
+  description: 'Canonical capability extracted from existing ATOM metadata: Responsive
+    Design.'
+  synonyms: []
+  deprecated_aliases: []
+- id: review-and-improve-pilot
+  label: Review And Improve Pilot
+  description: 'Canonical capability extracted from existing ATOM metadata: Review
+    And Improve Pilot.'
+  synonyms: []
+  deprecated_aliases: []
+- id: review-and-improve-with-ai
+  label: Review And Improve With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Review
+    And Improve With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: review-automation-portfolio
+  label: Review Automation Portfolio
+  description: 'Canonical capability extracted from existing ATOM metadata: Review
+    Automation Portfolio.'
+  synonyms: []
+  deprecated_aliases: []
+- id: review-post-results-with-ai
+  label: Review Post Results With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Review
+    Post Results With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: review-traffic-with-ai
+  label: Review Traffic With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Review
+    Traffic With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: revise-ai-draft-with-personal-voice
+  label: Revise AI Draft With Personal Voice
+  description: 'Canonical capability extracted from existing ATOM metadata: Revise
+    AI Draft With Personal Voice.'
+  synonyms: []
+  deprecated_aliases: []
+- id: revise-with-human-perspective
+  label: Revise With Human Perspective
+  description: 'Canonical capability extracted from existing ATOM metadata: Revise
+    With Human Perspective.'
+  synonyms: []
+  deprecated_aliases: []
+- id: rewrite-existing-article-with-ai
+  label: Rewrite Existing Article With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Rewrite
+    Existing Article With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: rewrite-text-with-ai
+  label: Rewrite Text With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Rewrite
+    Text With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: rls-policies-set
+  label: Rls Policies Set
+  description: 'Canonical capability extracted from existing ATOM metadata: Rls Policies
+    Set.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-automation-manually
+  label: Run Automation Manually
+  description: 'Canonical capability extracted from existing ATOM metadata: Run Automation
+    Manually.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-basic-automation
+  label: Run Basic Automation
+  description: 'Canonical capability extracted from existing ATOM metadata: Run Basic
+    Automation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-dev-server
+  label: Run Dev Server
+  description: 'Canonical capability extracted from existing ATOM metadata: Run Dev
+    Server.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-end-to-end-cs-exercise
+  label: Run End To End Cs Exercise
+  description: 'Canonical capability extracted from existing ATOM metadata: Run End
+    To End Cs Exercise.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-final-polish-checklist
+  label: Run Final Polish Checklist
+  description: 'Canonical capability extracted from existing ATOM metadata: Run Final
+    Polish Checklist.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-first-gas-script
+  label: Run First Gas Script
+  description: 'Canonical capability extracted from existing ATOM metadata: Run First
+    Gas Script.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-internal-bot-test
+  label: Run Internal Bot Test
+  description: 'Canonical capability extracted from existing ATOM metadata: Run Internal
+    Bot Test.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-measure-improve-loop
+  label: Run Measure Improve Loop
+  description: 'Canonical capability extracted from existing ATOM metadata: Run Measure
+    Improve Loop.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-personalization-feedback-loop
+  label: Run Personalization Feedback Loop
+  description: 'Canonical capability extracted from existing ATOM metadata: Run Personalization
+    Feedback Loop.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-plagiarism-check-workflow
+  label: Run Plagiarism Check Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Run Plagiarism
+    Check Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-polish-checklist
+  label: Run Polish Checklist
+  description: 'Canonical capability extracted from existing ATOM metadata: Run Polish
+    Checklist.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-sentiment-analysis-with-ai
+  label: Run Sentiment Analysis With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Run Sentiment
+    Analysis With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-user-test-cycle
+  label: Run User Test Cycle
+  description: 'Canonical capability extracted from existing ATOM metadata: Run User
+    Test Cycle.'
+  synonyms: []
+  deprecated_aliases: []
+- id: run-what-if-with-ai
+  label: Run What If With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Run What
+    If With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: scene-outline-ready
+  label: Scene Outline Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Scene
+    Outline Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: secure-secret-management
+  label: Secure Secret Management
+  description: 'Canonical capability extracted from existing ATOM metadata: Secure
+    Secret Management.'
+  synonyms: []
+  deprecated_aliases: []
+- id: segment-customers-with-ai
+  label: Segment Customers With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Segment
+    Customers With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: segment-trend-drivers-with-ai
+  label: Segment Trend Drivers With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Segment
+    Trend Drivers With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: select-ai-delegatable-task
+  label: Select AI Delegatable Task
+  description: 'Canonical capability extracted from existing ATOM metadata: Select
+    AI Delegatable Task.'
+  synonyms: []
+  deprecated_aliases: []
+- id: select-ai-tool-by-purpose
+  label: Select AI Tool By Purpose
+  description: 'Canonical capability extracted from existing ATOM metadata: Select
+    AI Tool By Purpose.'
+  synonyms: []
+  deprecated_aliases: []
+- id: select-ai-tool-by-task-type
+  label: Select AI Tool By Task Type
+  description: 'Canonical capability extracted from existing ATOM metadata: Select
+    AI Tool By Task Type.'
+  synonyms: []
+  deprecated_aliases: []
+- id: select-ai-tool-for-analysis
+  label: Select AI Tool For Analysis
+  description: 'Canonical capability extracted from existing ATOM metadata: Select
+    AI Tool For Analysis.'
+  synonyms: []
+  deprecated_aliases: []
+- id: select-and-customize-video-template
+  label: Select And Customize Video Template
+  description: 'Canonical capability extracted from existing ATOM metadata: Select
+    And Customize Video Template.'
+  synonyms: []
+  deprecated_aliases: []
+- id: select-chart-by-purpose
+  label: Select Chart By Purpose
+  description: 'Canonical capability extracted from existing ATOM metadata: Select
+    Chart By Purpose.'
+  synonyms: []
+  deprecated_aliases: []
+- id: select-chart-type-for-metric
+  label: Select Chart Type For Metric
+  description: 'Canonical capability extracted from existing ATOM metadata: Select
+    Chart Type For Metric.'
+  synonyms: []
+  deprecated_aliases: []
+- id: select-key-metrics-with-ai
+  label: Select Key Metrics With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Select
+    Key Metrics With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: select-priority-kpi
+  label: Select Priority KPI
+  description: 'Canonical capability extracted from existing ATOM metadata: Select
+    Priority KPI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: select-rewrite-candidates
+  label: Select Rewrite Candidates
+  description: 'Canonical capability extracted from existing ATOM metadata: Select
+    Rewrite Candidates.'
+  synonyms: []
+  deprecated_aliases: []
+- id: self-learning-skill
+  label: Self Learning Skill
+  description: 'Canonical capability extracted from existing ATOM metadata: Self Learning
+    Skill.'
+  synonyms: []
+  deprecated_aliases: []
+- id: send-email-via-gas
+  label: Send Email Via Gas
+  description: 'Canonical capability extracted from existing ATOM metadata: Send Email
+    Via Gas.'
+  synonyms: []
+  deprecated_aliases: []
+- id: send-first-prompt-to-chatgpt
+  label: Send First Prompt To Chatgpt
+  description: 'Canonical capability extracted from existing ATOM metadata: Send First
+    Prompt To Chatgpt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: seo-metadata-set
+  label: SEO Metadata Set
+  description: 'Canonical capability extracted from existing ATOM metadata: SEO Metadata
+    Set.'
+  synonyms: []
+  deprecated_aliases: []
+- id: session-management
+  label: Session Management
+  description: 'Canonical capability extracted from existing ATOM metadata: Session
+    Management.'
+  synonyms: []
+  deprecated_aliases: []
+- id: set-freelance-pricing
+  label: Set Freelance Pricing
+  description: 'Canonical capability extracted from existing ATOM metadata: Set Freelance
+    Pricing.'
+  synonyms: []
+  deprecated_aliases: []
+- id: set-support-tone
+  label: Set Support Tone
+  description: 'Canonical capability extracted from existing ATOM metadata: Set Support
+    Tone.'
+  synonyms: []
+  deprecated_aliases: []
+- id: setup-ai-builder-workspace
+  label: Setup AI Builder Workspace
+  description: 'Canonical capability extracted from existing ATOM metadata: Setup
+    AI Builder Workspace.'
+  synonyms: []
+  deprecated_aliases: []
+- id: setup-ai-tools
+  label: Setup AI Tools
+  description: 'Canonical capability extracted from existing ATOM metadata: Setup
+    AI Tools.'
+  synonyms: []
+  deprecated_aliases: []
+- id: setup-analysis-workspace
+  label: Setup Analysis Workspace
+  description: 'Canonical capability extracted from existing ATOM metadata: Setup
+    Analysis Workspace.'
+  synonyms: []
+  deprecated_aliases: []
+- id: setup-app-monitoring
+  label: Setup App Monitoring
+  description: 'Canonical capability extracted from existing ATOM metadata: Setup
+    App Monitoring.'
+  synonyms: []
+  deprecated_aliases: []
+- id: setup-error-notification
+  label: Setup Error Notification
+  description: 'Canonical capability extracted from existing ATOM metadata: Setup
+    Error Notification.'
+  synonyms: []
+  deprecated_aliases: []
+- id: setup-knowledge-retrieval
+  label: Setup Knowledge Retrieval
+  description: 'Canonical capability extracted from existing ATOM metadata: Setup
+    Knowledge Retrieval.'
+  synonyms: []
+  deprecated_aliases: []
+- id: shadcn-installed
+  label: Shadcn Installed
+  description: 'Canonical capability extracted from existing ATOM metadata: Shadcn
+    Installed.'
+  synonyms: []
+  deprecated_aliases: []
+- id: shared-layout
+  label: Shared Layout
+  description: 'Canonical capability extracted from existing ATOM metadata: Shared
+    Layout.'
+  synonyms: []
+  deprecated_aliases: []
+- id: spreadsheet-basic-operation
+  label: Spreadsheet Basic Operation
+  description: 'Canonical capability extracted from existing ATOM metadata: Spreadsheet
+    Basic Operation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: spreadsheet-sales-data
+  label: Spreadsheet Sales Data
+  description: 'Canonical capability extracted from existing ATOM metadata: Spreadsheet
+    Sales Data.'
+  synonyms: []
+  deprecated_aliases: []
+- id: stabilize-multi-turn-conversation
+  label: Stabilize Multi Turn Conversation
+  description: 'Canonical capability extracted from existing ATOM metadata: Stabilize
+    Multi Turn Conversation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: standardize-text-with-ai
+  label: Standardize Text With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Standardize
+    Text With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: start-first-ai-project
+  label: Start First AI Project
+  description: 'Canonical capability extracted from existing ATOM metadata: Start
+    First AI Project.'
+  synonyms: []
+  deprecated_aliases: []
+- id: storage-bucket
+  label: Storage Bucket
+  description: 'Canonical capability extracted from existing ATOM metadata: Storage
+    Bucket.'
+  synonyms: []
+  deprecated_aliases: []
+- id: structure-long-content-with-ai
+  label: Structure Long Content With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Structure
+    Long Content With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: submit-first-proposal
+  label: Submit First Proposal
+  description: 'Canonical capability extracted from existing ATOM metadata: Submit
+    First Proposal.'
+  synonyms: []
+  deprecated_aliases: []
+- id: suggest-internal-links-with-ai
+  label: Suggest Internal Links With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Suggest
+    Internal Links With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: summarize-docs-with-ai
+  label: Summarize Docs With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Summarize
+    Docs With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: supabase-connected
+  label: Supabase Connected
+  description: 'Canonical capability extracted from existing ATOM metadata: Supabase
+    Connected.'
+  synonyms: []
+  deprecated_aliases: []
+- id: supabase-project-created
+  label: Supabase Project Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Supabase
+    Project Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: supabase-ready
+  label: Supabase Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Supabase
+    Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: support-tool-account
+  label: Support Tool Account
+  description: 'Canonical capability extracted from existing ATOM metadata: Support
+    Tool Account.'
+  synonyms: []
+  deprecated_aliases: []
+- id: switch-tone-by-persona
+  label: Switch Tone By Persona
+  description: 'Canonical capability extracted from existing ATOM metadata: Switch
+    Tone By Persona.'
+  synonyms: []
+  deprecated_aliases: []
+- id: table-designed
+  label: Table Designed
+  description: 'Canonical capability extracted from existing ATOM metadata: Table
+    Designed.'
+  synonyms: []
+  deprecated_aliases: []
+- id: tailor-report-for-audience
+  label: Tailor Report For Audience
+  description: 'Canonical capability extracted from existing ATOM metadata: Tailor
+    Report For Audience.'
+  synonyms: []
+  deprecated_aliases: []
+- id: terminal-basic-ops
+  label: Terminal Basic Ops
+  description: 'Canonical capability extracted from existing ATOM metadata: Terminal
+    Basic Ops.'
+  synonyms: []
+  deprecated_aliases: []
+- id: test-ai-response-with-sample-questions
+  label: Test AI Response With Sample Questions
+  description: 'Canonical capability extracted from existing ATOM metadata: Test AI
+    Response With Sample Questions.'
+  synonyms: []
+  deprecated_aliases: []
+- id: transcribe-meeting-audio
+  label: Transcribe Meeting Audio
+  description: 'Canonical capability extracted from existing ATOM metadata: Transcribe
+    Meeting Audio.'
+  synonyms: []
+  deprecated_aliases: []
+- id: trim-redundancy-with-ai
+  label: Trim Redundancy With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Trim Redundancy
+    With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-4channel-basics
+  label: Understand 4channel Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    4channel Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-ai-coding-tool-value
+  label: Understand AI Coding Tool Value
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    AI Coding Tool Value.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-ai-copyright-risks
+  label: Understand AI Copyright Risks
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    AI Copyright Risks.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-ai-data-analysis-mindset
+  label: Understand AI Data Analysis Mindset
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    AI Data Analysis Mindset.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-ai-first-learning
+  label: Understand AI First Learning
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    AI First Learning.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-ai-image-basics
+  label: Understand AI Image Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    AI Image Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-ai-sidejob-demand
+  label: Understand AI Sidejob Demand
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    AI Sidejob Demand.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-ai-writing-market-shift
+  label: Understand AI Writing Market Shift
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    AI Writing Market Shift.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-api-json
+  label: Understand API JSON
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    API JSON.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-basic-metrics
+  label: Understand Basic Metrics
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Basic Metrics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-business-stage
+  label: Understand Business Stage
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Business Stage.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-copy-variation
+  label: Understand Copy Variation
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Copy Variation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-cs-automation-basics
+  label: Understand Cs Automation Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Cs Automation Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-cs-workflow
+  label: Understand Cs Workflow
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Cs Workflow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-cta-basics
+  label: Understand Cta Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Cta Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-data-ui-logic
+  label: Understand Data UI Logic
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Data UI Logic.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-env-files
+  label: Understand Env Files
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Env Files.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-learner-data-basics
+  label: Understand Learner Data Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Learner Data Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-lp-structure
+  label: Understand Lp Structure
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Lp Structure.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-project-files
+  label: Understand Project Files
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Project Files.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-report-purpose
+  label: Understand Report Purpose
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Report Purpose.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-rls
+  label: Understand Rls
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Rls.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-routing
+  label: Understand Routing
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Routing.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-short-video-basics
+  label: Understand Short Video Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Short Video Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-side-job-tax-filing-basics
+  label: Understand Side Job Tax Filing Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Side Job Tax Filing Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-track-goal
+  label: Understand Track Goal
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Track Goal.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-web-basics
+  label: Understand Web Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Web Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: understand-why-ai-coding-tool
+  label: Understand Why AI Coding Tool
+  description: 'Canonical capability extracted from existing ATOM metadata: Understand
+    Why AI Coding Tool.'
+  synonyms: []
+  deprecated_aliases: []
+- id: upload-and-inspect-data
+  label: Upload And Inspect Data
+  description: 'Canonical capability extracted from existing ATOM metadata: Upload
+    And Inspect Data.'
+  synonyms: []
+  deprecated_aliases: []
+- id: upload-csv-to-ai
+  label: Upload CSV To AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Upload
+    CSV To AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: upload-video-to-platform
+  label: Upload Video To Platform
+  description: 'Canonical capability extracted from existing ATOM metadata: Upload
+    Video To Platform.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-ai-chat
+  label: Use AI Chat
+  description: 'Canonical capability extracted from existing ATOM metadata: Use AI
+    Chat.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-ai-chat-basic
+  label: Use AI Chat Basic
+  description: 'Canonical capability extracted from existing ATOM metadata: Use AI
+    Chat Basic.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-ai-chat-tool
+  label: Use AI Chat Tool
+  description: 'Canonical capability extracted from existing ATOM metadata: Use AI
+    Chat Tool.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-ai-for-ec-tasks
+  label: Use AI For EC Tasks
+  description: 'Canonical capability extracted from existing ATOM metadata: Use AI
+    For EC Tasks.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-ai-for-realtime-qa
+  label: Use AI For Realtime QA
+  description: 'Canonical capability extracted from existing ATOM metadata: Use AI
+    For Realtime QA.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-ai-image-generation
+  label: Use AI Image Generation
+  description: 'Canonical capability extracted from existing ATOM metadata: Use AI
+    Image Generation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-ai-text-generation
+  label: Use AI Text Generation
+  description: 'Canonical capability extracted from existing ATOM metadata: Use AI
+    Text Generation.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-chat-ai-basic
+  label: Use Chat AI Basic
+  description: 'Canonical capability extracted from existing ATOM metadata: Use Chat
+    AI Basic.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-chatgpt-basic
+  label: Use Chatgpt Basic
+  description: 'Canonical capability extracted from existing ATOM metadata: Use Chatgpt
+    Basic.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-chatgpt-basic-prompt
+  label: Use Chatgpt Basic Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Use Chatgpt
+    Basic Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-claude-basic
+  label: Use Claude Basic
+  description: 'Canonical capability extracted from existing ATOM metadata: Use Claude
+    Basic.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-copilot-in-office-apps
+  label: Use Copilot In Office Apps
+  description: 'Canonical capability extracted from existing ATOM metadata: Use Copilot
+    In Office Apps.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-image-gen-prompt
+  label: Use Image Gen Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Use Image
+    Gen Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-notion-ai-for-writing
+  label: Use Notion AI For Writing
+  description: 'Canonical capability extracted from existing ATOM metadata: Use Notion
+    AI For Writing.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-spreadsheet-basic
+  label: Use Spreadsheet Basic
+  description: 'Canonical capability extracted from existing ATOM metadata: Use Spreadsheet
+    Basic.'
+  synonyms: []
+  deprecated_aliases: []
+- id: use-spreadsheet-basics
+  label: Use Spreadsheet Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Use Spreadsheet
+    Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: user-role-screen-map
+  label: User Role Screen Map
+  description: 'Canonical capability extracted from existing ATOM metadata: User Role
+    Screen Map.'
+  synonyms: []
+  deprecated_aliases: []
+- id: validate-aggregation-with-ai
+  label: Validate Aggregation With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Validate
+    Aggregation With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: validate-chatbot-with-real-questions
+  label: Validate Chatbot With Real Questions
+  description: 'Canonical capability extracted from existing ATOM metadata: Validate
+    Chatbot With Real Questions.'
+  synonyms: []
+  deprecated_aliases: []
+- id: validate-idea-with-prototype
+  label: Validate Idea With Prototype
+  description: 'Canonical capability extracted from existing ATOM metadata: Validate
+    Idea With Prototype.'
+  synonyms: []
+  deprecated_aliases: []
+- id: vercel-env-configured
+  label: Vercel Env Configured
+  description: 'Canonical capability extracted from existing ATOM metadata: Vercel
+    Env Configured.'
+  synonyms: []
+  deprecated_aliases: []
+- id: verify-ai-output-accuracy
+  label: Verify AI Output Accuracy
+  description: 'Canonical capability extracted from existing ATOM metadata: Verify
+    AI Output Accuracy.'
+  synonyms: []
+  deprecated_aliases: []
+- id: verify-ai-output-with-checklist
+  label: Verify AI Output With Checklist
+  description: 'Canonical capability extracted from existing ATOM metadata: Verify
+    AI Output With Checklist.'
+  synonyms: []
+  deprecated_aliases: []
+- id: verify-error-handler
+  label: Verify Error Handler
+  description: 'Canonical capability extracted from existing ATOM metadata: Verify
+    Error Handler.'
+  synonyms: []
+  deprecated_aliases: []
+- id: verify-platform-policy
+  label: Verify Platform Policy
+  description: 'Canonical capability extracted from existing ATOM metadata: Verify
+    Platform Policy.'
+  synonyms: []
+  deprecated_aliases: []
+- id: video-draft-ready
+  label: Video Draft Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Video
+    Draft Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: video-editing-basics
+  label: Video Editing Basics
+  description: 'Canonical capability extracted from existing ATOM metadata: Video
+    Editing Basics.'
+  synonyms: []
+  deprecated_aliases: []
+- id: video-file-created
+  label: Video File Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Video
+    File Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: video-theme-decided
+  label: Video Theme Decided
+  description: 'Canonical capability extracted from existing ATOM metadata: Video
+    Theme Decided.'
+  synonyms: []
+  deprecated_aliases: []
+- id: video-topic-decided
+  label: Video Topic Decided
+  description: 'Canonical capability extracted from existing ATOM metadata: Video
+    Topic Decided.'
+  synonyms: []
+  deprecated_aliases: []
+- id: video-uploaded
+  label: Video Uploaded
+  description: 'Canonical capability extracted from existing ATOM metadata: Video
+    Uploaded.'
+  synonyms: []
+  deprecated_aliases: []
+- id: visualize-support-flow
+  label: Visualize Support Flow
+  description: 'Canonical capability extracted from existing ATOM metadata: Visualize
+    Support Flow.'
+  synonyms: []
+  deprecated_aliases: []
+- id: vscode-ready
+  label: Vscode Ready
+  description: 'Canonical capability extracted from existing ATOM metadata: Vscode
+    Ready.'
+  synonyms: []
+  deprecated_aliases: []
+- id: work-showcased
+  label: Work Showcased
+  description: 'Canonical capability extracted from existing ATOM metadata: Work Showcased.'
+  synonyms: []
+  deprecated_aliases: []
+- id: workspace-folder-created
+  label: Workspace Folder Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Workspace
+    Folder Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-analysis-prompt
+  label: Write Analysis Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Analysis Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-basic-policy
+  label: Write Basic Policy
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Basic Policy.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-basic-prompt
+  label: Write Basic Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Basic Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-benefit-copy
+  label: Write Benefit Copy
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Benefit Copy.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-blog-post
+  label: Write Blog Post
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Blog Post.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-category-description
+  label: Write Category Description
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Category Description.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-classification-prompt
+  label: Write Classification Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Classification Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-cleaning-rules-doc
+  label: Write Cleaning Rules Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Cleaning Rules Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-conclusion-cta
+  label: Write Conclusion Cta
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Conclusion Cta.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-creative-brief-prompt
+  label: Write Creative Brief Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Creative Brief Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-cs-reply-draft
+  label: Write Cs Reply Draft
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Cs Reply Draft.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-draft-with-ai
+  label: Write Draft With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Draft With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-eeat-article-with-ai
+  label: Write Eeat Article With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Eeat Article With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-evidence-backed-comment
+  label: Write Evidence Backed Comment
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Evidence Backed Comment.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-hallucination-guard-prompt
+  label: Write Hallucination Guard Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Hallucination Guard Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-lp-hero-copy-with-ai
+  label: Write Lp Hero Copy With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Lp Hero Copy With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-meta-description
+  label: Write Meta Description
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Meta Description.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-microlearning-script-with-ai
+  label: Write Microlearning Script With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Microlearning Script With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-postmortem-sheet
+  label: Write Postmortem Sheet
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Postmortem Sheet.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-product-description-with-ai
+  label: Write Product Description With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Product Description With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-proposal-with-ai
+  label: Write Proposal With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Proposal With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-seo-article-with-ai
+  label: Write SEO Article With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    SEO Article With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-shooting-script-with-ai
+  label: Write Shooting Script With AI
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Shooting Script With AI.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-short-script-single
+  label: Write Short Script Single
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Short Script Single.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-stable-prompt
+  label: Write Stable Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Stable Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-structured-prompt
+  label: Write Structured Prompt
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Structured Prompt.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-training-scope-doc
+  label: Write Training Scope Doc
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Training Scope Doc.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-uncertainty-aware-report
+  label: Write Uncertainty Aware Report
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Uncertainty Aware Report.'
+  synonyms: []
+  deprecated_aliases: []
+- id: write-video-script-draft
+  label: Write Video Script Draft
+  description: 'Canonical capability extracted from existing ATOM metadata: Write
+    Video Script Draft.'
+  synonyms: []
+  deprecated_aliases: []
+- id: youtube-channel-created
+  label: Youtube Channel Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Youtube
+    Channel Created.'
+  synonyms: []
+  deprecated_aliases: []
+- id: youtube-video-published
+  label: Youtube Video Published
+  description: 'Canonical capability extracted from existing ATOM metadata: Youtube
+    Video Published.'
+  synonyms: []
+  deprecated_aliases: []
+- id: youtube-video-uploaded
+  label: Youtube Video Uploaded
+  description: 'Canonical capability extracted from existing ATOM metadata: Youtube
+    Video Uploaded.'
+  synonyms: []
+  deprecated_aliases: []
+- id: zendesk-account-created
+  label: Zendesk Account Created
+  description: 'Canonical capability extracted from existing ATOM metadata: Zendesk
+    Account Created.'
+  synonyms: []
+  deprecated_aliases: []

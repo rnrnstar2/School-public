@@ -1,0 +1,26 @@
+id: atom.video-creator.delegate-with-ai-and-team
+title: AIと外注で分業する
+summary: "レストランのキッチンを想像してみてください。シェフが一人で野菜を切り、ソースを作り、皿盛りまで全部やっていたら、1日に作れる料理は限られますよね。でも、野菜担当・ソース担当・盛り付け担当と分ければ、同じ時間で何倍もの料理が出せます。 動画制作も同じです。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - video-theme-decided
+capability_outputs:
+  - create-delegation-plan
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.ai-tools-overview
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

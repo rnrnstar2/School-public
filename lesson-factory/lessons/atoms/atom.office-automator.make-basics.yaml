@@ -1,0 +1,26 @@
+id: atom.office-automator.make-basics
+title: Makeでマルチステップのシナリオを構築する
+summary: "「毎日、同じ作業を手作業で繰り返している…」そんな悩みはありませんか？ Make（メイク）は、複数のアプリを連携させて作業を自動化できるツールです。料理に例えると、「野菜を切る → 鍋で煮る → お皿に盛る」という一連の流れを一度レシピに書いておけば..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - google-account-ready
+capability_outputs:
+  - build-make-multistep-scenario
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - make/integromat-docs
+status: draft

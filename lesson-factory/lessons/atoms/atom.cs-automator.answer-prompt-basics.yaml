@@ -1,0 +1,24 @@
+id: atom.cs-automator.answer-prompt-basics
+title: 安定した回答を引き出す指示を作る
+summary: "AI ツールに質問しても、毎回ちがう答えが返ってきて困ったことはありませんか？ これは料理に似ています。レシピが「適当に塩を入れる」だと、味が毎回変わってしまいますよね。でも「塩小さじ1」のように具体的に書けば、何度作っても同じ味になります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - write-stable-prompt
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

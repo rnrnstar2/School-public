@@ -1,0 +1,28 @@
+id: atom.ai-freelancer.image-gen-basics
+title: 画像生成AIの基本操作を覚える
+summary: "このレッスンでは、画像生成AI（＝言葉から画像を作ってくれるAI）を使って、あなたの頭の中にあるイメージをそのまま1枚の画像にする方法を学びます。 料理にたとえると、レシピのようなものです。「材料」（どんな絵が描きたいか）と「調理方法」（どんなスタイルで描きたいか）をAIに伝えると..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-chatgpt-basic
+capability_outputs:
+  - generate-image-with-prompt
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - openai/dall-e
+  - chatgpt/image-gen
+status: draft

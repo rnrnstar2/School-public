@@ -1,0 +1,29 @@
+{
+  "name": "@school/flywheel-scheduler",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "bin": {
+    "flywheel-scheduler": "./bin/run.ts"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./gate/policy": "./src/gate/policy.ts",
+    "./integrations/ai-pr-worker": "./src/integrations/ai-pr-worker.ts",
+    "./scheduler/cron": "./src/scheduler/cron.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
+    "js-yaml": "4.1.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.19.37",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}

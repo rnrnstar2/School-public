@@ -1,0 +1,27 @@
+id: atom.ai-marketer.ad-law-basics-understand
+title: 薬機法と景表法の要点を理解する
+summary: "あなたが商品のキャッチコピーを書いたとき、「これ、法律に引っかからないかな？」と不安になったことはありませんか？ このレッスンを終えると、薬機法と景表法の 基本的なルール を理解し、AIツール（＝ChatGPTやClaudeのような、質問に答えてくれる便利なツール）を使って..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+  - legal-compliance
+capability_inputs: []
+capability_outputs:
+  - check-ad-copy-legal-compliance
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - caa/景表法ガイドライン
+  - mhlw/薬機法広告規制
+status: draft

@@ -1,0 +1,30 @@
+id: atom.nocode-builder.build-end-to-end-pilot
+title: AI付き社内ツールを組み上げる
+summary: "冷蔵庫の残り物でサッと一品作るように、AIという「料理上手な助手」に手伝ってもらって、あなたの職場の小さな困りごとを解決するツールを15分で形にします。プログラミングのコードは一切書きません。 今回は例として「社内備品の貸出管理ツール」を作ります。ノートPCやプロジェクターの「いま誰が使ってる？"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - build-internal-tool-with-ai
+  - iterate-ai-output
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.setup-ai-tools
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - v0/app-generation
+  - chatgpt/prompt-design
+status: draft

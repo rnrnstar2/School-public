@@ -1,0 +1,24 @@
+id: atom.ec-operator.create-promo-text-images
+title: 訴求テキスト入り画像を作る
+summary: "ECサイトで商品を売るとき、お客様の目を引く画像が大きな武器になります。このレッスンを終えると、あなたはAIツール（＝人工知能を使った便利なWebサービス）を使って、キャッチコピー（＝商品の魅力をひとことで伝える短い文）入りの訴求画像を15分で作れるようになります。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - create-promo-image-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

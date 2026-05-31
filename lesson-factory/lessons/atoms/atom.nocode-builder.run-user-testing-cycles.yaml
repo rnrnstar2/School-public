@@ -1,0 +1,25 @@
+id: atom.nocode-builder.run-user-testing-cycles
+title: 利用テストで改善する
+summary: "料理を作ったあと、自分だけで味見をするのではなく、食べてくれる人に「どう？」と聞いてみると、初めて本当の味がわかりますよね。塩が足りないとか、思ったより辛いとか、自分では気づけないことがたくさんあります。 あなたが作ったツールやアプリも同じです。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - has-working-prototype
+capability_outputs:
+  - run-user-test-cycle
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

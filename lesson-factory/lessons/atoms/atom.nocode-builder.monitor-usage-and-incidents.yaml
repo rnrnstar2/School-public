@@ -1,0 +1,26 @@
+id: atom.nocode-builder.monitor-usage-and-incidents
+title: 利用状況と障害を監視する
+summary: "あなたが作ったアプリは、公開したら「おしまい」ではありません。毎日ちゃんと動いているか、みんなに使われているかを見守る必要があります。 たとえば、お店を開いた後も「お客さんは来ているかな？」「冷蔵庫はちゃんと冷えているかな？」と見回りますよね。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - nocode-app-published
+capability_outputs:
+  - setup-app-monitoring
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.publish-and-share
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

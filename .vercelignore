@@ -1,0 +1,15 @@
+node_modules
+**/node_modules
+.next
+**/.next
+.turbo
+**/.turbo
+playwright-report
+**/playwright-report
+test-results
+**/test-results
+.agent-work
+.agent-work/**
+*.log
+.DS_Store
+.git

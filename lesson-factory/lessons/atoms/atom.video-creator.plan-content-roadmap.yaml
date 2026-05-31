@@ -1,0 +1,25 @@
+id: atom.video-creator.plan-content-roadmap
+title: 投稿計画を月次で作る
+summary: "毎月の投稿を「何を・いつ投稿するか」まとめる作業は、冷蔵庫の中身を見て 1 週間の献立を考えるようなものです。あらかじめ献立（＝投稿計画）を決めておけば、毎日「今日は何を作ろう」と迷う時間がぐんと減ります。 この Atom では、AI チャットツールを使って 15 分で 1 か月分の投稿計画..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - ai-chat-basic-usage
+capability_outputs:
+  - create-monthly-content-roadmap
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

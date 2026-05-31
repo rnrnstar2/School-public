@@ -1,0 +1,26 @@
+id: atom.ai-marketer.prompt-assets-template
+title: プロンプト資産をテンプレート化する
+summary: "毎回AIに指示を出すとき、ゼロから文章を考えるのは大変ですよね。 これはまるで、レシピを見ずに毎回新しい料理を適当に作るようなものです。 レシピがあれば、「前と同じ味」を何度でも再現できるのと同じで、AIへの指示にも「ひな形（テンプレート）」を作っておけば、毎回ブレのない結果を素早く得られるようになります。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-reusable-prompt-template
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.first-prompt
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

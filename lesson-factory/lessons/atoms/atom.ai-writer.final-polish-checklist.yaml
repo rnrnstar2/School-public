@@ -1,0 +1,26 @@
+id: atom.ai-writer.final-polish-checklist
+title: 最終仕上げチェックリストを運用する
+summary: "AIツールで文章を書いたあと、そのまま公開していませんか？このレッスンでは、公開前の「最終仕上げ」を確実に行うためのチェックリストを作り、AIツールの力も借りながら実際に回してみます。 料理に例えると、材料を揃えて調理したあと、味見も盛り付けもせずにお皿に出すようなもの。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - ai-draft-created
+capability_outputs:
+  - run-polish-checklist
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.first-draft
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

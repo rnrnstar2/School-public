@@ -1,0 +1,13 @@
+timezone: Asia/Tokyo
+defaultSchedule: "0 2 * * *"
+jobs:
+  matcher_sweep:
+    schedule: "0 2 * * *"
+  gap_scan:
+    schedule: "0 2 * * *"
+  proposer_run:
+    schedule: "0 2 * * *"
+  judge_run:
+    schedule: "0 2 * * *"
+  nightly_digest:
+    schedule: "0 2 * * *"

@@ -1,0 +1,5 @@
+{"actionId":"action-ai-app-001-retrieval-quality-evaluation","reason":"既存の web-builder atom は MVP 実装導線中心で、検索・要約品質の評価セット設計や継続計測を扱う lesson がない","expectedProposalPriority":"high"}
+{"actionId":"action-ai-app-001-usage-quota-guardrail-design","reason":"Storage や UI 実装 lesson はあるが、AI API の利用量上限やコスト保護ルール設計を教える lesson がない","expectedProposalPriority":"high"}
+{"actionId":"action-content-ops-002-crm-content-calendar-sync","reason":"メール文面生成と nurture 設計はあるが、記事公開カレンダーと CRM トリガーを同期する運用設計 lesson がない","expectedProposalPriority":"mid"}
+{"actionId":"action-analytics-001-inventory-forecast-scenario-modeling","reason":"data-analyst atom は descriptive analytics 中心で、在庫判断に使う需要予測シナリオ作成まで到達する lesson がない","expectedProposalPriority":"high"}
+{"actionId":"action-analytics-001-channel-attribution-modeling","reason":"比較グラフや季節性検出はあるが、広告費寄与の attribution model 構築を教える lesson がない","expectedProposalPriority":"high"}

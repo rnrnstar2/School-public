@@ -1,0 +1,26 @@
+id: atom.video-creator.enhance-audio-and-pacing
+title: 音とテンポを改善する
+summary: "料理で考えてみましょう。どんなに美味しい料理でも、出てくるまでに時間がかかりすぎたり、お皿が冷めていたりすると、お客さんの満足度はガクッと下がります。動画も同じです。映像がどれだけきれいでも、音がこもっていたり、話の間が長すぎたりすると、見る人は途中で離れてしまいます。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - basic-video-editing
+capability_outputs:
+  - enhance-audio-and-pacing
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.build-fast-edit-workflow
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

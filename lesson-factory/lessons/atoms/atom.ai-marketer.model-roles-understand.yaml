@@ -1,0 +1,24 @@
+id: atom.ai-marketer.model-roles-understand
+title: ChatGPTとClaudeの使い分けを理解する
+summary: "料理を例に考えてみましょう。キッチンには「フライパン」と「鍋」があります。どちらも加熱して調理できますが、パスタを作るときは鍋、目玉焼きを作るときはフライパンを使いますよね。 ChatGPT（＝OpenAI社が作ったAIチャットツール）とClaude（＝Anthropic社が作ったAIチャットツール）も..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - choose-ai-tool-by-task
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,29 @@
+id: anchor.saas-mvp.start
+persona_id: persona.saas-mvp
+# TQ-224 (2026-05-09): SaaS MVP (auth + DB が必要) 向け anchor。Lovable は
+# auth / DB / UI を一括で揃えてくれる強みがあるため 1 step 目に置き、ゴール確定後に
+# Claude Code 委譲（Supabase auth 含む実装拡張）と Vercel CLI 公開まで通す。
+# 想定: 「ログイン付きの SaaS / 内部ツールを最短で動かしたい」層。
+ordered_atom_ids:
+  # 1. 1 step 目で「ログイン付きアプリが画面に出る」: Lovable に 1 文投げて生成
+  - atom.common.use-lovable-1shot
+  # 2. ゴール明確化: saas-mvp goal_tag を持つ atom でプロジェクト目的を 1 文化
+  - atom.web-builder.choose-project-goal
+  # 3. AI に全部委譲して Supabase auth / DB を組み込む: Claude Code 主導
+  - atom.web-builder.let-claude-build-everything
+  # 4. feature 単位拡張: 認証フロー・課金・通知など追加機能を CLI 委譲で増やす
+  - atom.common.delegate-full-feature-to-cli-agent
+  # 5. 公開できる状態にする: Vercel 1 コマンド deploy
+  - atom.web-builder.deploy-with-vercel-cli
+required_capabilities:
+  - scaffold-app-with-lovable
+  - define-project-goal
+  - delegate-build-to-cli-agent
+  - delegate-feature-to-cli-agent
+  - deploy-with-vercel-cli
+description: |
+  saas-mvp ペルソナ向け、auth + DB が必要な SaaS / 内部ツールを最短で動かす anchor。
+  Lovable で 1 ショット生成 → ゴール 1 文化 → Claude Code 委譲 (Supabase auth 含む)
+  → feature 単位の追加委譲 → Vercel CLI 公開 の 5 step (TQ-224)。
+  ai-app-builder anchor との差: Lovable を先頭に置く (auth + DB 含む scaffold が強い
+  ため)。

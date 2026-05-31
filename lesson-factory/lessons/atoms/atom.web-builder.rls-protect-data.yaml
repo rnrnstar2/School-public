@@ -1,0 +1,30 @@
+id: atom.web-builder.rls-protect-data
+title: RLSで「自分のデータだけ見える」を実現する
+summary: "あなたが作っているサービスに、ユーザーそれぞれのメモや予約情報が保存されるとします。このとき「Aさんのデータが、ログインした別のBさんに見えてしまう」と大事故です。これを防ぐしくみが RLS（ロー・レベル・セキュリティ／＝行単位のアクセス制御） です。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:auth
+  - level:intermediate
+capability_inputs:
+  - auth-email-password
+capability_outputs:
+  - rls-policies-set
+hard_prerequisites:
+  - atom.web-builder.supabase-table-design
+  - atom.web-builder.supabase-auth-setup
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - supabase/docs/guides/auth/row-level-security
+status: draft

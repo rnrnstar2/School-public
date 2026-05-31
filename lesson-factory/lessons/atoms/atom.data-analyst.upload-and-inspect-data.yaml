@@ -1,0 +1,26 @@
+id: atom.data-analyst.upload-and-inspect-data
+title: データを読み込んで中身を確認する
+summary: "買い物から帰ってきたとき、買ってきた食材の袋を開けて「鮮度は大丈夫かな」「分量は足りているかな」と中身を確認しますよね。データ分析も同じです。手元にあるデータをそのまま信じるのではなく、まずは「どんなデータが入っているか」を自分の目で確認するのが第一歩です。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - upload-csv-to-ai
+  - inspect-data-summary
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

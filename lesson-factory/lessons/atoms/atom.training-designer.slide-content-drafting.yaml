@@ -1,0 +1,25 @@
+id: atom.training-designer.slide-content-drafting
+title: スライド本文をAIで下書きする
+summary: "プレゼンの資料を作るとき、「白い画面を見つめて何から書き始めればいいかわからない」という経験はありませんか？それは料理でいうと、食材が冷蔵庫にあるのにレシピを思い出せない状態に似ています。 AIチャットツール（＝コンピューターと会話しながら文章を作れる仕組み）をうまく使えば..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - draft-slide-content-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

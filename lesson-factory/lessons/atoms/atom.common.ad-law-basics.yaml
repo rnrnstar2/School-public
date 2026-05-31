@@ -1,0 +1,22 @@
+id: atom.common.ad-law-basics
+title: 薬機法・景表法の要点を理解する
+summary: "プロモーション素材（広告コピー・LP・SNS 投稿）を作るとき、最低限避けるべき法令違反パターンを 15 分でつかみます。NG ワード一覧・判定チェックリスト・社内レビュー導線を 1 枚にまとめます。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - comply-with-law
+  - publish-promo-content
+capability_inputs: []
+capability_outputs:
+  - judge-promo-copy-compliance
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

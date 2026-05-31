@@ -1,0 +1,24 @@
+id: atom.ec-operator.design-escalation-rules
+title: 人対応への切り分けを設計する
+summary: "ECサイト（＝インターネット上のお店）を運営していると、毎日お客様から問い合わせが届きます。「注文を変更したい」「商品が届かない」「返品したい」——内容はさまざまです。 すべての問い合わせを自分ひとりで受け止めていたら、いつまで経っても終わりません。そこで役立つのが、AIツールを使った自動応答です。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - design-escalation-rules
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: escalation_rules_table_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

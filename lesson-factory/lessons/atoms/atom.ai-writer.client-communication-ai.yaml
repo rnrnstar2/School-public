@@ -1,0 +1,24 @@
+id: atom.ai-writer.client-communication-ai
+title: クライアント対応をAIで効率化する
+summary: "クライアント（＝仕事を依頼してくれるお客様）からの問い合わせや要望に対して、AIチャットツールを使ってスピーディーに返信文の下書きを作れるようになります。最終的に「AIに下書きを作ってもらい、自分で確認・修正して送る」という一連の流れを、実際のメッセージを使って体験します。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - draft-client-reply-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

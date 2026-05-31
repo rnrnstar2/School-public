@@ -1,0 +1,26 @@
+id: atom.data-analyst.standardize-text-fields
+title: 表記ゆれを統一する
+summary: "あなたのデータに、こんな「表記ゆれ」はありませんか？ これはまるで、レシピに「さとう」「砂糖」「上白糖」が入り混じっているようなものです。同じ材料なのに名前が違うと、まとめて数えるのが難しくなりますよね。データ分析でも同じことが起きます。「株式会社山田」と「(株)山田」が別の会社として数えられてしまい..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - standardize-text-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.ask-ai-about-data
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

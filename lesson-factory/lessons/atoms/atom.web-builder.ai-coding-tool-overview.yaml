@@ -1,0 +1,31 @@
+id: atom.web-builder.ai-coding-tool-overview
+title: AI coding tool の全体像をつかむ
+summary: "「AI がプログラムを書いてくれるらしいけど、ツールが多すぎてどれを使えばいいかわからない…」――そんな悩みを持つあなたに向けた Atom（＝学習単元）です。 この Atom を終えると、代表的な AI coding tool（＝AI がプログラムの作成を手伝ってくれる道具）の違いがわかり..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:orient
+  - level:beginner
+  - portfolio-site
+  - business-homepage
+capability_inputs: []
+capability_outputs:
+  - choose-ai-coding-tool
+hard_prerequisites:
+  - atom.web-builder.how-ai-changes-learning
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - test_result
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - claude-code/docs
+  - cursor/docs
+status: archived

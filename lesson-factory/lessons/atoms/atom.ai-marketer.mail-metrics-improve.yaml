@@ -1,0 +1,27 @@
+id: atom.ai-marketer.mail-metrics-improve
+title: 開封率と反応率を改善する
+summary: "メールを送ったのに、ほとんど開いてもらえなかった……そんな経験、ありませんか？ このレッスンでは、メールの「開封率（＝送ったメールがどれくらい開かれたかの割合）」と「反応率（＝リンクをクリックしたり返信したりした人の割合）」を、AIツールの力を借りて改善する方法を学びます。15分ほどで終わる内容です。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - mail-tool-account-created
+capability_outputs:
+  - improve-mail-open-rate-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.mail-delivery-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

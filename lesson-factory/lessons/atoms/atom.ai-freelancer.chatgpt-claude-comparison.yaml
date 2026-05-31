@@ -1,0 +1,25 @@
+id: atom.ai-freelancer.chatgpt-claude-comparison
+title: ChatGPTとClaudeを案件タイプ別に使い分ける
+summary: "たとえば、あなたが料理をするとします。フライパンは「炒める・焼く」が得意で、鍋は「煮る・茹でる」が得意です。どちらも調理器具ですが、作りたい料理に合わせて道具を選ぶのは当たり前ですよね。 AIツールも同じです。ChatGPTとClaudeはどちらも優秀なAI（＝人工知能..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - select-ai-tool-by-task-type
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

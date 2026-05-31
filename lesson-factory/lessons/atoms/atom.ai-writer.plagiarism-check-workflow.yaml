@@ -1,0 +1,27 @@
+id: atom.ai-writer.plagiarism-check-workflow
+title: 盗作チェックの運用フローを整える
+summary: "「AIで文章を書いたけれど、どこかの記事にそっくりだったらどうしよう……」そんな不安、ありませんか？ 料理に例えると、レシピを参考にするのはOKですが、よそのレストランの料理をそっくりそのまま自分のメニューとして出したら問題ですよね。文章の世界でも同じことが言えます。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - ai-text-generated
+capability_outputs:
+  - run-plagiarism-check-workflow
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.first-article
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

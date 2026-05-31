@@ -1,0 +1,31 @@
+id: atom.web-builder.loading-and-error-states
+title: ローディング画面とエラー画面を作る
+summary: "Webサイトを開いたとき、データを読み込んでいる間に画面が真っ白になったり、何か問題が起きたときに「ページが開けません」とだけ表示されて困った経験はありませんか。このレッスンでは、あなたが作ったサイトに「読み込み中です」と伝える画面（ローディング画面）と..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:build
+  - level:beginner
+capability_inputs:
+  - understand-routing
+capability_outputs:
+  - loading-ui
+  - error-ui
+hard_prerequisites:
+  - atom.web-builder.nextjs-routing
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - nextjs/docs/loading-ui
+  - nextjs/docs/error-handling
+status: draft

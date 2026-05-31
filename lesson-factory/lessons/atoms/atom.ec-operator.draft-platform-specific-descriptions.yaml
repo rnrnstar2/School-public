@@ -1,0 +1,26 @@
+id: atom.ec-operator.draft-platform-specific-descriptions
+title: 販売先別に説明文を作る
+summary: "同じプレゼントでも、お母さんに渡すときと親友に渡すときで「おすすめポイント」の伝え方が変わりますよね。 ECサイト（＝ネットショップ）でも同じです。楽天市場、Amazon、自分のサイト、Instagram——それぞれの「聞き手」に合わせて商品の説明文を変えると、ぐっと売れやすくなります。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs:
+  - basic-product-info-ready
+capability_outputs:
+  - generate-platform-specific-descriptions
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ec-operator.product-info-organize
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

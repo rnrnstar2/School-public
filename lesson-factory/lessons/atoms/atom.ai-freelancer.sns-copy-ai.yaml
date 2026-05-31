@@ -1,0 +1,25 @@
+id: atom.ai-freelancer.sns-copy-ai
+title: SNS投稿コピーをAIで作成する
+summary: "料理でいうと、AIは「腕の良いアシスタントシェフ」です。あなたが「こんな味がいいな」と伝えれば、仕込みから盛り付けまで手伝ってくれます。このレッスンでは、そのアシスタントに「SNSで目を引くコピー（＝投稿文）」を作ってもらう方法を15分で身につけます。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - create-sns-copy-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

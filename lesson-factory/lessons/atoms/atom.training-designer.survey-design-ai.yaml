@@ -1,0 +1,24 @@
+id: atom.training-designer.survey-design-ai
+title: 研修アンケートをAIで設計する
+summary: "研修のあとに配る「アンケート」。いざ作ろうとすると、「どんな質問を入れればいいんだろう？」「選択肢の数はいくつが正解？」と手が止まりがちです。 この Atom では、AIチャット（ChatGPT や Claude など）を相談相手にしながら、研修アンケートを15分で設計します。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - design-training-survey-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

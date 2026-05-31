@@ -1,0 +1,24 @@
+id: atom.training-designer.training-brief-creation
+title: 研修企画書を一気通貫で作成する
+summary: "大きな宴会を企画したことはありますか？「誰を呼ぶか」「何を出すか」「いつやるか」をまとめて招待状を作るまでの流れは、実は研修企画書とそっくりです。この Atom では、AI ツール（＝ChatGPT や Claude のような、文章を自動で書いてくれるアシスタント）を使って..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - create-training-brief-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,28 @@
+id: atom.ai-freelancer.tool-automation
+title: 定型作業をツール連携で自動化する
+summary: "料理でいう「時短アイテム」を思い浮かべてみてください。 電気炊飯器は、スイッチを押せばあとは自動でご飯を炊いてくれますよね。 ツール連携（＝複数のアプリを組み合わせて、作業を自動で進める仕組み）も同じです。 一度設定しておけば、毎回手作業していたことを自動で回してくれます。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-chatgpt-basic
+capability_outputs:
+  - build-two-step-automation
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - make/integrations-overview
+status: draft

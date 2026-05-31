@@ -1,0 +1,30 @@
+{
+  "name": "@school/goal-action-judge",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "peerDependencies": {
+    "zod": "^4.3.6",
+    "@school/goal-action-eval": "workspace:*",
+    "@school/goal-action-matcher": "workspace:*",
+    "@school/goal-action-gaps": "workspace:*",
+    "@school/goal-action-proposer": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.37",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0",
+    "zod": "^4.3.6",
+    "@school/goal-action-eval": "workspace:*",
+    "@school/goal-action-matcher": "workspace:*",
+    "@school/goal-action-gaps": "workspace:*",
+    "@school/goal-action-proposer": "workspace:*"
+  }
+}

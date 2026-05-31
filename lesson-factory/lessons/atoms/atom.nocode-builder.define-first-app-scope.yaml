@@ -1,0 +1,24 @@
+id: atom.nocode-builder.define-first-app-scope
+title: 最初に作るアプリの範囲を決める
+summary: "レストランで料理を頼む場面を想像してみてください。 メニューが何ページもあると、全部食べたくなって結局決めきれないですよね。 アプリ作りも同じで、「あれもこれも入れたい」と思うほど、途中で挫折しやすくなります。 このレッスンでは、あなたが 最初に作るアプリの範囲を1枚にまとめる ことを目指します。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - define-app-scope
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

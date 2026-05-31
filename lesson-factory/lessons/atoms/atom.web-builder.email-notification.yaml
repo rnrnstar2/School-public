@@ -1,0 +1,29 @@
+id: atom.web-builder.email-notification
+title: メール通知の仕組みを作る
+summary: "Webサイトやアプリで「お問い合わせがありました」「注文を受け付けました」といったメールが自動で届く仕組み、見たことがありますよね。あれは裏側でプログラムが動いています。 たとえるなら、お店に「郵便係」を一人雇うようなものです。お客さんがフォームを送信したら、郵便係が自動で手紙を書いて投函してくれる。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - business-homepage
+  - stage:build
+  - level:intermediate
+capability_inputs:
+  - crud-operations
+capability_outputs:
+  - email-sending
+hard_prerequisites:
+  - atom.web-builder.make-supabase-ai-ready
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

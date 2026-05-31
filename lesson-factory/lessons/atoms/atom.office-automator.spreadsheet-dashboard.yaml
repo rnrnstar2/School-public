@@ -1,0 +1,28 @@
+id: atom.office-automator.spreadsheet-dashboard
+title: スプレッドシートで自動更新ダッシュボードを作る
+summary: "あなたは毎週、同じデータを手でグラフにまとめていませんか？ それはまるで、毎朝コーヒーを淹れるたびにコーヒーメーカーの説明書を最初から読み直すようなものです。一度「自動で淹れる仕組み」をセットすれば、ボタンひとつで毎朝おいしいコーヒーが出てきます。スプレッドシートのダッシュボードも同じです。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - spreadsheet-basic-operation
+capability_outputs:
+  - build-auto-dashboard
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.spreadsheet-basics
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - google-sheets/dashboard
+  - chatgpt/prompt-patterns
+status: draft

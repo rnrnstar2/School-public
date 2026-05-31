@@ -1,0 +1,30 @@
+id: anchor.web-builder.cli
+persona_id: persona.web-builder.cli
+# TQ-217 (2026-05-09): web-builder anchor の textbook (CLI / git / pnpm / Next.js /
+# shadcn) 経路を退避した regression 用 anchor。
+# 想定 persona: P-ENG-PROTOTYPE 等、CLI 経験があり「自分で書く」スタイルを取る層。
+# default の web-builder anchor (no-code-first) では届かない CLI 文脈の検証用。
+ordered_atom_ids:
+  - atom.web-builder.choose-project-goal
+  - atom.web-builder.terminal-basics
+  - atom.web-builder.node-pnpm-setup
+  - atom.web-builder.git-github-cli
+  - atom.web-builder.create-next-app
+  - atom.web-builder.install-shadcn
+  - atom.web-builder.create-homepage
+required_capabilities:
+  # W15 B2 (Codex Option A): ordered_atom_ids と 1:1 対応に揃える。各 atom yaml の
+  # capability_outputs から、anchor description に最も適合する 1 件を選ぶ。
+  # node-pnpm-setup atom は `node-installed` + `pnpm-installed` を出すが、anchor の
+  # 趣旨 (Node + pnpm 環境構築) では node-installed を代表値として採用。
+  - define-project-goal
+  - terminal-basic-ops
+  - node-installed
+  - initialize-git-repo
+  - create-next-project
+  - install-shadcn
+  - create-homepage
+description: |
+  CLI 経路の web-builder regression anchor。terminal / git / pnpm / Next.js / shadcn
+  の textbook 7 step。P-ENG-PROTOTYPE 等の CLI 前提層向け。default
+  (anchor.web-builder.start) は no-code-first へ刷新済み (TQ-217)。

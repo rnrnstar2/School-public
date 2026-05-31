@@ -1,0 +1,26 @@
+id: atom.data-analyst.save-reusable-prompts
+title: 再利用できる指示を蓄積する
+summary: "AIに毎回ゼロから指示を書いていませんか？ 料理でいえば、毎回レシピを一から思い出しながら作るようなものです。よく使う指示（プロンプト）をメモ帳に保存しておけば、次からはコピペするだけで同じ品質の結果がすぐ手に入ります。 この Atom では、あなたが実際に使った AI への指示を 3 つ以上..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - build-reusable-prompt-library
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.first-ai-question
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

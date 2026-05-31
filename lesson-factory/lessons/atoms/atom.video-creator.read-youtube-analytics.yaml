@@ -1,0 +1,26 @@
+id: atom.video-creator.read-youtube-analytics
+title: 指標を正しく読み解く
+summary: "動画を投稿しても「再生されているのかな？」「どんな人が見てくれているんだろう？」と不安になること、ありませんか？ この Atom では、YouTube Studio（＝YouTubeが公式に提供する動画の管理画面）を開いて、あなたの動画の調子を正しく読み取れるようになります。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - youtube-channel-created
+capability_outputs:
+  - read-youtube-analytics
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - youtube/studio-analytics
+status: draft

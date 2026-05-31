@@ -1,0 +1,24 @@
+id: atom.cs-automator.data-sync-monitoring
+title: データ同期の監視体制を整える
+summary: "カスタマーサポートの現場では、顧客管理ツール・チャットツール・スプレッドシートなど、複数のツールを同時に使っていることが多いですよね。これらのツール間で「データ同期（＝ツール同士が自動でデータをやり取りして、同じ情報を保つしくみ）」を設定している場合、..."
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - create-sync-monitoring-checklist
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

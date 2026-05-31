@@ -1,0 +1,26 @@
+id: atom.web-builder.why-claude-code-or-codex
+title: Claude Code / Codex を使う理由を決める
+summary: "料理をするとき、すべてを一人でこなすのもよいですが、便利な道具や助手がいればずっとラクにおいしいものが作れますよね。Webアプリづくりも同じです。AI（＝人工知能で、あなたの指示を理解して作業を手伝うプログラム）を「料理の助手」として活用すると..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:orient
+  - level:beginner
+capability_inputs: []
+capability_outputs:
+  - choose-ai-coding-tool
+hard_prerequisites:
+  - atom.web-builder.ai-coding-tool-overview
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - test_result
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: archived

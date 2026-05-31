@@ -1,0 +1,24 @@
+id: atom.data-analyst.select-chart-types
+title: 目的に合うグラフを選ぶ
+summary: "料理を盛り付けることを想像してみてください。スープには深いお椀、ステーキには平たいお皿、ケーキには小さな皿——器が違えば、同じ料理でも印象がまったく変わりますよね。データも同じです。「見せたいこと」に合わせたグラフ（＝データを視覚的に表す図）を選ぶだけで..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - select-chart-by-purpose
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

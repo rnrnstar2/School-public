@@ -1,0 +1,25 @@
+id: atom.video-creator.creator-mindset
+title: AI動画制作の全体像を知る
+summary: "動画を作るって、実は料理に似ています。材料を集めて、レシピに沿って調理して、最後にお皿に盛り付ける。AI動画制作も同じように、「アイデア」「台本」「映像素材」「音声」「編集」という5つのステップを踏んでいきます。 あなたがこのレッスンで学ぶのは、その全体の流れと..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - explain-ai-video-workflow
+  - draft-video-plan
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: archived

@@ -1,0 +1,24 @@
+id: atom.cs-automator.workspace-setup
+title: 問い合わせ自動化向けの作業環境を整える
+summary: "料理を始める前に、まな板や包丁、調味料を並べておくとスムーズに調理できますよね。 問い合わせの自動化でも同じです。 AIツール（＝人工知能を使って文章を作ったり質問に答えたりするサービス）を使いやすくする「作業環境」を先に整えておくことで、あとの作業がぐっとラクになります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - cs-workspace-ready
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

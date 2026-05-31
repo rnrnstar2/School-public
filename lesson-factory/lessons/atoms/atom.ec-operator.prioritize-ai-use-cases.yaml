@@ -1,0 +1,24 @@
+id: atom.ec-operator.prioritize-ai-use-cases
+title: AI導入の優先順位を整理する
+summary: "このレッスンでは、あなたの日常業務のなかで「どこにAI（＝人工知能。ここでは ChatGPT や Claude のような対話型ツールを指します）を導入するといちばん効果的か」を見つけ、優先順位を整理する方法を学びます。 レッスンが終わるころには、「最初にAIに任せるべきタスク」が1つ決まり..."
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - prioritize-ai-tasks
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

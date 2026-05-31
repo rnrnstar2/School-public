@@ -1,0 +1,23 @@
+case_id: crm-builder.stuck.001
+persona_id: persona.crm-builder
+target_rubric: persona-fit.v1
+simulation_type: stuck
+scenario: |
+  既存 CSV を Supabase に移して軽量 CRM を作ろうとしているが、customers と deals の分け方、
+  そして営業メンバーごとの閲覧権限で止まる。
+expected_blocker_tags:
+  - data-modeling
+  - csv-import
+  - role-permissions
+expected_recovery_atoms:
+  - atom.crm.table-schema-split
+  - atom.csv.import-sanitization
+  - atom.rls.role-check
+narrative: |
+  「ひとまず1テーブルで入れたくなるけど、後で壊れそうで怖い。CSV を読み込んだあと誰に何が見えるかも不安。」
+success_criteria:
+  - テーブル分割の判断基準が最小例で示される
+  - import 前に列名と型を確認するチェックリストがある
+  - 役割ごとの閲覧差分をテストデータで検証する手順がある
+notes: |
+  派手な UI より運用事故回避を優先する persona。constraint_sensitivity が重要。

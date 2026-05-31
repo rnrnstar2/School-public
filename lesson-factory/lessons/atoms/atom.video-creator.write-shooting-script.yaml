@@ -1,0 +1,24 @@
+id: atom.video-creator.write-shooting-script
+title: 撮影と編集に強い台本を書く
+summary: "料理で考えてみましょう。レシピなしでいきなり調理を始めると、途中で「あ、玉ねぎ買い忘れた」「火が強すぎた」と慌てることになりますよね。動画制作もまったく同じです。 台本（＝撮る前に書く「設計図」） をしっかり用意しておくと、撮影も編集もぐんとスムーズになります。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - write-shooting-script-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

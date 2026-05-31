@@ -1,0 +1,35 @@
+id: anchor.ai-content-creator.start
+persona_id: persona.ai-content-creator
+# W46 (2026-05-09): persona.ai-content-creator 向け anchor。Audit G 1 / Audit C 軸 1
+# で「動画コンテンツ毎週投稿したい」goal が web-builder anchor 経由で
+# `atom.web-builder.error-debug` 等のエンジニア向け atom にぶつかっていた CR-4
+# (Vision 完全逆転) を解消する。Owner Vision「1 step 目に AI 出力サンプルが
+# 完成する」を動画 / SNS 文脈で解釈し、AI が動画台本 / 動画素材 / SNS コピーを
+# 1 ショットで返す体験を先頭に置く。コード・CLI・git は一切登場しない、
+# ChatGPT / Claude / Sora / Pika 等のチャット入力だけで完結する no-code-first 構成。
+ordered_atom_ids:
+  # 1. 1 step 目で「AI 出力サンプルが完成する」: 動画アイデアを AI に量産させる
+  - atom.video-creator.generate-video-ideas
+  # 2. ChatGPT と Claude を案件タイプ別に使い分ける軸を作る (動画 / SNS 用途別)
+  - atom.common.choose-llm-by-task
+  # 3. ショート動画の構成を AI で量産: hook + シナリオを 5-10 本まとめて生成
+  - atom.video-creator.batch-produce-short-scripts
+  # 4. SNS 投稿コピーを AI で量産: Twitter / TikTok / Instagram 用のテキスト
+  - atom.ai-freelancer.sns-copy-ai
+  # 5. 1 ヶ月分のコンテンツ供給スケジュールを作る (継続のための calendar)
+  - atom.common.draft-content-calendar
+required_capabilities:
+  # W15 B2 (Codex Option A): yaml capability_outputs と整合 (sns-copy-ai は
+  # `create-sns-copy-with-ai` が canonical)。
+  - generate-video-ideas-with-ai
+  - choose-llm-by-task
+  - batch-produce-short-scripts
+  - create-sns-copy-with-ai
+  - content-calendar-drafted
+description: |
+  ai-content-creator ペルソナ向け anchor。1 step 目で動画アイデアを AI が量産する
+  「成果物が画面に出る」体験を踏ませ、続いて LLM 使い分け → ショート動画構成量産
+  → SNS コピー生成 → コンテンツ calendar の 5 step (W46)。
+  CR-4 (Vision 完全逆転) を解消するため、コード・CLI・git・error-debug 系 atom は
+  一切含まない。ChatGPT / Claude / 動画 AI ツールのチャット入力だけで完結する
+  no-code-first 構成。

@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.image-copyright-commercial
+title: AI画像の著作権と商用利用ルールを理解する
+summary: "料理のレシピにたとえてみましょう。友人から教わったレシピで作ったお菓子を、自分のパン屋で売ってもいいでしょうか？ 答えは「そのレシピの出どころによる」ですよね。 AIで作った画像も同じです。「そのAIツールの利用規約（＝サービスを使う上でのルールブック）」によって、お金をもらって使えるかどうかが決まります。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - check-ai-image-commercial-use
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.image-gen-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - ai-image-tos-landscape
+status: draft

@@ -1,0 +1,26 @@
+id: atom.office-automator.email-template-generation
+title: 定型メールのテンプレートをAIで量産する
+summary: "お仕事で「お礼メール」「日程調整メール」「お断りメール」など、同じようなメールを何度も書いていませんか？ 毎回ゼロから考えるのは、料理のたびにレシピを一から調べ直すようなもの。一度テンプレート（＝ひな形）を作っておけば、あとは少し手直しするだけで済みます。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - generate-email-templates-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

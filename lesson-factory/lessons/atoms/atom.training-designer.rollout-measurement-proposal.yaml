@@ -1,0 +1,24 @@
+id: atom.training-designer.rollout-measurement-proposal
+title: 展開計画と効果測定案を提案する
+summary: "あなたが作った学習プログラムを、組織全体に広げるための「展開計画」と、その成果を確かめるための「効果測定案」を、AIツールを使って15分でまとめます。 たとえて言うなら、展開計画は「料理のレシピ」です。材料（誰が参加するか）、手順（いつ何をするか）..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - create-rollout-measurement-doc
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,25 @@
+id: atom.nocode-builder.organize-reusable-components
+title: 再利用できる部品を整理する
+summary: "ノーコードツールやAIを使ってアプリやページを作っていると、同じようなパーツ（ボタン、入力フォーム、ヘッダーなど）を何度も作り直していることに気づくことがあります。料理にたとえると、毎回ゼロからカレーのルーを作るのではなく、「いつもの味のベース」をまとめて作り置きしておくイメージです。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - nocode-app-basic-built
+capability_outputs:
+  - organize-reusable-components
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

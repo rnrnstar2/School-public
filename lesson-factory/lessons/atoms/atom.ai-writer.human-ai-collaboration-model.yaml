@@ -1,0 +1,24 @@
+id: atom.ai-writer.human-ai-collaboration-model
+title: 人間とAIの役割分担モデルを設計する
+summary: "あなたがレストランのオーナーシェフだとしましょう。料理のレシピを考えるのはあなたですが、野菜を洗ったり皮をむいたりする下ごしらえは、優秀なアシスタントに任せることができます。AIとの仕事もこれと同じです。「何を作るか」「どんな味にするか」を決めるのは人間の役割で..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - design-human-ai-role-model
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

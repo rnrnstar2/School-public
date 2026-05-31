@@ -1,0 +1,18 @@
+goal:
+  summary: Create an owner-local lesson for writing a first SQL policy
+  constraints:
+    - Keep it under 15 minutes
+  hints:
+    - Focus on one concrete deliverable
+target_personas:
+  - tag: web-builder
+    reason: Needs a compact first-success lesson
+candidate_capabilities:
+  - capability: write-basic-policy
+    rationale: Core task requested by owner
+freshness_signals:
+  - source: supabase/rls
+    reason: Check current terminology for the policy flow
+classification: new_atom
+classification_reason: This is a new single-capability atom.
+related_atom_ids: []

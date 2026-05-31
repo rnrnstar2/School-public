@@ -1,0 +1,24 @@
+id: atom.office-automator.monthly-closing-assist
+title: 月末締め作業のチェックリスト+自動通知を構築する
+summary: "月末が近づくたび、「あの作業、やらなきゃ」と思い出してはバタバタ……そんな経験、ありませんか？ これは 引っ越し前の片付け によく似ています。冷蔵庫の中身を使い切る、ガスの解約を済ませる、転居届を出す――やることが多いのに、つい忘れてしまいます。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - build-monthly-checklist-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

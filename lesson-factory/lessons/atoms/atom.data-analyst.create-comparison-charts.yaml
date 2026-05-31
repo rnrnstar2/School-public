@@ -1,0 +1,28 @@
+id: atom.data-analyst.create-comparison-charts
+title: 比較グラフを作る
+summary: "買い物をするとき、「A商品とB商品、どちらがお得？」と迷ったことはありませんか？ 価格や機能を並べて比べると、違いが一目でわかりますよね。 それを視覚的な「グラフ」にまとめるのが 比較グラフ です。 たとえるなら、料理のレシピを「文字だけ」で読むのと「写真付き」で見るのとでは..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-comparison-chart-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.ai-chat-first-step
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - chatgpt/data-analysis
+  - claude/artifacts
+status: draft

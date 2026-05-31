@@ -1,0 +1,24 @@
+id: atom.ai-freelancer.platform-overview
+title: 案件を探せるプラットフォームを知る
+summary: "あなたが「AIを使ってお仕事をしたい」と思ったとき、まず必要なのは 仕事を探す場所 を知ることです。 たとえば、美味しいパンを買いたいとき、近所のパン屋を知らないと困りますよね。仕事探しも同じで、どこに仕事が集まっているかを知るのが第一歩です。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - identify-freelance-platform
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

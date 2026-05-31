@@ -1,0 +1,37 @@
+id: atom.common.delegate-full-feature-to-cli-agent
+title: Codex CLI / Claude Code に feature 単位で丸投げする
+summary: "1 ファイル単位ではなく「この機能（feature）を一式作って」と CLI エージェントに丸投げする型を学びます。Codex CLI / Claude Code のどちらでも通用する委譲プロンプトを 1 つ自分用に作るのが目標。所要 20-25 分。"
+persona_tags:
+  - web-builder
+  - ai-app-builder
+  - p-noneng-webapp
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - automation
+  - business-automation
+  - workflow
+  - stage:build
+  - level:intermediate
+capability_inputs: []
+capability_outputs:
+  - delegate-feature-to-cli-agent
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.common.choose-coding-cli
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - log_output
+  - code_diff
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources:
+  - claude-code/docs
+  - openai-codex-docs
+estimated_minutes: 25
+# TQ-222: Shortest-Path Planner (TQ-235) 用に worker が暫定 reviewed に昇格。
+# anchor.web-builder.start (TQ-217) の 5 step 目で採用済み。本格 review は /lesson-improve で別途実施。
+status: reviewed

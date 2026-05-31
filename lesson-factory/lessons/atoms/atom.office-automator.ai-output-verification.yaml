@@ -1,0 +1,26 @@
+id: atom.office-automator.ai-output-verification
+title: AIの出力を検証するチェックリストを作る
+summary: "旅行先で現地ガイドに「おすすめのレストラン」を聞いたとします。3軒教えてもらったけれど、本当に美味しいかは自分の舌で確かめるまでわかりません。AI（＝ChatGPTやClaudeなどのチャット型ツール）も同じです。便利で丁寧な答えを返してくれますが、 必ずしも正しいとは限りません 。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - verify-ai-output-with-checklist
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.ai-tool-setup
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

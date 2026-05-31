@@ -1,0 +1,27 @@
+id: atom.video-creator.finalize-thumbnail-package
+title: 入稿できるサムネ素材を仕上げる
+summary: "料理でいうと、最後の「盛り付け」の段階です。味は決まっているけれど、お皿の上を整えて、お店に出せる状態にする――それがサムネイル（＝動画の表紙画像）の入稿（＝完成した素材を投稿先に渡すこと）です。このレッスンでは、AIツールを使って 15分以内 に「投稿できるサムネ」を仕上げます。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - ai-image-generated
+capability_outputs:
+  - finalize-thumbnail-for-submission
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.generate-thumbnail-image
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - youtube/thumbnail-spec
+status: draft

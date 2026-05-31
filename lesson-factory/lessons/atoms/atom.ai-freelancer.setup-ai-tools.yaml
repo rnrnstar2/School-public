@@ -1,0 +1,24 @@
+id: atom.ai-freelancer.setup-ai-tools
+title: 副業に必要なAIツールを準備する
+summary: "料理を始める前に「包丁」「まな板」「フライパン」を揃えるように、副業を始める前にも必要な道具を揃えましょう。あなたの副業の道具は AIツール です。一度アカウントを作ってしまえば、何度でも使い続けられます。 このレッスンでは、副業で成果物を作るために欠かせない 3つのAIツール のアカウントを準備して..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - ai-tools-ready
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

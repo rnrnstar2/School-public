@@ -1,0 +1,26 @@
+id: atom.data-analyst.tailor-report-for-audience
+title: 相手別に表現を調整する
+summary: "同じ出来事でも、話す相手によって言葉を選びますよね。 たとえば子どもに「今日の夕飯はカレーだよ」と伝えるときと、お客さまに料理を説明するときでは、まったく違う言い方になるはずです。 データをまとめたレポートも同じで、 読む相手に合わせて言い方を変える だけで、伝わり方がぐっとよくなります。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - tailor-report-for-audience
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

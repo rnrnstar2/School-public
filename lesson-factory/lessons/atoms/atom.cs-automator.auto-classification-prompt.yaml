@@ -1,0 +1,26 @@
+id: atom.cs-automator.auto-classification-prompt
+title: 自動分類用の指示文を作る
+summary: "毎日たくさんのお客様から届く問い合わせを想像してみてください。郵便局の仕分け作業のように、1通ずつ「返金」「配送」「その他」の箱に手で振り分けるのは大変ですよね。 AI に「この問い合わせはどのカテゴリ？」と聞けば、一瞬で仕分けてくれます。でも、AI にちゃんと仕事をしてもらうには、わかりやすい..."
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - write-classification-prompt
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

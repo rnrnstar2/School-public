@@ -1,0 +1,27 @@
+id: atom.ai-marketer.mockup-canva-create
+title: CanvaでLPモックをつくる
+summary: "LP（ランディングページ＝お客さんが最初に見る、商品やサービスの紹介ページ）のデザインをプロに頼むと、数万円以上かかることも珍しくありません。でも、まだ「どんな内容にするか」が固まっていない段階でお金をかけるのは、レシピを決めずに高級食材を買い込むようなものです。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - understand-lp-structure
+capability_outputs:
+  - create-lp-mockup-in-canva
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.lp-structure-design
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - canva/ai-design
+status: draft

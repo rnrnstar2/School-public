@@ -1,0 +1,26 @@
+id: atom.office-automator.monthly-report-pipeline
+title: 月次レポートの自動生成パイプラインを組む
+summary: "月次レポートの作成、毎月同じ作業を繰り返していませんか？ 料理にたとえてみましょう。毎回「野菜を切って → 煮込んで → 盛り付けて」と同じ手順を踏んでいるとしたら、 下ごしらえをまとめて済ませておく と次から楽ですよね。月次レポートも同じです。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - ai-chat-tool-ready
+capability_outputs:
+  - build-monthly-report-pipeline
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

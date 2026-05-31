@@ -1,0 +1,24 @@
+id: atom.ec-operator.draft-ai-demand-forecast
+title: 需要予測のたたき台を作る
+summary: "お店の在庫管理で「来月どれくらい売れるかな？」と考えたことはありませんか？ この予測作業は、料理でいえば「買い出しリスト」を作るようなもの。冷蔵庫の中身（＝過去の売上データ）を見て、今週の献立（＝来月の販売計画）に必要な材料を見積もる作業です。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - create-demand-forecast-draft
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

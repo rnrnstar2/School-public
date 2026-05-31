@@ -1,0 +1,24 @@
+id: atom.ai-marketer.brand-assets-prepare
+title: ブランド情報を入力資産として整備する
+summary: "このレッスンでは、あなたのブランドに関する情報を、AIツールにすぐ渡せる「ブランド資産ファイル」にまとめます。 料理のレシピを想像してみてください。材料がバラバラに置いてあると、いざ料理を始めるときに「あれどこだっけ？」と探すはめになります。冷蔵庫の前に材料を全部揃えてから料理を始めるとスムーズですよね。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - brand-brief-created
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

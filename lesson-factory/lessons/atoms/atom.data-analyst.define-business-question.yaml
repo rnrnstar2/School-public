@@ -1,0 +1,24 @@
+id: atom.data-analyst.define-business-question
+title: 良い分析問いを設定する
+summary: "料理をするとき、冷蔵庫の中身を適当に全部鍋に放り込んでも美味しいものはできませんよね。「今夜はカレーを作ろう」と決めるから、必要な材料がわかるし、買い物リストも作れます。データ分析もまったく同じです。データをあれこれ集める前に、「何を知りたいのか」をはっきりさせる必要があります。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - define-analysis-question
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

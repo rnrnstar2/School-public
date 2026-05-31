@@ -1,0 +1,28 @@
+id: atom.data-analyst.refresh-and-maintain-dashboard
+title: 更新し続ける運用を作る
+summary: "ダッシュボードは「作って終わり」ではありません。冷蔵庫の中身を毎日チェックするように、データも定期的に見直して初めて価値を発揮します。このレッスンでは、あなたが作ったダッシュボードを 無理なく更新し続けるための仕組み を、AIの力を借りて整えます。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - design-dashboard-layout
+  - connect-metrics-to-views
+capability_outputs:
+  - create-dashboard-update-routine
+hard_prerequisites:
+  - atom.data-analyst.design-dashboard-layout
+soft_prerequisites:
+  - atom.data-analyst.automate-recurring-reports
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

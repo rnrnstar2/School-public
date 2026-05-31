@@ -1,0 +1,23 @@
+case_id: pedagogy.bad.001
+target_rubric: pedagogy.v1
+description: 前提なしで jargon が連続する悪い例
+sample_lesson_excerpt: |
+  RLS を有効化して policy を書きます。JWT claim と anon key の違いを理解したうえで
+  PostgREST の挙動を見ながら必要なら security definer も考えましょう。
+
+  まず dashboard から設定して、その後 SQL を実行してください。
+expected_scores:
+  prerequisite_clarity: 0
+  completion_criteria: 0
+  jargon_management: 0
+  scaffolding: 1
+  failure_recovery: 0
+expected_average_score: 0.35
+expected_status: fail
+defect_tags:
+  - prerequisite_clarity
+  - completion_criteria
+  - jargon_management
+  - failure_recovery
+notes: |
+  前提条件も完了条件もない。初学者が知らない用語が連続し、順序も粗い。

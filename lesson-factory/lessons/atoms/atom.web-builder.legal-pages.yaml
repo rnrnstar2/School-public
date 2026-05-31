@@ -1,0 +1,29 @@
+id: atom.web-builder.legal-pages
+title: プライバシーポリシーと利用規約ページを作る
+summary: "レストランを開業するとき、メニュー表だけでなく「お店のルール」を入口に掲示しますよね。Webサイトでも同じです。 プライバシーポリシー （＝お客さんの情報をどう扱うかの約束事）と 利用規約 （＝サイトを使う際のルール）は、サイトを公開する前に必ず用意しておきたいページです。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - business-homepage
+  - saas-mvp
+  - stage:polish
+  - level:beginner
+capability_inputs:
+  - understand-routing
+capability_outputs:
+  - legal-pages-created
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

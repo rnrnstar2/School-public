@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.legal-tax-basics
+title: 副業の法務・税務の基本を押さえる
+summary: "「副業で稼ぎ始めたけど、税金ってどうすればいいの？」――これは副業を始めたほとんどの人が最初にぶつかる壁です。たとえるなら、料理を始めたのに食材の保存方法を知らないようなもの。せっかく作った成果物（＝収入）を台無しにしないために、最低限の「保存ルール」を知っておきましょう。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - understand-side-job-tax-filing-basics
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.platform-overview
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - nta/side-job-tax-guide
+status: draft

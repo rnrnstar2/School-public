@@ -1,0 +1,24 @@
+id: atom.nocode-builder.understand-nocode-builder-overview
+title: ノーコード構築の全体像を理解する
+summary: "このレッスンでは、ノーコード（＝プログラミングのコードを書かずにアプリやWebサイトを作る手法）で何かを作るときの「全体の流れ」を整理します。 料理に例えると、いきなり冷蔵庫を開けるのではなく、まず「今日は何を作るか」を決めて、レシピを確認し、材料を揃え..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - explain-nocode-workflow
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

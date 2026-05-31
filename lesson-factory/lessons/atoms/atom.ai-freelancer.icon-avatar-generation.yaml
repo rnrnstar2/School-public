@@ -1,0 +1,27 @@
+id: atom.ai-freelancer.icon-avatar-generation
+title: AIでアイコン・アバターを制作する
+summary: "SNSのプロフィール画像やブログのロゴなど、「ちょっとしたアイコンが欲しいけど、絵は描けない…」と思ったことはありませんか？ 実は今、AI画像生成ツールを使えば、絵を描くスキルがなくても、自分だけのオリジナルアイコンやアバターを数分で作れます。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-image-gen-prompt
+capability_outputs:
+  - generate-icon-avatar-with-ai
+hard_prerequisites:
+  - atom.ai-freelancer.image-gen-basics
+soft_prerequisites:
+  - atom.ai-freelancer.image-copyright-commercial
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.ai-marketer.kpi-priority-decide
+title: 優先KPIを決める
+summary: "旅行の荷造りを思い出してみてください。スーツケースには全部入りません。「今回は何を一番大事にする？」と決めないと、荷物が溢れてしまいます。 ビジネスも同じです。売上・訪問者数・いいね数……見たい数字（＝KPI）はたくさんあります。でも、すべてを同時に追うと迷子になります。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - understand-business-stage
+capability_outputs:
+  - select-priority-kpi
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.platform-overview
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

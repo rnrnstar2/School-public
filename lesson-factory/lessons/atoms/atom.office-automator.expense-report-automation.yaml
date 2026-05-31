@@ -1,0 +1,25 @@
+id: atom.office-automator.expense-report-automation
+title: 経費精算の申請→承認→集計を一気通貫で自動化する
+summary: "あなたがこれから学ぶのは、経費精算（＝仕事で使ったお金を会社に返してもらう手続き）の「申請→承認→集計」の流れを、AIツールを使って自動化する方法です。 想像してみてください。毎月の経費精算を、紙の書類を手書きでまとめていたとします。レシートの山を前にして、電卓を叩いて合計を出し..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - build-expense-sheet-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

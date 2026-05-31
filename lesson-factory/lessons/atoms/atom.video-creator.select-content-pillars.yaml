@@ -1,0 +1,24 @@
+id: atom.video-creator.select-content-pillars
+title: 発信テーマを柱で設計する
+summary: "レストランのメニューを想像してみてください。何でもかんでも1ページに詰め込んだメニューは、お客さんを迷わせてしまいますよね。でも「前菜・メイン・デザート」のようにいくつかの枠で整理されていれば、ぱっと見で何があるか分かります。 あなたの発信も同じです。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - design-content-pillars
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

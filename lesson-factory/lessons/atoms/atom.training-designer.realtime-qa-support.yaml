@@ -1,0 +1,24 @@
+id: atom.training-designer.realtime-qa-support
+title: 研修中のQ&A対応をAIで支援する
+summary: "研修で受講者から質問が飛んできたとき、「えっと、どう答えよう…」と困った経験はありませんか？ このレッスンでは、AIチャットツール（＝ChatGPTやClaudeなどの、文章で対話できるAI）を\"耳元のアシスタント\"として使い、質問にスピーディに答えるコツを15分で身につけます。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - use-ai-for-realtime-qa
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

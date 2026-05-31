@@ -1,0 +1,28 @@
+id: atom.cs-automator.faq-publish-update
+title: FAQを公開して更新する
+summary: "顧客からの質問に何度も同じ返事を書くのは大変ですよね。このレッスンでは、AIを使ってFAQ（＝よくある質問とその回答集）をサッと作り、お客様がいつでも見られるように公開する方法を学びます。さらに、新しい質問が増えたときの更新手順まで押さえます。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-faq-with-ai
+  - publish-faq-document
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,24 @@
+id: atom.ec-operator.remove-product-backgrounds
+title: 商品画像の背景を除去する
+summary: "ネットショップに商品を並べるとき、背景がごちゃごちゃしていると商品の魅力が伝わりにくくなります。プロのカメラマンに頼まなくても、AIツールを使えばスマホで撮った写真の背景をきれいに消して、白背景やお好みの背景に差し替えることができます。 このレッスンでは、無料で使えるAI背景除去ツールを使って..."
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - remove-product-background-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

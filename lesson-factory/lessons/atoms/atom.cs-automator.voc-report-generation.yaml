@@ -1,0 +1,26 @@
+id: atom.cs-automator.voc-report-generation
+title: VoCレポートを自動生成する
+summary: "VoC（Voice of Customer＝お客様の声）レポートを、AIチャットツールを使って15分で作れるようになります。 想像してみてください。冷蔵庫にいろんな食材がバラバラに入っている状態から、「今日の夕食はこれ！」と一つの料理にまとめるのがVoCレポート作成です。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - ai-chat-basic-usage
+capability_outputs:
+  - generate-voc-report-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

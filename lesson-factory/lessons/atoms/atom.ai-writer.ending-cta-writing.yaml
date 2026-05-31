@@ -1,0 +1,26 @@
+id: atom.ai-writer.ending-cta-writing
+title: 結論と行動喚起を仕上げる
+summary: "あなたがブログ記事やSNS投稿を書いているとき、「最後をどう締めればいいかわからない」と感じたことはありませんか？ たとえば料理レシピを紹介する記事なら、最後に「ぜひ今夜試してみてください！」と一言あるだけで、読んだ人が実際にキッチンに立つ確率がぐっと上がります。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - ai-prompt-basics
+capability_outputs:
+  - write-conclusion-cta
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.article-structure
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

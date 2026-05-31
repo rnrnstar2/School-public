@@ -1,0 +1,24 @@
+id: atom.ai-freelancer.ai-output-quality-check
+title: AI出力の品質チェック手順を確立する
+summary: "料理を作ったら味見をしますよね。AIが作った文章や資料にも「味見」が必要です。AIはとても流暢に文章を作りますが、事実と違うことをもっともらしく書いたり、微妙にズレた内容を出してきたりすることがあります。 このレッスンでは、AIの出力を「そのまま使わず..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - ai-output-quality-check
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

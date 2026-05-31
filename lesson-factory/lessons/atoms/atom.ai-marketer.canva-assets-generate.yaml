@@ -1,0 +1,15 @@
+id: atom.ai-marketer.canva-assets-generate
+title: Canva AIで素材案を生成する
+persona_tags: [ai-marketer, ai-first-learner]
+goal_tags: [marketing, growth]
+capability_inputs: []
+capability_outputs: []
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence: [screenshot]
+media_slots: [diagram]
+freshness_sources: []
+status: draft

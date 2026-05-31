@@ -1,0 +1,24 @@
+id: atom.office-automator.email-reply-drafting
+title: 受信メールへの返信ドラフトをAIに作らせる
+summary: "毎日届くメールに返事を書くのは、料理でいう「毎日の献立を考える」ようなものです。メニューを考える時間が一番大変だったりしませんか？ この Atom では、AI という「頼れるアシスタント」に献立（＝返信のたたき台）を作ってもらう方法を身につけます。あなたは最後に味を整えるだけでOKです。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - draft-email-reply-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,24 @@
+id: atom.common.choose-llm-by-task
+title: タスク別に LLM（ChatGPT / Claude 等）を使い分ける
+summary: "ChatGPT・Claude・その他 LLM の得意分野は同じではありません。長文要約・コード生成・対話・日本語ライティングなど、タスク別にどのモデルが向いているかを 15 分で整理し、自分の常用 2-3 モデルを決めます。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - learn-tool
+  - choose-tool
+capability_inputs: []
+capability_outputs:
+  - choose-llm-by-task
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources:
+  - openai-model-releases
+  - anthropic-model-releases
+status: draft

@@ -1,0 +1,25 @@
+id: atom.nocode-builder.validate-bot-with-real-questions
+title: 実質問でボットを検証する
+summary: "あなたが作ったボット（＝自動でチャットの返事をしてくれるプログラムのこと）は、いざ使う人に届いたとき、きちんと役に立つでしょうか？ このレッスンでは、ボットが本番で活躍できるかどうかを確かめるために、「本番さながらの質問」を使ってテスト（＝検証）する方法を学びます。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - chatbot-deployed
+capability_outputs:
+  - validate-chatbot-with-real-questions
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

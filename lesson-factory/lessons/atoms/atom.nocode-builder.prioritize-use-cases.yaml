@@ -1,0 +1,24 @@
+id: atom.nocode-builder.prioritize-use-cases
+title: 優先課題を整理する
+summary: "旅行に行くとき、行きたい場所が10個あっても全部は回れませんよね。「時間はかかるけど絶景」「近いけど普通」——そんな候補を比べて、今回はどこに行くか決めるはずです。 アプリやツールづくりも同じです。作りたいものがたくさんあるとき、 「どれから始めるか」 を整理する力が..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - prioritize-use-cases-with-matrix
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

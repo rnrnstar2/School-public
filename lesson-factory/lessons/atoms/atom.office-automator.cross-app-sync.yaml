@@ -1,0 +1,27 @@
+id: atom.office-automator.cross-app-sync
+title: 複数アプリ間のデータ同期を自動化する
+summary: "あなたの職場でも、「スプレッドシートに入力したあと、Slackにも同じ内容を手作業でコピペしている」なんてことはありませんか？ こうした繰り返し作業は、一度仕組みを作るだけで完全に自動化できます。 このレッスンでは、Googleスプレッドシートに新しい行が追加されたら自動でSlackに通知が届く——そん..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - build-cross-app-sync-flow
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - make/integrations
+status: draft

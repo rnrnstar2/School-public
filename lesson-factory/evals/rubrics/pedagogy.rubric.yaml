@@ -1,0 +1,45 @@
+rubric_id: pedagogy.v1
+version: 1
+description: 初学者が迷わず1つの capability を獲得できるかを採点する
+criteria:
+  - id: prerequisite_clarity
+    weight: 0.2
+    description: 前提条件が明示され、必要十分か
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 前提条件の記述が無い
+      3: 前提条件が列挙されているが必要十分性が不明
+      5: 前提条件が必要十分かつ初学者に分かる粒度
+  - id: completion_criteria
+    weight: 0.25
+    description: 完了条件が客観的に判定できるか
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 終わった状態が定義されていない
+      3: 完了条件はあるが主観表現が混じる
+      5: 完了条件が具体的で自己判定と第三者確認の両方に使える
+  - id: jargon_management
+    weight: 0.15
+    description: 専門用語が定義され、説明密度が適切か
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 未定義の用語が連続し初学者が追えない
+      3: 主要用語は説明されるが導入順が不安定
+      5: 用語が必要時に短く定義され、説明が過不足ない
+  - id: scaffolding
+    weight: 0.2
+    description: 小さな成功を積みながら進める構成か
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 大きな飛躍があり途中確認もない
+      3: 段階はあるが学習負荷の山が急
+      5: 前段の結果を次段へ自然に接続し途中確認も入る
+  - id: failure_recovery
+    weight: 0.2
+    description: 典型的な詰まりどころと復帰方法があるか
+    scale: [0, 1, 2, 3, 4, 5]
+    anchors:
+      0: 失敗時の導線が無い
+      3: 注意書きはあるが原因切り分けが弱い
+      5: 典型エラーごとに確認点と復帰手順がある
+pass_threshold: 3.5

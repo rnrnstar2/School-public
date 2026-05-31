@@ -1,0 +1,24 @@
+id: atom.office-automator.list-daily-tasks
+title: 1週間の業務を時間つきでリストアップする
+summary: "毎朝「今日は何から手をつけよう」と迷ってしまうこと、ありませんか？ それは冷蔵庫の中身を確認せずに1週間の献立を考えるようなものです。食材（＝あなたの仕事）を全部テーブルに並べて眺めれば、「月曜にカレーを仕込んで、火曜はその残りでドリアにしよう」と段取りが自然に決まりますよね。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - create-weekly-task-list-with-time
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

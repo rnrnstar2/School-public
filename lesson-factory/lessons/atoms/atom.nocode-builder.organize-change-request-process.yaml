@@ -1,0 +1,26 @@
+id: atom.nocode-builder.organize-change-request-process
+title: 改修依頼の流れを整備する
+summary: "レストランで料理を注文するときのことを想像してみてください。メニューがあって、注文用紙があって、厨房に伝票が回ります。この流れが整っているからこそ、料理がスムーズに届きますよね。 Webサービスやツールの「改修依頼」も同じです。依頼の受け付けから完了までの道筋があらかじめ決まっていると..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-change-request-flow-doc
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

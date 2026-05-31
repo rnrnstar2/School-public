@@ -1,0 +1,26 @@
+id: atom.ai-marketer.channel-plan-integrate
+title: 広告とLPとSEOとSNSを連携する
+summary: "パーティーを開くところを想像してみてください。 どれか1つだけ頑張っても、パーティーは盛り上がりません。4つが 同じメッセージ でつながって初めて、お客さんが集まります。この「つなげること」を チャネル連携 と呼びます。 このレッスンでは、AIチャットに手伝ってもらいながら「広告・LP・SEO・SNSの..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - understand-4channel-basics
+capability_outputs:
+  - create-channel-integration-plan
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-marketer.ad-copy-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

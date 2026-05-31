@@ -1,0 +1,24 @@
+id: atom.data-analyst.structure-report-template
+title: 伝わるレポート構成を作る
+summary: "上司やチームにデータの結果を伝えるとき、「なんだか長くて読みにくい…」と言われたことはありませんか？ レポートは 旅行のポストカード に似ています。届いた人がパッと見て「どこに行って、どう楽しかったか」が伝わるように書くのがポイントです。このレッスンでは..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - create-report-template-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

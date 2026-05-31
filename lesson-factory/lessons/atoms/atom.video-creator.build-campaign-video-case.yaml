@@ -1,0 +1,26 @@
+id: atom.video-creator.build-campaign-video-case
+title: プロモ動画案件を完成させる
+summary: "料理でいうと、プロモ動画を作るのは「お弁当を完成させる」のに似ています。主菜（メインメッセージ）が決まったら、副菜（テロップやBGM）を組み合わせて盛り付けるだけ。このレッスンでは、AIツールをフル活用して、プロモ動画案件を15分以内に仕上げる一連の流れを体験します。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - ai-text-prompting-basics
+capability_outputs:
+  - produce-promo-video-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.ai-video-tools-overview
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

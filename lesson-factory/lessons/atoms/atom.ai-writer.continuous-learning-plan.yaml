@@ -1,0 +1,24 @@
+id: atom.ai-writer.continuous-learning-plan
+title: AI進化に追従する学習計画を立てる
+summary: "AI（＝人工知能のこと。ここでは ChatGPT や Claude のような文章生成ツールを指します）は、毎月のように新機能が追加されます。「何を学べばいいか分からない」と感じているあなたは一人ではありません。 このレッスンでは、 15分で完成する「マイ学習計画」 を作ります。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - create-ai-learning-plan
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

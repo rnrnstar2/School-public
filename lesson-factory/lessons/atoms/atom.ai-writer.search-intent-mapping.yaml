@@ -1,0 +1,24 @@
+id: atom.ai-writer.search-intent-mapping
+title: 検索意図に合った記事構成を設計する
+summary: "記事を書く前に「この記事を読む人は何を知りたいのか」を考えることは、美味しい料理を作る前にレシピを決めるようなものです。材料だけあっても、どんな順番で何を作るかが決まっていなければ、完成しませんよね。 このレッスンでは、読者の目的（＝検索意図）にぴったり合った記事の構成（見出しの組み立て）を..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - design-article-structure-from-search-intent
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

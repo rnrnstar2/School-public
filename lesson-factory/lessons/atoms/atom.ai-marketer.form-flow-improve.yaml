@@ -1,0 +1,25 @@
+id: atom.ai-marketer.form-flow-improve
+title: フォーム導線を改善する
+summary: "フォーム（＝お客様が情報を入力する画面）の「導線（＝お客様がスムーズに入力を進められる道すじ）」を、AIツールを使って改善できるようになります。 たとえば、レストランに入ったとき、入り口から席までの動線がわかりにくいと迷ってしまいますよね。Webサイトのフォームも同じです。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - improve-form-flow-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

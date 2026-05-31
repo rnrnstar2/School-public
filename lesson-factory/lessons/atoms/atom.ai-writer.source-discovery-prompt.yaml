@@ -1,0 +1,24 @@
+id: atom.ai-writer.source-discovery-prompt
+title: AIにリサーチの出発点を出させる
+summary: "「何かについて調べたいけど、どこから手をつければいいかわからない」――そんな経験はありませんか？ たとえば旅行の計画を立てるとき、いきなり航空券を検索するよりも、まず「どんなエリアがあるか」「ベストシーズンはいつか」といった大枠を知ってから細部を詰めたほうがスムーズですよね。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - generate-research-starting-points-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

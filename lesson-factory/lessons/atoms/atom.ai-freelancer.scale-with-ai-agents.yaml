@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.scale-with-ai-agents
+title: AIエージェントで作業を半自動化する
+summary: "このレッスンでは、「AIエージェント」を使って、ふだん手作業でやっている仕事の一部を自動化する方法を学びます。 最終的に、あなた自身の作業を「AIに任せる部分」と「自分でやる部分」に分けた 半自動化ワークフロー設計書 （Markdown形式のメモ）を1つ完成させます。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - design-agent-workflow
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.tool-automation
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

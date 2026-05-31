@@ -1,0 +1,26 @@
+id: atom.nocode-builder.build-request-form
+title: 申請フォームを作る
+summary: "たとえば会社で「経費の精算」をするとき、紙の申請用紙に項目を書き込んで提出したことはありませんか？ 申請フォームとは、その紙の用紙をウェブ上で再現したものです。オンラインにしておくと、いつでもどこからでも申し込めて、集まった回答も自動でまとまります。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - build-simple-form-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - google-forms/basics
+status: draft

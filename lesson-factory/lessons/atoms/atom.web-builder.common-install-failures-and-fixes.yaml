@@ -1,0 +1,30 @@
+id: atom.web-builder.common-install-failures-and-fixes
+title: インストール失敗の典型パターンを潰す
+summary: "このレッスンでは、あなたのパソコンに開発ツール（＝Webサイトを作るための道具）を入れるときに、よく起こる失敗を3つのパターンに分けて整理します。失敗を「こういうときはこう直す」というレシピに変えておけば、次に同じエラーが出ても落ち着いて対処できます。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:setup
+  - level:beginner
+capability_inputs:
+  - know-why-ai-coding-tools
+capability_outputs:
+  - diagnose-install-error
+  - apply-common-fix
+hard_prerequisites:
+  - atom.web-builder.node-pnpm-setup
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - test_result
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - nodejs/downloads
+  - homebrew/install
+status: draft

@@ -1,0 +1,27 @@
+id: atom.data-analyst.segment-trend-drivers
+title: 変化の要因を切り分ける
+summary: "売上や利用者数が先月より増えた（または減った）とき、「なぜ？」と聞かれて困ったことはありませんか？ 数字全体だけを眺めていても、原因は見えてきません。たとえば料理の味が変わったとき、「塩が多かった」のか「火加減が強すぎた」のか、一つずつ確かめるように、データでも要因をひとつずつ切り分けて調べる必要があります。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - compare-periods-with-ai
+capability_outputs:
+  - segment-trend-drivers-with-ai
+hard_prerequisites:
+  - atom.data-analyst.compare-periods
+soft_prerequisites:
+  - atom.data-analyst.measure-time-trends
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

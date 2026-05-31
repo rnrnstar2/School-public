@@ -1,0 +1,28 @@
+id: atom.training-designer.learner-profiling
+title: 受講者プロファイルに応じた教材を分ける
+summary: "研修やセミナーを作るとき、参加者全員に同じ教材を配っていませんか？ 料理教室にたとえると、初心者には包丁の持ち方から教えたいのに、経験者にはすでに退屈——逆に難しいレシピをいきなり出すと初心者は置いてきぼりです。 このレッスンでは、 AIチャット（ChatGPT や Claude..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+  - personalization
+capability_inputs:
+  - basic-ai-chat-usage
+capability_outputs:
+  - create-learner-profile-with-ai
+  - assign-materials-by-profile
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.training-designer.curriculum-design-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

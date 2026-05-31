@@ -1,0 +1,30 @@
+id: atom.web-builder.custom-domain-setup
+title: 独自ドメインを取得してVercelに設定する
+summary: "あなたのWebサイトがVercelで公開できたら、次のステップは「自分だけのインターネット上の住所」を手に入れることです。 たとえば、お店を開いたあとに看板を掲げるようなものです。〜.vercel.app という仮の住所でも見られますが、my-cafe."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - business-homepage
+  - portfolio-site
+  - stage:deploy
+  - level:beginner
+capability_inputs:
+  - deployed-to-vercel
+capability_outputs:
+  - custom-domain-connected
+hard_prerequisites:
+  - atom.web-builder.deploy-ai-app-to-vercel
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - vercel/docs/custom-domains
+status: draft

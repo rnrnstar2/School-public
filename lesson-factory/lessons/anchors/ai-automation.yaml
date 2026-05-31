@@ -1,0 +1,35 @@
+id: anchor.ai-automation.start
+persona_id: persona.ai-automation
+# W46 (2026-05-09): persona.ai-automation 向け anchor。Audit G 1 / Audit C 軸 1
+# で「Excel 自動化したい」goal が web-builder anchor 経由で
+# `atom.web-builder.code-review` 等のエンジニア向け atom にぶつかっていた CR-4
+# (Vision 完全逆転) を解消する。Owner Vision「1 step 目に動く何かが出る」を
+# 業務自動化文脈で解釈し、Excel/Sheets を AI に処理させる体験を先頭に置く。
+# 続いて daily report 自動化 → Zapier no-code workflow → Power Automate 等の
+# クロスアプリ連携 → 自動化ロードマップ整備で運用ループを完成させる。
+ordered_atom_ids:
+  # 1. 1 step 目で「動く自動化が画面に出る」: Excel/Sheets を AI に処理させる
+  - atom.office-automator.spreadsheet-formula-ai
+  # 2. 日次レポートを AI 自動化: Excel/Sheets → AI 要約 → メール / Slack 配信
+  - atom.office-automator.daily-report-automation
+  # 3. Zapier 等の no-code 自動化基礎: アプリ間連携の最短ルート
+  - atom.office-automator.zapier-basics
+  # 4. クロスアプリ連携: Slack / Notion / Gmail 等の cross-app sync
+  - atom.office-automator.cross-app-sync
+  # 5. 自動化ロードマップ作成: 何を自動化するかを優先度付きで 3 ヶ月分計画
+  - atom.office-automator.create-automation-roadmap
+required_capabilities:
+  # W15 B2 (Codex Option A): yaml capability_outputs を真実として揃える。
+  # ordered_atom_ids[i] の atom yaml の capability_outputs から 1 つ選ぶ。
+  - ask-ai-for-spreadsheet-formula
+  - create-ai-assisted-daily-report
+  - create-basic-zap
+  - build-cross-app-sync-flow
+  - create-automation-roadmap
+description: |
+  ai-automation ペルソナ向け anchor。1 step 目で Excel/Sheets を AI に処理させる
+  「動く自動化が画面に出る」体験を踏ませ、続いて daily report 自動化 → Zapier
+  no-code workflow → クロスアプリ連携 → 自動化ロードマップの 5 step (W46)。
+  CR-4 (Vision 完全逆転) を解消するため、コード・CLI・git・code-review 系 atom は
+  一切含まない。Excel / Sheets / Zapier / Power Automate 等の no-code ツールと
+  ChatGPT / Claude のチャット入力だけで完結する構成。

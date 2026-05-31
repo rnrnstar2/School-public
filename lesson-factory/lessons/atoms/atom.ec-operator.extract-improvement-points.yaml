@@ -1,0 +1,24 @@
+id: atom.ec-operator.extract-improvement-points
+title: 改善ポイントを抽出する
+summary: "あなたのネットショップ、なんとなく「売上が伸びないな」と感じていませんか？ たとえば、あなたがレストランを経営しているとします。毎日料理を作って配膳していると、自分では気づかない課題があります。「スープの味が薄い」「メニューの文字が小さすぎる」「入口が分かりにくい」。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - extract-shop-improvement-points-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

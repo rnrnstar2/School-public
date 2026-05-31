@@ -1,0 +1,25 @@
+id: atom.ai-writer.pricing-strategy
+title: AI時代の単価設定戦略を立てる
+summary: "あなたが書いた文章には、どれくらいの値段をつけていますか？ 「1文字〇円」と決めるのは、レストランのメニューに「食材費だけで値段を決める」ようなものです。お客さんが払うのは、美味しい料理そのもの——つまり「あなたが届ける価値」に対してお金を出しています。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+  - pricing
+capability_inputs: []
+capability_outputs:
+  - create-pricing-strategy-sheet
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

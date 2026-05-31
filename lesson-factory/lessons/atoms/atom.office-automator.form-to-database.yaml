@@ -1,0 +1,28 @@
+id: atom.office-automator.form-to-database
+title: 申請フォームからデータベースへの自動登録を組む
+summary: "たとえば、社内の備品購入申請を紙で受け取って、Excelに手で転記していませんか？ このレッスンでは、Googleフォームで受け取った回答を、AIの力を借りてスプレッドシート（＝かんたんなデータベース）へ自動で登録する仕組みを15分で作ります。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - use-spreadsheet-basics
+capability_outputs:
+  - build-form-to-db-automation
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - google-apps-script/forms
+  - google-apps-script/sheets
+status: draft

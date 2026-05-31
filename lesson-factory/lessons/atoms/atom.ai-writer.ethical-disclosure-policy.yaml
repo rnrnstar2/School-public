@@ -1,0 +1,25 @@
+id: atom.ai-writer.ethical-disclosure-policy
+title: AI利用の開示方針を策定する
+summary: "AIを使って文章を書くとき、「これはAIが書きました」と伝えるべきか、伝えなくてもいいのか——迷ったことはありませんか？ たとえば料理でいえば、市販のルーを使ったカレーを「手作りです」と言うのはOKでも、他人のレシピを丸写しして「オリジナルです」と言うのはNGですよね。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - draft-ai-disclosure-policy
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.copyright-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

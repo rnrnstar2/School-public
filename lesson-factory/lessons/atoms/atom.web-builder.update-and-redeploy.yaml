@@ -1,0 +1,33 @@
+id: atom.web-builder.update-and-redeploy
+title: アプリを更新してデプロイし直す
+summary: "レストランのメニュー表を思い浮かべてみてください。新しい料理を追加したくなったら、メニューの原稿を書き直して印刷所へ送りますよね。すると自動的に新しいメニュー表がお店に届きます。 Webアプリも同じ仕組みです。コード（＝アプリの設計図）を書き換えて保存・送信すると..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:deploy
+  - level:beginner
+  - business-homepage
+  - landing-page
+  - blog-site
+capability_inputs:
+  - deployed-to-vercel
+  - git-ready
+capability_outputs:
+  - continuous-deploy-workflow
+hard_prerequisites:
+  - atom.web-builder.deploy-ai-app-to-vercel
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - vercel/deploy-workflow
+status: draft

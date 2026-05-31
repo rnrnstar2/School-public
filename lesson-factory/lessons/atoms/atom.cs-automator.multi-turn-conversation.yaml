@@ -1,0 +1,26 @@
+id: atom.cs-automator.multi-turn-conversation
+title: 複数回のやり取りを安定させる
+summary: "AIとチャットしていると、最初はうまく答えてくれたのに、何度かやり取りするうちに話がズレてきた経験はありませんか？ これは、レストランで注文するときに似ています。1品だけ頼むなら間違いは起きにくいですが、「前菜はこれ、メインはあれ、ドリンクは別で、デザートは後から」と伝えるうちに..."
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - basic-ai-chat
+capability_outputs:
+  - stabilize-multi-turn-conversation
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

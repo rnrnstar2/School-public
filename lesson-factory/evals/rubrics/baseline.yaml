@@ -1,0 +1,6 @@
+name: baseline-owner-local-rubric
+pedagogy_pass_score: 3
+execution_requires_trace: true
+persona_count:
+  min: 3
+  max: 5

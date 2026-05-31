@@ -1,0 +1,24 @@
+id: atom.data-analyst.reshape-tabular-data
+title: 分析しやすい表に整える
+summary: "料理をするとき、材料をあらかじめ洗って・切って・並べておくと調理がスムーズですよね。データの分析も同じで、 表の形を整えてから分析に進む と、あとの作業がぐっと楽になります。 このレッスンでは、「列が多くてごちゃごちゃした表」を「分析しやすいスッキリした形」に変える方法を、AIツール（ChatGPT や..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - reshape-table-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

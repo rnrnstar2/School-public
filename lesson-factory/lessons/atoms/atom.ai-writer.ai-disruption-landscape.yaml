@@ -1,0 +1,24 @@
+id: atom.ai-writer.ai-disruption-landscape
+title: AI時代のライター市場の変化を把握する
+summary: "料理の世界を想像してみてください。昔は「包丁をちゃんと研げる人」が重宝されました。でも電動包丁研ぎ器が登場すると、包丁研ぎだけの人は仕事が減り、代わりに「美味しい料理を企画できる人」の価値が上がりました。 いま、ライターの世界でも同じことが起きています。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - understand-ai-writing-market-shift
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

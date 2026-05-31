@@ -1,0 +1,25 @@
+id: atom.ai-marketer.review-flow-operate
+title: 法規制チェックフローを運用する
+summary: "旅行に行くとき、スーツケースの中身を最終確認しますよね。忘れ物がないか、機内持ち込み不可のものが混ざっていないか。広告を公開する前にも、同じような確認が必要です。 広告文のなかには、法律で禁止されている表現が知らずに混ざっていることがあります。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - operate-legal-review-flow
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

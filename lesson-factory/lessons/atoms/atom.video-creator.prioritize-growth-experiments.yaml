@@ -1,0 +1,26 @@
+id: atom.video-creator.prioritize-growth-experiments
+title: 改善実験の優先順位を付ける
+summary: "旅行の計画を立てるとき、行きたい場所が10あっても滞在は3日――「どこを優先するか」を決めますよね。動画づくりでも同じです。サムネイルを変えてみる、投稿時間をずらしてみる、動画の長さを短くしてみる……改善アイデアは次々浮かびますが、時間も体力も限られています。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - list-improvement-ideas
+capability_outputs:
+  - prioritize-experiments-with-scoring
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.analyze-video-stats
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

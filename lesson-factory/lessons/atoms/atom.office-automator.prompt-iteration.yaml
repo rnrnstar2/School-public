@@ -1,0 +1,28 @@
+id: atom.office-automator.prompt-iteration
+title: プロンプトを改善して精度を上げる
+summary: "以下の3つが「はい」なら、このレッスンは完了です。 おめでとうございます！ これであなたは「AIの回答を自分の意図通りに近づける力」を手に入れました。この力はどんなAIツールでも使えるので、ぜひ日常の業務で試してみてください。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - iterate-prompt-for-accuracy
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.ai-chat-first-step
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - openai/chatgpt-updates
+  - anthropic/claude-updates
+status: draft

@@ -1,0 +1,23 @@
+case_id: instagram-automator.stuck.001
+persona_id: persona.instagram-automator
+target_rubric: persona-fit.v1
+simulation_type: stuck
+scenario: |
+  Instagram の問い合わせDMを Make 経由でシートへ流したいが、Meta 側の権限設定と redirect URI で止まる。
+  UI が Meta Business Suite、Developers、Make に分かれていて現在位置を見失う。
+expected_blocker_tags:
+  - oauth-permissions
+  - webhook-debug
+  - rate-limits
+expected_recovery_atoms:
+  - atom.meta.app-permissions
+  - atom.make.webhook-inspector
+  - atom.instagram.rate-limit-basics
+narrative: |
+  「接続はできたはずなのに、テストイベントが流れない。どの画面で権限を足すのか毎回分からなくなる。」
+success_criteria:
+  - Meta 側と Make 側を往復する順番が固定されている
+  - 権限不足と webhook 未受信を別の症状として説明する
+  - 審査待ちや rate limit 時に先へ進める代替テスト手順がある
+notes: |
+  管理画面が分かれると迷う persona。画面遷移の順序と最小権限の説明が重要。

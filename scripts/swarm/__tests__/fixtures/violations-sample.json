@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-04-16T00:00:00.000Z",
+  "weights": {
+    "steps_exceeded": 2.0,
+    "ai_friction_exceeded": 2.0,
+    "duration_exceeded": 1.0,
+    "code_input_present": 1.5,
+    "blocked_transitions": 1.5,
+    "other": 1.0
+  },
+  "nodes": {
+    "PJ-MK-03": ["blocked_transitions", "steps_exceeded"],
+    "AC-08": ["duration_exceeded"],
+    "PJ-ENG-02": ["ai_friction_exceeded"]
+  },
+  "scores": {
+    "PJ-MK-03": 3.5,
+    "AC-08": 1.0,
+    "PJ-ENG-02": 2.0
+  },
+  "unmatched": []
+}

@@ -1,0 +1,25 @@
+id: atom.office-automator.data-cleaning-with-ai
+title: AIでデータのクレンジング・名寄せを行う
+summary: "あなたの会社の「顧客リスト」に、同じお客様が何度も登録されていたら困りますよね。名前の表記ゆれ（「株式会社ABC」「(株)ABC」「ABC株式会社」）や、住所の書き方の違いで、同じ相手を別の人として扱ってしまう——ビジネスでよくある悩みです。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - clean-and-deduplicate-data-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+  - icon
+freshness_sources: []
+status: draft

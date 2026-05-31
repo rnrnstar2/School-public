@@ -1,0 +1,24 @@
+id: atom.nocode-builder.compare-nocode-platforms
+title: ノーコードツールの違いを理解する
+summary: "「ノーコードツール」と聞くと、どれも同じに見えるかもしれません。でも実は、ツールごとに得意なことがまったく違います。たとえるなら、包丁にも出刃包丁・菜切り包丁・ペティナイフがあるのと同じです。作りたいものに合った道具を選ぶことが、最短で完成にたどり着くコツです。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - compare-nocode-tools
+  - choose-nocode-tool-for-goal
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

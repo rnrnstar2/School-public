@@ -1,0 +1,34 @@
+id: anchor.designer.start
+persona_id: persona.designer
+# TQ-224 (2026-05-09): デザイナー (グラフィック / SNS / バナー / アイコン制作中心)
+# 向け anchor。Owner Vision「1 step 目に画面に何か出る」をビジュアル文脈で解釈し、
+# 「AI が画像 1 枚を出す」体験を先頭に置く。
+#
+# TODO (TQ-224 後続): デザイナー専用 atom (Figma + AI 連携 / Midjourney 運用 /
+# Stable Diffusion / レイアウト生成等) は本 worktree 時点で未整備のため、まずは
+# ai-freelancer / training-designer の image-gen 系 atom を流用して anchor を立て、
+# atom 増設は別 TQ で扱う (atoms_estimated_minutes 増補と並行)。
+ordered_atom_ids:
+  # 1. 1 step 目で「画像 1 枚が画面に出る」: 画像生成 AI で 1 枚出力する基本操作
+  - atom.ai-freelancer.image-gen-basics
+  # 2. アイコン / アバターの実制作: SNS プロフィール用素材を AI で作る
+  - atom.ai-freelancer.icon-avatar-generation
+  # 3. バナー / サムネイル制作: AI 画像 + Canva で完成形まで仕上げる 2 step ワーク
+  - atom.ai-freelancer.banner-thumbnail-creation
+  # 4. 図解 / アイコン量産: 資料用ビジュアルを AI に量産させる運用
+  - atom.training-designer.visual-asset-generation
+  # 5. 商用利用ルール理解: 制作物を仕事 / 顧客に渡せる状態にする法務 atom
+  - atom.ai-freelancer.image-copyright-commercial
+required_capabilities:
+  - generate-image-with-prompt
+  - generate-icon-avatar-with-ai
+  - create-banner-with-ai-and-canva
+  - generate-diagram-with-ai
+  - check-ai-image-commercial-use
+description: |
+  デザイナー向け anchor。1 step 目で画像生成 AI 1 枚出力という「成果物が画面に出る」
+  体験を踏ませ、続いてアイコン → バナー / サムネイル → 図解量産 → 商用利用ルールの
+  5 step (TQ-224)。
+  本 anchor は ai-freelancer / training-designer の image-gen 系 atom を流用した暫定
+  構成。Figma + AI 連携 / Midjourney 運用 / レイアウト生成等のデザイナー専用 atom
+  整備は後続 TQ に移譲 (atoms_estimated_minutes 増補と並行予定)。

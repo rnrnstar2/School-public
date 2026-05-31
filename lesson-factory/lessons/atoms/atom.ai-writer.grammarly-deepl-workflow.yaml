@@ -1,0 +1,26 @@
+id: atom.ai-writer.grammarly-deepl-workflow
+title: GrammarlyとDeepLで校正・翻訳フローを作る
+summary: "あなたが書いた日本語の文章を、自然な英語に翻訳して世界に発信したい――そんなとき、2つの便利なツールを組み合わせると、品質がぐんと上がります。 このレッスンでは Grammarly（＝英語の文章を自動チェックして直してくれるツール） と DeepL（＝AIが高精度に翻訳するツール）..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - build-proofread-translate-flow
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - grammarly/web-editor
+  - deepl/translator
+status: draft

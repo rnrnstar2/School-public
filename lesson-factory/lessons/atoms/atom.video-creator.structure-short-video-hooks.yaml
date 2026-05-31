@@ -1,0 +1,26 @@
+id: atom.video-creator.structure-short-video-hooks
+title: ショート動画の型を使い分ける
+summary: "料理を思い出してみてください。カレーを作るときとケーキを焼くときでは、手順がまったく違いますよね。カレーは「具材を切って→炒めて→煮込む」、ケーキは「材料を混ぜて→型に入れて→オーブンで焼く」。どちらも「料理」ですが、目的が違えば作り方も変わります。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - understand-short-video-basics
+capability_outputs:
+  - choose-video-structure-type
+  - create-structure-memo-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

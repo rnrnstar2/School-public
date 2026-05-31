@@ -1,0 +1,28 @@
+id: atom.training-designer.accessibility-check
+title: 教材のアクセシビリティを確認する
+summary: "あなたが作った教材は、すべての学習者にとって使いやすいものになっていますか？ アクセシビリティ（＝年齢・障がい・環境に関係なく、誰でも情報を受け取れるようにすること）は、特別な技術力がなくてもAIの力を借りて確認できます。たとえるなら、料理のレシピを書いたあとに「これ、初めての人でも迷わず作れるかな？"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+  - accessibility
+capability_inputs:
+  - create-training-material
+capability_outputs:
+  - check-accessibility-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.training-designer.create-training-doc
+deliverable:
+  type: markdown_doc
+  validation: accessibility_checklist_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

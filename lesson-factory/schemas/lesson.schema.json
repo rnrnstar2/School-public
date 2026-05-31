@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://school.local/lesson-factory/schemas/lesson.schema.json",
+  "title": "Lesson Atom",
+  "description": "Owner-local schema for lesson atom metadata stored as YAML or JSON before publish.",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "atomId": {
+      "type": "string",
+      "pattern": "^atom\\.[a-z0-9.-]+$",
+      "description": "Canonical lesson atom identifier."
+    },
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "deliverableType": {
+      "type": "string",
+      "enum": [
+        "sql_policy",
+        "code_snippet",
+        "config_file",
+        "screenshot",
+        "url",
+        "markdown_doc",
+        "test_suite"
+      ]
+    },
+    "evidenceType": {
+      "type": "string",
+      "enum": [
+        "sql_snippet",
+        "test_result",
+        "screenshot",
+        "url",
+        "code_diff",
+        "log_output"
+      ]
+    },
+    "evidenceArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidenceType"
+      },
+      "uniqueItems": true
+    },
+    "mediaSlotType": {
+      "type": "string",
+      "enum": [
+        "diagram",
+        "screen_capture",
+        "video_walkthrough",
+        "icon"
+      ]
+    },
+    "mediaSlotArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/mediaSlotType"
+      },
+      "uniqueItems": true
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "reviewed",
+        "experimental",
+        "stable",
+        "archived"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "persona_tags",
+    "goal_tags",
+    "capability_inputs",
+    "capability_outputs",
+    "hard_prerequisites",
+    "soft_prerequisites",
+    "deliverable",
+    "evidence",
+    "media_slots",
+    "freshness_sources",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "#/$defs/atomId"
+    },
+    "title": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Short summary used by /lessons card view (TQ-117 backfill).",
+      "minLength": 1
+    },
+    "persona_tags": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "goal_tags": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "capability_inputs": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "capability_outputs": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "hard_prerequisites": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "soft_prerequisites": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "deliverable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "validation"
+      ],
+      "properties": {
+        "type": {
+          "$ref": "#/$defs/deliverableType"
+        },
+        "validation": {
+          "type": "string"
+        }
+      }
+    },
+    "evidence": {
+      "$ref": "#/$defs/evidenceArray"
+    },
+    "media_slots": {
+      "$ref": "#/$defs/mediaSlotArray"
+    },
+    "freshness_sources": {
+      "$ref": "#/$defs/stringArray"
+    },
+    "estimated_minutes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 180,
+      "description": "Estimated learner time-to-complete in minutes. Required by TQ-235 Shortest-Path Planner; optional in schema until backfill complete."
+    },
+    "status": {
+      "$ref": "#/$defs/status"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+id: atom.nocode-builder.design-approval-routing
+title: 承認フローを設計する
+summary: "仕事で「この申請、誰かに確認してもらわなきゃ」と思ったことはありませんか？ たとえば、経費精算を上司に見てもらう、イベントの企画書をチームリーダーにチェックしてもらう、そんな場面です。 こうした「確認・承認の流れ」を、料理のレシピに例えてみましょう。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - design-approval-flow
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

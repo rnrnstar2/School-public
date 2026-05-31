@@ -1,0 +1,24 @@
+id: atom.ai-writer.data-summarization
+title: 大量資料をAIで要約する
+summary: "引っ越しの荷造りを思い出してみてください。段ボール箱が20個もあると、中身を全部把握するだけで疲れてしまいますよね。AIに「この箱の中身、ざっくり教えて」と頼めたら便利だと思いませんか？ これが今回やることです。大量の資料をAIに読み込ませて、要点だけをまとめてもらいます。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - summarize-docs-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

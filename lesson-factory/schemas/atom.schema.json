@@ -1,0 +1,259 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://school.local/lesson-factory/schemas/atom.schema.json",
+  "title": "Goal2Action Atom",
+  "description": "Canonical ATOM YAML schema for Goal2Action v2 Phase A.",
+  "type": "object",
+  "additionalProperties": false,
+  "definitions": {
+    "atomId": {
+      "type": "string",
+      "pattern": "^atom\\.[a-z0-9.-]+$",
+      "description": "Canonical ATOM identifier."
+    },
+    "capabilityId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Canonical capability identifier."
+    },
+    "goalTag": {
+      "type": "string",
+      "enum": [
+        "accessibility",
+        "ai-tool-selection",
+        "any-web-project",
+        "automation",
+        "blog-site",
+        "branding",
+        "business-automation",
+        "business-homepage",
+        "content",
+        "content-creation",
+        "content-review",
+        "customer-support",
+        "data-analysis",
+        "data-cleanup",
+        "data-privacy",
+        "ec-operations",
+        "education",
+        "efficiency",
+        "freelance",
+        "growth",
+        "internal-tools",
+        "landing-page",
+        "legal-compliance",
+        "level:advanced",
+        "level:beginner",
+        "level:intermediate",
+        "marketing",
+        "nocode-development",
+        "personalization",
+        "portfolio",
+        "portfolio-site",
+        "pricing",
+        "productivity",
+        "quality-assurance",
+        "quality-control",
+        "reporting",
+        "revenue-optimization",
+        "saas-mvp",
+        "sales",
+        "seo",
+        "side-income",
+        "stage:auth",
+        "stage:build",
+        "stage:capstone",
+        "stage:connect",
+        "stage:deploy",
+        "stage:orient",
+        "stage:polish",
+        "stage:scaffold",
+        "stage:setup",
+        "text-analysis",
+        "training",
+        "video-production",
+        "visual-content",
+        "workflow",
+        "writing"
+      ]
+    },
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "goalTagArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/goalTag"
+      },
+      "uniqueItems": true
+    },
+    "capabilityArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/capabilityId"
+      },
+      "uniqueItems": true
+    },
+    "prerequisiteArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/atomId"
+      },
+      "uniqueItems": true
+    },
+    "deliverableType": {
+      "type": "string",
+      "enum": [
+        "code",
+        "code_snippet",
+        "config_file",
+        "markdown_doc",
+        "screenshot",
+        "slide",
+        "sql_policy",
+        "test_suite",
+        "url",
+        "video"
+      ]
+    },
+    "evidenceType": {
+      "type": "string",
+      "enum": [
+        "artifact",
+        "code_diff",
+        "log_output",
+        "metric",
+        "screenshot",
+        "sql_snippet",
+        "test_result",
+        "url"
+      ]
+    },
+    "evidenceArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/evidenceType"
+      },
+      "uniqueItems": true
+    },
+    "mediaSlotType": {
+      "type": "string",
+      "enum": [
+        "diagram",
+        "icon",
+        "screen_capture",
+        "video_walkthrough"
+      ]
+    },
+    "mediaSlotArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/mediaSlotType"
+      },
+      "uniqueItems": true
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "reviewed",
+        "experimental",
+        "stable",
+        "archived"
+      ],
+      "description": "Atom lifecycle status. Aligned with lesson.schema.json + runtime AtomRecord (apps/web). TQ-222: was [draft, review, published, stable, archived] which drifted from runtime enum."
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "summary",
+    "persona_tags",
+    "goal_tags",
+    "capability_inputs",
+    "capability_outputs",
+    "hard_prerequisites",
+    "soft_prerequisites",
+    "deliverable",
+    "evidence",
+    "media_slots",
+    "freshness_sources",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "#/definitions/atomId"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "persona_tags": {
+      "$ref": "#/definitions/stringArray"
+    },
+    "goal_tags": {
+      "$ref": "#/definitions/goalTagArray"
+    },
+    "capability_inputs": {
+      "$ref": "#/definitions/capabilityArray"
+    },
+    "capability_outputs": {
+      "$ref": "#/definitions/capabilityArray"
+    },
+    "hard_prerequisites": {
+      "$ref": "#/definitions/prerequisiteArray"
+    },
+    "soft_prerequisites": {
+      "$ref": "#/definitions/prerequisiteArray"
+    },
+    "deliverable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "validation"
+      ],
+      "properties": {
+        "type": {
+          "$ref": "#/definitions/deliverableType"
+        },
+        "validation": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "evidence": {
+      "$ref": "#/definitions/evidenceArray"
+    },
+    "media_slots": {
+      "$ref": "#/definitions/mediaSlotArray"
+    },
+    "freshness_sources": {
+      "$ref": "#/definitions/stringArray"
+    },
+    "status": {
+      "$ref": "#/definitions/status"
+    },
+    "blocker_it_solves": {
+      "$ref": "#/definitions/stringArray"
+    },
+    "related_action_types": {
+      "$ref": "#/definitions/stringArray"
+    },
+    "estimated_minutes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 180,
+      "description": "Estimated learner time-to-complete in minutes. Required by TQ-235 Shortest-Path Planner; optional in schema until backfill complete (TQ-222)."
+    }
+  }
+}

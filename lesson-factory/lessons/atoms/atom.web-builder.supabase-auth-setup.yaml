@@ -1,0 +1,30 @@
+id: atom.web-builder.supabase-auth-setup
+title: Supabase Authでログイン機能を作る
+summary: "このレッスンでは、あなたが作っているアプリに「メールアドレスとパスワードでログインする仕組み」を 15 分で組み込みます。イメージは、家の玄関に鍵を取り付ける作業です。鍵の仕組み（Supabase Auth ＝ユーザー管理の裏方）そのものを作るのではなく、用意された鍵を玄関にはめ込む感覚で進めます。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:auth
+  - level:intermediate
+capability_inputs:
+  - crud-operations
+capability_outputs:
+  - auth-email-password
+  - session-management
+hard_prerequisites:
+  - atom.web-builder.make-supabase-ai-ready
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - supabase/docs/guides/auth
+status: draft

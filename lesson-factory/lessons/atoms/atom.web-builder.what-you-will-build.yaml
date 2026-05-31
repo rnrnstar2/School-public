@@ -1,0 +1,30 @@
+id: atom.web-builder.what-you-will-build
+title: このトラックで作れるようになるもの
+summary: "料理教室に通うとき、まず「今日は何を作るのか」を知りたいですよね。このレッスンは、まさにその「今日のメニュー紹介」です。 このトラック（＝学習コースのこと）が終わると、あなたは AI の力を借りて、自分だけの Web アプリ（＝インターネット上で動く便利なツール）を1つ作れるようになります。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:orient
+  - level:beginner
+  - portfolio-site
+  - business-homepage
+  - landing-page
+  - saas-mvp
+  - blog-site
+capability_inputs: []
+capability_outputs:
+  - understand-track-goal
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: archived

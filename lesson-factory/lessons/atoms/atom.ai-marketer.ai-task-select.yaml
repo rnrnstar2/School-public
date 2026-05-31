@@ -1,0 +1,24 @@
+id: atom.ai-marketer.ai-task-select
+title: AIに任せる作業を選定する
+summary: "大きなレストランのキッチンを想像してみてください。料理長はすべての作業を自分でやるわけではありません。野菜の下ごしらえは担当者に任せ、味の最終調整は自分で行う——こうした「任せどころ」の見極めが、キッチン全体をうまく回すコツです。 AIを使う仕事もこれとまったく同じです。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - select-ai-delegatable-task
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,28 @@
+id: atom.office-automator.batch-document-generation
+title: 差し込み印刷的な大量文書をAIで一括生成する
+summary: "あなたはこれまで、お客様へのお礼メールや案内状など、同じような文書を何十通も手書きで書いた経験はないでしょうか。「名前と会社名だけ違うのに、1通ずつコピーして書き直して…」という作業は、地味に時間を食います。 このレッスンを終えると、AI（＝人工知能とおしゃべりできるツール）を使って..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - generate-batch-documents-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.ai-chat-first-step
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - chatgpt/docs
+  - claude/docs
+status: draft

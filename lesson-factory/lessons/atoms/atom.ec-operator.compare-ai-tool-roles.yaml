@@ -1,0 +1,24 @@
+id: atom.ec-operator.compare-ai-tool-roles
+title: AIツールの役割分担を理解する
+summary: "レストランのキッチンを思い浮かべてみてください。シェフ、パティシエ、ソムリエ——それぞれ得意なことが違いますよね。AIツールも同じです。テキスト（＝文字の文章）を作るのが得意なAI、画像を作るのが得意なAI、データを整理するのが得意なAI。目的に合った「料理人」を選ぶことが、上手にAIを使いこなす第一歩です。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - select-ai-tool-by-task-type
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

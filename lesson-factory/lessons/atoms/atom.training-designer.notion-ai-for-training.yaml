@@ -1,0 +1,24 @@
+id: atom.training-designer.notion-ai-for-training
+title: Notion AIで研修ドキュメントを効率化する
+summary: "研修資料を作るとき、最初の白紙が一番つらいですよね。料理にたとえると、レシピを見ずにゼロから新しい料理を作るようなもの。でも、「こんな料理を作りたい」と伝えれば、AIがレシピのたたき台を用意してくれます。あなたは味見をして、自分好みに仕上げるだけです。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - create-training-doc-with-notion-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

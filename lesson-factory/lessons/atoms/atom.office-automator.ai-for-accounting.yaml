@@ -1,0 +1,24 @@
+id: atom.office-automator.ai-for-accounting
+title: 経理・会計業務のAI活用パターンを実践する
+summary: "経理や会計の仕事には、「毎月同じような作業を繰り返す」場面がたくさんあります。たとえば、領収書の内容を帳簿に転記したり、勘定科目を選んだり、月次の数字をまとめたり。こうした作業は、料理でいえば「野菜の皮むき」のようなもの。大事な工程ですが、時間がかかる割にクリエイティブな判断はあまり求められません。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - create-accounting-ai-prompt
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

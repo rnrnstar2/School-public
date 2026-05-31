@@ -1,0 +1,24 @@
+id: atom.office-automator.compare-ai-services
+title: ChatGPT・Copilot・Geminiの得意分野を比較する
+summary: "AIチャットツール（＝人工知能と会話するようにやり取りできるサービス）は便利ですが、「結局どれを使えばいいの？」と迷う方がとても多いです。 実は、これらのツールにはそれぞれ得意・不得意があります。料理でたとえると、フライパン・鍋・電子レンジはどれも「加熱する道具」ですが、炒め物にはフライパン、煮込みには鍋..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - choose-ai-tool-for-task
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

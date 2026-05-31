@@ -1,0 +1,27 @@
+id: atom.ai-freelancer.stock-illustration-ai
+title: AIでストック素材を量産・販売する
+summary: "料理研究家がレシピ写真を撮って、それを雑誌や広告で使ってもらう――そんなイメージでストック素材（＝写真やイラストなどのデジタル素材を、ネット上で買ってもらう仕組み）の販売を始めてみましょう。 このレッスンでは、AIツールでイラストを生成し、ストック素材サイトに1枚出品するまでを15分で体験します。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - generate-and-list-stock-asset
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.image-gen-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - adobe-stock-contributor
+  - ai-image-commercial-use
+status: draft

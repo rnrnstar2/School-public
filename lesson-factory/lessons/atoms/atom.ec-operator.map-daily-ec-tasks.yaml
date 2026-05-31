@@ -1,0 +1,24 @@
+id: atom.ec-operator.map-daily-ec-tasks
+title: 日々のEC業務を棚卸しする
+summary: "あなたが毎日やっているECサイト（＝ネットショップ）のお仕事、ぜんぶ思い出せますか？ 「受注の確認」「商品の追加」「お客様への返信」……。毎日やっているうちに、当たり前になっていて意外と忘れている作業があるものです。 このレッスンでは、AIチャット（＝AIと対話できるツール..."
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - list-daily-ec-tasks-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

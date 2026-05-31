@@ -1,0 +1,24 @@
+id: atom.data-analyst.spreadsheet-ai-mindset
+title: AIデータ分析の学び方を知る
+summary: "この Atom を終えると、「AIを使ってデータを分析する」とはどういうことかがわかり、自分の学習ロードマップ（＝これから何をどの順番で学ぶかの地図）を1枚書けるようになります。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - understand-ai-data-analysis-mindset
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

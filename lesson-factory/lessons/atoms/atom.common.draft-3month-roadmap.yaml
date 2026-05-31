@@ -1,0 +1,23 @@
+id: atom.common.draft-3month-roadmap
+title: 3 ヶ月の領域別実行計画を作る
+summary: "選んだ goal に対して「次の 3 ヶ月で何をやるか」を月次に落とし込んだ計画表を AI と一緒に作ります。月の主要トピック・週単位の最初のタスク・進捗確認の方法までを 1 枚にまとめます。所要 15 分。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - plan-execution
+  - draft-roadmap
+capability_inputs: []
+capability_outputs:
+  - 3month-roadmap-drafted
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.common.draft-domain-area-map
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

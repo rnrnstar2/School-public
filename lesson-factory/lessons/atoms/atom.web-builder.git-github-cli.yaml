@@ -1,0 +1,32 @@
+id: atom.web-builder.git-github-cli
+title: Git / GitHub を CLI で使える状態にする
+summary: "このレッスンでは、あなたのパソコンで作った作品（コードやファイル）を GitHub（＝世界中の開発者が使う、作品の保管庫＆共有サービス） に送れるようにします。所要時間は 15 分です。 身近な例えで言うと、今のあなたのパソコンは「下書きノート」だけがある状態です。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:setup
+  - level:beginner
+  - portfolio-site
+  - business-homepage
+  - saas-mvp
+capability_inputs: []
+capability_outputs:
+  - initialize-git-repo
+  - connect-github-remote
+hard_prerequisites:
+  - atom.web-builder.terminal-basics
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - test_result
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - git-scm/downloads
+  - github-docs/authentication
+status: draft

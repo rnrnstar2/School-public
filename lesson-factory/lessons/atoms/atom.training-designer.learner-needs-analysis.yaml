@@ -1,0 +1,24 @@
+id: atom.training-designer.learner-needs-analysis
+title: 受講者のスキルギャップを分析する
+summary: "旅行に出かける前に「今いる場所」と「行きたい場所」を地図で確認しますよね。学習の設計でも同じです。受講者が 今できること （現在地）と 目指すべきこと （目的地）の差を明らかにすることで、効率の良い学習プランが組み立てられます。この差を「スキルギャップ」と呼びます。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - create-skill-gap-report
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

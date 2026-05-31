@@ -1,0 +1,25 @@
+id: atom.nocode-builder.design-reporting-views
+title: レポート用の見せ方を設計する
+summary: "レポートを作るとき、「中身はいいのに、見せ方で損をした」ことはありませんか？ これはレストランのメニューと同じです。料理の味が良くても、メニューがごちゃごちゃしていては、お客さんは何を頼めばよいのか迷ってしまいます。レポートも同じで、「誰が読むか」「何を伝えたいか」に合わせて見せ方を設計することで..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - understand-report-purpose
+capability_outputs:
+  - design-report-layout-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

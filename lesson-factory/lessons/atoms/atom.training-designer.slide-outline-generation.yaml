@@ -1,0 +1,25 @@
+id: atom.training-designer.slide-outline-generation
+title: スライド構成案をAIに出させる
+summary: "研修やプレゼンのスライドづくりで、いちばん頭を悩ませるのが「何枚目に何を話すか」という構成の部分です。白紙の画面を前に手が止まった経験は、きっとあなたにもあるのではないでしょうか。 このレッスンでは、AIチャットツール（＝AIと会話できるウェブサービス。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - generate-slide-outline-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

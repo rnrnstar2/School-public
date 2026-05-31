@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.monthly-income-simulation
+title: 月収シミュレーションで収支計画を完成させる
+summary: "旅行に出かける前、いくらお金を用意するか考えますよね。「宿泊費がこれくらい、食費がこれくらい……」とざっくり計算して、無理のない予算を立てるはずです。 フリーランスで働く場合も同じです。今月いくら稼げそうか、いくら使うかをシミュレーション（＝事前に予想して計算すること）しておけば..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - ai-chat-tool-ready
+capability_outputs:
+  - create-income-simulation
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.video-creator.schedule-short-series
+title: 短尺シリーズを計画的に回す
+summary: "たとえば、毎日の弁当づくりを考えてみましょう。毎朝ゼロからメニューを考えるのは大変ですが、週末に「今週の5日分」をまとめて決めておけば、平日は材料を出すだけでスムーズに調理できますよね。 短尺動画（＝15秒〜60秒程度の縦型動画。TikTok、YouTube Shorts、Instagram..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-short-series-plan
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.first-short-video
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.ec-operator.create-ai-operations-playbook
+title: 日常運営のAI運用手順を作る
+summary: "あなたのお店やチームには、毎日・毎週くりかえす「いつもの仕事」がありますよね。商品説明を書く、問い合わせに返信する、在庫を確認してSNSに投稿する――こうした定型作業を、AIに手伝ってもらう「レシピ集」を作るのがこのレッスンのゴールです。 料理にたとえると..."
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-ai-operations-playbook
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ec-operator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,25 @@
+id: atom.ec-operator.manage-reusable-prompts
+title: 再利用できる定型プロンプトを整備する
+summary: "料理をするとき、毎回レシピをゼロから考えるのは大変ですよね。一度「美味しかったレシピ」をメモしておけば、次回はそれを見ながらスイスイ作れます。 AIへの指示（プロンプト＝AIに何をしてほしいかを伝える文章）も同じです。うまくいった指示を「定型プロンプト（＝いつでも使い回せるひな形）」として保存しておけば..."
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-reusable-prompt-template
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

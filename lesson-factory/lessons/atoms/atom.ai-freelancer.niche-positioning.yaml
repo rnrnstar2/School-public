@@ -1,0 +1,23 @@
+id: atom.ai-freelancer.niche-positioning
+title: 自分だけのニッチポジションを見つける
+summary: "「副業で稼ぎたいけど、何をすればいいか分からない」——これは多くの人が最初にぶつかる壁です。料理にたとえると、「何か作りたいけどレシピが決まらない」状態ですね。このレッスンでは、AIの力を借りて「あなたならではの得意分野」を15分で見つけます。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - identify-personal-niche
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

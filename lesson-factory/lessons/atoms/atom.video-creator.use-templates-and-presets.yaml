@@ -1,0 +1,26 @@
+id: atom.video-creator.use-templates-and-presets
+title: テンプレートで品質を揃える
+summary: "動画を作るたびに「レイアウトどうしよう」「フォントどれにしよう」と迷っていませんか？ 最近のAI動画ツールには、プロが作った テンプレート（＝ひな形） や プリセット（＝あらかじめ用意された設定のセット） がたくさん用意されています。これを活用すれば、品質のバラつきをなくしながら..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - ai-tool-basic-operation
+capability_outputs:
+  - select-and-customize-video-template
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.choose-ai-video-tool
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

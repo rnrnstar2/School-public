@@ -1,0 +1,24 @@
+id: atom.cs-automator.automation-rate-report
+title: 自動化率レポートを作成する
+summary: "カスタマーサポートの現場では、「お客様からの問い合わせのうち、どれくらいを自動でさばけたか」を数字で見える化することが大切です。この数字を 自動化率（＝自動対応できた割合） と呼びます。 この Atom では、AI ツール（＝チャットで質問すると答えてくれるツール、例：ChatGPT や..."
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - create-automation-rate-report
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

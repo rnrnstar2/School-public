@@ -1,0 +1,12 @@
+{
+  "matcher:action-commerce-001-keyword-research": { "score": 9, "verdict": "pass" },
+  "matcher:action-commerce-001-benefit-copywriting": { "score": 9, "verdict": "pass" },
+  "matcher:action-commerce-001-ad-copy-iteration": { "score": 8, "verdict": "pass" },
+  "matcher:action-commerce-001-image-variation": { "score": 7, "verdict": "pass" },
+  "matcher:action-ai-app-001-retrieval-quality-evaluation": { "score": 10, "verdict": "pass" },
+  "matcher:action-ai-app-001-usage-quota-guardrail-design": { "score": 10, "verdict": "pass" },
+  "gap:action-ai-app-001-retrieval-quality-evaluation": { "score": 10, "verdict": "pass" },
+  "gap:action-ai-app-001-usage-quota-guardrail-design": { "score": 10, "verdict": "pass" },
+  "proposer:action-ai-app-001-retrieval-quality-evaluation": { "score": 10, "verdict": "pass" },
+  "proposer:action-ai-app-001-usage-quota-guardrail-design": { "score": 10, "verdict": "pass" }
+}

@@ -1,0 +1,24 @@
+id: atom.ai-marketer.sns-strategy-design
+title: SNS運用方針を設計する
+summary: "あなたのビジネスや活動をSNSで広めたいけれど、「何を」「どこで」「どれくらいの頻度で」発信すればいいのか迷っていませんか？ このレッスンでは、AIチャット（ChatGPTやClaude）を相談相手にしながら、 SNS運用方針シート を1枚つくります。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - design-sns-strategy-doc
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

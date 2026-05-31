@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.twitter-branding
+title: Twitter/SNSでAI副業の発信を始める
+summary: "お店を開いたのに、看板を出さなかったらどうなるでしょうか。誰もお店に気づいてくれませんよね。 あなたのAI副業も同じです。スキルを持っていても、それを外の世界に知ってもらわなければ仕事はきません。 このレッスンでは、AIツールを味方にしながら..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - publish-first-sns-post
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+  - icon
+freshness_sources:
+  - x-profile-optimization
+status: draft

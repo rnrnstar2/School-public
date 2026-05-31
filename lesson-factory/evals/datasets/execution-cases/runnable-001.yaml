@@ -1,0 +1,35 @@
+case_id: execution.runnable.001
+target_rubric: execution.v1
+description: Supabase RLS policy を再現可能に作る runbook
+sample_execution_excerpt: |
+  対象バージョン:
+  - Supabase Dashboard 2026-04 時点 UI
+  - Postgres policy editor 現行版
+
+  所要時間の目安: 15-20分
+
+  1. Table Editor で `profiles` テーブルを開き、Authentication > RLS を有効化する
+  2. SQL Editor に次を貼る
+     ```sql
+     create policy "self read"
+     on public.profiles
+     for select
+     using (auth.uid() = id);
+     ```
+  3. policy 一覧に `self read` が見えることを確認する
+  4. テストユーザーで `/api/profile` を叩き、HTTP 200 と自分の row 1件を確認する
+
+  失敗時:
+  - policy 作成ボタンが見つからなければ、Table Editor ではなく SQL Editor で作成してよい
+  - `auth.uid()` が `null` なら anon リクエストになっていないか確認する
+expected_scores:
+  procedure_reproducibility: 5
+  objective_verification: 5
+  version_dependency_disclosure: 4
+  fallback_quality: 4
+  time_estimate_realism: 5
+expected_average_score: 4.65
+expected_status: pass
+failure_modes: []
+notes: |
+  UI と SQL の両経路が明示され、確認結果も HTTP と件数で客観化されている。

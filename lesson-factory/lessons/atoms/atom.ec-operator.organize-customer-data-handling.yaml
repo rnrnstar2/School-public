@@ -1,0 +1,24 @@
+id: atom.ec-operator.organize-customer-data-handling
+title: 顧客情報の扱いを整理する
+summary: "あなたがオンラインショップで集めている「お客様の情報」を、AIツールの力を借りながらわかりやすく一つの文書にまとめることができます。完成した文書はそのままスタッフ共有用の資料として使えます。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - create-customer-data-summary
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

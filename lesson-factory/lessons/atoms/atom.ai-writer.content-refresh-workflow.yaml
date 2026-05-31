@@ -1,0 +1,26 @@
+id: atom.ai-writer.content-refresh-workflow
+title: 既存記事のリライト更新フローを作る
+summary: "このレッスンでは、あなたがすでに持っている記事やブログを、AIの力を借りてサクッと最新版に書き直す方法を学びます。 料理で例えると、冷蔵庫にある「作り置きのおかず」を、今の季節や気分に合わせて味付けし直して、もう一度おいしく食べるイメージです。ゼロから作り直すよりずっとラクで、15分もあれば終わります。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - basic-ai-chat-usage
+capability_outputs:
+  - rewrite-existing-article-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.first-ai-draft
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

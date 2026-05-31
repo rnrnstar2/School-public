@@ -1,0 +1,24 @@
+id: atom.ai-marketer.role-scope-understand
+title: AIマーケターの役割を理解する
+summary: "レストランを想像してみてください。 シェフがいて、ウェイターがいて、メニューを作る人がいます。 でも、どんな料理を作ればお客さんが喜ぶかを考えて、お店の宣伝を計画する人も必要ですよね。 それが「マーケター」という役割です。 AIマーケターは、この宣伝の計画を..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - explain-ai-marketer-role
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: archived

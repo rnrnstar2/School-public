@@ -1,0 +1,27 @@
+id: atom.ai-freelancer.first-job-strategy
+title: 最初の1件を確実に獲得する
+summary: "あなたが初めてお店を開いたと想像してみてください。看板はまだ小さくて、お客さんはまだ来たことがありません。でも、 最初の1人 さえ来てくれれば、「ここ、いいお店だよ」と噂が広まります。フリーランスの仕事も同じです。 この Atom では、AI..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - ai-prompt-basics
+capability_outputs:
+  - submit-first-proposal
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.platform-overview
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

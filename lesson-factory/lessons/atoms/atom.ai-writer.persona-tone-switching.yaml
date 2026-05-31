@@ -1,0 +1,26 @@
+id: atom.ai-writer.persona-tone-switching
+title: 読者ペルソナに合わせてトーンを切り替える
+summary: "同じカレーを作るにも、子ども向けなら甘口でマイルドに、大人のパーティーならスパイスを効かせて――。 材料は同じでも、食べる人に合わせて味を変える のが料理の工夫です。 文章も同じです。伝えたい情報が同じでも、読む人が「初心者」なのか「経験者」なのかで、言葉選びや語り口が変わります。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - use-chat-ai-basic
+capability_outputs:
+  - switch-tone-by-persona
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.first-prompt
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

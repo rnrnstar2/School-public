@@ -1,0 +1,28 @@
+id: atom.ai-freelancer.banner-thumbnail-creation
+title: バナー・サムネイルをAI+Canvaで制作する
+summary: "SNSの投稿やYouTubeの動画を開くとき、最初に目に入るのがサムネイル画像やバナーです。お店の看板のようなもので、ここが魅力的だと「ちょっと見てみようかな」と思ってもらえます。 このレッスンでは、AIで素材画像を生成し、Canva（＝無料で使えるオンラインデザインツール）で仕上げるという2ステップの..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - image-gen-basics
+capability_outputs:
+  - create-banner-with-ai-and-canva
+hard_prerequisites:
+  - atom.ai-freelancer.image-gen-basics
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - canva/ai-features
+status: draft

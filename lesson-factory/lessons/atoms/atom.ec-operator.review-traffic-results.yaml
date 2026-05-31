@@ -1,0 +1,24 @@
+id: atom.ec-operator.review-traffic-results
+title: 集客施策の反応を振り返る
+summary: "あなたのお店の集客施策――たとえばSNS投稿やメールマガジン――がどれくらい効果があったか、ちゃんと振り返ったことはありますか？ 町のパン屋さんが「今日は看板を出してみたけど、お客さんは増えたかな？」と一日の終わりに考えるのと同じように、ネットショップでも「どの施策がお客さんの心に届いたか」を振り返るこ..."
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - review-traffic-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

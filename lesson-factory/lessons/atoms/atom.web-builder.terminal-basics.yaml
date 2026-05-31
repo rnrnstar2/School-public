@@ -1,0 +1,27 @@
+id: atom.web-builder.terminal-basics
+title: ターミナルを怖がらずに使う最初の5コマンド
+summary: "パソコンの画面をクリックして操作するのは、レストランでメニューを指差して注文するようなものです。一方、ターミナル（＝文字だけの画面でパソコンに直接指示を出すツール）は、シェフに直接「こう作って」と伝えるようなものです。最初は緊張しますが、たった5つの言葉を覚えるだけで..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:setup
+  - level:beginner
+capability_inputs: []
+capability_outputs:
+  - terminal-basic-ops
+hard_prerequisites:
+  - atom.web-builder.how-web-works
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

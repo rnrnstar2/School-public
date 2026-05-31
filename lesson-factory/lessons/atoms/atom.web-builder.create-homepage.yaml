@@ -1,0 +1,32 @@
+id: atom.web-builder.create-homepage
+title: 最初のホームページを作る
+summary: "ホームページを作るのは、はじめての料理に似ています。レシピ（＝作り方の手順）を見ながら材料を合わせていけば、誰でも一品は完成します。今回は、AIツール（＝人工知能の力であなたを助ける便利な道具）がレシピを考えてくれるので、あなたは「こんなページがいい」と伝えるだけで大丈夫です。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - portfolio-site
+  - business-homepage
+  - landing-page
+  - stage:build
+  - level:beginner
+capability_inputs:
+  - app-shell-built
+capability_outputs:
+  - create-homepage
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+  - atom.web-builder.install-shadcn
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+  - icon
+freshness_sources:
+  - nextjs/app-router
+status: draft

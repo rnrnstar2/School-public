@@ -1,0 +1,26 @@
+id: atom.cs-automator.knowledge-retrieval-setup
+title: ナレッジベース参照を設定する
+summary: "カスタマーサポートで毎回同じような質問に答えていませんか？「送料はいくら？」「返品のやり方は？」——こうした定番の質問に、AIが自動で正確に答えてくれたら便利ですよね。 この Atom では、あなたの会社やサービスの情報（FAQ・マニュアル・よくある質問など）を ナレッジベース..."
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - basic-ai-chat-usage
+capability_outputs:
+  - setup-knowledge-retrieval
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.ai-batch-production
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,30 @@
+id: atom.web-builder.favicon-and-branding
+title: ファビコンとブランド要素を設定する
+summary: "ブラウザのタブに表示される小さなアイコン、あれが「ファビコン（favicon）」です。お店でいえば看板のようなもの。看板がないお店はなんだか不安ですよね。あなたのサイトにもオリジナルの看板を付けて、「ちゃんとしたサイトだ」という印象を与えましょう。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - portfolio-site
+  - business-homepage
+  - stage:polish
+  - level:beginner
+capability_inputs:
+  - create-next-project
+capability_outputs:
+  - favicon-set
+  - branding-configured
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+soft_prerequisites: []
+deliverable:
+  type: config_file
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - nextjs/docs/metadata
+status: draft

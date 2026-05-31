@@ -1,0 +1,26 @@
+id: atom.data-analyst.iterate-with-followups
+title: 追加質問で分析を深める
+summary: "あなたはレストランでシェフに「今日のおすすめは？」と聞きました。 「魚です」と返ってきたとします。 ここで会話を終えたら、味付けも産地も分かりません。 でも「どの産地ですか？」「どんな味付けですか？」と続けて聞けば、 本当に食べたいかどうか判断できますよね。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - ask-ai-basic-question
+capability_outputs:
+  - iterate-analysis-with-followups
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.data-analyst.setup-analysis-workspace
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

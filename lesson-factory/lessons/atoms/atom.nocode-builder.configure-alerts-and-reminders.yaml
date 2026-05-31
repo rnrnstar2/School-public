@@ -1,0 +1,25 @@
+id: atom.nocode-builder.configure-alerts-and-reminders
+title: 通知と催促を設定する
+summary: "アプリを作っても、使う人が「見忘れる」「やり忘れる」ことは日常茶飯事です。たとえば、せっかく予約フォームを作っても、申し込みがあったことに気づかなければ対応が遅れてしまいますよね。 この Atom では、ノーコードツールの通知（＝何かが起きたときに自動で知らせる仕組み）と催促（＝期限が近づいたときにリマ..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - nocode-app-basic-setup
+capability_outputs:
+  - configure-app-notifications
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

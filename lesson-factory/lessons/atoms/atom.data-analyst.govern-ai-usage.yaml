@@ -1,0 +1,24 @@
+id: atom.data-analyst.govern-ai-usage
+title: AI利用のルールを守る
+summary: "AI（人工知能）は、データを分析してレポートを作成するときの強い味方です。しかし、とても優秀だけど時々大きな勘違いをする「見習い助手」のようなものです。任せっきりにせず、正しい使い方のルールを知っておきましょう。 このレッスンでは、AIを安全に使うための3つのルール——「渡していいデータを見極める」「秘..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - apply-ai-usage-rules
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

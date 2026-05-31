@@ -1,0 +1,26 @@
+id: atom.data-analyst.automate-recurring-reports
+title: 定例レポートを自動化する
+summary: "毎週・毎月、同じフォーマットでレポートを作っているあなたへ。 「また今週も同じ作業か…」と感じたことはありませんか？ この Atom では、AI チャットツールを使って、定例レポートの作成を 半自動化 する仕組みを 15 分で作ります。 たとえるなら、 毎朝のお弁当作りを「お弁当キットの定期便」に変える..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - ai-chat-account
+capability_outputs:
+  - create-report-prompt-template
+  - automate-recurring-report
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,25 @@
+id: atom.ai-freelancer.side-job-categories
+title: AI副業の案件カテゴリを把握する
+summary: "レストランのメニューを見ずに注文するのは不安ですよね。AI副業でも同じです。まずは「どんな仕事があるか」を知ることで、あなたに合う仕事を見つけやすくなります。 このレッスンでは、AIを使った副業の主な6つのカテゴリを整理し、あなたがどれから始めるのがよいかを見極めます。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - identify-ai-side-job-categories
+  - pick-first-category
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

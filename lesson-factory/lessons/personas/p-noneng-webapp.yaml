@@ -1,0 +1,80 @@
+# P-NONENG-WEBAPP persona — Owner Vision「非エンジニアが最短でゴール達成」を満たす
+# 一次ペルソナ。TQ-216 (2026-05-09) で新設。
+#
+# Anchor 流用方針 (TQ-216 暫定):
+#   現時点では本ペルソナ専用 anchor を持たず、`persona.web-builder` (web-builder anchor)
+#   の `ordered_atom_ids` を流用する。web-builder anchor は CLI / git 経路を前提に
+#   組まれており、非エンジニアには合わないため、TQ-217 で「画面に何か出る」atom を
+#   先頭に置く形へ再設計し、本ファイルにも no-code 系 anchor を割り当てる予定。
+#   それまでの暫定で:
+#     - first-step-determiner (apps/web/src/lib/planner/first-step-determiner.ts)
+#       で persona === 'non-engineer' の時のみ NO_CODE_TOOL_OPTIONS を提示する
+#     - 実 atom 不足は warn 許容（PJ-NONENG-WEBAPP-* スモークの skeleton 通過要件）
+#
+# TQ-217 / TQ-218 / TQ-219 で本格対応:
+#   - TQ-217: web-builder anchor を no-code-first 順序に再設計
+#   - TQ-218: atom.common.no-code-first.* (v0 / bolt / lovable / cursor 系) を新設
+#   - TQ-219: ai-tools-catalog.ts に v0 / Bolt / Lovable / Devin / Replit Agent /
+#             Claude Projects / Windsurf を機械可読フィールド付きで登録
+
+id: persona.noneng-webapp
+name: 非エンジニアの Web アプリ作成希望者
+background: |
+  ビジネスパーソン / 学生で、ターミナル / git / CLI を触ったことがない。
+  Excel・Notion・スプレッドシートは日常的に触るが、コードは書けない。
+  v0 / Bolt / Lovable / Cursor といった vibe coding ツールに AI を任せて、
+  「とりあえず画面が出る」「とりあえず動く Web アプリができた」という
+  達成体験を最短で得たい層。
+goals:
+  - 自分の業務（社内手続き / 集計 / 連絡 / 顧客対応）の小さな部分を
+    AI に丸ごと作ってもらった Web アプリで楽にする
+  - ブラウザだけで「画面が出る」体験まで最短到達する
+  - 公開後に小さな修正を AI に依頼しながら自走できる
+constraints:
+  - ターミナル / git / ローカル環境セットアップ / ドメイン管理は分からない前提
+  - コードを自分で書く意志は弱い。AI に依頼して結果だけ確認する流れが基本
+  - 商用配布や法務 / SEO は別レーン（後段サポート）で扱う
+preferred_tools:
+  - v0 by Vercel
+  - Bolt.new
+  - Lovable
+  - Cursor
+  - Windsurf
+  - Claude Projects
+learning_pace: スキマ時間 (1 セッション 10-20 分) を週 3-5 回、2-4 週間で「動くもの」公開を目指す
+# Anchor 流用宣言 — TQ-216 暫定
+anchor:
+  reuse_from: persona.web-builder
+  reuse_reason: |
+    P-NONENG-WEBAPP 専用 anchor は TQ-217 で本格対応する。
+    それまでは web-builder anchor を流用し、first-step-determiner.ts の
+    persona === 'non-engineer' 分岐で no-code 系の入口だけは出し分ける。
+  followup_tq:
+    - TQ-217  # web-builder anchor の解体
+    - TQ-218  # atom.common.no-code-first.* namespace 立ち上げ
+    - TQ-219  # ai-tools-catalog.ts の機械可読化
+
+# TQ-240 — 動的卒業ゲート選択肢。Owner Vision「卒業ゲートはペルソナによって違うし、
+# Vercel が多いと思うけどもっといい選択肢もあるかもしれない。固定的な卒業ゲートは
+# 良くない」を満たすため、複数 kind から学習者が選べる構造にしてある。判定は
+# `apps/web/src/lib/planner/graduation.ts#getGraduationOptions(personaId, goalDomain)`
+# 経由で動的に解決される。
+graduation_options:
+  - kind: vercel_url
+    label: "Vercel に deploy したアプリの URL"
+    criteria_yaml: |
+      url_pattern: "^https://.*\\.vercel\\.app/.*"
+      validates_with: response_200_check
+  - kind: github_repo
+    label: "GitHub の public リポジトリ"
+    criteria_yaml: |
+      url_pattern: "^https://github\\.com/.+/.+"
+      validates_with: api_check_public
+  - kind: lovable_url
+    label: "Lovable で公開した URL"
+    criteria_yaml: |
+      url_pattern: "^https://.*\\.lovable\\.(app|dev)/.*"
+      validates_with: response_200_check
+  - kind: other_artifact
+    label: "その他の公開アーティファクト (理由を添えて)"
+    requires_explanation: true

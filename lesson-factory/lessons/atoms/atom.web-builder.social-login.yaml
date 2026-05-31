@@ -1,0 +1,28 @@
+id: atom.web-builder.social-login
+title: GoogleやGitHubでソーシャルログインを追加する
+summary: "このレッスンでは、あなたのアプリに「Googleでログイン」や「GitHubでログイン」ボタンを追加します。ソーシャルログイン（＝他のサービスのアカウントを使ってログインできる仕組み）を入れると、ユーザーはメールアドレスとパスワードを新しく覚える必要がなくなり、登録のハードルがぐっと下がります。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:auth
+  - level:intermediate
+capability_inputs:
+  - auth-email-password
+capability_outputs:
+  - oauth-login
+hard_prerequisites:
+  - atom.web-builder.supabase-auth-setup
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - supabase/docs/guides/auth/social-login
+status: draft

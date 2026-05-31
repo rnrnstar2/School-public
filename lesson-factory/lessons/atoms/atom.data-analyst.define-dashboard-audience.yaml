@@ -1,0 +1,24 @@
+id: atom.data-analyst.define-dashboard-audience
+title: ダッシュボードの利用者を定める
+summary: "レストランを開くと想像してみてください。メニューを考える前に、まず「誰が食べに来るのか」を考えますよね。子ども連れの家族なのか、忙しい会社員なのかによって、出す料理はまったく変わります。 ダッシュボード（＝データを見やすくまとめた画面）作りも同じです。"
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - define-dashboard-audience
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

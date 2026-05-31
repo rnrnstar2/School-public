@@ -1,0 +1,24 @@
+id: atom.nocode-builder.understand-data-ui-logic
+title: 画面とデータと処理の関係を理解する
+summary: "アプリやWebサイトを「作りたい」と思ったとき、最初にぶつかる壁は 何をどう説明すればいいかわからない ということです。AIツールに「こんなアプリを作って」と伝えるにも、頭の中のイメージを整理する枠組みが必要です。 このレッスンでは、どんなアプリにも共通する 「画面」「データ」「処理」..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - explain-ui-data-logic-split
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

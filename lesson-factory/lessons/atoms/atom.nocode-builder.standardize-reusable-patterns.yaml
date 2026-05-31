@@ -1,0 +1,28 @@
+id: atom.nocode-builder.standardize-reusable-patterns
+title: 横展開できる共通部品を整備する
+summary: "あなたがこれまでのレッスンで作ってきたノーコードアプリには、「問い合わせフォーム」「承認ワークフロー」「ステータス表示」など、別の部署やチームでもそのまま使えそうな部品がたくさんあるはずです。 料理にたとえると、自分だけが使う「秘伝のタレ」をレシピカードに書き起こして..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - build-end-to-end-pilot
+  - review-and-improve-pilot
+capability_outputs:
+  - create-reusable-pattern-library
+hard_prerequisites:
+  - atom.nocode-builder.review-and-improve-pilot
+soft_prerequisites:
+  - atom.nocode-builder.organize-reusable-components
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

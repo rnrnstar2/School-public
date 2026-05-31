@@ -1,0 +1,31 @@
+id: atom.web-builder.build-form
+title: フォームを作ってユーザー入力を受け取る
+summary: "カフェで注文を書く「オーダーシート」を思い浮かべてみてください。お客さんが名前と飲み物を書き込む、あの紙です。Webページのフォーム（＝ユーザーが情報を入力して送信できる仕組み）も、まったく同じ役割を果たします。 このレッスンでは、AIツール（Claude Code や Codex CLI など）を使って..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:build
+  - level:beginner
+capability_inputs:
+  - app-shell-ready
+  - shadcn-installed
+capability_outputs:
+  - form-basics
+  - handle-user-input
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+  - atom.web-builder.install-shadcn
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

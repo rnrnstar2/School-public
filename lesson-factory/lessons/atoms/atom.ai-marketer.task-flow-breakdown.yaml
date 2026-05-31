@@ -1,0 +1,24 @@
+id: atom.ai-marketer.task-flow-breakdown
+title: 日々のマーケ業務を分解する
+summary: "あなたの毎日のマーケティング業務を、細かいタスクに分解して「AIにお願いできること」と「自分でやること」に仕分けられるようになります。完了すると、自分の業務一覧を整理したドキュメントが1つ手元に残ります。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - decompose-marketing-tasks-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

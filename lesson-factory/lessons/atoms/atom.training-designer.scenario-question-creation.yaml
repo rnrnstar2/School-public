@@ -1,0 +1,24 @@
+id: atom.training-designer.scenario-question-creation
+title: シナリオ型問題をAIで作成する
+summary: "研修や試験で使われる「シナリオ型問題」——つまり、実際の場面を想定して「あなたならどうする？」と問いかけるタイプの問題を、AIの力を借りて短時間で作れるようになります。 シナリオ型問題を手作りするのは、料理のフルコースを一人で仕込むようなものです。"
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs: []
+capability_outputs:
+  - create-scenario-question-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

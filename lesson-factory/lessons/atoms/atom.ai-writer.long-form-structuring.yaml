@@ -1,0 +1,24 @@
+id: atom.ai-writer.long-form-structuring
+title: 長文コンテンツの構造を整理する
+summary: "このレッスンを終えると、あなたは 長い文章を書く前に、全体の「骨組み」をAIと一緒に整理して作れる ようになります。 旅行の計画を思い浮かべてみてください。いきなり荷造りから始める人はいませんよね。まず「どこに行くか」「何日間か」「予算はいくらか」を決めて、それから詳細を詰めます。長い文章も同じです。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - structure-long-content-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

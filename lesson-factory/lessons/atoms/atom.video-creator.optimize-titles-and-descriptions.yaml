@@ -1,0 +1,25 @@
+id: atom.video-creator.optimize-titles-and-descriptions
+title: タイトルと概要欄を最適化する
+summary: "動画を作ったあと、「タイトルが思いつかない」「概要欄に何を書けばいいかわからない」と悩んだことはありませんか？ 料理に例えると、動画本体は「丁寧に作った料理」、タイトルと概要欄は「お店の看板とメニュー」です。どんなに美味しい料理でも、看板が地味だったりメニューが何も書かれていなかったりすれば..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - video-uploaded
+capability_outputs:
+  - optimize-video-metadata
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

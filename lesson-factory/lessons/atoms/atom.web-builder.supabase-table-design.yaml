@@ -1,0 +1,28 @@
+id: atom.web-builder.supabase-table-design
+title: Supabaseでテーブルを設計する
+summary: "このレッスンでは、あなたのアプリのデータを保管する「箱」を Supabase（＝データを保管してくれるクラウドサービス）に用意します。テーブル設計と聞くと難しそうですが、やることは Excel のシートを1枚作る のとほぼ同じです。どんな列（＝項目）が必要かを決めて、AI に..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:connect
+  - level:beginner
+capability_inputs:
+  - supabase-connected
+capability_outputs:
+  - table-designed
+hard_prerequisites:
+  - atom.web-builder.make-supabase-ai-ready
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - supabase/docs/guides/database
+status: draft

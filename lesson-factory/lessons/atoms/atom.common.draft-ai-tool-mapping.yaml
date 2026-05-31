@@ -1,0 +1,22 @@
+id: atom.common.draft-ai-tool-mapping
+title: タスク別 AI ツール使い分け表を作る
+summary: "あなたの仕事 / 作業を 5-10 タスクに分解し、それぞれにどの AI ツールを使うかをマッピングした 1 枚表を 15 分で作ります。重複ツールの整理・無料 / 有料の判断材料も含めます。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - choose-tool
+  - decompose-domain
+capability_inputs: []
+capability_outputs:
+  - ai-tool-mapping-drafted
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

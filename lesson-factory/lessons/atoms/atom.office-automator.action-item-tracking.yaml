@@ -1,0 +1,24 @@
+id: atom.office-automator.action-item-tracking
+title: 会議のアクションアイテムを自動でタスク管理ツールに連携する
+summary: "会議が終わったあと、「そういえば誰が何をやることになったっけ？」と迷った経験はありませんか？このレッスンを終えると、会議のメモをAIに渡すだけで、やるべきこと（アクションアイテム）をきれいにリストアップし、タスク管理ツールにまとめられるようになります。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - extract-action-items-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

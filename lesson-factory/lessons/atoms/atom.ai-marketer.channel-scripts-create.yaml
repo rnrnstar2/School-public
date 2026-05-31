@@ -1,0 +1,24 @@
+id: atom.ai-marketer.channel-scripts-create
+title: 媒体別の投稿台本をつくる
+summary: "SNSの投稿は、届けたい相手に合わせた「手紙」によく似ています。 たとえば、同じ「ありがとう」を伝えるにも、目上の人への手紙（丁寧な言葉）と、仲の良い友達へのLINE（カジュアルで絵文字あり）では、書き方がまったく変わりますよね。 このレッスンでは..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - create-channel-specific-script
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

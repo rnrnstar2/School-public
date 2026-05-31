@@ -1,0 +1,45 @@
+# persona.designer — TQ-240 (2026-05-09) で新設。
+# TQ-224 で anchor (`lesson-factory/lessons/anchors/designer.yaml`) は整備済み。
+# 本ファイルは Owner Vision「卒業ゲートはペルソナによって違う」を満たすための
+# 動的卒業ゲート設定を主目的として作成された persona document である。
+
+id: persona.designer
+name: グラフィック / SNS / バナー制作中心のデザイナー
+background: |
+  グラフィックデザイン / SNS 運用 / バナー / アイコン / 図解制作を中心に、AI 画像
+  生成 (Midjourney / Stable Diffusion / DALL·E / SeeDream 等) と Figma / Canva を
+  組み合わせて成果物を量産したい層。コーディングはしない前提で、視覚的成果物が
+  「画面に見える」「クライアントに渡せる」ところを到達点とする。
+goals:
+  - AI 画像生成で SNS / バナー / アイコンを 1 人で量産できる状態に到達する
+  - Figma + AI を組み合わせて図解 / プレゼン素材を作れる状態に到達する
+  - 商用利用ルール (ライセンス / 著作権) を踏まえて顧客に納品できる状態に到達する
+constraints:
+  - ターミナル / git / コーディングは触らない前提
+  - 月の学習時間は 5-10 時間程度、スキマ時間で進める
+  - 高解像度 / 大判印刷 / 動画は別レーンで扱う
+preferred_tools:
+  - Midjourney
+  - Stable Diffusion
+  - DALL·E
+  - Figma
+  - Canva
+  - Photoshop / Illustrator (副)
+learning_pace: スキマ時間 (1 セッション 15-30 分) を週 3-5 回、3-5 週間で公開ポートフォリオ到達を目指す
+
+# TQ-240 — 動的卒業ゲート選択肢。デザイナー層は Vercel デプロイではなく、Figma 公開
+# 共有ファイルや AI 画像ワークフロー実行録画を「学習成果」として提示する。
+graduation_options:
+  - kind: figma_publish
+    label: "公開した Figma ファイル"
+    criteria_yaml: |
+      url_pattern: "^https://(www\\.)?figma\\.com/(file|design|proto)/.+"
+      validates_with: response_200_check
+  - kind: workflow_recording
+    label: "AI ワークフロー実行録画 (動画 URL)"
+    criteria_yaml: |
+      url_pattern: "^https?://.+\\..+"
+      validates_with: response_200_check
+  - kind: other_artifact
+    label: "その他の公開アーティファクト (理由を添えて)"
+    requires_explanation: true

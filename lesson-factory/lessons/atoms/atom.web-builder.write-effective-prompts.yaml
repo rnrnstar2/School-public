@@ -1,0 +1,27 @@
+id: atom.web-builder.write-effective-prompts
+title: AIに的確に依頼するプロンプトの型を覚える
+summary: "旅行先のレストランで「何か美味しいものを」とだけ注文したら、出てきたのが激辛カレーだった——こんな経験はありませんか？ AIへの依頼もまったく同じです。「いい感じにして」と言うだけでは、AIも迷ってしまい、あなたが思い描いていたものとは違う結果が返ってきます。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:scaffold
+  - level:beginner
+capability_inputs:
+  - basic-ai-requests
+capability_outputs:
+  - effective-prompting
+hard_prerequisites:
+  - atom.web-builder.first-project-and-basic-ai-requests
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

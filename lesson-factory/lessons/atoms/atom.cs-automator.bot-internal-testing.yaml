@@ -1,0 +1,27 @@
+id: atom.cs-automator.bot-internal-testing
+title: 社内テストで問題点を洗い出す
+summary: "新しいレストランがオープンする前には「試食会」を開きますよね。スタッフや知人に料理を食べてもらい、味が濃すぎないか、メニューの説明が分かりやすいか——本番のお客さんに出す前に問題を見つけて直すためです。 あなたが作ったボット（＝自動で返答してくれるプログラム）も同じです。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - chatbot-deployed
+capability_outputs:
+  - run-internal-bot-test
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.bot-response-setup
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

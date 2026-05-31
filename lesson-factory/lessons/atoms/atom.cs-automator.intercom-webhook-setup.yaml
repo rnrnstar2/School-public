@@ -1,0 +1,27 @@
+id: atom.cs-automator.intercom-webhook-setup
+title: IntercomのWebhookを設定する
+summary: "Intercom（＝カスタマーサポート向けのチャットツール）を使っていると、「新しいお問い合わせが来たら自動で通知したい」「チャットが終わったらデータを別のツールに送りたい」と思うことがありませんか？ これを実現するのが Webhook（ウェブフック） です。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - intercom-account-created
+capability_outputs:
+  - configure-intercom-webhook
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - intercom/webhooks
+status: draft

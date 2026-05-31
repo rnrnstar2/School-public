@@ -1,0 +1,24 @@
+id: atom.cs-automator.voc-collection-design
+title: 顧客の声を集める仕組みを設計する
+summary: "お客さまの「困った」「こうしてほしい」という声――いわゆる VoC（Voice of Customer＝顧客の声）は、サービスを良くするための宝の山です。でも、いざ集めようとすると「どこから手をつければ？」「質問は何を聞けばいい？」と迷いがちですよね。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs: []
+capability_outputs:
+  - design-voc-collection-system
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

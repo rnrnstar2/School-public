@@ -1,0 +1,24 @@
+id: atom.nocode-builder.manage-sensitive-data
+title: 機微情報の扱いを整理する
+summary: "アプリやサービスを作るとき、ユーザーの名前・メールアドレス・電話番号といった「取り扱いに注意が必要な情報」が必ず出てきます。これを 機微情報 （きびじょうほう）と呼びます。 料理にたとえると、食材の中には「冷蔵庫に入れなければ傷むもの」と「常温で大丈夫なもの」がありますよね。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - classify-sensitive-data-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

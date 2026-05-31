@@ -1,0 +1,30 @@
+id: atom.web-builder.node-pnpm-setup
+title: Node.js と pnpm を CLI でセットアップする
+summary: "WebアプリやAIツールを動かすには、まず「作業場」を整える必要があります。 このレッスンでは、 Node.js （＝JavaScriptのプログラムをあなたのパソコンで動かすための土台）と pnpm （＝Webアプリに必要なパーツを管理する道具）をパソコンに用意します。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:setup
+  - level:beginner
+capability_inputs: []
+capability_outputs:
+  - node-installed
+  - pnpm-installed
+hard_prerequisites:
+  - atom.web-builder.terminal-basics
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - nodejs/download
+  - pnpm/installation
+status: draft

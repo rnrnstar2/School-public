@@ -1,0 +1,24 @@
+id: atom.ec-operator.assess-source-photo-quality
+title: 元画像の品質を見極める
+summary: "料理で考えてみましょう。どんなに腕のいいシェフでも、傷んだ食材からは美味しい料理は作れませんよね。AIツールで商品画像をきれいに仕上げるのも同じです。元の写真（＝食材）の品質が悪いと、どんなに優れたAI（＝シェフ）でも満足のいく結果は出せません。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - assess-photo-quality-for-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

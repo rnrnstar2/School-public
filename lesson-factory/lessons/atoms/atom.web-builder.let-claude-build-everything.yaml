@@ -1,0 +1,39 @@
+id: atom.web-builder.let-claude-build-everything
+title: Claude Code に「全部作って」と委譲する
+summary: "Claude Code（または Cursor / Codex CLI）に「このサイト/アプリを全部作って」と高粒度で委譲し、人間はレビューと方向修正だけに集中するスタイルを身に付けます。所要 25-30 分。最初の 1 画面までを AI 主導で完成させるのが目標。"
+persona_tags:
+  - web-builder
+  - ai-app-builder
+  - p-noneng-webapp
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - portfolio-site
+  - business-homepage
+  - saas-mvp
+  - automation
+  - stage:build
+  - level:beginner
+capability_inputs: []
+capability_outputs:
+  - delegate-build-to-cli-agent
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.common.choose-coding-cli
+deliverable:
+  type: url
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+  - log_output
+media_slots:
+  - screen_capture
+freshness_sources:
+  - claude-code/docs
+  - cursor/docs
+  - openai-codex-docs
+estimated_minutes: 30
+# TQ-222: Shortest-Path Planner (TQ-235) 用に worker が暫定 reviewed に昇格。
+# anchor.web-builder.start (TQ-217) の 3 step 目で採用済み。本格 review は /lesson-improve で別途実施。
+status: reviewed

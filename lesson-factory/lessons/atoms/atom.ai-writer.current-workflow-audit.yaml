@@ -1,0 +1,23 @@
+id: atom.ai-writer.current-workflow-audit
+title: 現在の執筆ワークフローを棚卸しする
+summary: "AIツールを使いこなすには、まず「今の自分がどうやって文章を書いているか」を知ることが大切です。料理にたとえると、新しいキッチン家電を買う前に、いま冷蔵庫に何が入っていて、ふだんどんな順番で料理しているかを確認するようなものです。 このレッスンでは..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - audit-current-writing-workflow
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

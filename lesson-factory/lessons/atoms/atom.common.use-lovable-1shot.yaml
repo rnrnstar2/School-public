@@ -1,0 +1,34 @@
+id: atom.common.use-lovable-1shot
+title: Lovable に「作りたい」を 1 文書いてアプリを得る
+summary: "Lovable は「こういう Web アプリが欲しい」を日本語 1 文で指示するだけで、UI とロジックを揃えた状態で出してくれます。コード書かずに「動くプロトタイプ」を 20 分で手に入れ、URL として共有することがゴール。"
+persona_tags:
+  - web-builder
+  - ai-app-builder
+  - p-noneng-webapp
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - saas-mvp
+  - landing-page
+  - nocode-development
+  - stage:scaffold
+  - level:beginner
+capability_inputs: []
+capability_outputs:
+  - scaffold-app-with-lovable
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: url
+  validation: basic_manual_check_v1
+evidence:
+  - url
+  - screenshot
+media_slots:
+  - screen_capture
+freshness_sources:
+  - lovable.dev/docs
+estimated_minutes: 20
+# TQ-222: Shortest-Path Planner (TQ-235) 用に worker が暫定 reviewed に昇格。
+# TQ-218 で no-code-first set として整備済み。本格 review は /lesson-improve で別途実施。
+status: reviewed

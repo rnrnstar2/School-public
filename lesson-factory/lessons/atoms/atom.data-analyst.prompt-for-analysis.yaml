@@ -1,0 +1,25 @@
+id: atom.data-analyst.prompt-for-analysis
+title: 分析依頼のプロンプトを作る
+summary: "AIにデータ分析を頼むとき、「このデータ、分析して」と言うだけでは、期待どおりの結果は返ってきません。レストランで「何かおいしいものを」と注文するのと同じです——注文があいまいだと、出てくる料理もいまいちになります。 このレッスンでは、AIに的確な分析を依頼するための プロンプト（＝AIへの指示文）..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - write-analysis-prompt
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

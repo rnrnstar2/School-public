@@ -1,0 +1,24 @@
+id: atom.ai-marketer.content-ideas-collect
+title: 投稿ネタを収集する
+summary: "「今日、何を投稿しよう…」と毎回ゼロから考えていませんか？ このレッスンでは、AIチャット（＝ChatGPTやClaudeなどの対話型AI）を使って、15分で10〜20個の投稿ネタをリストアップする方法を学びます。 料理に例えると、今回やるのは「冷蔵庫の中身を確認して、今週の献立表をざっくり決める」作業です。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - collect-content-ideas-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

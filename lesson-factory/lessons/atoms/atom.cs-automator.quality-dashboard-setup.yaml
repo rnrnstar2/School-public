@@ -1,0 +1,26 @@
+id: atom.cs-automator.quality-dashboard-setup
+title: 品質ダッシュボードを構築する
+summary: "カスタマーサポートの「品質」をひと目で把握できるダッシュボード（＝状況をまとめた見やすい画面）を、AIツールとGoogleスプレッドシートを使って15分で作ります。完成すると「今週のサポート品質はどう？」にパッと答えられるようになります。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - build-quality-dashboard
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

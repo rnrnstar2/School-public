@@ -1,0 +1,27 @@
+id: atom.cs-automator.sensitive-info-filter
+title: 個人情報や機密情報の漏洩を防ぐ
+summary: "AI を使ってカスタマーサポートの業務を効率化するとき、最も注意すべきことが「個人情報や機密情報をうっかり外部に出してしまうこと」です。 たとえば、お客様からの問い合わせメールをそのまま ChatGPT に貼り付けて返信案を作ってもらう場面を想像してください。"
+persona_tags:
+  - cs-automator
+  - ai-first-learner
+goal_tags:
+  - customer-support
+  - automation
+  - data-privacy
+capability_inputs:
+  - basic-ai-chat-usage
+capability_outputs:
+  - filter-sensitive-info-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.cs-automator.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: sensitive_info_checklist_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

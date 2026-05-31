@@ -1,0 +1,26 @@
+id: atom.nocode-builder.design-scale-governance
+title: 拡大運用のガバナンスを設計する
+summary: "あなたがノーコードツールで作ったアプリ。最初は自分だけが使う小さなものでしたが、チームのみんなが使い始めると、あっという間に「誰がどこを変更したか分からない」「間違えたデータが入り込んだ」といったトラブルが起きやすくなります。 これは、 レストランの厨房 に似ています。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - nocode-app-published
+capability_outputs:
+  - design-governance-doc
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.deploy-app
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.nocode-builder.choose-field-types-and-validation
+title: 項目型と入力ルールを決める
+summary: "想像してみてください。あなたがカフェの注文用紙をデザインしています。 このように「集めたい情報に合わせて入力の形を変える」という考え方が、 項目型（＝フィールド型） の選択です。 このレッスンでは、あなたが作りたい入力フォーム（＝データを集める画面）に合わせて..."
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - identify-data-to-collect
+capability_outputs:
+  - design-field-definition-table
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.organize-data-to-collect
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

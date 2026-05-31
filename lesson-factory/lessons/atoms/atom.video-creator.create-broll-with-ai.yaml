@@ -1,0 +1,26 @@
+id: atom.video-creator.create-broll-with-ai
+title: AIでBロール素材を作る
+summary: "動画を作っていると、「話している映像だけだと単調だな…」と感じることがありませんか？ そんなときに挟み込む補助映像のことを Bロール と呼びます。料理番組でいえば、出演者が話している間に映る「野菜を刻む手元のカット」や「完成した料理のアップ」がまさにBロールです。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - ai-image-generation-basics
+capability_outputs:
+  - generate-ai-broll-clips
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.generate-thumbnail-images
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

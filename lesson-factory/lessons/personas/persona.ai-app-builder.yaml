@@ -1,0 +1,55 @@
+# persona.ai-app-builder — TQ-240 (2026-05-09) で新設。
+# TQ-224 で anchor (`lesson-factory/lessons/anchors/ai-app-builder.yaml`) は既に整備済み
+# だが、persona definition YAML が無く graduation_options を結びつける場所が無かった。
+# 本ファイルは Owner Vision「卒業ゲートはペルソナによって違う」を満たすための
+# 動的卒業ゲート設定を主目的として作成された persona document である。
+#
+# 既存の hearing / planner / anchor 解決パスは TQ-216/TQ-224 時点で
+# `persona.ai-app-builder` を文字列 ID として既に参照している
+# (`apps/web/src/lib/planner/live-hearing-service.ts` SUPPORTED_PERSONA_IDS,
+#  `apps/web/src/lib/planner/goal-first/persona-anchor.ts` LOCAL_ANCHOR_PATHS_BY_PERSONA)。
+
+id: persona.ai-app-builder
+name: AI 駆動でアプリ・プロダクトを作りたい層
+background: |
+  AI を使って軽いアプリ / 内部ツール / プロトタイプを 1 人で作りたい層。
+  Bolt.new / Cursor / Claude Code 等で「動くもの」が即できる体験を最短で得たい。
+  社内ツール、ハッカソン PoC、副業向けの軽い SaaS が想定スコープ。
+goals:
+  - AI に丸ごと作ってもらった動くアプリで業務を楽にする
+  - 1 step 目で画面に何か出るところまで最短到達する
+  - 公開後の軽微な修正も AI に依頼して継続できる状態に到達する
+constraints:
+  - ターミナル / git / ローカル環境は最低限分かれば OK 程度の前提
+  - コードを 1 行ずつ書く意志は弱い。AI 委譲ファースト
+  - 商用配布は別レーン (法務 / SLA / scaling は後段)
+preferred_tools:
+  - Bolt.new
+  - Claude Code
+  - Codex CLI
+  - Cursor
+  - Vercel
+  - Supabase
+learning_pace: スキマ時間 (1 セッション 15-30 分) を週 3-5 回、3-4 週間で MVP 公開を目指す
+
+# TQ-240 — 動的卒業ゲート選択肢。Bolt 系 1-shot 生成 + Claude Code 委譲 + Vercel デプロイ
+# のフローを前提に、Vercel / GitHub / Lovable / その他公開物を選択肢として提示する。
+graduation_options:
+  - kind: vercel_url
+    label: "Vercel に deploy したアプリの URL"
+    criteria_yaml: |
+      url_pattern: "^https://.*\\.vercel\\.app/.*"
+      validates_with: response_200_check
+  - kind: github_repo
+    label: "GitHub の public リポジトリ"
+    criteria_yaml: |
+      url_pattern: "^https://github\\.com/.+/.+"
+      validates_with: api_check_public
+  - kind: lovable_url
+    label: "Lovable で公開した URL"
+    criteria_yaml: |
+      url_pattern: "^https://.*\\.lovable\\.(app|dev)/.*"
+      validates_with: response_200_check
+  - kind: other_artifact
+    label: "その他の公開アーティファクト (理由を添えて)"
+    requires_explanation: true

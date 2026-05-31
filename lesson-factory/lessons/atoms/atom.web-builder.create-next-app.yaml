@@ -1,0 +1,37 @@
+id: atom.web-builder.create-next-app
+title: Next.jsの土台をCLIで作って起動する
+summary: "このレッスンでは、AIツールの力を借りながら、Webサイトの「土台」をパソコンの中に作って、あなたのブラウザで表示させるところまで進めます。料理にたとえると、 まな板と鍋を用意してお湯を沸かすところ まで。まだ料理そのものは作りませんが、これがないと何も始まりません。所要時間は15分ほどです。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:scaffold
+  - level:beginner
+  - portfolio-site
+  - business-homepage
+  - landing-page
+  - saas-mvp
+  - blog-site
+capability_inputs:
+  - node-pnpm-ready
+capability_outputs:
+  - create-next-project
+  - run-dev-server
+hard_prerequisites:
+  - atom.web-builder.node-pnpm-setup
+soft_prerequisites: []
+deliverable:
+  type: code_snippet
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - code_diff
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - nextjs/docs/app-router
+  - nextjs/docs/installation
+  - pnpm/docs
+status: draft

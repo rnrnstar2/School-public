@@ -1,0 +1,25 @@
+id: atom.video-creator.design-retention-driven-structure
+title: 視聴維持を意識して構成する
+summary: "YouTubeやTikTokを見ていて、「あ、気づいたら最後まで見ちゃった」という経験はありませんか？ その裏には、視聴者が途中で離脱しないように計算された「構成」があります。 料理に例えてみましょう。良いコース料理は、最初の前菜で「次も食べたい！"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - ai-chat-tool-ready
+capability_outputs:
+  - create-retention-driven-structure
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

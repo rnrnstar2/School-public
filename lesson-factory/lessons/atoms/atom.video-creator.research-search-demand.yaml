@@ -1,0 +1,24 @@
+id: atom.video-creator.research-search-demand
+title: 検索需要を調べる
+summary: "動画を作る前に「そもそも誰がこのテーマを検索しているのか？」を知ることは、料理でいえばレシピを決める前に冷蔵庫の中身を確認するようなものです。どんなに良い動画でも、誰も探していないテーマでは再生数が伸びません。 このレッスンでは、AIチャット（ChatGPTやClaude）を使って..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - research-search-demand
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

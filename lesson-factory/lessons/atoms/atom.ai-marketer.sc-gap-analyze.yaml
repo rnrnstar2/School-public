@@ -1,0 +1,26 @@
+id: atom.ai-marketer.sc-gap-analyze
+title: Search Consoleで改善点を分析する
+summary: "ウェブサイトを育てるのは、お店の品ぞろえを整えることに似ています。お客さんが「どんな言葉で検索してお店にたどり着いたか」「入り口まで来たのに入らなかった人はどれくらいいるか」を把握できれば、次に何を改善すべきかが見えてきます。Google Search Console（サーチコンソール）は..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - gsc-property-verified
+capability_outputs:
+  - analyze-gsc-gap
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - google/search-console
+status: draft

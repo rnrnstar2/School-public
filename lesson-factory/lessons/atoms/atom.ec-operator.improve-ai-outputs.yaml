@@ -1,0 +1,26 @@
+id: atom.ec-operator.improve-ai-outputs
+title: AI出力を改善する
+summary: "AIに何かを頼んだとき、「うーん、なんか違うな…」と感じたことはありませんか？ たとえばレストランで料理を注文するとき、「パスタください」だけだと、トマトソースが来るかクリームソースが来るかわかりません。「トマトソースのパスタで、辛さは控えめ、チーズ多めで」と伝えれば、ぐっとイメージに近い一皿が届きます。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - refine-ai-output-iteratively
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ec-operator.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,21 @@
+id: atom.fixture-web.ship-first-page
+title: 最初の1ページを公開する
+summary: LP 1 枚を Vercel に公開して成果物を最小で出し切る。
+persona_tags:
+  - browser-first-maker
+goal_tags:
+  - start-project
+capability_inputs:
+  - scope-definition
+capability_outputs:
+  - ship-first-page
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: url
+  validation: manual_smoke
+evidence:
+  - url
+media_slots: []
+freshness_sources: []
+status: published

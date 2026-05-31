@@ -1,0 +1,29 @@
+id: anchor.ai-app-builder.start
+persona_id: persona.ai-app-builder
+# TQ-224 (2026-05-09): persona.ai-app-builder 向け anchor。Owner Vision「1 step 目に
+# 画面に何か出る / 動く何かが出る」を満たすため、Bolt.new の 1 ショット生成を先頭に置き、
+# Claude Code への feature 単位委譲、Vercel CLI 公開までを最短ルートで通す。
+# `live-hearing-service.ts` の SUPPORTED_PERSONA_IDS に登録済み。
+ordered_atom_ids:
+  # 1. 1 step 目で「動く何かが出る」: Bolt.new で AI アプリを 15-25 分で作る
+  - atom.common.scaffold-with-bolt
+  # 2. ゴール明確化: 何を作りたいか 1 文で言えるようにする (saas-mvp goal_tag を持つ)
+  - atom.web-builder.choose-project-goal
+  # 3. AI に丸ごと委譲して機能を増やす: Claude Code に「全部作って」と任せる
+  - atom.web-builder.let-claude-build-everything
+  # 4. feature 単位の追加機能委譲: Codex CLI / Claude Code への feature 委譲型
+  - atom.common.delegate-full-feature-to-cli-agent
+  # 5. 公開できる状態にする: Vercel 1 コマンド deploy
+  - atom.web-builder.deploy-with-vercel-cli
+required_capabilities:
+  - scaffold-app-with-bolt
+  - define-project-goal
+  - delegate-build-to-cli-agent
+  - delegate-feature-to-cli-agent
+  - deploy-with-vercel-cli
+description: |
+  ai-app-builder ペルソナ向け、no-code-first の最短ルート。1 step 目で Bolt.new に
+  「こういう AI アプリが欲しい」と日本語 1 文で投げ、動くアプリを得る。続いてゴール
+  確定、Claude Code への全体委譲、feature 単位の追加委譲、Vercel CLI 公開で 5 step。
+  P-NONENG-WEBAPP / ai-app-builder の AI フル活用 × 非エンジニア × 最短の三軸を
+  最大化する構成 (TQ-224)。

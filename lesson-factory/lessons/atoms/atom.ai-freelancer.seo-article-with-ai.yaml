@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.seo-article-with-ai
+title: AIでSEO記事を執筆する
+summary: "SEO（＝検索エンジン最適化。Googleなどの検索結果で上位に表示されるように工夫すること）記事を、AIツールに手伝ってもらいながら15分で仕上げる方法を学びます。 料理に例えると、あなたは シェフ です。AIは優秀な キッチン助手 。レシピ（＝記事の構成）を考え、材料（＝キーワード）を選び..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - write-seo-article-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.chatgpt-claude-comparison
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

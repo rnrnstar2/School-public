@@ -1,0 +1,24 @@
+id: atom.ec-operator.define-buyer-persona
+title: 購入者像を具体化する
+summary: "あなたが大切な友人にプレゼントを選ぶとき、その人の趣味や生活スタイルを思い浮かべませんか？ ネットショップで商品を売るときも同じです。「誰に届けたいか」がぼんやりしたままだと、商品説明も写真も「なんとなく」になってしまいます。 このレッスンでは、AI（＝あなたの質問に文章で答えてくれるツール。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - create-buyer-persona-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

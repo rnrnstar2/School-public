@@ -1,0 +1,24 @@
+id: atom.data-analyst.classify-data-sensitivity
+title: データの機密度を見極める
+summary: "会社で扱うデータには、「誰が見ても問題ないもの」と「見る人を間違えると大トラブルになるもの」がありますよね。 たとえば、料理のレシピは誰に見せても安心ですが、冷蔵庫に貼ってある「私の健康診断の結果」は人には見せたくありません。 この Atom では..."
+persona_tags:
+  - data-analyst
+  - ai-first-learner
+goal_tags:
+  - data-analysis
+  - reporting
+capability_inputs: []
+capability_outputs:
+  - classify-data-sensitivity-4levels
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

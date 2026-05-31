@@ -1,0 +1,48 @@
+{
+  "name": "school",
+  "version": "0.0.1",
+  "description": "Japanese-first goal-oriented AI mentor platform that turns learner goals into plans, milestones, tasks, and lessons.",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rnrnstar2/School.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rnrnstar2/School/issues"
+  },
+  "workspaces": [
+    "apps/*",
+    "lesson-factory",
+    "packages/goal-action/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "pnpm --filter @school/goal-action-normalizer test && pnpm --filter @school/flywheel-scheduler test && pnpm --filter @school/lesson-factory test && pnpm --filter @school/ai-pr-worker test && pnpm --filter web test && pnpm --filter web test:vitest && pnpm --filter @ai-school/admin test",
+    "test:swarm-scripts": "node scripts/swarm/run-node-tests.mjs",
+    "check": "pnpm lint",
+    "lint": "turbo lint",
+    "dev:web": "turbo dev --filter=web",
+    "dev:admin": "turbo dev --filter=@ai-school/admin",
+    "build:web": "turbo build --filter=web",
+    "build:admin": "turbo build --filter=@ai-school/admin",
+    "ai-pr-worker": "pnpm --filter @school/ai-pr-worker run",
+    "docs:drift": "tsx scripts/docs-drift/check.ts",
+    "docs:drift:test": "vitest run --config scripts/docs-drift/vitest.config.ts",
+    "goal:build-coverage": "tsx scripts/goal-action/build-coverage-index.ts",
+    "goal:run-judge": "tsx scripts/goal-action/run-judge.ts",
+    "goal:run-scheduler": "tsx packages/flywheel-scheduler/bin/run.ts"
+  },
+  "devDependencies": {
+    "@school/goal-action-coverage": "workspace:*",
+    "@supabase/supabase-js": "^2.98.0",
+    "js-yaml": "4.1.1",
+    "tsx": "^4.20.6",
+    "turbo": "^2.4.4",
+    "typescript": "^5",
+    "vitest": "^4.1.0"
+  },
+  "packageManager": "pnpm@10.17.0"
+}

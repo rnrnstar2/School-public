@@ -1,0 +1,24 @@
+id: atom.video-creator.build-style-reference
+title: 作風リファレンスを整理する
+summary: "たとえば、料理人が「自分の味」を何度でも再現できるのは、レシピ帳があるからです。好みの味付け、好きな食材、こだわりの調理法を書き留めておけば、毎回ブレません。 動画づくりでも同じです。あなたの作品に「これっぽさ」をもたらす色味・テンポ・音の雰囲気をまとめたノートがあれば、AI..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - create-style-reference-doc
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

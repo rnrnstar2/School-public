@@ -1,0 +1,24 @@
+id: atom.ai-marketer.test-matrix-design
+title: 広告クリエイティブの検証表を設計する
+summary: "レストランで新メニューを作るとき、1つの料理だけ出して終わりにする人はいませんよね。「味は？ 盛り付けは？ 価格は？」といくつかパターンを用意して、お客様に試してもらいます。そして一番評判が良い組み合わせを見つけます。 広告も同じです。1つの広告（＝クリエイティブ）をそのまま出すのではなく..."
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - design-ad-test-matrix
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

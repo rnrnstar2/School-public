@@ -1,0 +1,25 @@
+id: atom.nocode-builder.build-first-ai-flow
+title: 最初のAIフローを作る
+summary: "料理で考えてみましょう。レシピには「材料を切る → 煮込む → 味を調える」という流れがありますよね。AIフロー（＝AIが行う作業の流れ）もこれと同じです。「あなたが言葉を入力する → AIが考える → 結果が返ってくる」。この一連の流れを、プログラミングなしで組み立てるのが今回の目標です。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - build-simple-chatbot
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - dify/docs
+status: draft

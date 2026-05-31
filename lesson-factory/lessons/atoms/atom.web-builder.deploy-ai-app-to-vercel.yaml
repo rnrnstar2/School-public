@@ -1,0 +1,36 @@
+id: atom.web-builder.deploy-ai-app-to-vercel
+title: AIが作ったアプリをVercelにデプロイする
+summary: "あなたがAIの力を借りて作ったWebアプリ、まだ自分のパソコンの中だけで眠っていませんか？ たとえるなら、 美味しい料理を作ったのに、お皿に盛ってテーブルに出していない 状態です。 このレッスンでは、あなたのアプリをインターネット上に「公開する（＝デプロイする）」方法を..."
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - any-web-project
+  - stage:deploy
+  - level:beginner
+  - portfolio-site
+  - business-homepage
+  - landing-page
+  - blog-site
+  - saas-mvp
+capability_inputs:
+  - have-nextjs-project-local
+capability_outputs:
+  - deploy-ai-app-to-vercel
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+  - atom.web-builder.git-github-cli
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - url
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - vercel/docs
+  - nextjs/deployment
+status: draft

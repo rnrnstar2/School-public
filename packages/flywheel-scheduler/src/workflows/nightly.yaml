@@ -1,0 +1,42 @@
+timezone: Asia/Tokyo
+defaultTimeoutMs: 600000
+defaultRetry:
+  maxAttempts: 2
+  initialDelayMs: 1000
+  backoffMultiplier: 2
+stages:
+  - jobName: matcher_sweep
+    timeoutMs: 600000
+    retry:
+      maxAttempts: 2
+      initialDelayMs: 1000
+      backoffMultiplier: 2
+    skipOnUpstreamFailure: false
+  - jobName: gap_scan
+    timeoutMs: 600000
+    retry:
+      maxAttempts: 2
+      initialDelayMs: 1000
+      backoffMultiplier: 2
+    skipOnUpstreamFailure: true
+  - jobName: proposer_run
+    timeoutMs: 600000
+    retry:
+      maxAttempts: 2
+      initialDelayMs: 1000
+      backoffMultiplier: 2
+    skipOnUpstreamFailure: true
+  - jobName: judge_run
+    timeoutMs: 600000
+    retry:
+      maxAttempts: 2
+      initialDelayMs: 1000
+      backoffMultiplier: 2
+    skipOnUpstreamFailure: true
+  - jobName: nightly_digest
+    timeoutMs: 600000
+    retry:
+      maxAttempts: 2
+      initialDelayMs: 1000
+      backoffMultiplier: 2
+    skipOnUpstreamFailure: false

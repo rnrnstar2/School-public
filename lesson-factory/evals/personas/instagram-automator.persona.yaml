@@ -1,0 +1,19 @@
+id: persona.instagram-automator
+name: Instagram運用自動化担当（小規模事業者）
+background: |
+  1人で Instagram 投稿、DM、予約導線を回している小規模事業者。Zapier や Make の既製テンプレートは触ったが、
+  Meta の権限、OAuth、webhook debug になると急に止まる。目的は映える実装ではなく、予約や問い合わせに
+  直結する自動化を安定運用すること。rate limit と審査待ちで手戻りしがち。
+goals:
+  - 投稿やDMの定型運用を半自動化する
+  - 問い合わせをスプレッドシートやCRMに漏れなく流す
+  - Meta 側の権限設定で毎回詰まらない状態を作る
+constraints:
+  - 平日は30分単位でしか作業できない
+  - 月の運用コストは5000円以内に抑えたい
+  - 管理画面が複数に分かれると迷いやすい
+preferred_tools:
+  - make
+  - zapier
+  - google-sheets
+learning_pace: slow-steady

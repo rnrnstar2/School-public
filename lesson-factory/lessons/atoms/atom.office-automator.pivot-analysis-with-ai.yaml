@@ -1,0 +1,27 @@
+id: atom.office-automator.pivot-analysis-with-ai
+title: AIにピボット分析の切り口を提案させる
+summary: "Excel やスプレッドシートにデータはあるけれど、「どの角度から集計すればいいかわからない」──そんな経験はありませんか？ たとえば料理に例えると、冷蔵庫に食材（＝データ）はあるのに、レシピ（＝分析の切り口）が思いつかない状態です。このレッスンでは、AI をレシピ提案役として使い..."
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+  - data-analysis
+capability_inputs:
+  - basic-spreadsheet-data
+capability_outputs:
+  - ai-pivot-analysis-angles
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,25 @@
+id: atom.ai-marketer.weekly-report-automate
+title: 週次レポートをAIで自動化する
+summary: "毎週、今週の成果をまとめるレポート作成に時間をとられていませんか？ 料理に例えると、週次レポートは「冷蔵庫にある材料（＝今週のデータやメモ）をまとめて、一皿の完成品（＝レポート）に盛り付ける作業」です。AIツールは、この盛り付けを一瞬でやってくれる頼れる助手です。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - chatgpt-account-created
+capability_outputs:
+  - automate-weekly-report-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,27 @@
+id: atom.web-builder.implementation-checklist
+title: 実装チェックリストへ分解する
+summary: "料理をするとき、レシピがなければ「なんとなく」進めることになりますよね。塩を入れるタイミングを忘れたり、野菜を切りながらお湯を沸かすのを忘れたり……。Webアプリ制作も同じです。「なんとなく作り始める」と、途中で何を作っていたか迷ってしまいます。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:scaffold
+  - level:intermediate
+capability_inputs:
+  - defined-mvp-pages
+capability_outputs:
+  - create-implementation-checklist
+hard_prerequisites:
+  - atom.web-builder.define-mvp-pages
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.office-automator.build-business-case
+title: AI導入のビジネスケースを上司向けに作る
+summary: "「AIって便利らしいけど、うちの会社で使う意味あるの？」——上司にこう聞かれたとき、あなたはどう答えますか？ この Atom では、AIチャット（ChatGPT や Claude など）を使って、 上司に見せられるビジネスケース（＝AI導入の提案書） を15分で作ります。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-ai-business-case
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.office-automator.ai-chat-first-step
+deliverable:
+  type: markdown_doc
+  validation: business_case_structure_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

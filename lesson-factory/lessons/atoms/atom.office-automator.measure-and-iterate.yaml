@@ -1,0 +1,28 @@
+id: atom.office-automator.measure-and-iterate
+title: 導入効果を測定して次の自動化を提案する
+summary: "自動化を1つ動かしてみたあなたへ。「便利になった気がする」で終わらせるのは、もったいないです。 料理にたとえると、新しいレシピを試したあとに「前より10分早くできた」「味付けはもう少し濃いほうがいい」とメモを残すようなものです。この振り返りがあるからこそ、次の料理がもっとうまくなります。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs:
+  - run-basic-automation
+capability_outputs:
+  - measure-automation-roi
+  - propose-next-automation
+hard_prerequisites:
+  - atom.office-automator.first-automation-run
+soft_prerequisites:
+  - atom.office-automator.tool-automation
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,26 @@
+id: atom.ai-writer.efficiency-report
+title: 執筆効率化レポートを作成する
+summary: "レストランのメニューを考えてみましょう。冷蔵庫にある食材、調理にかかる時間、お客さんに見えやすいレイアウト——これらを一枚の「今日のメニュー表」にまとめますよね。 執筆効率化レポートも同じです。「自分の執筆作業はいまどうなっているか」「どこを改善できるか」を一枚の文書にまとめます。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - create-efficiency-report
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-first-learner.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

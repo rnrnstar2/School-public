@@ -1,0 +1,24 @@
+id: atom.ec-operator.create-seo-product-titles
+title: SEO向けの商品タイトルを作る
+summary: "あなたがネットショップで商品を出品するとき、商品ページの「タイトル」はお店の看板のようなものです。看板に何も書いていなければ、お客さんは通り過ぎてしまいますよね。 でも、看板に「すごいTシャツ！！今すぐ買って！！」と叫ぶように書いても、お客さんは「怪しい…」と感じて離れてしまいます。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - create-seo-product-title-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

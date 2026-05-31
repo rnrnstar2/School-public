@@ -1,0 +1,28 @@
+id: atom.ai-freelancer.direct-outreach
+title: 直営業でクライアントを開拓する
+summary: "クラウドソーシングサイトで案件を探すのは、いわば「お店に並んでいる商品を選ぶ」ようなもの。一方、直営業は「自分から相手のドアをノックしに行く」方法です。競争が少なく、あなたの強みをそのまま伝えられるので、単価も上がりやすいのが特徴です。 このレッスンでは、AIを使って営業メッセージを作り..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - portfolio-with-ai-created
+  - pricing-strategy-defined
+capability_outputs:
+  - direct-outreach-message-written
+hard_prerequisites:
+  - atom.ai-freelancer.portfolio-with-ai
+soft_prerequisites:
+  - atom.ai-freelancer.pricing-strategy
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

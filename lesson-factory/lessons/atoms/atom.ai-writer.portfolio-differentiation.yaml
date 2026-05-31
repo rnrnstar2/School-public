@@ -1,0 +1,25 @@
+id: atom.ai-writer.portfolio-differentiation
+title: AI時代に選ばれるポートフォリオ戦略を立てる
+summary: "あなたがフリーランスや副業で「この人に頼みたい」と思ってもらうには、ポートフォリオ（＝自分の作品集・実績まとめ）が欠かせません。でも、AIが誰でも使える今、「きれいな文章が書ける」だけでは差がつきにくくなっています。 このレッスンでは、AIを活用しながらも「あなたらしさ」が伝わるポートフォリオ戦略を15..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+  - portfolio
+capability_inputs: []
+capability_outputs:
+  - design-ai-portfolio-strategy
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

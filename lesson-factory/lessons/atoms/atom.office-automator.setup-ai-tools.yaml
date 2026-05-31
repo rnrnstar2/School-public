@@ -1,0 +1,25 @@
+id: atom.office-automator.setup-ai-tools
+title: ChatGPTアカウントを作成して最初の指示を出す
+summary: "最近の職場では、「AIに仕事を頼む」という働き方がどんどん広がっています。メールの文面を考えてもらう、会議の議事を整理してもらう——そんな「AI助手」の代表格が ChatGPT （チャットGPT＝OpenAI社が提供する対話型AIサービス）です。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - send-first-prompt-to-chatgpt
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - openai/chatgpt-signup
+status: draft

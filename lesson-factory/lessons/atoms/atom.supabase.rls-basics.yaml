@@ -1,0 +1,30 @@
+id: atom.supabase.rls-basics
+title: Supabase RLSの基礎
+summary: "この Atom では、Supabase（＝データベースなどを用意してくれるクラウドサービス）の「RLS（＝Row Level Security、行ごとのアクセス制限）」を、AIアシスタントと一緒に15分で設定します。 RLS は、たとえるならマンションのオートロックです。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:auth
+  - level:intermediate
+capability_inputs:
+  - supabase-project-created
+capability_outputs:
+  - understand-rls
+  - write-basic-policy
+hard_prerequisites:
+  - atom.web-builder.make-supabase-ai-ready
+soft_prerequisites: []
+deliverable:
+  type: sql_policy
+  validation: rls_policy_basic_v1
+evidence:
+  - sql_snippet
+  - test_result
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - supabase/rls
+status: draft

@@ -1,0 +1,28 @@
+id: atom.web-builder.build-app-shell
+title: AIと一緒にアプリの骨組みを作る
+summary: "マンションを建てるとき、いきなり壁紙やインテリアを選ぶ人はいませんよね。まず「柱」や「壁」の配置を決めて、建物の骨組み（＝構造）を作ります。Webアプリも同じです。見た目の細かいデザインの前に、「どのページがあるか」「画面の上下左右にどんなパーツを置くか」という骨組みを先に決めます。"
+persona_tags:
+  - web-builder
+  - ai-first-learner
+goal_tags:
+  - saas-mvp
+  - stage:build
+  - level:beginner
+capability_inputs: []
+capability_outputs:
+  - build-app-shell
+hard_prerequisites:
+  - atom.web-builder.create-next-app
+  - atom.web-builder.install-shadcn
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - next.js/app-router
+status: draft

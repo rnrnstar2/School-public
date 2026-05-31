@@ -1,0 +1,28 @@
+id: atom.video-creator.handle-ai-disclosure-and-licenses
+title: AI利用表示とライセンスを確認する
+summary: "レストランのメニューを想像してみてください。「この料理、どんな素材を使っていますか？」と聞かれたとき、正直に答えられるお店の方が信頼できますよね。 AIを使って動画を作るときも同じです。あなたの動画を見る人が「この映像、AIで作ったの？」と気にするケースはこれからどんどん増えます。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - ai-tool-basic-usage
+capability_outputs:
+  - create-ai-disclosure-doc
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.choose-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - youtube/ai-disclosure-policy
+  - tiktok/ai-label-guidelines
+status: draft

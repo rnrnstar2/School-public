@@ -1,0 +1,25 @@
+id: atom.video-creator.generate-thumbnail-images
+title: 画像生成で素材案を作る
+summary: "動画のサムネイルは、お店のショーウィンドウのようなものです。通行人の足を止めるには、一目で「これ、見たい！」と思わせる魅力が必要ですよね。このレッスンでは、AIの画像生成機能を使って、惹きつけるサムネイル素材を15分で作る方法を学びます。 完了すると、あなたは「AIに指示を出して..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs: []
+capability_outputs:
+  - generate-thumbnail-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - chatgpt/image-generation
+status: draft

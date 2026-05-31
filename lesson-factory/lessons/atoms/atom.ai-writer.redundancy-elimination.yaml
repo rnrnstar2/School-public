@@ -1,0 +1,26 @@
+id: atom.ai-writer.redundancy-elimination
+title: 冗長な表現を削って簡潔にする
+summary: "料理でお肉の余分な脂身を切り落とすと、味がぐっと引き立ちますよね。文章も同じです。余計な言葉が多いと、読者は「結局何が言いたいの？」と迷ってしまいます。 このレッスンでは、AIツールを使って文章の「余分な脂身」を見つけ、スッキリした文章に仕上げます。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - trim-redundancy-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-writer.ai-chat-basics
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

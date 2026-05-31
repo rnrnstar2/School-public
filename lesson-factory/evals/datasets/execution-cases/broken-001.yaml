@@ -1,0 +1,22 @@
+case_id: execution.broken.001
+target_rubric: execution.v1
+description: version と成果物検証が欠けた悪い runbook
+sample_execution_excerpt: |
+  1. 最新版の Next.js と Vercel を使ってデプロイする
+  2. 必要そうな環境変数を入れる
+  3. 問題なさそうなら終わり
+expected_scores:
+  procedure_reproducibility: 1
+  objective_verification: 0
+  version_dependency_disclosure: 0
+  fallback_quality: 0
+  time_estimate_realism: 1
+expected_average_score: 0.45
+expected_status: fail
+failure_modes:
+  - procedure_reproducibility
+  - version_dependency_disclosure
+  - objective_verification
+  - fallback_quality
+notes: |
+  「最新版」「必要そう」が曖昧で、何を確認すれば成功か分からない。失敗時の導線もない。

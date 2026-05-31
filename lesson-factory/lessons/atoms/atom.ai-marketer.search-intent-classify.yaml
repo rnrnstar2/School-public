@@ -1,0 +1,25 @@
+id: atom.ai-marketer.search-intent-classify
+title: 検索意図を分類する
+summary: "ネットで何かを検索するとき、あなたにはかならず「目的」がありますよね。 「やり方を知りたい」「この商品を買いたい」「あのサイトに行きたい」——実はこうした目的は、大きく 4 つのパターン に分けられます。 この Atom では、検索キーワードを見ただけで「この人は何がしたいのか」を見分けられるようになります。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - classify-search-intent-4types
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - google/search-quality-guidelines
+status: draft

@@ -1,0 +1,24 @@
+id: atom.ai-marketer.subject-body-generate
+title: 件名と本文を量産する
+summary: "メールマガジンやステップメール（＝あらかじめ設定した順番で届く自動メール）を送りたいとき、「件名」と「本文」を何通も手書きで考えるのは大変ですよね。 料理でいうと、一人分のレシピを何度もゼロから作るより、「大きな鍋で一度にたくさん作って小分けにする」ほうが効率的です。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs: []
+capability_outputs:
+  - generate-email-variants-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,25 @@
+id: atom.training-designer.ai-tutor-prompt
+title: AI個別指導の指示文を設計する
+summary: "このレッスンを終えると、あなたは ChatGPT や Claude などの AI に「個別指導の先生」として振る舞ってもらうための指示文（プロンプト＝AIへの頼みごとを書いた文章）を1本、完成させることができます。 想像してみてください。あなたが家庭教師を頼むとき..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - use-ai-chat-tool
+capability_outputs:
+  - design-ai-tutor-prompt
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

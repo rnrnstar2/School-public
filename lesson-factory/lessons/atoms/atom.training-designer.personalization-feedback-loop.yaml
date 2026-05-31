@@ -1,0 +1,27 @@
+id: atom.training-designer.personalization-feedback-loop
+title: パーソナライズの改善サイクルを回す
+summary: "「同じ教材を全員に配って、誰にも刺さらない」――そんな経験はありませんか？料理にたとえると、全員に同じ味付けの料理を出すのではなく、一人ひとりの好みに合わせて調味料を調整していくイメージです。学習の世界でも、学習者の反応を見ながら教材をちょっとずつ調整する「改善サイクル」を回すことで..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+  - personalization
+capability_inputs:
+  - understand-learner-data-basics
+capability_outputs:
+  - run-personalization-feedback-loop
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.training-designer.learner-profile-design
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

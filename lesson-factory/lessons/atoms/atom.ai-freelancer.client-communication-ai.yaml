@@ -1,0 +1,25 @@
+id: atom.ai-freelancer.client-communication-ai
+title: クライアント対応の定型文をAIで準備する
+summary: "仕事の依頼が来たとき、すぐに丁寧な返事を返せますか？ 「返信を書くのに毎回30分もかかってしまう」「失礼にならないか不安で何度も書き直す」——こんな悩みは珍しくありません。 このレッスンでは、AIチャットツール（＝ChatGPTやClaudeなど、文章を自動で作ってくれるサービス）を使って..."
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs: []
+capability_outputs:
+  - create-client-template-with-ai
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.setup-ai-tools
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

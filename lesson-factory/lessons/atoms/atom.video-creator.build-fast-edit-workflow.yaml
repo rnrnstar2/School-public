@@ -1,0 +1,26 @@
+id: atom.video-creator.build-fast-edit-workflow
+title: 編集フローを高速化する
+summary: "料理をするとき、食材をあらかじめ切って並べておくと作業がぐんと速くなりますよね。動画編集も同じです。素材を整理し、AIツールに任せられる部分を先に決めておくと、「あの素材どこだっけ？」「この間（ま）、いるのかな？」と悩む時間を大きく減らせます。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - has-video-footage
+capability_outputs:
+  - build-ai-edit-workflow
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.choose-edit-tool
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,22 @@
+id: atom.common.draft-content-calendar
+title: 定期コンテンツ供給スケジュールを作る
+summary: "ブログ・動画・SNS 投稿など「定期的に出すコンテンツ」のテーマと公開日を 1 ヶ月分決めます。AI にネタ出しから日付割り当てまで手伝わせ、続けられる頻度の calendar を 1 枚作ります。所要 15 分。"
+persona_tags:
+  - ai-first-learner
+goal_tags:
+  - publish-content
+  - plan-execution
+capability_inputs: []
+capability_outputs:
+  - content-calendar-drafted
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+freshness_sources: []
+status: draft

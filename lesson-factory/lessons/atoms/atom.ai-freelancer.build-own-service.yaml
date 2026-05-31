@@ -1,0 +1,26 @@
+id: atom.ai-freelancer.build-own-service
+title: 自分のサービスとして商品化する
+summary: "このレッスンでは、あなたが持っているスキルやアイデアを「売れるサービス」のかたちにまとめる方法を学びます。AI ツールに手伝ってもらいながら、サービスの中身・料金・案内ページ・受付手段の 4 つを一気に整えます。"
+persona_tags:
+  - ai-freelancer
+  - ai-first-learner
+goal_tags:
+  - side-income
+  - freelance
+capability_inputs:
+  - use-ai-chat-basic
+capability_outputs:
+  - productize-own-service
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.ai-freelancer.pricing-strategy
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

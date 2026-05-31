@@ -1,0 +1,25 @@
+id: atom.training-designer.multiple-choice-generation
+title: 選択式問題をAIで大量生成する
+summary: "「研修のテスト問題をひとりで何十問も作らないといけない……」そんな経験はありませんか？ 手作業で問題を作ると、つい似た問題ばかりになったり、誤選択肢が「明らかにハズレ」になったりしがちです。 AI（＝人工知能の仕組みで、ChatGPTやClaudeなどが代表的）を使えば..."
+persona_tags:
+  - training-designer
+  - ai-first-learner
+goal_tags:
+  - training
+  - education
+capability_inputs:
+  - basic-ai-chat-usage
+capability_outputs:
+  - generate-quiz-batch-with-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

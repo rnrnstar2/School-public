@@ -1,0 +1,25 @@
+id: atom.ec-operator.prepare-ai-shop-setup
+title: 学習と運営の作業環境を準備する
+summary: "料理を始める前に、まな板を置いて包丁を研ぎ、調味料を手の届く場所に並べますよね。それと同じように、これからの学習やお店の運営をスムーズに進めるために、まずは「道具」と「作業場所」を整えます。 このレッスンを終えると、AI（＝人工知能。あなたの質問に答えてくれる便利なツール）とパソコン上の整理されたフォル..."
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - ai-chat-tool-ready
+  - workspace-folder-created
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

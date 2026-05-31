@@ -1,0 +1,24 @@
+id: atom.office-automator.daily-report-automation
+title: 日報・週報をAIで半自動作成する
+summary: "日報や週報、毎回書くのに時間がかかっていませんか？ 「今日何やったっけ…」と思い出すだけで10分、文章を整えるのにさらに10分——そんな経験がある方に、AIチャットツールを使って「箇条書きメモ」から「提出できる日報」を数分で仕上げる方法をお伝えします。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - create-ai-assisted-daily-report
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

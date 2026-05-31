@@ -1,0 +1,25 @@
+id: atom.nocode-builder.build-basic-workflow
+title: 基本ワークフローを作る
+summary: "料理で考えてみましょう。レシピには「材料を切る」「火を通す」「盛り付ける」という順番がありますよね。ワークフロー（＝作業の流れを自動で回す仕組み）も同じです。「何かが起きたら → こう処理して → 結果を届ける」という3ステップで成り立っています。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - build-trigger-action-workflow
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - make/docs-scenario
+status: draft

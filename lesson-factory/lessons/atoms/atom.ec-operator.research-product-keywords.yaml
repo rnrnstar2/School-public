@@ -1,0 +1,24 @@
+id: atom.ec-operator.research-product-keywords
+title: 商品検索キーワードを調べる
+summary: "ネットショップで商品を売るとき、一番大切なのは「お客さんに見つけてもらうこと」です。どんなに良い商品でも、検索結果に出なければ、お店の奥に隠れた商品棚と同じです。 たとえば、駅前の実店舗を思い浮かべてください。通行人に気づいてもらうために「看板」や「のぼり旗」を出しますよね。"
+persona_tags:
+  - ec-operator
+  - ai-first-learner
+goal_tags:
+  - ec-operations
+  - sales
+capability_inputs: []
+capability_outputs:
+  - research-product-keywords
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

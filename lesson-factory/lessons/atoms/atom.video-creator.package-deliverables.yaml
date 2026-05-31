@@ -1,0 +1,26 @@
+id: atom.video-creator.package-deliverables
+title: 納品物を整理して渡す
+summary: "この Atom では、あなたが作った動画や素材を「受け取る人がすぐ使える形」にまとめて渡す方法を学びます。最終的に、整理された納品フォルダーと納品メモを完成させることがゴールです。 料理に例えると、納品は「お弁当を詰める」作業です。おかず（動画ファイル）は完成していても、きれいな箱に整理して入れなければ..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - video-file-created
+capability_outputs:
+  - package-deliverables-for-handoff
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.export-and-format
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

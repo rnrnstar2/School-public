@@ -1,0 +1,24 @@
+id: atom.ai-writer.fact-check-workflow
+title: AI出力のファクトチェック手順を確立する
+summary: "AI（＝人工知能）は、まるで物知りな友人のように、あなたの質問にすらすらと答えてくれます。しかし、その友人は時々、もっともらしいウソをつくことがあります。これを「ハルシネーション（＝AIがもっともらしい嘘を作り出してしまう現象）」と呼びます。"
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - verify-ai-output-accuracy
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

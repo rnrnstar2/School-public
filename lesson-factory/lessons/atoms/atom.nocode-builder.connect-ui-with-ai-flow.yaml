@@ -1,0 +1,28 @@
+id: atom.nocode-builder.connect-ui-with-ai-flow
+title: ノーコード画面とAIフローを接続する
+summary: "あなたが作ったノーコードの画面（＝ボタンや入力欄のあるWebページ）と、AIの処理を「つなぐ」方法を学びます。このレッスンを終えると、 画面のボタンを押すだけでAIが返事をしてくれる仕組み を、自分の手で作れるようになります。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs:
+  - nocode-ui-created
+capability_outputs:
+  - connect-nocode-ui-to-ai-flow
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.nocode-builder.create-simple-ui
+deliverable:
+  type: screenshot
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - make/integromat-docs
+  - openai/api-docs
+status: draft

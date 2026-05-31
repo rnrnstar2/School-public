@@ -1,0 +1,29 @@
+project_id = "school"
+
+[api]
+enabled = true
+port = 54341
+schemas = ["public", "storage", "graphql_public", "decision_ledger"]
+extra_search_path = ["public", "extensions", "decision_ledger"]
+max_rows = 1000
+
+[db]
+port = 54342
+shadow_port = 54340
+major_version = 17
+
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]
+
+[studio]
+enabled = true
+port = 54343
+
+[analytics]
+enabled = true
+port = 54347
+
+[inbucket]
+enabled = true
+port = 54344

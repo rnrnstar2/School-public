@@ -1,0 +1,24 @@
+id: atom.office-automator.data-anonymization
+title: 機密データをマスキングしてからAIに渡す
+summary: "最近の職場では、ChatGPTやClaudeなどのAIツールを使って、売上データの要約やメールの下書きを頼む場面が増えています。ところが、そこに顧客名や電話番号をうっかりそのまま貼り付けてしまうと、情報がAIサービスのサーバーに送信されてしまいます。"
+persona_tags:
+  - office-automator
+  - ai-first-learner
+goal_tags:
+  - business-automation
+  - productivity
+capability_inputs: []
+capability_outputs:
+  - mask-pii-before-ai
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

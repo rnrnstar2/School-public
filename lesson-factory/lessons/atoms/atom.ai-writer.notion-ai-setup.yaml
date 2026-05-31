@@ -1,0 +1,25 @@
+id: atom.ai-writer.notion-ai-setup
+title: Notion AIを執筆環境に組み込む
+summary: "文章を書くとき、「もう少し自然な言い回しにならないかな」「ゼロから書くのが大変…」と思ったことはありませんか？ Notion AI（＝Notionの中で動く文章サポート機能）は、あなたの 書く補助役 として働いてくれます。 料理に例えると、Notionがキッチン、Notion..."
+persona_tags:
+  - ai-writer
+  - ai-first-learner
+goal_tags:
+  - writing
+  - content-creation
+capability_inputs: []
+capability_outputs:
+  - use-notion-ai-for-writing
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - notion/ai-features
+status: draft

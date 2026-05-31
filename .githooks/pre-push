@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# .githooks/pre-push
+#
+# @critical-path ノードのみ素早く検証する pre-push ゲート。
+# full CI（build/type-check）は省略し Playwright の critical-path タグのみ実行。
+#
+# セットアップ:
+#   bash scripts/setup-hooks.sh
+#
+# スキップしたい場合（緊急時のみ）:
+#   git push --no-verify
+
+set -euo pipefail
+
+ROOT_DIR="$(git rev-parse --show-toplevel)"
+
+echo "[pre-push] ==> SwarmOps critical-path journey check ..."
+
+bash "$ROOT_DIR/scripts/swarm/verify.sh" --no-ci --grep "@critical-path" || {
+  echo "[pre-push] !! critical-path tests failed — push blocked."
+  echo "[pre-push]    Use 'git push --no-verify' to bypass in emergencies."
+  exit 1
+}
+
+echo "[pre-push] ==> OK — pushing"

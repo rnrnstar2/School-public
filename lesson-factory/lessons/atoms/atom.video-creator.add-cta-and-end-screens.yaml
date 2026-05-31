@@ -1,0 +1,27 @@
+id: atom.video-creator.add-cta-and-end-screens
+title: 導線を動画内に配置する
+summary: "レストランの入り口にある「本日のおすすめ」の看板を思い浮かべてください。あれを見ると、つい気になって足を止めますよね。動画でも同じように、「次に見てほしい動画」や「チャンネル登録してください」という案内を置くことで、見てくれた人を次の行動へ自然に導けます。"
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - youtube-video-uploaded
+capability_outputs:
+  - add-endscreen-and-cards
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.upload-first-video
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources:
+  - youtube-studio/endscreens
+status: draft

@@ -1,0 +1,28 @@
+id: anchor.nonengineer-marketer.start
+persona_id: persona.nonengineer-marketer
+# TQ-224 (2026-05-09): 非エンジニアのマーケター層 (社内マーケ担当 / 副業 / 中小企業
+# 経営者など) 向け anchor。Owner Vision「1 step 目に動く何かが出る」をマーケ文脈で
+# 解釈し、「AI が広告見出し 20-50 本を 10 分で出す」体験を先頭に置く。コード不要、
+# ChatGPT / Claude のチャット入力だけで完結する atom を中心に構成。
+ordered_atom_ids:
+  # 1. 1 step 目で「AI 出力サンプルが完成する」: 広告見出しを 10 分で 20-50 本量産
+  - atom.ai-marketer.ad-headlines-generate
+  # 2. ChatGPT と Claude を案件タイプ別に使い分ける軸を作る
+  - atom.common.choose-llm-by-task
+  # 3. ブランド情報を AI 入力資産としてまとめる (再利用可能な brand brief 化)
+  - atom.ai-marketer.brand-assets-prepare
+  # 4. AI に任せる作業を選定する: 任せどころを見極めて運用ループを設計
+  - atom.ai-marketer.ai-task-select
+  # 5. コンテンツ供給スケジュールを 1 ヶ月分作る (継続のための calendar)
+  - atom.common.draft-content-calendar
+required_capabilities:
+  - generate-ad-headlines-with-ai
+  - choose-llm-by-task
+  - brand-brief-created
+  - select-ai-delegatable-task
+  - content-calendar-drafted
+description: |
+  非エンジニアのマーケター向け anchor。1 step 目で広告見出し量産という「AI が成果物を
+  返す」体験を確実に踏ませ、続いて LLM 使い分け → ブランド情報整備 → 任せどころ選定
+  → コンテンツ calendar の 5 step (TQ-224)。コード・CLI・git は一切登場しない、
+  ChatGPT / Claude のチャット入力だけで完結する no-code-first 構成。

@@ -1,0 +1,27 @@
+id: atom.video-creator.prepare-assets-for-editing
+title: 編集しやすい素材に整える
+summary: "料理でいう「下ごしらえ」を想像してみてください。野菜を洗って切り、調味料を量り、器に並べておくと、実際の調理がぐんとスムーズになりますよね。動画の編集でもまったく同じことが言えます。 撮り終わった動画や音声、画像のファイルがバラバラのままだと、編集画面で「あのファイル..."
+persona_tags:
+  - video-creator
+  - ai-first-learner
+goal_tags:
+  - video-production
+  - content
+capability_inputs:
+  - has-raw-footage
+capability_outputs:
+  - organize-assets-for-editing
+hard_prerequisites: []
+soft_prerequisites:
+  - atom.video-creator.record-footage
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+  - log_output
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

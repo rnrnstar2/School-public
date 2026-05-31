@@ -1,0 +1,24 @@
+id: atom.nocode-builder.organize-prompts-and-context
+title: プロンプトと参照情報を整理する
+summary: "料理をするとき、いきなり火をつけませんよね。まずは「今日何を作るか」を決めて、レシピを確認し、材料を食卓に並べてから調理を始めるはずです。 AI（＝人工知能。あなたの指示に従って文章やプログラムを書いてくれるツール）を使って何かを作るときも同じです。"
+persona_tags:
+  - nocode-builder
+  - ai-first-learner
+goal_tags:
+  - nocode-development
+  - internal-tools
+capability_inputs: []
+capability_outputs:
+  - organize-prompt-with-4blocks
+hard_prerequisites: []
+soft_prerequisites: []
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

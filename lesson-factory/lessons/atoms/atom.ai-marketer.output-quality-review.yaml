@@ -1,0 +1,27 @@
+id: atom.ai-marketer.output-quality-review
+title: AI出力を検品して改善する
+summary: "AIに文章を書いてもらったとき、「なんとなく良さそう」でそのまま使っていませんか？ 料理にたとえると、AIが出してくれるのは「下ごしらえ済みの食材」です。そのまま食卓に出すのではなく、味見をして、味付けを調整して、盛り付けを整えてはじめて「自分の料理」になります。"
+persona_tags:
+  - ai-marketer
+  - ai-first-learner
+goal_tags:
+  - marketing
+  - growth
+capability_inputs:
+  - prompt-structure-basics
+capability_outputs:
+  - ai-output-quality-review
+hard_prerequisites:
+  - atom.ai-marketer.prompt-structure-learn
+soft_prerequisites:
+  - atom.ai-marketer.canva-assets-generate
+deliverable:
+  type: markdown_doc
+  validation: basic_manual_check_v1
+evidence:
+  - screenshot
+media_slots:
+  - diagram
+  - screen_capture
+freshness_sources: []
+status: draft

@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://school.local/lesson-factory/schemas/critique.schema.json",
+  "title": "Lesson Critique",
+  "description": "Schema for critique output produced from a lesson draft before any human-approved revision.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "lesson_id",
+    "critic_model",
+    "issues",
+    "overall_score",
+    "recommend_status"
+  ],
+  "properties": {
+    "lesson_id": {
+      "$ref": "https://school.local/lesson-factory/schemas/lesson.schema.json#/$defs/atomId"
+    },
+    "critic_model": {
+      "type": "string"
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "severity",
+          "category",
+          "location",
+          "message",
+          "suggested_fix"
+        ],
+        "properties": {
+          "severity": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "critical"
+            ]
+          },
+          "category": {
+            "type": "string"
+          },
+          "location": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "suggested_fix": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "overall_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "recommend_status": {
+      "type": "string",
+      "enum": [
+        "accept",
+        "revise",
+        "block"
+      ]
+    }
+  }
+}
