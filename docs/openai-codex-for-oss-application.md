@@ -34,6 +34,12 @@ School は日本語ファーストのAIメンター/Goal OSです。曖昧な学
 APIクレジットはOSS本体の改善に使います。lesson atomの生成/評価、goal-to-action planningの回帰テスト、model/provider routing比較、日本語docs/onboarding例の改善、Issue再現fixture作成、CodexによるPRレビュー・refactor・security-oriented auditを進め、Schoolを安全に動かしやすいAI mentor基盤にします。
 ```
 
+## Why Codex Security Is Needed
+
+```text
+School は学習者の目標、mentor memory、lesson生成、BYOK/provider routingを扱うため、入力/出力検証、認可境界、RLS、secret handling、prompt/data leakageを継続監査したいです。Codex SecurityでPRごとの脆弱性レビューと修正提案を回し、OSS利用者が安全に自己ホストできる状態を保ちます。
+```
+
 ## Additional Context
 
 ```text
